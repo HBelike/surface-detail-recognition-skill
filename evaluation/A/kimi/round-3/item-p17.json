@@ -1,0 +1,905 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p17",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T14:03:04.841197+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "b9a575c2df2946455406a2993424f8352ae04281b20df7d02a911386da3d7510",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.62,
+          0.36,
+          0.66,
+          0.49
+        ],
+        "description": "vertical thin scratch on upper-right face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.73,
+          0.38,
+          0.77,
+          0.53
+        ],
+        "description": "long near-vertical scratch on right face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.78,
+          0.37,
+          0.91,
+          0.54
+        ],
+        "description": "group of diagonal and vertical scratches on far-right face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.25,
+          0.34,
+          0.55,
+          0.43
+        ],
+        "description": "faint horizontal and curved scuff marks in central-upper face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.42,
+          0.45,
+          0.54,
+          0.54
+        ],
+        "description": "irregular smudge-like scuff in lower-central face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.4,
+          0.16,
+          0.52,
+          0.28
+        ],
+        "description": "scratches and a horizontal scuff near top of face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.39,
+          0.3,
+          0.51,
+          0.37
+        ],
+        "description": "cluster of short scratches and smudge in upper-middle face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.44,
+          0.43,
+          0.57,
+          0.56
+        ],
+        "description": "diagonal smudge/scratch across middle face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.55,
+          0.59,
+          0.71,
+          0.89
+        ],
+        "description": "scratches and horizontal scuff marks near lower face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.6,
+          0.39,
+          0.66,
+          0.51
+        ],
+        "description": "vertical scratch on right face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.69,
+          0.4,
+          0.74,
+          0.54
+        ],
+        "description": "near-vertical scratch right of center",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.76,
+          0.4,
+          0.84,
+          0.56
+        ],
+        "description": "diagonal and vertical scratch cluster on far-right face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.44,
+          0.43,
+          0.54,
+          0.52
+        ],
+        "description": "smudge/scuff in lower-central face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.12,
+          0.39,
+          0.17,
+          0.52
+        ],
+        "description": "vertical scratch on left face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.19,
+          0.39,
+          0.25,
+          0.45
+        ],
+        "description": "diagonal scratch left of center",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.26,
+          0.4,
+          0.31,
+          0.54
+        ],
+        "description": "near-vertical scratch left of center",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.35,
+          0.45,
+          0.41,
+          0.56
+        ],
+        "description": "cluster of short scratches and smudge in lower-middle face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.49,
+          0.45,
+          0.57,
+          0.52
+        ],
+        "description": "smudge/scuff near center face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.55,
+          0.59,
+          0.67,
+          0.64
+        ],
+        "description": "horizontal scratch in upper-middle face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.64,
+          0.61,
+          0.68,
+          0.66
+        ],
+        "description": "small smudge next to horizontal scratch",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.54,
+          0.69,
+          0.68,
+          0.74
+        ],
+        "description": "horizontal scuff in middle-lower face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.56,
+          0.74,
+          0.69,
+          0.82
+        ],
+        "description": "diagonal scratches near lower face",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.56,
+          0.83,
+          0.71,
+          0.87
+        ],
+        "description": "horizontal scratch near bottom edge",
+        "certainty": "confirmed"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Front face is well lit and fully visible; multiple fine scratches and scuff marks are present, while edges appear intact."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Angled view shows front face and one side edge; scratches and smudges are visible on the face, side edge shows no chipping."
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "Perspective view captures the full face; the same scratch/scuff pattern is visible, with no obvious edge or coating loss."
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "Viewed from the opposite end, the left-side scratch cluster and central smudge are clear; edges remain continuous."
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "Vertical orientation shows scratches in the middle and lower portions; no material missing along visible edges or face."
+      }
+    ],
+    "limitations": [
+      "Only the visible front and partial side surfaces are assessed; the back and unseen edges are not photographed.",
+      "Lighting is soft and diffused, which may hide very shallow surface marks.",
+      "No macro or scale reference is available, so trace depth and exact size cannot be determined.",
+      "Surface smudges and reflections can resemble shallow scratches; no tactile or cross-sectional confirmation is possible."
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.62,
+        0.36,
+        0.66,
+        0.49
+      ],
+      "description": "vertical thin scratch on upper-right face",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        1339,
+        777,
+        1426,
+        1059
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.73,
+        0.38,
+        0.77,
+        0.53
+      ],
+      "description": "long near-vertical scratch on right face",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        1576,
+        820,
+        1664,
+        1145
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.78,
+        0.37,
+        0.91,
+        0.54
+      ],
+      "description": "group of diagonal and vertical scratches on far-right face",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        1684,
+        799,
+        1966,
+        1167
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.25,
+        0.34,
+        0.55,
+        0.43
+      ],
+      "description": "faint horizontal and curved scuff marks in central-upper face",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        540,
+        734,
+        1188,
+        929
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.42,
+        0.45,
+        0.54,
+        0.54
+      ],
+      "description": "irregular smudge-like scuff in lower-central face",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        907,
+        972,
+        1167,
+        1167
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.4,
+        0.16,
+        0.52,
+        0.28
+      ],
+      "description": "scratches and a horizontal scuff near top of face",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        864,
+        345,
+        1124,
+        605
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.39,
+        0.3,
+        0.51,
+        0.37
+      ],
+      "description": "cluster of short scratches and smudge in upper-middle face",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        842,
+        648,
+        1102,
+        800
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.44,
+        0.43,
+        0.57,
+        0.56
+      ],
+      "description": "diagonal smudge/scratch across middle face",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        950,
+        928,
+        1232,
+        1210
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.55,
+        0.59,
+        0.71,
+        0.89
+      ],
+      "description": "scratches and horizontal scuff marks near lower face",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        1188,
+        1274,
+        1534,
+        1923
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.6,
+        0.39,
+        0.66,
+        0.51
+      ],
+      "description": "vertical scratch on right face",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        1296,
+        842,
+        1426,
+        1102
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.69,
+        0.4,
+        0.74,
+        0.54
+      ],
+      "description": "near-vertical scratch right of center",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        1490,
+        864,
+        1599,
+        1167
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.76,
+        0.4,
+        0.84,
+        0.56
+      ],
+      "description": "diagonal and vertical scratch cluster on far-right face",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        1641,
+        864,
+        1815,
+        1210
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.44,
+        0.43,
+        0.54,
+        0.52
+      ],
+      "description": "smudge/scuff in lower-central face",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        950,
+        928,
+        1167,
+        1124
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.12,
+        0.39,
+        0.17,
+        0.52
+      ],
+      "description": "vertical scratch on left face",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        259,
+        842,
+        368,
+        1124
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.19,
+        0.39,
+        0.25,
+        0.45
+      ],
+      "description": "diagonal scratch left of center",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        410,
+        842,
+        540,
+        972
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.26,
+        0.4,
+        0.31,
+        0.54
+      ],
+      "description": "near-vertical scratch left of center",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        561,
+        864,
+        670,
+        1167
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.35,
+        0.45,
+        0.41,
+        0.56
+      ],
+      "description": "cluster of short scratches and smudge in lower-middle face",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        756,
+        972,
+        886,
+        1210
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.49,
+        0.45,
+        0.57,
+        0.52
+      ],
+      "description": "smudge/scuff near center face",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        1058,
+        972,
+        1232,
+        1124
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.55,
+        0.59,
+        0.67,
+        0.64
+      ],
+      "description": "horizontal scratch in upper-middle face",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        1188,
+        1274,
+        1448,
+        1383
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.64,
+        0.61,
+        0.68,
+        0.66
+      ],
+      "description": "small smudge next to horizontal scratch",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        1382,
+        1317,
+        1469,
+        1426
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.54,
+        0.69,
+        0.68,
+        0.74
+      ],
+      "description": "horizontal scuff in middle-lower face",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        1166,
+        1490,
+        1469,
+        1599
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.56,
+        0.74,
+        0.69,
+        0.82
+      ],
+      "description": "diagonal scratches near lower face",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        1209,
+        1598,
+        1491,
+        1772
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.56,
+        0.83,
+        0.71,
+        0.87
+      ],
+      "description": "horizontal scratch near bottom edge",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        1209,
+        1792,
+        1534,
+        1880
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 22560,
+      "completion_tokens": 4193,
+      "total_tokens": 26753
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae898203d5af999f3677e23"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae898203d5af999f3677e23",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 4193,
+          "prompt_tokens": 22560,
+          "total_tokens": 26753,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2162,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.620, 0.360, 0.660, 0.490],\n      \"description\": \"vertical thin scratch on upper-right face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.730, 0.380, 0.770, 0.530],\n      \"description\": \"long near-vertical scratch on right face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.780, 0.370, 0.910, 0.540],\n      \"description\": \"group of diagonal and vertical scratches on far-right face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.250, 0.340, 0.550, 0.430],\n      \"description\": \"faint horizontal and curved scuff marks in central-upper face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.420, 0.450, 0.540, 0.540],\n      \"description\": \"irregular smudge-like scuff in lower-central face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.400, 0.160, 0.520, 0.280],\n      \"description\": \"scratches and a horizontal scuff near top of face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.390, 0.300, 0.510, 0.370],\n      \"description\": \"cluster of short scratches and smudge in upper-middle face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.440, 0.430, 0.570, 0.560],\n      \"description\": \"diagonal smudge/scratch across middle face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.550, 0.590, 0.710, 0.890],\n      \"description\": \"scratches and horizontal scuff marks near lower face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.600, 0.390, 0.660, 0.510],\n      \"description\": \"vertical scratch on right face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.690, 0.400, 0.740, 0.540],\n      \"description\": \"near-vertical scratch right of center\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.760, 0.400, 0.840, 0.560],\n      \"description\": \"diagonal and vertical scratch cluster on far-right face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.440, 0.430, 0.540, 0.520],\n      \"description\": \"smudge/scuff in lower-central face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.120, 0.390, 0.170, 0.520],\n      \"description\": \"vertical scratch on left face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.190, 0.390, 0.250, 0.450],\n      \"description\": \"diagonal scratch left of center\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.260, 0.400, 0.310, 0.540],\n      \"description\": \"near-vertical scratch left of center\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.350, 0.450, 0.410, 0.560],\n      \"description\": \"cluster of short scratches and smudge in lower-middle face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.490, 0.450, 0.570, 0.520],\n      \"description\": \"smudge/scuff near center face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.550, 0.590, 0.670, 0.640],\n      \"description\": \"horizontal scratch in upper-middle face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.640, 0.610, 0.680, 0.660],\n      \"description\": \"small smudge next to horizontal scratch\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.540, 0.690, 0.680, 0.740],\n      \"description\": \"horizontal scuff in middle-lower face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.560, 0.740, 0.690, 0.820],\n      \"description\": \"diagonal scratches near lower face\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.560, 0.830, 0.710, 0.870],\n      \"description\": \"horizontal scratch near bottom edge\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Front face is well lit and fully visible; multiple fine scratches and scuff marks are present, while edges appear intact.\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Angled view shows front face and one side edge; scratches and smudges are visible on the face, side edge shows no chipping.\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Perspective view captures the full face; the same scratch/scuff pattern is visible, with no obvious edge or coating loss.\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Viewed from the opposite end, the left-side scratch cluster and central smudge are clear; edges remain continuous.\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Vertical orientation shows scratches in the middle and lower portions; no material missing along visible edges or face.\"\n    }\n  ],\n  \"limitations\": [\n    \"Only the visible front and partial side surfaces are assessed; the back and unseen edges are not photographed.\",\n    \"Lighting is soft and diffused, which may hide very shallow surface marks.\",\n    \"No macro or scale reference is available, so trace depth and exact size cannot be determined.\",\n    \"Surface smudges and reflections can resemble shallow scratches; no tactile or cross-sectional confirmation is possible.\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae898203d5af999f3677e23"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    }
+  ],
+  "elapsed_seconds": 98.961
+}

@@ -1,0 +1,9 @@
+{
+  "repository": "anthropics/skills",
+  "path": "skills/skill-creator/scripts/aggregate_benchmark.py",
+  "commit": "3d59511518591fa82e6cfcf0438d68dd5dad3e76",
+  "source_url": "https://raw.githubusercontent.com/anthropics/skills/3d59511518591fa82e6cfcf0438d68dd5dad3e76/skills/skill-creator/scripts/aggregate_benchmark.py",
+  "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
+  "license": "Apache-2.0",
+  "modifications": "none"
+}

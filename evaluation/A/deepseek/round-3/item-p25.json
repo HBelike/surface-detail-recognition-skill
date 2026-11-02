@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p25",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T14:04:43.818583+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "4c1a4f8bb81ff1fb0ba33ee899c07b2cc1cbd33f83a6b73ddb572897eb6bcb47",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.455,
+          0.455,
+          0.525,
+          0.525
+        ],
+        "description": "筒身右前侧下半部可见一条短弧形浅色划擦线，斜向延伸并打断局部表面纹理。",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.485,
+          0.435,
+          0.545,
+          0.495
+        ],
+        "description": "筒身右前侧下半部可见浅色短弧线痕迹；因画面中物体较小且金属反光较强，与反光区分不够确定。",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "limited",
+        "note": "整体轮廓可见，但物体在画面中较小，金属表面高光明显，浅表细节辨识受限。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "筒身与法兰轮廓较清楚，右前侧下部的浅色划擦线可辨；顶端薄壁和法兰边缘细节仍受尺寸限制。"
+      }
+    ],
+    "limitations": [
+      "物体在画面中占比较小且金属反光较强，浅表线痕与反光有时难以完全区分。",
+      "受图像分辨率限制，顶端薄壁及法兰边缘的微小崩缺不能完全排除，但未发现明确材料缺失证据。",
+      "未拍摄区域及表面以下状态不在本次可见表面检查范围内。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.455,
+        0.455,
+        0.525,
+        0.525
+      ],
+      "description": "筒身右前侧下半部可见一条短弧形浅色划擦线，斜向延伸并打断局部表面纹理。",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        514,
+        514,
+        594,
+        594
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.485,
+        0.435,
+        0.545,
+        0.495
+      ],
+      "description": "筒身右前侧下半部可见浅色短弧线痕迹；因画面中物体较小且金属反光较强，与反光区分不够确定。",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        548,
+        491,
+        616,
+        560
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 2830,
+      "completion_tokens": 4102,
+      "total_tokens": 6932
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "b64fac8b-fed3-487c-895a-52d22fd5d181"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "b64fac8b-fed3-487c-895a-52d22fd5d181",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 4102,
+          "prompt_tokens": 2830,
+          "total_tokens": 6932,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 3742,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 2688
+          },
+          "prompt_cache_hit_tokens": 2688,
+          "prompt_cache_miss_tokens": 142
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\":\"present\",\"material_loss\":\"not_observed\",\"findings\":[{\"category\":\"linear_trace\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.455,0.455,0.525,0.525],\"description\":\"筒身右前侧下半部可见一条短弧形浅色划擦线，斜向延伸并打断局部表面纹理。\",\"certainty\":\"confirmed\"},{\"category\":\"linear_trace\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.485,0.435,0.545,0.495],\"description\":\"筒身右前侧下半部可见浅色短弧线痕迹；因画面中物体较小且金属反光较强，与反光区分不够确定。\",\"certainty\":\"uncertain\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"limited\",\"note\":\"整体轮廓可见，但物体在画面中较小，金属表面高光明显，浅表细节辨识受限。\",\"note\":\"整体轮廓可见，但物体在画面中较小，金属表面高光明显，浅表细节辨识受限。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"筒身与法兰轮廓较清楚，右前侧下部的浅色划擦线可辨；顶端薄壁和法兰边缘细节仍受尺寸限制。\"}],\"limitations\":[\"物体在画面中占比较小且金属反光较强，浅表线痕与反光有时难以完全区分。\",\"受图像分辨率限制，顶端薄壁及法兰边缘的微小崩缺不能完全排除，但未发现明确材料缺失证据。\",\"未拍摄区域及表面以下状态不在本次可见表面检查范围内。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "b64fac8b-fed3-487c-895a-52d22fd5d181"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    }
+  ],
+  "elapsed_seconds": 28.471
+}

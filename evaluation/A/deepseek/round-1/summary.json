@@ -1,0 +1,1640 @@
+{
+  "expected_items": [
+    "item-p01",
+    "item-p08",
+    "item-p10",
+    "item-p14",
+    "item-p17",
+    "item-p25"
+  ],
+  "records": [
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p01",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "deepseek-flash",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:32:00.612189+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "deepseek",
+        "model": "deepseek-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_env": "DEEPSEEK_API_KEY"
+      },
+      "fingerprint": "f7d8597b2c854afb759b82db17fa72df69490cd34ad766f020f516b8d256f122",
+      "result": {
+        "linear_trace": "not_observed",
+        "material_loss": "not_observed",
+        "findings": [],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "正视角下圆形主面、安装臂及上下卡扣凸起表面完整；可见的规则孔槽、纹路和反光未显示明确局部划痕或崩缺。"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "斜视角可见顶面、侧面齿状圆盖和连接器区域；表面以成型纹、接缝和反光为主，未见明确不规则线痕或局部材料缺失。"
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "可见顶面、侧面齿状圆盖及安装臂；边缘卡扣和连接器开口形态规则，未发现清晰崩缺或异常擦痕。"
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "与前一斜视角相近，顶面、侧盖和安装臂表面未见明确划痕；边缘轮廓和正常卡扣结构未见材料中断。"
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "另一斜视角下可见顶面、侧盖及上下安装臂；表面细节主要为文字、成型纹和反光，未见可确认的线痕或局部缺损。"
+          }
+        ],
+        "limitations": [
+          "黑色哑光塑料表面的浅划痕可能与反光、成型流痕或阴影混淆，部分浅表痕迹无法确认。",
+          "部分侧面、连接器开口内部及被安装臂遮挡的区域可见性有限。",
+          "无法依据照片评估未拍摄表面、内部结构或痕迹深度。"
+        ]
+      },
+      "evidence": [],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 6446,
+          "completion_tokens": 3884,
+          "total_tokens": 10330
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "e263bf62-d36d-4aaf-90ec-987a2e2b7652"
+        ],
+        "response_models": [
+          "deepseek-flash"
+        ],
+        "provider": {
+          "name": "deepseek",
+          "model": "deepseek-flash",
+          "base_url": "https://api.deepseek.com",
+          "credential_env": "DEEPSEEK_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          },
+          "reasoning_effort": "high"
+        },
+        "responses": [
+          {
+            "request_id": "e263bf62-d36d-4aaf-90ec-987a2e2b7652",
+            "response_model": "deepseek-flash",
+            "usage": {
+              "completion_tokens": 3884,
+              "prompt_tokens": 6446,
+              "total_tokens": 10330,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 3530,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 6272
+              },
+              "prompt_cache_hit_tokens": 6272,
+              "prompt_cache_miss_tokens": 174
+            },
+            "finish_reason": "stop",
+            "final_content": "{\"linear_trace\":\"not_observed\",\"material_loss\":\"not_observed\",\"findings\":[],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"adequate\",\"note\":\"正视角下圆形主面、安装臂及上下卡扣凸起表面完整；可见的规则孔槽、纹路和反光未显示明确局部划痕或崩缺。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"斜视角可见顶面、侧面齿状圆盖和连接器区域；表面以成型纹、接缝和反光为主，未见明确不规则线痕或局部材料缺失。\"},{\"image_id\":\"view-03.png::full\",\"quality\":\"adequate\",\"note\":\"可见顶面、侧面齿状圆盖及安装臂；边缘卡扣和连接器开口形态规则，未发现清晰崩缺或异常擦痕。\"},{\"image_id\":\"view-04.png::full\",\"quality\":\"adequate\",\"note\":\"与前一斜视角相近，顶面、侧盖和安装臂表面未见明确划痕；边缘轮廓和正常卡扣结构未见材料中断。\"},{\"image_id\":\"view-05.png::full\",\"quality\":\"adequate\",\"note\":\"另一斜视角下可见顶面、侧盖及上下安装臂；表面细节主要为文字、成型纹和反光，未见可确认的线痕或局部缺损。\"}],\"limitations\":[\"黑色哑光塑料表面的浅划痕可能与反光、成型流痕或阴影混淆，部分浅表痕迹无法确认。\",\"部分侧面、连接器开口内部及被安装臂遮挡的区域可见性有限。\",\"无法依据照片评估未拍摄表面、内部结构或痕迹深度。\"]}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "deepseek-flash",
+        "request_id": "e263bf62-d36d-4aaf-90ec-987a2e2b7652"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        }
+      ],
+      "elapsed_seconds": 30.303
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p08",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "deepseek-flash",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:34:37.220587+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "deepseek",
+        "model": "deepseek-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_env": "DEEPSEEK_API_KEY"
+      },
+      "fingerprint": "ccbc72d1e38f5346eff13bf7a9ad7a9d4eabde19022c502e7b74dd2bf16c0646",
+      "result": {
+        "linear_trace": "not_observed",
+        "material_loss": "not_observed",
+        "findings": [],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "整片锯片水平放置，齿列、安装孔和两侧轮廓均可见；未发现可清晰确认的局部不规则划痕，也未见边缘崩缺或涂层中断。"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "锯片竖直视角，齿形和端部轮廓完整；表面暗色反光较强，但未见明确异常线痕或材料缺失。"
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "斜放全貌可见，齿列、安装孔和端部形状连续；表面明暗变化主要呈反光/涂层不均，未见清晰划痕或断口。"
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "另一侧斜面全貌可见，主体轮廓、齿尖和安装端完整；未发现可确认的边缘缺口或局部覆盖层剥落。"
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "竖直背面/侧面全貌可见，齿列与安装孔结构正常；未观察到清晰的线性划擦或材料崩缺。"
+          }
+        ],
+        "limitations": [
+          "均为整体拍摄，无微距或近景，浅表划痕和微小涂层缺失可能低于当前分辨率。",
+          "黑色表面反光与阴影可能掩盖很浅的擦痕，但未形成可确认候选。",
+          "未拍摄齿根、孔内侧等遮挡区域，无法据此判断内部或未拍摄表面。"
+        ]
+      },
+      "evidence": [],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 6446,
+          "completion_tokens": 3103,
+          "total_tokens": 9549
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "dc0cef98-d8e2-49ce-aaba-d0c28f1d37bd"
+        ],
+        "response_models": [
+          "deepseek-flash"
+        ],
+        "provider": {
+          "name": "deepseek",
+          "model": "deepseek-flash",
+          "base_url": "https://api.deepseek.com",
+          "credential_env": "DEEPSEEK_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          },
+          "reasoning_effort": "high"
+        },
+        "responses": [
+          {
+            "request_id": "dc0cef98-d8e2-49ce-aaba-d0c28f1d37bd",
+            "response_model": "deepseek-flash",
+            "usage": {
+              "completion_tokens": 3103,
+              "prompt_tokens": 6446,
+              "total_tokens": 9549,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 2756,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 6272
+              },
+              "prompt_cache_hit_tokens": 6272,
+              "prompt_cache_miss_tokens": 174
+            },
+            "finish_reason": "stop",
+            "final_content": "{\"linear_trace\":\"not_observed\",\"material_loss\":\"not_observed\",\"findings\":[],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"adequate\",\"note\":\"整片锯片水平放置，齿列、安装孔和两侧轮廓均可见；未发现可清晰确认的局部不规则划痕，也未见边缘崩缺或涂层中断。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"锯片竖直视角，齿形和端部轮廓完整；表面暗色反光较强，但未见明确异常线痕或材料缺失。\"},{\"image_id\":\"view-03.png::full\",\"quality\":\"adequate\",\"note\":\"斜放全貌可见，齿列、安装孔和端部形状连续；表面明暗变化主要呈反光/涂层不均，未见清晰划痕或断口。\"},{\"image_id\":\"view-04.png::full\",\"quality\":\"adequate\",\"note\":\"另一侧斜面全貌可见，主体轮廓、齿尖和安装端完整；未发现可确认的边缘缺口或局部覆盖层剥落。\"},{\"image_id\":\"view-05.png::full\",\"quality\":\"adequate\",\"note\":\"竖直背面/侧面全貌可见，齿列与安装孔结构正常；未观察到清晰的线性划擦或材料崩缺。\"}],\"limitations\":[\"均为整体拍摄，无微距或近景，浅表划痕和微小涂层缺失可能低于当前分辨率。\",\"黑色表面反光与阴影可能掩盖很浅的擦痕，但未形成可确认候选。\",\"未拍摄齿根、孔内侧等遮挡区域，无法据此判断内部或未拍摄表面。\"]}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "deepseek-flash",
+        "request_id": "dc0cef98-d8e2-49ce-aaba-d0c28f1d37bd"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        }
+      ],
+      "elapsed_seconds": 23.443
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p10",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "deepseek-flash",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:36:36.534019+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "deepseek",
+        "model": "deepseek-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_env": "DEEPSEEK_API_KEY"
+      },
+      "fingerprint": "fc3853b9f9ff980861b22eaa428c8516d8c2ee1ec2dda749327ce1f4e8800890",
+      "result": {
+        "linear_trace": "uncertain",
+        "material_loss": "present",
+        "findings": [
+          {
+            "category": "material_loss",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.386,
+              0.5,
+              0.466,
+              0.572
+            ],
+            "description": "白色套筒左下缘可见不规则缺口，白色表层中断并露出下方蓝色材料，边缘呈崩缺状。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.404,
+              0.505,
+              0.478,
+              0.573
+            ],
+            "description": "白色套筒左下缘可见边缘不连续和局部崩缺，缺口处显露蓝色底层。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.445,
+              0.475,
+              0.515,
+              0.535
+            ],
+            "description": "白色套筒近左下崩缺上方的表面有一条很浅的斜向线状变化，疑似擦痕或裂纹；受反光与软焦影响不能确认。",
+            "certainty": "uncertain"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "物体整体可见，蓝色螺纹和白色套筒可辨；左下套筒边缘有材料不连续，详细表面细线受尺寸与反光限制。"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "同物体略换角度，白色套筒左下缘崩缺更清楚，缺口处蓝色底层暴露；表面反光与软焦使浅线痕判断受限。"
+          }
+        ],
+        "limitations": [
+          "仅有两张同侧全图，未提供更高分辨率或局部放大图，无法进一步确认细微线痕及缺失深度。",
+          "白色塑料表面反光与阴影可能掩盖浅划痕，正常模具接缝与局部线状痕迹难以完全区分。"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "material_loss",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.386,
+            0.5,
+            0.466,
+            0.572
+          ],
+          "description": "白色套筒左下缘可见不规则缺口，白色表层中断并露出下方蓝色材料，边缘呈崩缺状。",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            429,
+            556,
+            519,
+            637
+          ]
+        },
+        {
+          "category": "material_loss",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.404,
+            0.505,
+            0.478,
+            0.573
+          ],
+          "description": "白色套筒左下缘可见边缘不连续和局部崩缺，缺口处显露蓝色底层。",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            449,
+            561,
+            532,
+            638
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.445,
+            0.475,
+            0.515,
+            0.535
+          ],
+          "description": "白色套筒近左下崩缺上方的表面有一条很浅的斜向线状变化，疑似擦痕或裂纹；受反光与软焦影响不能确认。",
+          "certainty": "uncertain",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            494,
+            528,
+            573,
+            595
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 2830,
+          "completion_tokens": 7473,
+          "total_tokens": 10303
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "a536c292-4545-4fa9-afe1-0dab612cc876"
+        ],
+        "response_models": [
+          "deepseek-flash"
+        ],
+        "provider": {
+          "name": "deepseek",
+          "model": "deepseek-flash",
+          "base_url": "https://api.deepseek.com",
+          "credential_env": "DEEPSEEK_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          },
+          "reasoning_effort": "high"
+        },
+        "responses": [
+          {
+            "request_id": "a536c292-4545-4fa9-afe1-0dab612cc876",
+            "response_model": "deepseek-flash",
+            "usage": {
+              "completion_tokens": 7473,
+              "prompt_tokens": 2830,
+              "total_tokens": 10303,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 7080,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 2688
+              },
+              "prompt_cache_hit_tokens": 2688,
+              "prompt_cache_miss_tokens": 142
+            },
+            "finish_reason": "stop",
+            "final_content": "{\"linear_trace\":\"uncertain\",\"material_loss\":\"present\",\"findings\":[{\"category\":\"material_loss\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.386,0.5,0.466,0.572],\"description\":\"白色套筒左下缘可见不规则缺口，白色表层中断并露出下方蓝色材料，边缘呈崩缺状。\",\"certainty\":\"confirmed\"},{\"category\":\"material_loss\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.404,0.505,0.478,0.573],\"description\":\"白色套筒左下缘可见边缘不连续和局部崩缺，缺口处显露蓝色底层。\",\"certainty\":\"confirmed\"},{\"category\":\"linear_trace\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.445,0.475,0.515,0.535],\"description\":\"白色套筒近左下崩缺上方的表面有一条很浅的斜向线状变化，疑似擦痕或裂纹；受反光与软焦影响不能确认。\",\"certainty\":\"uncertain\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"adequate\",\"note\":\"物体整体可见，蓝色螺纹和白色套筒可辨；左下套筒边缘有材料不连续，详细表面细线受尺寸与反光限制。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"同物体略换角度，白色套筒左下缘崩缺更清楚，缺口处蓝色底层暴露；表面反光与软焦使浅线痕判断受限。\"}],\"limitations\":[\"仅有两张同侧全图，未提供更高分辨率或局部放大图，无法进一步确认细微线痕及缺失深度。\",\"白色塑料表面反光与阴影可能掩盖浅划痕，正常模具接缝与局部线状痕迹难以完全区分。\"]}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "deepseek-flash",
+        "request_id": "a536c292-4545-4fa9-afe1-0dab612cc876"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1112,
+            1112
+          ],
+          "crop_box": [
+            0,
+            0,
+            1112,
+            1112
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1112,
+            1112
+          ],
+          "crop_box": [
+            0,
+            0,
+            1112,
+            1112
+          ]
+        }
+      ],
+      "elapsed_seconds": 46.471
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p14",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "deepseek-flash",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:38:05.685432+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "deepseek",
+        "model": "deepseek-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_env": "DEEPSEEK_API_KEY"
+      },
+      "fingerprint": "9a28c7bdd66bd7c7bce05f39c24104e1a0472244ea4523dc1539648b9619d80d",
+      "result": {
+        "linear_trace": "present",
+        "material_loss": "not_observed",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.49,
+              0.41,
+              0.61,
+              0.47
+            ],
+            "description": "金属屏蔽壳侧面近上缘处可见一条短而不规则的浅色细线，局部打断表面纹理，形态符合轻微擦划痕。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.4,
+              0.43,
+              0.56,
+              0.5
+            ],
+            "description": "屏蔽壳大面积平面上可见数条浅淡、走向不规则的细线痕，与规则加工纹理方向不一致，疑似轻度擦痕。",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.54,
+              0.4,
+              0.66,
+              0.45
+            ],
+            "description": "斜视视角下金属壳面上缘附近有一道细短浅色痕迹，因反光干扰难以完全确认是否为划痕。",
+            "certainty": "uncertain"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "limited",
+            "note": "物体在画面中占比小，金属面存在反光；可见侧面平面及上端透明塑料部，边缘轮廓基本连续。"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "limited",
+            "note": "斜视角度，金属面反光较强，表面细节分辨率有限；透明插头在多面可见，轮廓未见明显缺口。"
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "可见屏蔽壳开口端与翻折金属边，属正常结构；开口边缘未见明显崩缺，透明塑料部轮廓完整。"
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "可见金手指、透明卡扣与屏蔽壳侧边，金属板边缘与包覆层呈连续状态，未见清晰材料缺失。"
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "俯视金属屏蔽面，可见轻微表面细线与反光差异；四周折边与透明塑料接合处未见清晰缺口或覆盖层中断。"
+          }
+        ],
+        "limitations": [
+          "物体在画面中尺寸较小，细线痕与金属表面加工纹理、反光难以完全区分。",
+          "透明塑料件反光与折射明显，其浅表裂纹或缺料判断受限。",
+          "仅依据可见外表面，不涉及内部结构、损伤成因或深度。"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.49,
+            0.41,
+            0.61,
+            0.47
+          ],
+          "description": "金属屏蔽壳侧面近上缘处可见一条短而不规则的浅色细线，局部打断表面纹理，形态符合轻微擦划痕。",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            574,
+            480,
+            715,
+            551
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.4,
+            0.43,
+            0.56,
+            0.5
+          ],
+          "description": "屏蔽壳大面积平面上可见数条浅淡、走向不规则的细线痕，与规则加工纹理方向不一致，疑似轻度擦痕。",
+          "certainty": "uncertain",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            468,
+            503,
+            657,
+            586
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.54,
+            0.4,
+            0.66,
+            0.45
+          ],
+          "description": "斜视视角下金属壳面上缘附近有一道细短浅色痕迹，因反光干扰难以完全确认是否为划痕。",
+          "certainty": "uncertain",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            632,
+            468,
+            774,
+            528
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 5546,
+          "completion_tokens": 2396,
+          "total_tokens": 7942
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "6ddf8feb-39a7-487d-b847-48c93b8df24b"
+        ],
+        "response_models": [
+          "deepseek-flash"
+        ],
+        "provider": {
+          "name": "deepseek",
+          "model": "deepseek-flash",
+          "base_url": "https://api.deepseek.com",
+          "credential_env": "DEEPSEEK_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          },
+          "reasoning_effort": "high"
+        },
+        "responses": [
+          {
+            "request_id": "6ddf8feb-39a7-487d-b847-48c93b8df24b",
+            "response_model": "deepseek-flash",
+            "usage": {
+              "completion_tokens": 2396,
+              "prompt_tokens": 5546,
+              "total_tokens": 7942,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 1710,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 5376
+              },
+              "prompt_cache_hit_tokens": 5376,
+              "prompt_cache_miss_tokens": 170
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.49, 0.41, 0.61, 0.47],\n      \"description\": \"金属屏蔽壳侧面近上缘处可见一条短而不规则的浅色细线，局部打断表面纹理，形态符合轻微擦划痕。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.40, 0.43, 0.56, 0.50],\n      \"description\": \"屏蔽壳大面积平面上可见数条浅淡、走向不规则的细线痕，与规则加工纹理方向不一致，疑似轻度擦痕。\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.54, 0.40, 0.66, 0.45],\n      \"description\": \"斜视视角下金属壳面上缘附近有一道细短浅色痕迹，因反光干扰难以完全确认是否为划痕。\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"limited\",\n      \"note\": \"物体在画面中占比小，金属面存在反光；可见侧面平面及上端透明塑料部，边缘轮廓基本连续。\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"limited\",\n      \"note\": \"斜视角度，金属面反光较强，表面细节分辨率有限；透明插头在多面可见，轮廓未见明显缺口。\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"可见屏蔽壳开口端与翻折金属边，属正常结构；开口边缘未见明显崩缺，透明塑料部轮廓完整。\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"可见金手指、透明卡扣与屏蔽壳侧边，金属板边缘与包覆层呈连续状态，未见清晰材料缺失。\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"俯视金属屏蔽面，可见轻微表面细线与反光差异；四周折边与透明塑料接合处未见清晰缺口或覆盖层中断。\"\n    }\n  ],\n  \"limitations\": [\n    \"物体在画面中尺寸较小，细线痕与金属表面加工纹理、反光难以完全区分。\",\n    \"透明塑料件反光与折射明显，其浅表裂纹或缺料判断受限。\",\n    \"仅依据可见外表面，不涉及内部结构、损伤成因或深度。\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "deepseek-flash",
+        "request_id": "6ddf8feb-39a7-487d-b847-48c93b8df24b"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        }
+      ],
+      "elapsed_seconds": 15.912
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p17",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "deepseek-flash",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:40:14.308597+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "deepseek",
+        "model": "deepseek-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_env": "DEEPSEEK_API_KEY"
+      },
+      "fingerprint": "315e6106e255e80d5ce7e45e5745934a38e30e028f5e561f4b19873bf884e337",
+      "result": {
+        "linear_trace": "present",
+        "material_loss": "not_observed",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.56,
+              0.3,
+              0.75,
+              0.41
+            ],
+            "description": "右半部有多条细直的浅划痕和斜向浅划痕，部分呈短平行线状。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.35,
+              0.34,
+              0.45,
+              0.43
+            ],
+            "description": "中部偏左有一片灰暗擦痕，纹理不规则。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.355,
+              0.16,
+              0.49,
+              0.29
+            ],
+            "description": "面板上端有多条细划痕，包括横向长痕和短斜痕。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.56,
+              0.34,
+              0.7,
+              0.45
+            ],
+            "description": "右侧有多条斜向及纵向细划痕，部分可见交叉。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.41,
+              0.39,
+              0.47,
+              0.44
+            ],
+            "description": "中部有一小片灰暗擦痕。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.11,
+              0.29,
+              0.38,
+              0.43
+            ],
+            "description": "左半部有多条短斜划痕及一条纵向浅痕。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.44,
+              0.34,
+              0.6,
+              0.45
+            ],
+            "description": "中部可见灰暗磨擦斑，边缘不规则。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.45,
+              0.51,
+              0.59,
+              0.72
+            ],
+            "description": "下半部有多条横向及斜向细划痕。",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.4,
+              0.29,
+              0.49,
+              0.42
+            ],
+            "description": "上半部中段可见淡灰擦痕和磨擦斑。",
+            "certainty": "confirmed"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "正面可见多条细划痕及中部擦痕；四周边缘和面板包边未见明显崩缺或覆盖层中断。"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "斜视可见上端多条划痕，面板边缘平直；下半部有淡擦痕，未见明确材料缺失。"
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "斜视可见右侧划痕群及中部擦痕；边缘轮廓连续，无可见崩缺。"
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "左半部划痕明显；中部有磨擦斑；包边与边角未见材料缺失。"
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "竖放斜视，下半部细划痕清晰；边缘连续；未见明确表层缺失。"
+          }
+        ],
+        "limitations": [
+          "均为整体视角，缺少近距离或斜射光微距照片，细划痕深度和极边缘小崩缺可能无法分辨。",
+          "表面反光和低对比度区域可能掩盖细浅线痕或局部涂层缺失。",
+          "没有比例尺，不能推断缺陷尺寸或深度。"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.56,
+            0.3,
+            0.75,
+            0.41
+          ],
+          "description": "右半部有多条细直的浅划痕和斜向浅划痕，部分呈短平行线状。",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            1209,
+            648,
+            1620,
+            886
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.35,
+            0.34,
+            0.45,
+            0.43
+          ],
+          "description": "中部偏左有一片灰暗擦痕，纹理不规则。",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            756,
+            734,
+            972,
+            929
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.355,
+            0.16,
+            0.49,
+            0.29
+          ],
+          "description": "面板上端有多条细划痕，包括横向长痕和短斜痕。",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            766,
+            345,
+            1059,
+            627
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-03.png::full",
+          "bbox": [
+            0.56,
+            0.34,
+            0.7,
+            0.45
+          ],
+          "description": "右侧有多条斜向及纵向细划痕，部分可见交叉。",
+          "certainty": "confirmed",
+          "source": "view-03.png",
+          "bbox_pixels": [
+            1209,
+            734,
+            1512,
+            972
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-03.png::full",
+          "bbox": [
+            0.41,
+            0.39,
+            0.47,
+            0.44
+          ],
+          "description": "中部有一小片灰暗擦痕。",
+          "certainty": "confirmed",
+          "source": "view-03.png",
+          "bbox_pixels": [
+            885,
+            842,
+            1016,
+            951
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.11,
+            0.29,
+            0.38,
+            0.43
+          ],
+          "description": "左半部有多条短斜划痕及一条纵向浅痕。",
+          "certainty": "confirmed",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            237,
+            626,
+            821,
+            929
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.44,
+            0.34,
+            0.6,
+            0.45
+          ],
+          "description": "中部可见灰暗磨擦斑，边缘不规则。",
+          "certainty": "confirmed",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            950,
+            734,
+            1296,
+            972
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.45,
+            0.51,
+            0.59,
+            0.72
+          ],
+          "description": "下半部有多条横向及斜向细划痕。",
+          "certainty": "confirmed",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            972,
+            1101,
+            1275,
+            1556
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.4,
+            0.29,
+            0.49,
+            0.42
+          ],
+          "description": "上半部中段可见淡灰擦痕和磨擦斑。",
+          "certainty": "confirmed",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            864,
+            626,
+            1059,
+            908
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 6446,
+          "completion_tokens": 5321,
+          "total_tokens": 11767
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "3d9aa5a7-381a-418a-b7d3-06b5adff8c25"
+        ],
+        "response_models": [
+          "deepseek-flash"
+        ],
+        "provider": {
+          "name": "deepseek",
+          "model": "deepseek-flash",
+          "base_url": "https://api.deepseek.com",
+          "credential_env": "DEEPSEEK_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          },
+          "reasoning_effort": "high"
+        },
+        "responses": [
+          {
+            "request_id": "3d9aa5a7-381a-418a-b7d3-06b5adff8c25",
+            "response_model": "deepseek-flash",
+            "usage": {
+              "completion_tokens": 5321,
+              "prompt_tokens": 6446,
+              "total_tokens": 11767,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 4237,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 6272
+              },
+              "prompt_cache_hit_tokens": 6272,
+              "prompt_cache_miss_tokens": 174
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.56, 0.30, 0.75, 0.41],\n      \"description\": \"右半部有多条细直的浅划痕和斜向浅划痕，部分呈短平行线状。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.35, 0.34, 0.45, 0.43],\n      \"description\": \"中部偏左有一片灰暗擦痕，纹理不规则。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.355, 0.16, 0.49, 0.29],\n      \"description\": \"面板上端有多条细划痕，包括横向长痕和短斜痕。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.56, 0.34, 0.70, 0.45],\n      \"description\": \"右侧有多条斜向及纵向细划痕，部分可见交叉。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.41, 0.39, 0.47, 0.44],\n      \"description\": \"中部有一小片灰暗擦痕。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.11, 0.29, 0.38, 0.43],\n      \"description\": \"左半部有多条短斜划痕及一条纵向浅痕。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.44, 0.34, 0.60, 0.45],\n      \"description\": \"中部可见灰暗磨擦斑，边缘不规则。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.45, 0.51, 0.59, 0.72],\n      \"description\": \"下半部有多条横向及斜向细划痕。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.40, 0.29, 0.49, 0.42],\n      \"description\": \"上半部中段可见淡灰擦痕和磨擦斑。\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"正面可见多条细划痕及中部擦痕；四周边缘和面板包边未见明显崩缺或覆盖层中断。\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视可见上端多条划痕，面板边缘平直；下半部有淡擦痕，未见明确材料缺失。\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视可见右侧划痕群及中部擦痕；边缘轮廓连续，无可见崩缺。\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"左半部划痕明显；中部有磨擦斑；包边与边角未见材料缺失。\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"竖放斜视，下半部细划痕清晰；边缘连续；未见明确表层缺失。\"\n    }\n  ],\n  \"limitations\": [\n    \"均为整体视角，缺少近距离或斜射光微距照片，细划痕深度和极边缘小崩缺可能无法分辨。\",\n    \"表面反光和低对比度区域可能掩盖细浅线痕或局部涂层缺失。\",\n    \"没有比例尺，不能推断缺陷尺寸或深度。\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "deepseek-flash",
+        "request_id": "3d9aa5a7-381a-418a-b7d3-06b5adff8c25"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        }
+      ],
+      "elapsed_seconds": 34.062
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p25",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "deepseek-flash",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:43:11.951546+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "deepseek",
+        "model": "deepseek-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_env": "DEEPSEEK_API_KEY"
+      },
+      "fingerprint": "4c1a4f8bb81ff1fb0ba33ee899c07b2cc1cbd33f83a6b73ddb572897eb6bcb47",
+      "result": {
+        "linear_trace": "uncertain",
+        "material_loss": "uncertain",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.48,
+              0.37,
+              0.66,
+              0.55
+            ],
+            "description": "管身中部可见纵向浅色/暗色细线，局部纹理似有中断，但与拉制加工纹及金属反光难以区分。",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.45,
+              0.36,
+              0.63,
+              0.54
+            ],
+            "description": "管身表面存在纵向细线与反光带，形态不规则且不连续，无法可靠判定为划擦痕。",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.42,
+              0.52,
+              0.57,
+              0.62
+            ],
+            "description": "法兰外缘左下方轮廓略呈不规则暗线/凹陷阴影，可能为小缺口，但受阴影和低分辨率影响无法确认。",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.39,
+              0.51,
+              0.54,
+              0.61
+            ],
+            "description": "法兰外缘左下部可见轮廓不规则及暗色处，疑似局部表层缺失或缺口，但无法与阴影区分。",
+            "certainty": "uncertain"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "limited",
+            "note": "黄铜空心管斜置于白底，占画面较小；表面纵向纹理和反光明显，法兰边缘受阴影影响，细节有限。"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "limited",
+            "note": "与上一视角近似，管身反光影响浅表线痕判读；法兰边缘局部暗影遮挡，无法确认材料缺失。"
+          }
+        ],
+        "limitations": [
+          "物体在画面中占比较小，表面微细线痕和边缘小缺口分辨率不足。",
+          "金属反光、阴影与加工纹可能遮盖或冒充划痕及缺损。",
+          "未拍摄内壁、背面及法兰端面细节，无法全面评估。"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.48,
+            0.37,
+            0.66,
+            0.55
+          ],
+          "description": "管身中部可见纵向浅色/暗色细线，局部纹理似有中断，但与拉制加工纹及金属反光难以区分。",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            542,
+            418,
+            746,
+            622
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.45,
+            0.36,
+            0.63,
+            0.54
+          ],
+          "description": "管身表面存在纵向细线与反光带，形态不规则且不连续，无法可靠判定为划擦痕。",
+          "certainty": "uncertain",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            508,
+            406,
+            712,
+            611
+          ]
+        },
+        {
+          "category": "material_loss",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.42,
+            0.52,
+            0.57,
+            0.62
+          ],
+          "description": "法兰外缘左下方轮廓略呈不规则暗线/凹陷阴影，可能为小缺口，但受阴影和低分辨率影响无法确认。",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            474,
+            587,
+            645,
+            701
+          ]
+        },
+        {
+          "category": "material_loss",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.39,
+            0.51,
+            0.54,
+            0.61
+          ],
+          "description": "法兰外缘左下部可见轮廓不规则及暗色处，疑似局部表层缺失或缺口，但无法与阴影区分。",
+          "certainty": "uncertain",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            440,
+            576,
+            611,
+            690
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 2830,
+          "completion_tokens": 1978,
+          "total_tokens": 4808
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "c91bddb1-9fd0-42b9-b6fc-7ff42aa584aa"
+        ],
+        "response_models": [
+          "deepseek-flash"
+        ],
+        "provider": {
+          "name": "deepseek",
+          "model": "deepseek-flash",
+          "base_url": "https://api.deepseek.com",
+          "credential_env": "DEEPSEEK_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          },
+          "reasoning_effort": "high"
+        },
+        "responses": [
+          {
+            "request_id": "c91bddb1-9fd0-42b9-b6fc-7ff42aa584aa",
+            "response_model": "deepseek-flash",
+            "usage": {
+              "completion_tokens": 1978,
+              "prompt_tokens": 2830,
+              "total_tokens": 4808,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 1514,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 2688
+              },
+              "prompt_cache_hit_tokens": 2688,
+              "prompt_cache_miss_tokens": 142
+            },
+            "finish_reason": "stop",
+            "final_content": "{\"linear_trace\":\"uncertain\",\"material_loss\":\"uncertain\",\"findings\":[{\"category\":\"linear_trace\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.48,0.37,0.66,0.55],\"description\":\"管身中部可见纵向浅色/暗色细线，局部纹理似有中断，但与拉制加工纹及金属反光难以区分。\",\"certainty\":\"uncertain\"},{\"category\":\"linear_trace\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.45,0.36,0.63,0.54],\"description\":\"管身表面存在纵向细线与反光带，形态不规则且不连续，无法可靠判定为划擦痕。\",\"certainty\":\"uncertain\"},{\"category\":\"material_loss\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.42,0.52,0.57,0.62],\"description\":\"法兰外缘左下方轮廓略呈不规则暗线/凹陷阴影，可能为小缺口，但受阴影和低分辨率影响无法确认。\",\"certainty\":\"uncertain\"},{\"category\":\"material_loss\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.39,0.51,0.54,0.61],\"description\":\"法兰外缘左下部可见轮廓不规则及暗色处，疑似局部表层缺失或缺口，但无法与阴影区分。\",\"certainty\":\"uncertain\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"limited\",\"note\":\"黄铜空心管斜置于白底，占画面较小；表面纵向纹理和反光明显，法兰边缘受阴影影响，细节有限。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"limited\",\"note\":\"与上一视角近似，管身反光影响浅表线痕判读；法兰边缘局部暗影遮挡，无法确认材料缺失。\"}],\"limitations\":[\"物体在画面中占比较小，表面微细线痕和边缘小缺口分辨率不足。\",\"金属反光、阴影与加工纹可能遮盖或冒充划痕及缺损。\",\"未拍摄内壁、背面及法兰端面细节，无法全面评估。\"]}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "deepseek-flash",
+        "request_id": "c91bddb1-9fd0-42b9-b6fc-7ff42aa584aa"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1130,
+            1130
+          ],
+          "crop_box": [
+            0,
+            0,
+            1130,
+            1130
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1130,
+            1130
+          ],
+          "crop_box": [
+            0,
+            0,
+            1130,
+            1130
+          ]
+        }
+      ],
+      "elapsed_seconds": 14.499
+    }
+  ]
+}

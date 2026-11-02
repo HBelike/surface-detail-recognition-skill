@@ -1,0 +1,33 @@
+{
+  "source_archive_sha256": "6d9a3affb18f5b3dba91c4affc6ff158c341d01423889d158e87528f9115502c",
+  "evaluation_date": "2026-11-02",
+  "publication_date": "2026-11-03",
+  "notes": [
+    "未上传题包原图或内嵌图片HTML",
+    "协议中的本机绝对路径已替换为部署环境占位符",
+    "Key只由执行者环境提供；没有新增付费模型调用"
+  ],
+  "evaluation/A-completed-results.json": {
+    "source_sha256": "aa1eef9bb7b568dde2c2e6788c8b8fe082c333f05a38f8f601a2198bbaa2370d"
+  },
+  "evaluation/B-progress.json": {
+    "source_sha256": "7eded423ed6c1dfdd85c10b76aab9d347063876210168907b7027fb4aebbe2f3"
+  },
+  "evaluation/original-runtime-manifest.json": {
+    "source_sha256": "bafc4f1255e06a3664ce4202b227198cc6140d021faf7ac77ff8f2dbb1458664"
+  },
+  "evaluation/frozen-assertions.py": {
+    "source_sha256": "62b5c0ae2a15d00ddc8fc2535f497f0a9879b25a781f1959db367db98b35d8d9"
+  },
+  "evaluation/labels-development-v2.json": {
+    "source_sha256": "69dbb2dafa5e2aacc4874ce33e10a13a6f850332306342eed25a235f7f51c02d"
+  },
+  "evaluation/protocol.json": {
+    "source_sha256": "92da17886e7dc9289a71c8174eed3ac94c2f7f2df5c7363f471882ea0cd8ad4e",
+    "publication_changes": [
+      "input_root",
+      "runtime_source_root",
+      "publication_note"
+    ]
+  }
+}

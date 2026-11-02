@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p25",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:53:52.710427+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "37de11d107245577615083d8a4f91bbea0e6a7c791a599ad6ba0d75c099b8baf",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.43,
+          0.4,
+          0.56,
+          0.52
+        ],
+        "description": "浅色不规则细线/擦痕位于圆柱侧面，沿筒身方向分布，局部纹理被中断",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.51,
+          0.45,
+          0.61,
+          0.53
+        ],
+        "description": "圆柱侧面可见浅色刮擦状痕迹，呈不规则细线",
+        "certainty": "confirmed"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "黄铜套筒斜向放置，圆柱外表面与顶部开口边缘可见，整体亮度均匀，表面细节可辨"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "同一物体另一角度，圆柱侧面及法兰端可见，表面反光与痕迹可区分"
+      }
+    ],
+    "limitations": [
+      "仅提供两个外部视角，套筒内壁、法兰底面及另一端面未拍摄",
+      "金属高光与浅划痕在视觉上接近，部分极浅痕迹可能受光照影响",
+      "无比例参照，无法判断痕迹深度或尺寸"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.43,
+        0.4,
+        0.56,
+        0.52
+      ],
+      "description": "浅色不规则细线/擦痕位于圆柱侧面，沿筒身方向分布，局部纹理被中断",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        485,
+        452,
+        633,
+        588
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.51,
+        0.45,
+        0.61,
+        0.53
+      ],
+      "description": "圆柱侧面可见浅色刮擦状痕迹，呈不规则细线",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        576,
+        508,
+        690,
+        599
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 4632,
+      "completion_tokens": 1322,
+      "total_tokens": 5954
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae895f2ce9bd3484c25f66e"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae895f2ce9bd3484c25f66e",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 1322,
+          "prompt_tokens": 4632,
+          "total_tokens": 5954,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 1009,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"present\", \"material_loss\": \"not_observed\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.43, 0.40, 0.56, 0.52], \"description\": \"浅色不规则细线/擦痕位于圆柱侧面，沿筒身方向分布，局部纹理被中断\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.51, 0.45, 0.61, 0.53], \"description\": \"圆柱侧面可见浅色刮擦状痕迹，呈不规则细线\", \"certainty\": \"confirmed\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"黄铜套筒斜向放置，圆柱外表面与顶部开口边缘可见，整体亮度均匀，表面细节可辨\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"同一物体另一角度，圆柱侧面及法兰端可见，表面反光与痕迹可区分\"}], \"limitations\": [\"仅提供两个外部视角，套筒内壁、法兰底面及另一端面未拍摄\", \"金属高光与浅划痕在视觉上接近，部分极浅痕迹可能受光照影响\", \"无比例参照，无法判断痕迹深度或尺寸\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae895f2ce9bd3484c25f66e"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    }
+  ],
+  "elapsed_seconds": 36.796
+}

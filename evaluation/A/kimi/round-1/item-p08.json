@@ -1,0 +1,347 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p08",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:34:37.220825+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "a5a035f4b1e908d79d5f10b55a85b695fc7edb580d16463864abf01a78a60d47",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.35,
+          0.47,
+          0.56,
+          0.51
+        ],
+        "description": "刀身中部可见一条浅色调斜向细划痕，局部涂层纹理被打断",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.36,
+          0.47,
+          0.57,
+          0.51
+        ],
+        "description": "刀身中段可见浅色调斜向细划痕，与周边暗色表面形成对比",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.45,
+          0.49,
+          0.65,
+          0.53
+        ],
+        "description": "刀身表面有浅色斑状擦痕/划痕痕迹，边界不甚清晰",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.45,
+          0.45,
+          0.51,
+          0.55
+        ],
+        "description": "刀身中部似有轻微浅色擦痕，但因目标占比较小、细节不足，难以确认为划痕",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.44,
+          0.45,
+          0.55,
+          0.55
+        ],
+        "description": "刀身中段存在可疑浅色细线，可能为划痕或表面反光/加工纹",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "刀片主体充满画面，表面可见度较好，可辨识中部浅划痕"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "limited",
+        "note": "刀片竖直放置且占画面比例较小，表面细节分辨率较低"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "刀片主体清晰，表面可见浅划痕，与view-01为同一面"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "另一面可见，整体清晰，但划痕/擦痕与反光较难区分"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "limited",
+        "note": "竖直远景，目标占比较小，表面细节不够清晰"
+      }
+    ],
+    "limitations": [
+      "刀片表面为深色哑光，划痕、反光与加工纹理在低对比度下难以绝对区分",
+      "未提供微距或局部高分辨率特写，浅表划痕深度无法判断",
+      "只能观察到可见单面/多角度外观，无法判断背面、刃口侧面及内部状态",
+      "锯齿和刀尖缺口属于正常结构，不能作为材料缺失证据"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.35,
+        0.47,
+        0.56,
+        0.51
+      ],
+      "description": "刀身中部可见一条浅色调斜向细划痕，局部涂层纹理被打断",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        709,
+        953,
+        1136,
+        1035
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.36,
+        0.47,
+        0.57,
+        0.51
+      ],
+      "description": "刀身中段可见浅色调斜向细划痕，与周边暗色表面形成对比",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        730,
+        953,
+        1156,
+        1035
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.45,
+        0.49,
+        0.65,
+        0.53
+      ],
+      "description": "刀身表面有浅色斑状擦痕/划痕痕迹，边界不甚清晰",
+      "certainty": "uncertain",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        912,
+        993,
+        1319,
+        1075
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.45,
+        0.45,
+        0.51,
+        0.55
+      ],
+      "description": "刀身中部似有轻微浅色擦痕，但因目标占比较小、细节不足，难以确认为划痕",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        912,
+        912,
+        1035,
+        1116
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.44,
+        0.45,
+        0.55,
+        0.55
+      ],
+      "description": "刀身中段存在可疑浅色细线，可能为划痕或表面反光/加工纹",
+      "certainty": "uncertain",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        892,
+        912,
+        1116,
+        1116
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 22560,
+      "completion_tokens": 3113,
+      "total_tokens": 25673
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae89170d32ada3fb9fbb0e5"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae89170d32ada3fb9fbb0e5",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 3113,
+          "prompt_tokens": 22560,
+          "total_tokens": 25673,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2455,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"present\", \"material_loss\": \"not_observed\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.35, 0.47, 0.56, 0.51], \"description\": \"刀身中部可见一条浅色调斜向细划痕，局部涂层纹理被打断\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-03.png::full\", \"bbox\": [0.36, 0.47, 0.57, 0.51], \"description\": \"刀身中段可见浅色调斜向细划痕，与周边暗色表面形成对比\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-04.png::full\", \"bbox\": [0.45, 0.49, 0.65, 0.53], \"description\": \"刀身表面有浅色斑状擦痕/划痕痕迹，边界不甚清晰\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.45, 0.45, 0.51, 0.55], \"description\": \"刀身中部似有轻微浅色擦痕，但因目标占比较小、细节不足，难以确认为划痕\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-05.png::full\", \"bbox\": [0.44, 0.45, 0.55, 0.55], \"description\": \"刀身中段存在可疑浅色细线，可能为划痕或表面反光/加工纹\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"刀片主体充满画面，表面可见度较好，可辨识中部浅划痕\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"limited\", \"note\": \"刀片竖直放置且占画面比例较小，表面细节分辨率较低\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"刀片主体清晰，表面可见浅划痕，与view-01为同一面\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"另一面可见，整体清晰，但划痕/擦痕与反光较难区分\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"limited\", \"note\": \"竖直远景，目标占比较小，表面细节不够清晰\"}], \"limitations\": [\"刀片表面为深色哑光，划痕、反光与加工纹理在低对比度下难以绝对区分\", \"未提供微距或局部高分辨率特写，浅表划痕深度无法判断\", \"只能观察到可见单面/多角度外观，无法判断背面、刃口侧面及内部状态\", \"锯齿和刀尖缺口属于正常结构，不能作为材料缺失证据\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae89170d32ada3fb9fbb0e5"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    }
+  ],
+  "elapsed_seconds": 88.025
+}

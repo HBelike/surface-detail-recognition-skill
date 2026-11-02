@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p10",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:48:33.886719+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "0cb4016af96de6d2bc72e8a45a48d688c2946950a18ab0c00a4236927699a276",
+  "result": {
+    "linear_trace": "not_observed",
+    "material_loss": "uncertain",
+    "findings": [
+      {
+        "category": "material_loss",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.47,
+          0.55,
+          0.56,
+          0.63
+        ],
+        "description": "Lower edge of white sleeve shows an irregular notch-like gap where blue substrate is exposed; may be normal cut edge of fibrous filter material.",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.38,
+          0.53,
+          0.48,
+          0.61
+        ],
+        "description": "Left lower edge of white sleeve has uneven contour with blue visible underneath; ambiguous against normal porous material edge.",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Well-lit isolated view of the small blue-and-white component; white fibrous sleeve and blue end pieces are in focus. No clear scratches or confirmed chips observed."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Adequate alternate-angle view showing the white sleeve and blue ribbed base; edge irregularities at the sleeve-base junction are visible but ambiguous."
+      }
+    ],
+    "limitations": [
+      "White fibrous/foam texture makes it difficult to distinguish true edge damage from normal material morphology.",
+      "Only two viewing angles are provided; some surfaces and the full circumference of the sleeve edges are partially occluded or not shown.",
+      "No scale reference or additional context to confirm whether exposed blue areas are intentional design or material loss."
+    ]
+  },
+  "evidence": [
+    {
+      "category": "material_loss",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.47,
+        0.55,
+        0.56,
+        0.63
+      ],
+      "description": "Lower edge of white sleeve shows an irregular notch-like gap where blue substrate is exposed; may be normal cut edge of fibrous filter material.",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        522,
+        611,
+        623,
+        701
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.38,
+        0.53,
+        0.48,
+        0.61
+      ],
+      "description": "Left lower edge of white sleeve has uneven contour with blue visible underneath; ambiguous against normal porous material edge.",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        422,
+        589,
+        534,
+        679
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 4470,
+      "completion_tokens": 2463,
+      "total_tokens": 6933
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae894b349395cb999e46356"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae894b349395cb999e46356",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 2463,
+          "prompt_tokens": 4470,
+          "total_tokens": 6933,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2098,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"uncertain\", \"findings\": [{\"category\": \"material_loss\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.47, 0.55, 0.56, 0.63], \"description\": \"Lower edge of white sleeve shows an irregular notch-like gap where blue substrate is exposed; may be normal cut edge of fibrous filter material.\", \"certainty\": \"uncertain\"}, {\"category\": \"material_loss\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.38, 0.53, 0.48, 0.61], \"description\": \"Left lower edge of white sleeve has uneven contour with blue visible underneath; ambiguous against normal porous material edge.\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Well-lit isolated view of the small blue-and-white component; white fibrous sleeve and blue end pieces are in focus. No clear scratches or confirmed chips observed.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Adequate alternate-angle view showing the white sleeve and blue ribbed base; edge irregularities at the sleeve-base junction are visible but ambiguous.\"}], \"limitations\": [\"White fibrous/foam texture makes it difficult to distinguish true edge damage from normal material morphology.\", \"Only two viewing angles are provided; some surfaces and the full circumference of the sleeve edges are partially occluded or not shown.\", \"No scale reference or additional context to confirm whether exposed blue areas are intentional design or material loss.\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae894b349395cb999e46356"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    }
+  ],
+  "elapsed_seconds": 66.329
+}

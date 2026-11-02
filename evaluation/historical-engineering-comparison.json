@@ -1,0 +1,23 @@
+{
+  "labels_version": "development-v2",
+  "labels_sha256": "69dbb2dafa5e2aacc4874ce33e10a13a6f850332306342eed25a235f7f51c02d",
+  "results": {
+    "old_skill": {
+      "category_correct": 31,
+      "category_total": 36,
+      "item_correct": 13,
+      "item_total": 18,
+      "nonzero_exit_rounds": []
+    },
+    "new_skill": {
+      "category_correct": 29,
+      "category_total": 36,
+      "item_correct": 13,
+      "item_total": 18,
+      "nonzero_exit_rounds": [
+        2
+      ]
+    }
+  },
+  "note": "历史工程流程与本轮A单次识别协议不同，不能直接并表当作模型提升"
+}

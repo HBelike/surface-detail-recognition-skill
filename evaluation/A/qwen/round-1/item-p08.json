@@ -1,0 +1,347 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p08",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "qwen3.8-max-0902",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:34:37.220859+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "qwen",
+    "model": "qwen3.8-max-0902",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "credential_env": "DASHSCOPE_API_KEY"
+  },
+  "fingerprint": "cf87402fc189180a5eff20bb06cc55585e77fbedd6ce9db59c2d1d82654d306d",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.695,
+          0.462,
+          0.752,
+          0.478
+        ],
+        "description": "深色涂层表面上靠近柄端处数条短而浅的亮色细线痕/刮擦点",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.444,
+          0.281,
+          0.473,
+          0.32
+        ],
+        "description": "柄端附近板面上2-3条短亮色线状刮痕，打断均匀暗色涂层",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.656,
+          0.493,
+          0.7,
+          0.51
+        ],
+        "description": "靠近柄孔一端板面上的短亮色细划痕群",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.276,
+          0.464,
+          0.335,
+          0.486
+        ],
+        "description": "柄端侧板面上多条短亮色线状擦痕，方向不一",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.535,
+          0.68,
+          0.552,
+          0.725
+        ],
+        "description": "近柄端板面上短亮色线痕，与其余视角同一区域对应",
+        "certainty": "confirmed"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "水平放置的深色涂层锯条，平面可见；柄端附近板面有短亮色线痕；齿列与外轮廓连续，未见崩缺"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "竖直视角，齿缘完整均匀；柄端附近板面见短亮色刮痕；无涂层剥落或缺口"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "斜置视角，板面近柄孔处见短亮色细痕；齿尖与端部轮廓连续"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "反面斜置视角，柄端侧板面见数条短亮色擦痕；齿列规整，无材料缺失迹象"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "竖直反向视角，近柄端板面见短亮色线痕；齿缘与柄部轮廓完整"
+      }
+    ],
+    "limitations": [
+      "亮色线痕尺寸小，无法评估深度，仅记录为表面可见痕迹",
+      "板面存在反光与涂层不均匀斑纹，可能掩盖更浅的线痕",
+      "照片仅覆盖两侧平面视角，未拍摄表面与内部状态不作推断"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.695,
+        0.462,
+        0.752,
+        0.478
+      ],
+      "description": "深色涂层表面上靠近柄端处数条短而浅的亮色细线痕/刮擦点",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        1409,
+        936,
+        1526,
+        970
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.444,
+        0.281,
+        0.473,
+        0.32
+      ],
+      "description": "柄端附近板面上2-3条短亮色线状刮痕，打断均匀暗色涂层",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        900,
+        569,
+        960,
+        649
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.656,
+        0.493,
+        0.7,
+        0.51
+      ],
+      "description": "靠近柄孔一端板面上的短亮色细划痕群",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        1330,
+        999,
+        1420,
+        1035
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.276,
+        0.464,
+        0.335,
+        0.486
+      ],
+      "description": "柄端侧板面上多条短亮色线状擦痕，方向不一",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        559,
+        940,
+        680,
+        986
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.535,
+        0.68,
+        0.552,
+        0.725
+      ],
+      "description": "近柄端板面上短亮色线痕，与其余视角同一区域对应",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        1084,
+        1379,
+        1120,
+        1471
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 21318,
+      "completion_tokens": 5688,
+      "total_tokens": 27006
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-7da8fa3c-9753-9dd2-b249-6dff8e71e2aa"
+    ],
+    "response_models": [
+      "qwen3.8-max-0902"
+    ],
+    "provider": {
+      "name": "qwen",
+      "model": "qwen3.8-max-0902",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "credential_env": "DASHSCOPE_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "enable_thinking": true,
+        "vl_high_resolution_images": true
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-7da8fa3c-9753-9dd2-b249-6dff8e71e2aa",
+        "response_model": "qwen3.8-max-0902",
+        "usage": {
+          "completion_tokens": 5688,
+          "prompt_tokens": 21318,
+          "total_tokens": 27006,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 4770,
+            "rejected_prediction_tokens": null,
+            "text_tokens": 917
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": 19855,
+            "text_tokens": 1463
+          }
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.695, 0.462, 0.752, 0.478],\n      \"description\": \"深色涂层表面上靠近柄端处数条短而浅的亮色细线痕/刮擦点\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.444, 0.281, 0.473, 0.320],\n      \"description\": \"柄端附近板面上2-3条短亮色线状刮痕，打断均匀暗色涂层\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.656, 0.493, 0.700, 0.510],\n      \"description\": \"靠近柄孔一端板面上的短亮色细划痕群\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.276, 0.464, 0.335, 0.486],\n      \"description\": \"柄端侧板面上多条短亮色线状擦痕，方向不一\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.535, 0.680, 0.552, 0.725],\n      \"description\": \"近柄端板面上短亮色线痕，与其余视角同一区域对应\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"水平放置的深色涂层锯条，平面可见；柄端附近板面有短亮色线痕；齿列与外轮廓连续，未见崩缺\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"竖直视角，齿缘完整均匀；柄端附近板面见短亮色刮痕；无涂层剥落或缺口\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜置视角，板面近柄孔处见短亮色细痕；齿尖与端部轮廓连续\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"反面斜置视角，柄端侧板面见数条短亮色擦痕；齿列规整，无材料缺失迹象\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"竖直反向视角，近柄端板面见短亮色线痕；齿缘与柄部轮廓完整\"\n    }\n  ],\n  \"limitations\": [\n    \"亮色线痕尺寸小，无法评估深度，仅记录为表面可见痕迹\",\n    \"板面存在反光与涂层不均匀斑纹，可能掩盖更浅的线痕\",\n    \"照片仅覆盖两侧平面视角，未拍摄表面与内部状态不作推断\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "qwen3.8-max-0902",
+    "request_id": "chatcmpl-7da8fa3c-9753-9dd2-b249-6dff8e71e2aa"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    }
+  ],
+  "elapsed_seconds": 119.302
+}

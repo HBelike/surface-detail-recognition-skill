@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p10",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "qwen3.8-max-0902",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:48:33.886082+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "qwen",
+    "model": "qwen3.8-max-0902",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "credential_env": "DASHSCOPE_API_KEY"
+  },
+  "fingerprint": "365f00e07fc1ebbde1177c30777acba8237e36386358f2a336dd16ef2637bd10",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "present",
+    "findings": [
+      {
+        "category": "material_loss",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.35,
+          0.46,
+          0.4,
+          0.53
+        ],
+        "description": "白色多孔套筒靠近齿状底座的边缘处呈V形不规则缺口，表层覆盖材料局部缺失，轮廓不连续",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.549,
+          0.364,
+          0.568,
+          0.4
+        ],
+        "description": "蓝色螺纹段表面跨螺纹牙的浅色细线状擦痕，短小、不沿螺纹规律走向",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "白色多孔套筒、蓝色螺纹颈与齿状底座可见；螺纹段有可疑白色细线擦痕；套筒外缘在本视角未见明显缺口"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "同一物体另一视角；白色套筒下缘见V形材料缺口；螺纹段未见清晰线状痕迹"
+      }
+    ],
+    "limitations": [
+      "白色背景与白色多孔套筒对比度低，边缘缺口主要依赖纹理差异辨识",
+      "螺纹上的白色细线无法可靠排除泡沫碎屑附着或反光，故线性痕迹仅记为uncertain",
+      "仅两个外部视角，未拍摄表面与缺口深度不作推断"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "material_loss",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.35,
+        0.46,
+        0.4,
+        0.53
+      ],
+      "description": "白色多孔套筒靠近齿状底座的边缘处呈V形不规则缺口，表层覆盖材料局部缺失，轮廓不连续",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        389,
+        511,
+        445,
+        590
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.549,
+        0.364,
+        0.568,
+        0.4
+      ],
+      "description": "蓝色螺纹段表面跨螺纹牙的浅色细线状擦痕，短小、不沿螺纹规律走向",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        610,
+        404,
+        632,
+        445
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 3734,
+      "completion_tokens": 3448,
+      "total_tokens": 7182
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-867cb3c5-cdf8-9523-b503-87018c86deaf"
+    ],
+    "response_models": [
+      "qwen3.8-max-0902"
+    ],
+    "provider": {
+      "name": "qwen",
+      "model": "qwen3.8-max-0902",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "credential_env": "DASHSCOPE_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "enable_thinking": true,
+        "vl_high_resolution_images": true
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-867cb3c5-cdf8-9523-b503-87018c86deaf",
+        "response_model": "qwen3.8-max-0902",
+        "usage": {
+          "completion_tokens": 3448,
+          "prompt_tokens": 3734,
+          "total_tokens": 7182,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2981,
+            "rejected_prediction_tokens": null,
+            "text_tokens": 466
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 3072,
+            "image_tokens": 2454,
+            "text_tokens": 1280
+          }
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"present\",\n  \"findings\": [\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [\n        0.35,\n        0.46,\n        0.4,\n        0.53\n      ],\n      \"description\": \"白色多孔套筒靠近齿状底座的边缘处呈V形不规则缺口，表层覆盖材料局部缺失，轮廓不连续\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [\n        0.549,\n        0.364,\n        0.568,\n        0.4\n      ],\n      \"description\": \"蓝色螺纹段表面跨螺纹牙的浅色细线状擦痕，短小、不沿螺纹规律走向\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"白色多孔套筒、蓝色螺纹颈与齿状底座可见；螺纹段有可疑白色细线擦痕；套筒外缘在本视角未见明显缺口\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"同一物体另一视角；白色套筒下缘见V形材料缺口；螺纹段未见清晰线状痕迹\"\n    }\n  ],\n  \"limitations\": [\n    \"白色背景与白色多孔套筒对比度低，边缘缺口主要依赖纹理差异辨识\",\n    \"螺纹上的白色细线无法可靠排除泡沫碎屑附着或反光，故线性痕迹仅记为uncertain\",\n    \"仅两个外部视角，未拍摄表面与缺口深度不作推断\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "qwen3.8-max-0902",
+    "request_id": "chatcmpl-867cb3c5-cdf8-9523-b503-87018c86deaf"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    }
+  ],
+  "elapsed_seconds": 77.571
+}

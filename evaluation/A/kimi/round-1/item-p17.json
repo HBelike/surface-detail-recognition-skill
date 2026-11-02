@@ -1,0 +1,749 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p17",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:40:14.308941+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "b9a575c2df2946455406a2993424f8352ae04281b20df7d02a911386da3d7510",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.625,
+          0.375,
+          0.66,
+          0.49
+        ],
+        "description": "vertical fine scratch on right-central panel surface",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.74,
+          0.375,
+          0.9,
+          0.54
+        ],
+        "description": "group of diagonal and vertical scratches on right panel area",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.42,
+          0.45,
+          0.53,
+          0.54
+        ],
+        "description": "smudged scuff marks in central panel area",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.34,
+          0.37,
+          0.44,
+          0.43
+        ],
+        "description": "faint linear scratches on left-central panel surface",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.405,
+          0.17,
+          0.52,
+          0.28
+        ],
+        "description": "short diagonal and horizontal scratches near top of panel",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.395,
+          0.305,
+          0.455,
+          0.365
+        ],
+        "description": "small scuff mark on upper panel surface",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.43,
+          0.41,
+          0.57,
+          0.53
+        ],
+        "description": "elongated smudged scratch in middle of panel",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.56,
+          0.75,
+          0.69,
+          0.86
+        ],
+        "description": "horizontal and diagonal scratches near bottom of panel",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.6,
+          0.39,
+          0.83,
+          0.56
+        ],
+        "description": "cluster of vertical and diagonal scratches on right panel area",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.46,
+          0.44,
+          0.54,
+          0.52
+        ],
+        "description": "smudged scuff in central panel area",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.37,
+          0.36,
+          0.46,
+          0.43
+        ],
+        "description": "faint linear scratches on left-central panel surface",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.115,
+          0.41,
+          0.33,
+          0.57
+        ],
+        "description": "cluster of vertical and diagonal scratches on left panel area",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.37,
+          0.44,
+          0.425,
+          0.56
+        ],
+        "description": "vertical scratch near center-left of panel",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.51,
+          0.45,
+          0.58,
+          0.535
+        ],
+        "description": "smudged scuff in central panel area",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.595,
+          0.495,
+          0.68,
+          0.565
+        ],
+        "description": "faint scuff marks on right-central panel surface",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.46,
+          0.39,
+          0.59,
+          0.53
+        ],
+        "description": "elongated smudged scratch in middle of panel",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.56,
+          0.595,
+          0.67,
+          0.645
+        ],
+        "description": "horizontal scratch on lower-middle panel surface",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.56,
+          0.74,
+          0.7,
+          0.87
+        ],
+        "description": "group of diagonal and horizontal scratches near bottom of panel",
+        "certainty": "confirmed"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Top surface is well-lit and fully visible; several fine scratches and scuff marks are present across the panel. Edges and corners appear intact."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Panel shown vertically with slight perspective; scratches and scuffs remain visible. No edge chipping observed."
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "Perspective view shows the same scratch/scuff pattern; surface contrast is sufficient to identify linear marks. No material loss seen."
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "Opposite perspective view confirms scratches on the left and central areas. Borders and corners look continuous."
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "Vertical view of the panel shows lower and middle scratches clearly; no evidence of coating or edge loss."
+      }
+    ],
+    "limitations": [
+      "Only the visible top/front surface is inspected; rear, sides, and internal structure are not shown.",
+      "Shallow scratches and low-contrast smudges may be partially masked by surface reflection or lighting.",
+      "No scale, depth, or dimensional information is available from the images."
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.625,
+        0.375,
+        0.66,
+        0.49
+      ],
+      "description": "vertical fine scratch on right-central panel surface",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        1350,
+        810,
+        1426,
+        1059
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.74,
+        0.375,
+        0.9,
+        0.54
+      ],
+      "description": "group of diagonal and vertical scratches on right panel area",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        1598,
+        810,
+        1944,
+        1167
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.42,
+        0.45,
+        0.53,
+        0.54
+      ],
+      "description": "smudged scuff marks in central panel area",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        907,
+        972,
+        1145,
+        1167
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.34,
+        0.37,
+        0.44,
+        0.43
+      ],
+      "description": "faint linear scratches on left-central panel surface",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        734,
+        799,
+        951,
+        929
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.405,
+        0.17,
+        0.52,
+        0.28
+      ],
+      "description": "short diagonal and horizontal scratches near top of panel",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        874,
+        367,
+        1124,
+        605
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.395,
+        0.305,
+        0.455,
+        0.365
+      ],
+      "description": "small scuff mark on upper panel surface",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        853,
+        658,
+        983,
+        789
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.43,
+        0.41,
+        0.57,
+        0.53
+      ],
+      "description": "elongated smudged scratch in middle of panel",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        928,
+        885,
+        1232,
+        1145
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.56,
+        0.75,
+        0.69,
+        0.86
+      ],
+      "description": "horizontal and diagonal scratches near bottom of panel",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        1209,
+        1620,
+        1491,
+        1858
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.6,
+        0.39,
+        0.83,
+        0.56
+      ],
+      "description": "cluster of vertical and diagonal scratches on right panel area",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        1296,
+        842,
+        1793,
+        1210
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.46,
+        0.44,
+        0.54,
+        0.52
+      ],
+      "description": "smudged scuff in central panel area",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        993,
+        950,
+        1167,
+        1124
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.37,
+        0.36,
+        0.46,
+        0.43
+      ],
+      "description": "faint linear scratches on left-central panel surface",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        799,
+        777,
+        994,
+        929
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.115,
+        0.41,
+        0.33,
+        0.57
+      ],
+      "description": "cluster of vertical and diagonal scratches on left panel area",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        248,
+        885,
+        713,
+        1232
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.37,
+        0.44,
+        0.425,
+        0.56
+      ],
+      "description": "vertical scratch near center-left of panel",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        799,
+        950,
+        918,
+        1210
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.51,
+        0.45,
+        0.58,
+        0.535
+      ],
+      "description": "smudged scuff in central panel area",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        1101,
+        972,
+        1253,
+        1156
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.595,
+        0.495,
+        0.68,
+        0.565
+      ],
+      "description": "faint scuff marks on right-central panel surface",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        1285,
+        1069,
+        1469,
+        1221
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.46,
+        0.39,
+        0.59,
+        0.53
+      ],
+      "description": "elongated smudged scratch in middle of panel",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        993,
+        842,
+        1275,
+        1145
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.56,
+        0.595,
+        0.67,
+        0.645
+      ],
+      "description": "horizontal scratch on lower-middle panel surface",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        1209,
+        1285,
+        1448,
+        1394
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.56,
+        0.74,
+        0.7,
+        0.87
+      ],
+      "description": "group of diagonal and horizontal scratches near bottom of panel",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        1209,
+        1598,
+        1512,
+        1880
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 22560,
+      "completion_tokens": 4859,
+      "total_tokens": 27419
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae892c8009cc70089b23f9c"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae892c8009cc70089b23f9c",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 4859,
+          "prompt_tokens": 22560,
+          "total_tokens": 27419,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 3196,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.625, 0.375, 0.660, 0.490],\n      \"description\": \"vertical fine scratch on right-central panel surface\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.740, 0.375, 0.900, 0.540],\n      \"description\": \"group of diagonal and vertical scratches on right panel area\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.420, 0.450, 0.530, 0.540],\n      \"description\": \"smudged scuff marks in central panel area\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.340, 0.370, 0.440, 0.430],\n      \"description\": \"faint linear scratches on left-central panel surface\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.405, 0.170, 0.520, 0.280],\n      \"description\": \"short diagonal and horizontal scratches near top of panel\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.395, 0.305, 0.455, 0.365],\n      \"description\": \"small scuff mark on upper panel surface\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.430, 0.410, 0.570, 0.530],\n      \"description\": \"elongated smudged scratch in middle of panel\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.560, 0.750, 0.690, 0.860],\n      \"description\": \"horizontal and diagonal scratches near bottom of panel\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.600, 0.390, 0.830, 0.560],\n      \"description\": \"cluster of vertical and diagonal scratches on right panel area\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.460, 0.440, 0.540, 0.520],\n      \"description\": \"smudged scuff in central panel area\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.370, 0.360, 0.460, 0.430],\n      \"description\": \"faint linear scratches on left-central panel surface\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.115, 0.410, 0.330, 0.570],\n      \"description\": \"cluster of vertical and diagonal scratches on left panel area\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.370, 0.440, 0.425, 0.560],\n      \"description\": \"vertical scratch near center-left of panel\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.510, 0.450, 0.580, 0.535],\n      \"description\": \"smudged scuff in central panel area\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.595, 0.495, 0.680, 0.565],\n      \"description\": \"faint scuff marks on right-central panel surface\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.460, 0.390, 0.590, 0.530],\n      \"description\": \"elongated smudged scratch in middle of panel\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.560, 0.595, 0.670, 0.645],\n      \"description\": \"horizontal scratch on lower-middle panel surface\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.560, 0.740, 0.700, 0.870],\n      \"description\": \"group of diagonal and horizontal scratches near bottom of panel\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Top surface is well-lit and fully visible; several fine scratches and scuff marks are present across the panel. Edges and corners appear intact.\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Panel shown vertically with slight perspective; scratches and scuffs remain visible. No edge chipping observed.\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Perspective view shows the same scratch/scuff pattern; surface contrast is sufficient to identify linear marks. No material loss seen.\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Opposite perspective view confirms scratches on the left and central areas. Borders and corners look continuous.\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Vertical view of the panel shows lower and middle scratches clearly; no evidence of coating or edge loss.\"\n    }\n  ],\n  \"limitations\": [\n    \"Only the visible top/front surface is inspected; rear, sides, and internal structure are not shown.\",\n    \"Shallow scratches and low-contrast smudges may be partially masked by surface reflection or lighting.\",\n    \"No scale, depth, or dimensional information is available from the images.\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae892c8009cc70089b23f9c"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    }
+  ],
+  "elapsed_seconds": 131.415
+}

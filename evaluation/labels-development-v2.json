@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.1",
+  "source": "human",
+  "reviewed_at": "2026-11-02T08:31:33.322Z",
+  "labels": [
+    {
+      "item_id": "item-p01",
+      "linear_trace": "not_observed",
+      "material_loss": "not_observed",
+      "note": "",
+      "reviewed": true
+    },
+    {
+      "item_id": "item-p08",
+      "linear_trace": "present",
+      "material_loss": "not_observed",
+      "note": "用户于2026-11-02独立复核后确认存在独立划痕/擦痕；原始阴性标签保留在labels-development.json。",
+      "reviewed": true
+    },
+    {
+      "item_id": "item-p10",
+      "linear_trace": "not_observed",
+      "material_loss": "present",
+      "note": "view-01.png 右下角\nview-02.png 正下方",
+      "reviewed": true
+    },
+    {
+      "item_id": "item-p14",
+      "linear_trace": "present",
+      "material_loss": "not_observed",
+      "note": "view-04.png 右侧整个截面\nview-01.png 正面\nview-03.png  右方整个界面\n",
+      "reviewed": true
+    },
+    {
+      "item_id": "item-p17",
+      "linear_trace": "present",
+      "material_loss": "not_observed",
+      "note": "每一张图片的版面都有明确的灰黑色划痕，多处存在",
+      "reviewed": true
+    },
+    {
+      "item_id": "item-p25",
+      "linear_trace": "present",
+      "material_loss": "not_observed",
+      "note": "两张秃头均有黄白色划痕",
+      "reviewed": true
+    }
+  ],
+  "annotation_version": "development-v2",
+  "parent_sha256": "ea9433a22255af5938b17394d89b258dc6fb773f7e56be6a0325ab4d00c4514b",
+  "revision_source": "human_chat_recheck_2026-11-02",
+  "dataset_role": "development"
+}

@@ -1,0 +1,686 @@
+{
+  "version": "three-model-v1",
+  "created_at": "2026-11-02T13:32:00.593693+00:00",
+  "runtime_source_root": "historical_runtime_snapshot_not_bundled",
+  "input_root": "user_supplied_image_directory",
+  "items": [
+    "item-p01",
+    "item-p08",
+    "item-p10",
+    "item-p14",
+    "item-p17",
+    "item-p25"
+  ],
+  "rounds": 3,
+  "labels_sha256": "69dbb2dafa5e2aacc4874ce33e10a13a6f850332306342eed25a235f7f51c02d",
+  "labels_role": "development-v2",
+  "prompt_sha256": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "schema_sha256": "1baf06595fb71e66b3d3f289a9070f1d0d0ba38a5b77869604dec5591a3e0f1b",
+  "sources": {
+    "scripts/build_report.py": "774ab27219e2276a4d32c77fbcf1a578790bb97a532845708e9563a5f0d1a50d",
+    "scripts/compare_runs.py": "befa3c200bcb23021cd6222656f264573d5a299f0205db33e6b66b28ea915363",
+    "scripts/domain.py": "f66e98cb89a40351371e8be3bb6780aa8b1e0781c0a1e84f7f29d489188bffff",
+    "scripts/evaluate.py": "33d40aa2d5a17f0a89e4d054d4fa68d2d2171a33077e7f3a866d647b7d6de038",
+    "scripts/evidence_pipeline.py": "e465a0157c8b2f7493f8e9e29287ecbf502aeca4b71b26ba048545b625ba9259",
+    "scripts/evidence_resolution.py": "2e1d0a8ca5f8225d4daad05dee09c7dfb3b6225572ead22018787f54fae3dbab",
+    "scripts/execution.py": "d8d933f89419e766ebe96b5cc5eb95fe20bd7e46ce2592aa897c4cd703ab2db2",
+    "scripts/imaging.py": "8d007c533cb15cc8dc95074849e8ea4a843d7501f56906d4ed8982a4ed504dfd",
+    "scripts/inspect_images.py": "40147367c764514c4d1cf1fc5a794410347af34f4c8458ad6f777d08feadf439",
+    "scripts/native_client.py": "6667a71d241e7d14ccc4b6c3320dfdaaaac6026cd364075160b3b86b4276a311",
+    "scripts/prepare_review.py": "3e3bd03cfad6b1badd34db4ef2b47cdf2b91771b33029dc06f1a3c9821fbbe45",
+    "scripts/provider_config.py": "f1c20ab69f638ae4d0dd262172fc3c011f07cd6d9d7d7c1fa965834971fd45bd",
+    "scripts/reference_images.py": "2d3bce63fe209652bce5ade6bd5391adbbbbf05c0d45f03ba627fe7aace85f35",
+    "scripts/refine_uncertain.py": "bfeaeec0ae20a5b875f3a0a0f213a33f330b72d59c82ea72085e2bfcb2b201c0",
+    "scripts/run_skill.py": "4f6ce068dc48b6e86c77fa3bf5d99b2aa671e62daee45893e4b423e2b0b93e01",
+    "scripts/verify_evidence.py": "f0749e90e1473fd19b3979a5674d026607a930640692a71ef5dff509d2de346f",
+    "scripts/view_detection.py": "fb87af017f548cb4ab1aefd99b5156ed1917da7a520c5d5162ffb12026081a7f",
+    "scripts/vision_client.py": "c325466bd2c120f3b6079b32eaedcac270b1c64bbc45063e4057688cabd61e6c",
+    "scripts/zoom_tools.py": "bf2ee15c7aca8b3dc735dbacf0c23fbe3fb2c325d64bc52726e2ccaf70a23c40",
+    "references/defect-rules.md": "de94ebe7e41d12c63c61dd6de623f70719c2d81a0ac0f28af0907ed773dbfe5b",
+    "references/engineering-validation.md": "a504bdded475b45b33cc46018ff5ac03adcc1db5ff9f625f5d6cc7de26d9b875",
+    "references/prompt.txt": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+    "references/third-party.md": "faa0358af46a4228df9cdd54b319017f5c8a5b82248916178f086447607e3f64",
+    "references/validation-summary.md": "91ed68086113b2b59cd5b6f6610a31cbc2dfb224b81a855120b70cb1654f5eea",
+    "references/verification.txt": "06ce06ed3c75346dbd6444fc821170729249f17a0f1245db015bef2483d4e349",
+    "evals/adapt_runs.py": "ee008c5ad4115289588621da9a6f90a2ab128c9d461dd5ed42e12e9778ef60fb",
+    "evals/aggregate_results.py": "2a389830d50466083fbdfa068b66f2cbba40a40425b9d59034b41b7db5bb01ed",
+    "evals/assertions.py": "62b5c0ae2a15d00ddc8fc2535f497f0a9879b25a781f1959db367db98b35d8d9",
+    "evals/audit_model_comparison.py": "d2d192077a9cf422cfd9870b15838be65a7fa609134133783feca87c3abdf336",
+    "evals/cases.json": "cac2325b504dfbb0e5955325c47b855382fc3c603cd2c3c69e9413b8832fc580",
+    "evals/compare_models.py": "44eea8b89533190a17688219b98541c8cce91f687c7f7565888c1593f02ef508",
+    "evals/import_annotations.py": "fc3b1de81e078f02280041544495df7dd94e544a1d1016b32882fb8b2fb1cdf7",
+    "evals/localization.py": "3eaef47685dfd48fd99e12d92e96bf192c9833e6256b2f7989bae4682f7d5b55",
+    "evals/normal_references.json": "0cf8e1ae696adbfc68a773b164a1efb290f7c8e1b9718d057604f0b790b86741",
+    "evals/prepare_annotations.py": "953993cebbbc9a7704eec25595ec7afa43737cf477a594f0e369f69cebede1a3",
+    "evals/README.md": "c2560a950758d5510b852ba9a4aa350a3be1ff8057b0fa454c8e50da3520ca16",
+    "evals/run_benchmark.py": "9fc1e5e5229777134b8b92afae6668915c682c0c0b54b221cabc4dc9ba21322f",
+    "evals/vendor/anthropic/aggregate_benchmark.py": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
+    "evals/vendor/anthropic/LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+    "evals/vendor/anthropic/SOURCE.json": "1a1b3362c18821eaf75a3cb844724729b9ba7855c155671f117f14c4fa4577d6"
+  },
+  "images": {
+    "item-p01": [
+      {
+        "source": "view-01.png",
+        "original_sha256": "6d042864ca05a3bd89e5c1add8a62bc9c1824e31a8ede3be1de832dff047e3fd",
+        "encoded_sha256": "15b835e31869068779712e6a74dbc28e8e69b01d9a683acf24f75cd5b3237145",
+        "image_id": "view-01.png::full",
+        "source_size": [
+          1700,
+          1700
+        ],
+        "crop_box": [
+          0,
+          0,
+          1700,
+          1700
+        ]
+      },
+      {
+        "source": "view-02.png",
+        "original_sha256": "97ff1ee003a4a8bc3403876a6d6a185ed8fca464ec4bde1117c0d4fa420989b1",
+        "encoded_sha256": "9c3ad2cb737f7950c5842254f9d977862f881bd0db767dfe45a5a98760076a57",
+        "image_id": "view-02.png::full",
+        "source_size": [
+          1700,
+          1700
+        ],
+        "crop_box": [
+          0,
+          0,
+          1700,
+          1700
+        ]
+      },
+      {
+        "source": "view-03.png",
+        "original_sha256": "5f4d416a8af123734c6ac4acf4501b3eb6bd23f0b5371725edd5fae8664635b2",
+        "encoded_sha256": "631aea64a0a10a48f86ef9d07b7120be37f346389d1139c634f4b8ae5be8cf50",
+        "image_id": "view-03.png::full",
+        "source_size": [
+          1700,
+          1700
+        ],
+        "crop_box": [
+          0,
+          0,
+          1700,
+          1700
+        ]
+      },
+      {
+        "source": "view-04.png",
+        "original_sha256": "e71a771c777df35d1592c71228f8478a3a5bb09ceeb2dc92d914f26f8f4c57c9",
+        "encoded_sha256": "691edccaf06e8ccc1253d443a5dbeafebd1729ee6d0d6c094020f9fe7d93b213",
+        "image_id": "view-04.png::full",
+        "source_size": [
+          1700,
+          1700
+        ],
+        "crop_box": [
+          0,
+          0,
+          1700,
+          1700
+        ]
+      },
+      {
+        "source": "view-05.png",
+        "original_sha256": "6dc85cb07fce77031b31d521d253c28cfaee17f3d40a18a434f1d543250730e3",
+        "encoded_sha256": "051ca38836fa1cc72544ed529a17a80da95d241dc13060cd3ea995b1381f38c0",
+        "image_id": "view-05.png::full",
+        "source_size": [
+          1700,
+          1700
+        ],
+        "crop_box": [
+          0,
+          0,
+          1700,
+          1700
+        ]
+      }
+    ],
+    "item-p08": [
+      {
+        "source": "view-01.png",
+        "original_sha256": "cdb5701f857e65a86b481970f90fdede46201e9367d636afe9c5d898320c9f6d",
+        "encoded_sha256": "055fe54b32431a5121614e89f2eeebd72497279f2079cfdc5ca43c72ffed8638",
+        "image_id": "view-01.png::full",
+        "source_size": [
+          2028,
+          2028
+        ],
+        "crop_box": [
+          0,
+          0,
+          2028,
+          2028
+        ]
+      },
+      {
+        "source": "view-02.png",
+        "original_sha256": "a40a831edf109b5fdbba4ac9b68eb33546339801a7f6809e32eb4707762e4620",
+        "encoded_sha256": "6fc46c1aeca0c6adf5f06c776d23b27870f58f338180b76eae1360789a447d5f",
+        "image_id": "view-02.png::full",
+        "source_size": [
+          2028,
+          2028
+        ],
+        "crop_box": [
+          0,
+          0,
+          2028,
+          2028
+        ]
+      },
+      {
+        "source": "view-03.png",
+        "original_sha256": "1d96193bfa5e8c1218764a28cc064f434ecfc962995da4d78b1bdde85578cf31",
+        "encoded_sha256": "0ec3e9e84aa08c37ad3f4b26260dfbda5cf908e70c8de5b6fc412b4812f1d345",
+        "image_id": "view-03.png::full",
+        "source_size": [
+          2028,
+          2028
+        ],
+        "crop_box": [
+          0,
+          0,
+          2028,
+          2028
+        ]
+      },
+      {
+        "source": "view-04.png",
+        "original_sha256": "1535d503232ca77a4c892cdb462e4216f263d3af6e0284612454f018eb76149c",
+        "encoded_sha256": "ed79263f9f875f9d24dc20f02d9ac3aad0cf6693537065c33ffe71af14c634ed",
+        "image_id": "view-04.png::full",
+        "source_size": [
+          2028,
+          2028
+        ],
+        "crop_box": [
+          0,
+          0,
+          2028,
+          2028
+        ]
+      },
+      {
+        "source": "view-05.png",
+        "original_sha256": "77dd03c792c4d4f580298f7285afcebfa98e34c4e7445b2806143372e24745db",
+        "encoded_sha256": "42f3dd0018206bd3d15f38f181012ed9d5b1ecdc6e2c468a3fb9f7ec21559458",
+        "image_id": "view-05.png::full",
+        "source_size": [
+          2028,
+          2028
+        ],
+        "crop_box": [
+          0,
+          0,
+          2028,
+          2028
+        ]
+      }
+    ],
+    "item-p10": [
+      {
+        "source": "view-01.png",
+        "original_sha256": "0411f2dee168fa55e198ff8d14cb03c1fb49ac1d4ffb348736f57b7fa56173b2",
+        "encoded_sha256": "b3f4a4011023be28006d36d9005442b975dbcbd3735a14dfbed2352373cfa352",
+        "image_id": "view-01.png::full",
+        "source_size": [
+          1112,
+          1112
+        ],
+        "crop_box": [
+          0,
+          0,
+          1112,
+          1112
+        ]
+      },
+      {
+        "source": "view-02.png",
+        "original_sha256": "ae9baac38b33aef9722ad2d44826865092194fd0477a504f931ad93132e68a03",
+        "encoded_sha256": "810b091fda2527b127e65e3e46a9f51f7acf1d4bb264050dd3094bb0c701abe7",
+        "image_id": "view-02.png::full",
+        "source_size": [
+          1112,
+          1112
+        ],
+        "crop_box": [
+          0,
+          0,
+          1112,
+          1112
+        ]
+      }
+    ],
+    "item-p14": [
+      {
+        "source": "view-01.png",
+        "original_sha256": "75e581f0581a727237418483f7d550d8ad1a5ea30cf3ee78eb2a2d3a418ef62d",
+        "encoded_sha256": "c4417c431c845809790993e56c2ac0aeb4e65d2185360abca19105b831b2de9c",
+        "image_id": "view-01.png::full",
+        "source_size": [
+          1172,
+          1172
+        ],
+        "crop_box": [
+          0,
+          0,
+          1172,
+          1172
+        ]
+      },
+      {
+        "source": "view-02.png",
+        "original_sha256": "77048d6a80b8bc4b693a4387419c57390a032298668389e1cf8d5fd5d239a487",
+        "encoded_sha256": "4af52cc52525d3276ef3590747e941f232acb021480a3ff4597f5a8b5125977c",
+        "image_id": "view-02.png::full",
+        "source_size": [
+          1172,
+          1172
+        ],
+        "crop_box": [
+          0,
+          0,
+          1172,
+          1172
+        ]
+      },
+      {
+        "source": "view-03.png",
+        "original_sha256": "86673f24901dc8ea44bd582cbe6fd0695f4dc137b674c0d54e897d671ecebd7e",
+        "encoded_sha256": "db3789b40e2c1ca323ea3bbef435df030f1321cc74d8cc0bc49ee55f0b168517",
+        "image_id": "view-03.png::full",
+        "source_size": [
+          1172,
+          1172
+        ],
+        "crop_box": [
+          0,
+          0,
+          1172,
+          1172
+        ]
+      },
+      {
+        "source": "view-04.png",
+        "original_sha256": "1238f082b905173850197df69c13724f3bee13e70c1f5fbc050f8276a89fc4e1",
+        "encoded_sha256": "06a47c4d2535a17746f69aee1947966a81128b2a3b0ceecdb6161b0377c2bd5b",
+        "image_id": "view-04.png::full",
+        "source_size": [
+          1172,
+          1172
+        ],
+        "crop_box": [
+          0,
+          0,
+          1172,
+          1172
+        ]
+      },
+      {
+        "source": "view-05.png",
+        "original_sha256": "d39d62f1fe546dbffa7e16625d24e98a7c55e47fdd7bfde9b5a0301c0d630c73",
+        "encoded_sha256": "df00ef2734afb36cee2b6ee54d214ab4310c65983d6a02c45847fbf99b6a8556",
+        "image_id": "view-05.png::full",
+        "source_size": [
+          1172,
+          1172
+        ],
+        "crop_box": [
+          0,
+          0,
+          1172,
+          1172
+        ]
+      }
+    ],
+    "item-p17": [
+      {
+        "source": "view-01.png",
+        "original_sha256": "eb8f93ea4b200d2ce3f6294cc9b4bab72f28020ae9cd5b286e6b3b1f08d47793",
+        "encoded_sha256": "f38abc278b0f3365efe2068a070c03fc34b09591ddbe880f28a55038feba3a92",
+        "image_id": "view-01.png::full",
+        "source_size": [
+          2160,
+          2160
+        ],
+        "crop_box": [
+          0,
+          0,
+          2160,
+          2160
+        ]
+      },
+      {
+        "source": "view-02.png",
+        "original_sha256": "add6023c4cfa1973a63f36643c49a5e424bfa64dc3585ece62e9b1c7c32894d4",
+        "encoded_sha256": "5caeb47a5185b98374233962b54382772e2d9b516f02e7ac0ab8dd033ecea9b8",
+        "image_id": "view-02.png::full",
+        "source_size": [
+          2160,
+          2160
+        ],
+        "crop_box": [
+          0,
+          0,
+          2160,
+          2160
+        ]
+      },
+      {
+        "source": "view-03.png",
+        "original_sha256": "25738c6d8a886e75fe2c0965009a1c55427e5d2e8e8c70ed7e51c6e86c31eb10",
+        "encoded_sha256": "87099ef3b6a02656140dffc59e64ab5ec88df3b260c8cfc3788498c2c052b667",
+        "image_id": "view-03.png::full",
+        "source_size": [
+          2160,
+          2160
+        ],
+        "crop_box": [
+          0,
+          0,
+          2160,
+          2160
+        ]
+      },
+      {
+        "source": "view-04.png",
+        "original_sha256": "234db709f2b31e39e3d2cc083aaa23a2aae379f13582d4db1dd0344fc677cb2c",
+        "encoded_sha256": "a70ef5adf74202683551c77dc07bd8fca391bcb7e0ca1b3438548e4ac5b7cefa",
+        "image_id": "view-04.png::full",
+        "source_size": [
+          2160,
+          2160
+        ],
+        "crop_box": [
+          0,
+          0,
+          2160,
+          2160
+        ]
+      },
+      {
+        "source": "view-05.png",
+        "original_sha256": "ee891e04cc3ede5c1a4896682815d576bef2d0b9bd71fdae43fe179848206221",
+        "encoded_sha256": "6836191a71054d8d8a73261332ad77c21682c95a7873d3e65087281131cf8d39",
+        "image_id": "view-05.png::full",
+        "source_size": [
+          2160,
+          2160
+        ],
+        "crop_box": [
+          0,
+          0,
+          2160,
+          2160
+        ]
+      }
+    ],
+    "item-p25": [
+      {
+        "source": "view-01.png",
+        "original_sha256": "82f11f3a607afebbc3ae56eede38e4bb010f7d5019a2aa125acf3e8ed145e5f7",
+        "encoded_sha256": "ec47af6bbec51f67e1a5b34ad3a8547aa4496e8c27abd3f6c857825de0bb327b",
+        "image_id": "view-01.png::full",
+        "source_size": [
+          1130,
+          1130
+        ],
+        "crop_box": [
+          0,
+          0,
+          1130,
+          1130
+        ]
+      },
+      {
+        "source": "view-02.png",
+        "original_sha256": "481bf0be6cc42f863f09f10d44e4103b064ea83f3fdb95382fcd427eebe28441",
+        "encoded_sha256": "d40bb5a7b1eb02b5a959000c269ddf631d1a109af2b3fe1ae503222a8a684e39",
+        "image_id": "view-02.png::full",
+        "source_size": [
+          1130,
+          1130
+        ],
+        "crop_box": [
+          0,
+          0,
+          1130,
+          1130
+        ]
+      }
+    ]
+  },
+  "providers": {
+    "qwen": {
+      "name": "qwen",
+      "model": "qwen3.8-max-0902",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "credential_env": "DASHSCOPE_API_KEY",
+      "parameters": {
+        "max_tokens": 16384,
+        "extra_body": {
+          "enable_thinking": true,
+          "vl_high_resolution_images": true
+        }
+      }
+    },
+    "deepseek": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY",
+      "parameters": {
+        "max_tokens": 16384,
+        "extra_body": {
+          "thinking": {
+            "type": "enabled"
+          }
+        },
+        "reasoning_effort": "high"
+      }
+    },
+    "kimi": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY",
+      "parameters": {
+        "max_tokens": 32768,
+        "extra_body": {
+          "thinking": {
+            "type": "enabled"
+          }
+        }
+      }
+    }
+  },
+  "A_schedule": [
+    {
+      "round": 1,
+      "item_id": "item-p01",
+      "providers": [
+        "qwen",
+        "deepseek",
+        "kimi"
+      ]
+    },
+    {
+      "round": 1,
+      "item_id": "item-p08",
+      "providers": [
+        "deepseek",
+        "kimi",
+        "qwen"
+      ]
+    },
+    {
+      "round": 1,
+      "item_id": "item-p10",
+      "providers": [
+        "kimi",
+        "qwen",
+        "deepseek"
+      ]
+    },
+    {
+      "round": 1,
+      "item_id": "item-p14",
+      "providers": [
+        "qwen",
+        "deepseek",
+        "kimi"
+      ]
+    },
+    {
+      "round": 1,
+      "item_id": "item-p17",
+      "providers": [
+        "deepseek",
+        "kimi",
+        "qwen"
+      ]
+    },
+    {
+      "round": 1,
+      "item_id": "item-p25",
+      "providers": [
+        "kimi",
+        "qwen",
+        "deepseek"
+      ]
+    },
+    {
+      "round": 2,
+      "item_id": "item-p01",
+      "providers": [
+        "deepseek",
+        "kimi",
+        "qwen"
+      ]
+    },
+    {
+      "round": 2,
+      "item_id": "item-p08",
+      "providers": [
+        "kimi",
+        "qwen",
+        "deepseek"
+      ]
+    },
+    {
+      "round": 2,
+      "item_id": "item-p10",
+      "providers": [
+        "qwen",
+        "deepseek",
+        "kimi"
+      ]
+    },
+    {
+      "round": 2,
+      "item_id": "item-p14",
+      "providers": [
+        "deepseek",
+        "kimi",
+        "qwen"
+      ]
+    },
+    {
+      "round": 2,
+      "item_id": "item-p17",
+      "providers": [
+        "kimi",
+        "qwen",
+        "deepseek"
+      ]
+    },
+    {
+      "round": 2,
+      "item_id": "item-p25",
+      "providers": [
+        "qwen",
+        "deepseek",
+        "kimi"
+      ]
+    },
+    {
+      "round": 3,
+      "item_id": "item-p01",
+      "providers": [
+        "kimi",
+        "qwen",
+        "deepseek"
+      ]
+    },
+    {
+      "round": 3,
+      "item_id": "item-p08",
+      "providers": [
+        "qwen",
+        "deepseek",
+        "kimi"
+      ]
+    },
+    {
+      "round": 3,
+      "item_id": "item-p10",
+      "providers": [
+        "deepseek",
+        "kimi",
+        "qwen"
+      ]
+    },
+    {
+      "round": 3,
+      "item_id": "item-p14",
+      "providers": [
+        "kimi",
+        "qwen",
+        "deepseek"
+      ]
+    },
+    {
+      "round": 3,
+      "item_id": "item-p17",
+      "providers": [
+        "qwen",
+        "deepseek",
+        "kimi"
+      ]
+    },
+    {
+      "round": 3,
+      "item_id": "item-p25",
+      "providers": [
+        "deepseek",
+        "kimi",
+        "qwen"
+      ]
+    }
+  ],
+  "A_tasks": 54,
+  "B_tasks": 36,
+  "B_selection": "依次整组正确数、类别正确数、三轮全正确物体数；完全同分时按预先冻结qwen/deepseek/kimi顺序选两个，声明并列",
+  "limits": {
+    "global_http_requests": 300,
+    "global_seconds": 14400,
+    "A_case_http_requests": 6,
+    "B_case_http_requests": 18,
+    "case_seconds": 900,
+    "timeout_seconds": 180
+  },
+  "cache": "禁止本地结果复用；供应商缓存不可控",
+  "network_route": "direct_NO_PROXY_star",
+  "inputs": "相同原图EXIF校正RGB JPEG95/subsampling0，不裁剪不缩放；无人工标签、历史答案、正常参照、工具调用",
+  "retry": "每语义阶段最多2次内容尝试，每次最多3次HTTP尝试；失败保留全分母",
+  "thinking": "供应商支持的显式质量参数，不宣称等内部视觉预算或等推理算力",
+  "localization": "没有人工框，不能报告定位准确率",
+  "requested_phase": "all",
+  "publication_note": "公开仓库省略题包原图和历史Skill快照；分数、图像哈希及请求参数保持原记录，原协议SHA见provenance.json。"
+}

@@ -1,0 +1,11 @@
+<View>
+  <Header value="只标可见证据；正常结构和加工纹不标为缺陷，负例区域可标normal_structure。"/>
+  <Image name="image" value="$image" zoom="true"/>
+  <RectangleLabels name="defects" toName="image">
+    <Label value="linear_trace" background="#cc3434"/>
+    <Label value="material_loss" background="#d58224"/>
+    <Label value="normal_structure" background="#3b855c"/>
+    <Label value="uncertain" background="#737c85"/>
+  </RectangleLabels>
+  <TextArea name="note" toName="image" placeholder="说明可见特征或正常结构理由"/>
+</View>

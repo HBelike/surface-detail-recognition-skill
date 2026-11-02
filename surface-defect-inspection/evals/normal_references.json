@@ -1,0 +1,6 @@
+{
+  "source": "human",
+  "item_categories": {},
+  "references": [],
+  "note": "当前没有人工确认且独立于评分物体的正常参照，默认零样本；不得将开发集图像加入参照后再评分。"
+}

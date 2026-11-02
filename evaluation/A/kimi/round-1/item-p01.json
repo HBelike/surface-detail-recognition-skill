@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p01",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:32:00.611910+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "4e7c7124610c1ed3ea017d080715963e9c6df7376dc8f7b6e2c03870a5332069",
+  "result": {
+    "linear_trace": "not_observed",
+    "material_loss": "not_observed",
+    "findings": [],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Top-down view of the main circular face and straps; no visible scratches, scuffs, or material discontinuities in the observed area."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Angled view showing side connector and knurled cap; surface appears uniform with no confirmed linear traces or edge/material loss."
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "Rotated angled view; all visible edges, caps, and strap connections appear intact without detectable scratches or chips."
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "Another angled perspective; no irregular surface lines or missing material are visible on the exposed surfaces."
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "Final angled view; surfaces and edges look consistent with the other views, with no observed linear traces or material loss."
+      }
+    ],
+    "limitations": [
+      "Assessment is limited to the visible surfaces in the provided images; internal features, depth, and non-photographed areas are not evaluated."
+    ]
+  },
+  "evidence": [],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 20040,
+      "completion_tokens": 1878,
+      "total_tokens": 21918
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae890d4009cc70089b23e7b"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae890d4009cc70089b23e7b",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 1878,
+          "prompt_tokens": 20040,
+          "total_tokens": 21918,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 1538,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": null
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"not_observed\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Top-down view of the main circular face and straps; no visible scratches, scuffs, or material discontinuities in the observed area.\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Angled view showing side connector and knurled cap; surface appears uniform with no confirmed linear traces or edge/material loss.\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Rotated angled view; all visible edges, caps, and strap connections appear intact without detectable scratches or chips.\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Another angled perspective; no irregular surface lines or missing material are visible on the exposed surfaces.\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Final angled view; surfaces and edges look consistent with the other views, with no observed linear traces or material loss.\"\n    }\n  ],\n  \"limitations\": [\n    \"Assessment is limited to the visible surfaces in the provided images; internal features, depth, and non-photographed areas are not evaluated.\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae890d4009cc70089b23e7b"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    }
+  ],
+  "elapsed_seconds": 66.176
+}

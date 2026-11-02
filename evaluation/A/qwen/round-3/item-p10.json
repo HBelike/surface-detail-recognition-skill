@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p10",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "qwen3.8-max-0902",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:59:33.069288+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "qwen",
+    "model": "qwen3.8-max-0902",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "credential_env": "DASHSCOPE_API_KEY"
+  },
+  "fingerprint": "365f00e07fc1ebbde1177c30777acba8237e36386358f2a336dd16ef2637bd10",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "present",
+    "findings": [
+      {
+        "category": "material_loss",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.35,
+          0.46,
+          0.4,
+          0.54
+        ],
+        "description": "白色多孔包覆层下缘的V字形缺口，覆盖层中断并暴露下层蓝色主体",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.47,
+          0.52,
+          0.5,
+          0.56
+        ],
+        "description": "白色包覆层下缘局部凹陷并露出蓝色小块，疑似与view-02缺口同处的包覆层缺失",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.55,
+          0.37,
+          0.57,
+          0.41
+        ],
+        "description": "蓝色螺纹面上横跨螺脊的白色短细线，走向与规则螺纹纹不一致，疑似擦痕或纤维附着",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "蓝色螺纹喷嘴、白色多孔套筒与蓝色齿状法兰清晰可见；螺纹面见微小白色细线，套筒下缘见轻微凹陷"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "同一物体旋转视角；白色套筒下缘见清晰V字形包覆层中断并露出蓝色下层，其余表面为正常多孔纹理"
+      }
+    ],
+    "limitations": [
+      "泡沫/多孔包覆层纹理本身不规则，细微划痕与材料纹理难以可靠区分",
+      "仅两个视角，未拍摄表面无法评估",
+      "螺纹为规则加工纹，其上的浅色细线无法确认是否为擦痕而非纤维附着"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "material_loss",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.35,
+        0.46,
+        0.4,
+        0.54
+      ],
+      "description": "白色多孔包覆层下缘的V字形缺口，覆盖层中断并暴露下层蓝色主体",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        389,
+        511,
+        445,
+        601
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.47,
+        0.52,
+        0.5,
+        0.56
+      ],
+      "description": "白色包覆层下缘局部凹陷并露出蓝色小块，疑似与view-02缺口同处的包覆层缺失",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        522,
+        578,
+        556,
+        623
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.55,
+        0.37,
+        0.57,
+        0.41
+      ],
+      "description": "蓝色螺纹面上横跨螺脊的白色短细线，走向与规则螺纹纹不一致，疑似擦痕或纤维附着",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        611,
+        411,
+        634,
+        456
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 3734,
+      "completion_tokens": 3505,
+      "total_tokens": 7239
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-eeb2a842-cd91-96b0-bb2b-8059a56372ab"
+    ],
+    "response_models": [
+      "qwen3.8-max-0902"
+    ],
+    "provider": {
+      "name": "qwen",
+      "model": "qwen3.8-max-0902",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "credential_env": "DASHSCOPE_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "enable_thinking": true,
+        "vl_high_resolution_images": true
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-eeb2a842-cd91-96b0-bb2b-8059a56372ab",
+        "response_model": "qwen3.8-max-0902",
+        "usage": {
+          "completion_tokens": 3505,
+          "prompt_tokens": 3734,
+          "total_tokens": 7239,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2971,
+            "rejected_prediction_tokens": null,
+            "text_tokens": 533
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 3072,
+            "image_tokens": 2454,
+            "text_tokens": 1280
+          }
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"present\",\n  \"findings\": [\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.35, 0.46, 0.4, 0.54],\n      \"description\": \"白色多孔包覆层下缘的V字形缺口，覆盖层中断并暴露下层蓝色主体\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.47, 0.52, 0.5, 0.56],\n      \"description\": \"白色包覆层下缘局部凹陷并露出蓝色小块，疑似与view-02缺口同处的包覆层缺失\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.55, 0.37, 0.57, 0.41],\n      \"description\": \"蓝色螺纹面上横跨螺脊的白色短细线，走向与规则螺纹纹不一致，疑似擦痕或纤维附着\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"蓝色螺纹喷嘴、白色多孔套筒与蓝色齿状法兰清晰可见；螺纹面见微小白色细线，套筒下缘见轻微凹陷\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"同一物体旋转视角；白色套筒下缘见清晰V字形包覆层中断并露出蓝色下层，其余表面为正常多孔纹理\"\n    }\n  ],\n  \"limitations\": [\n    \"泡沫/多孔包覆层纹理本身不规则，细微划痕与材料纹理难以可靠区分\",\n    \"仅两个视角，未拍摄表面无法评估\",\n    \"螺纹为规则加工纹，其上的浅色细线无法确认是否为擦痕而非纤维附着\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "qwen3.8-max-0902",
+    "request_id": "chatcmpl-eeb2a842-cd91-96b0-bb2b-8059a56372ab"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    }
+  ],
+  "elapsed_seconds": 75.29
+}

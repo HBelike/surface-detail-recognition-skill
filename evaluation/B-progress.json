@@ -1,0 +1,3339 @@
+{
+  "status": "incomplete",
+  "planned_tasks": 36,
+  "saved_terminal_records": 3,
+  "records": [
+    {
+      "provider": "kimi",
+      "round": 1,
+      "record": {
+        "schema_version": "1.0",
+        "item_id": "item-p01",
+        "status": "completed",
+        "mode": "baseline",
+        "requested_model": "kimi-k2.7-code",
+        "thinking": "enabled",
+        "backend": "deepseek",
+        "timestamp": "2026-11-02T14:05:13.756300+00:00",
+        "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+        "provider": {
+          "name": "kimi",
+          "model": "kimi-k2.7-code",
+          "base_url": "https://api.moonshot.cn/v1",
+          "credential_env": "MOONSHOT_API_KEY"
+        },
+        "fingerprint": "3087096da09f7de0316f199c3a27fa6dde14d2763e9bfdd1e3acd8224a9c9c71",
+        "result": {
+          "linear_trace": "not_observed",
+          "material_loss": "not_observed",
+          "findings": [],
+          "observations": [
+            {
+              "image_id": "view-01.png::full",
+              "quality": "adequate",
+              "note": "Top view shows the circular cap, straps and mounting tabs. The visible surfaces appear intact; no clear scratches, scuffs or material loss are observed. Molded holes, text and normal surface texture are not defects."
+            },
+            {
+              "image_id": "view-02.png::full",
+              "quality": "adequate",
+              "note": "Angled side view showing the cylindrical body, connector port and gear-like molded rings. No linear traces or edge chips are visible in the observed areas."
+            },
+            {
+              "image_id": "view-03.png::full",
+              "quality": "adequate",
+              "note": "Angled view of the assembly; surfaces and edges appear continuous and undamaged."
+            },
+            {
+              "image_id": "view-04.png::full",
+              "quality": "adequate",
+              "note": "Another angled view; no scratches, abrasions or material missing from the visible plastic surfaces."
+            },
+            {
+              "image_id": "view-05.png::full",
+              "quality": "adequate",
+              "note": "Angled view showing the opposite orientation; visible straps, connectors and body surfaces are intact."
+            }
+          ],
+          "limitations": [
+            "Only externally visible surfaces captured in the provided five views were inspected.",
+            "Interior cavities, hidden contact faces and surfaces in deep shadow were not assessed.",
+            "No depth or dimensional measurements were made.",
+            "同一照片及其裁剪不作为独立投票；确定性测试不证明视觉标签正确。"
+          ]
+        },
+        "evidence": [],
+        "metadata": {
+          "usage": {
+            "prompt_tokens": 20040,
+            "completion_tokens": 1421,
+            "total_tokens": 21461
+          },
+          "request_count": 1,
+          "requests_with_unknown_usage": 0,
+          "content_attempts": 1,
+          "thinking": "enabled",
+          "reasoning_effort": "high",
+          "request_ids": [
+            "chatcmpl-6ae8989d009cc70089b24192"
+          ],
+          "response_models": [
+            "kimi-k2.7-code"
+          ],
+          "provider": {
+            "name": "kimi",
+            "model": "kimi-k2.7-code",
+            "base_url": "https://api.moonshot.cn/v1",
+            "credential_env": "MOONSHOT_API_KEY"
+          },
+          "request_parameters": {
+            "max_tokens": 32768,
+            "extra_body": {
+              "thinking": {
+                "type": "enabled"
+              }
+            }
+          },
+          "responses": [
+            {
+              "request_id": "chatcmpl-6ae8989d009cc70089b24192",
+              "response_model": "kimi-k2.7-code",
+              "usage": {
+                "completion_tokens": 1421,
+                "prompt_tokens": 20040,
+                "total_tokens": 21461,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": null,
+                  "audio_tokens": null,
+                  "reasoning_tokens": 1103,
+                  "rejected_prediction_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 1024
+                },
+                "cached_tokens": 1024
+              },
+              "finish_reason": "stop",
+              "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"not_observed\", \"findings\": [], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Top view shows the circular cap, straps and mounting tabs. The visible surfaces appear intact; no clear scratches, scuffs or material loss are observed. Molded holes, text and normal surface texture are not defects.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Angled side view showing the cylindrical body, connector port and gear-like molded rings. No linear traces or edge chips are visible in the observed areas.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Angled view of the assembly; surfaces and edges appear continuous and undamaged.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Another angled view; no scratches, abrasions or material missing from the visible plastic surfaces.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Angled view showing the opposite orientation; visible straps, connectors and body surfaces are intact.\"}], \"limitations\": [\"Only externally visible surfaces captured in the provided five views were inspected.\", \"Interior cavities, hidden contact faces and surfaces in deep shadow were not assessed.\", \"No depth or dimensional measurements were made.\"]}"
+            }
+          ],
+          "reference_images": [],
+          "response_model": "kimi-k2.7-code",
+          "request_id": "chatcmpl-6ae8989d009cc70089b24192"
+        },
+        "input_images": [
+          {
+            "image_id": "view-01.png::full",
+            "source": "view-01.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          },
+          {
+            "image_id": "view-02.png::full",
+            "source": "view-02.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          },
+          {
+            "image_id": "view-03.png::full",
+            "source": "view-03.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          },
+          {
+            "image_id": "view-04.png::full",
+            "source": "view-04.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          },
+          {
+            "image_id": "view-05.png::full",
+            "source": "view-05.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          }
+        ],
+        "elapsed_seconds": 36.413,
+        "evidence_flow": {
+          "version": 2,
+          "stage_limit": 3,
+          "ledger": [
+            {
+              "image_id": "view-01.png::full",
+              "quality": "adequate",
+              "note": "Top view shows the circular cap, straps and mounting tabs. The visible surfaces appear intact; no clear scratches, scuffs or material loss are observed. Molded holes, text and normal surface texture are not defects.",
+              "evidence_id": "o-7c76e2d82c02929a7f10",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-01.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-02.png::full",
+              "quality": "adequate",
+              "note": "Angled side view showing the cylindrical body, connector port and gear-like molded rings. No linear traces or edge chips are visible in the observed areas.",
+              "evidence_id": "o-a0bf0b187dc2a6234dfb",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-02.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-03.png::full",
+              "quality": "adequate",
+              "note": "Angled view of the assembly; surfaces and edges appear continuous and undamaged.",
+              "evidence_id": "o-f2b79b070276da75aa0b",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-03.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-04.png::full",
+              "quality": "adequate",
+              "note": "Another angled view; no scratches, abrasions or material missing from the visible plastic surfaces.",
+              "evidence_id": "o-92a1b5193bc3c3df5b85",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-04.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-05.png::full",
+              "quality": "adequate",
+              "note": "Angled view showing the opposite orientation; visible straps, connectors and body surfaces are intact.",
+              "evidence_id": "o-2b37614f5e2da7393abc",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-05.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            }
+          ],
+          "resolutions": {},
+          "triggers": [],
+          "requests": [
+            {
+              "image_id": "view-01.png",
+              "bbox": [
+                0.0035294117647058825,
+                0.23470588235294118,
+                0.9870588235294118,
+                0.7523529411764706
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            },
+            {
+              "image_id": "view-02.png",
+              "bbox": [
+                0.24588235294117647,
+                0.08470588235294117,
+                0.8376470588235294,
+                0.9458823529411765
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            },
+            {
+              "image_id": "view-03.png",
+              "bbox": [
+                0.03705882352941176,
+                0.14588235294117646,
+                0.9152941176470588,
+                0.7441176470588236
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            },
+            {
+              "image_id": "view-04.png",
+              "bbox": [
+                0.058823529411764705,
+                0.1623529411764706,
+                0.9376470588235294,
+                0.7464705882352941
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            },
+            {
+              "image_id": "view-05.png",
+              "bbox": [
+                0.2488235294117647,
+                0.07176470588235294,
+                0.8441176470588235,
+                0.9435294117647058
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            }
+          ],
+          "skipped_requests": 0,
+          "skipped_evidence_ids": [],
+          "semantic_stages": [
+            "overview"
+          ]
+        },
+        "refinement": {
+          "status": "not_needed",
+          "policy": "bounded_evidence",
+          "categories": [
+            "linear_trace",
+            "material_loss"
+          ],
+          "baseline_result": {
+            "linear_trace": "not_observed",
+            "material_loss": "not_observed",
+            "findings": [],
+            "observations": [
+              {
+                "image_id": "view-01.png::full",
+                "quality": "adequate",
+                "note": "Top view shows the circular cap, straps and mounting tabs. The visible surfaces appear intact; no clear scratches, scuffs or material loss are observed. Molded holes, text and normal surface texture are not defects."
+              },
+              {
+                "image_id": "view-02.png::full",
+                "quality": "adequate",
+                "note": "Angled side view showing the cylindrical body, connector port and gear-like molded rings. No linear traces or edge chips are visible in the observed areas."
+              },
+              {
+                "image_id": "view-03.png::full",
+                "quality": "adequate",
+                "note": "Angled view of the assembly; surfaces and edges appear continuous and undamaged."
+              },
+              {
+                "image_id": "view-04.png::full",
+                "quality": "adequate",
+                "note": "Another angled view; no scratches, abrasions or material missing from the visible plastic surfaces."
+              },
+              {
+                "image_id": "view-05.png::full",
+                "quality": "adequate",
+                "note": "Angled view showing the opposite orientation; visible straps, connectors and body surfaces are intact."
+              }
+            ],
+            "limitations": [
+              "Only externally visible surfaces captured in the provided five views were inspected.",
+              "Interior cavities, hidden contact faces and surfaces in deep shadow were not assessed.",
+              "No depth or dimensional measurements were made."
+            ]
+          },
+          "baseline_metadata": {
+            "usage": {
+              "prompt_tokens": 20040,
+              "completion_tokens": 1421,
+              "total_tokens": 21461
+            },
+            "request_count": 1,
+            "requests_with_unknown_usage": 0,
+            "content_attempts": 1,
+            "thinking": "enabled",
+            "reasoning_effort": "high",
+            "request_ids": [
+              "chatcmpl-6ae8989d009cc70089b24192"
+            ],
+            "response_models": [
+              "kimi-k2.7-code"
+            ],
+            "provider": {
+              "name": "kimi",
+              "model": "kimi-k2.7-code",
+              "base_url": "https://api.moonshot.cn/v1",
+              "credential_env": "MOONSHOT_API_KEY"
+            },
+            "request_parameters": {
+              "max_tokens": 32768,
+              "extra_body": {
+                "thinking": {
+                  "type": "enabled"
+                }
+              }
+            },
+            "responses": [
+              {
+                "request_id": "chatcmpl-6ae8989d009cc70089b24192",
+                "response_model": "kimi-k2.7-code",
+                "usage": {
+                  "completion_tokens": 1421,
+                  "prompt_tokens": 20040,
+                  "total_tokens": 21461,
+                  "completion_tokens_details": {
+                    "accepted_prediction_tokens": null,
+                    "audio_tokens": null,
+                    "reasoning_tokens": 1103,
+                    "rejected_prediction_tokens": null
+                  },
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024
+                  },
+                  "cached_tokens": 1024
+                },
+                "finish_reason": "stop",
+                "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"not_observed\", \"findings\": [], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Top view shows the circular cap, straps and mounting tabs. The visible surfaces appear intact; no clear scratches, scuffs or material loss are observed. Molded holes, text and normal surface texture are not defects.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Angled side view showing the cylindrical body, connector port and gear-like molded rings. No linear traces or edge chips are visible in the observed areas.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Angled view of the assembly; surfaces and edges appear continuous and undamaged.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Another angled view; no scratches, abrasions or material missing from the visible plastic surfaces.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Angled view showing the opposite orientation; visible straps, connectors and body surfaces are intact.\"}], \"limitations\": [\"Only externally visible surfaces captured in the provided five views were inspected.\", \"Interior cavities, hidden contact faces and surfaces in deep shadow were not assessed.\", \"No depth or dimensional measurements were made.\"]}"
+              }
+            ],
+            "reference_images": [],
+            "response_model": "kimi-k2.7-code",
+            "request_id": "chatcmpl-6ae8989d009cc70089b24192"
+          }
+        },
+        "baseline_fingerprint": "4e7c7124610c1ed3ea017d080715963e9c6df7376dc8f7b6e2c03870a5332069",
+        "review_elapsed_seconds": 0.862
+      }
+    },
+    {
+      "provider": "kimi",
+      "round": 1,
+      "record": {
+        "schema_version": "1.0",
+        "item_id": "item-p08",
+        "status": "completed",
+        "mode": "baseline",
+        "requested_model": "kimi-k2.7-code",
+        "thinking": "enabled",
+        "backend": "deepseek",
+        "timestamp": "2026-11-02T14:17:00.455569+00:00",
+        "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+        "provider": {
+          "name": "kimi",
+          "model": "kimi-k2.7-code",
+          "base_url": "https://api.moonshot.cn/v1",
+          "credential_env": "MOONSHOT_API_KEY"
+        },
+        "fingerprint": "88573d8e595f44d1ae1f4579a817e789427ca1ce58dd6eb024a1e8a7f0951e70",
+        "result": {
+          "linear_trace": "uncertain",
+          "material_loss": "uncertain",
+          "findings": [
+            {
+              "category": "linear_trace",
+              "image_id": "view-01.png::full",
+              "bbox": [
+                0.44,
+                0.46,
+                0.61,
+                0.54
+              ],
+              "description": "faint diagonal lighter streak/scuff on blade body, could be a scratch or surface reflection",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-03.png::full",
+              "bbox": [
+                0.4,
+                0.45,
+                0.56,
+                0.54
+              ],
+              "description": "faint lighter linear streak/scuff on blade body, unclear if scratch or coating variation",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-02.png::full",
+              "bbox": [
+                0.46,
+                0.44,
+                0.54,
+                0.56
+              ],
+              "description": "faint vertical lighter streak on blade body, possibly reflection or shallow scratch",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-02.png::full",
+              "bbox": [
+                0.49,
+                0.76,
+                0.56,
+                0.82
+              ],
+              "description": "tip corner appears slightly irregular, possible tiny chip or imaging blur",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-01.png::full",
+              "bbox": [
+                0.44,
+                0.46,
+                0.61,
+                0.54
+              ],
+              "description": "faint lighter diagonal streak on blade body, no sharp edges or clear groove, could be surface scuff or reflection",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-03.png::full",
+              "bbox": [
+                0.4,
+                0.45,
+                0.56,
+                0.54
+              ],
+              "description": "faint lighter linear streak on blade body, diffuse and low contrast, ambiguous vs reflection or coating variation",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-02.png::full",
+              "bbox": [
+                0.46,
+                0.44,
+                0.54,
+                0.56
+              ],
+              "description": "faint vertical lighter streak on blade body, poorly defined, cannot confirm as a scratch",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-02.png::full",
+              "bbox": [
+                0.49,
+                0.76,
+                0.56,
+                0.82
+              ],
+              "description": "tip corner looks slightly irregular, but detail is too limited to confirm a chip or edge break",
+              "certainty": "uncertain"
+            }
+          ],
+          "observations": [
+            {
+              "image_id": "view-01.png::full",
+              "quality": "limited",
+              "note": "blade is small in frame and dark; faint lighter streaks are visible on the body but low contrast"
+            },
+            {
+              "image_id": "view-02.png::full",
+              "quality": "limited",
+              "note": "full view shows the tip region and a faint vertical lighter streak; subject resolution is low"
+            },
+            {
+              "image_id": "view-03.png::full",
+              "quality": "limited",
+              "note": "similar to view-01, blade body shows faint diffuse lighter streaks"
+            },
+            {
+              "image_id": "view-04.png::full",
+              "quality": "limited",
+              "note": "blade at an angle; no obvious linear marks or edge defects visible at this scale"
+            },
+            {
+              "image_id": "view-05.png::full",
+              "quality": "limited",
+              "note": "blade oriented vertically; surface appears fairly uniform, no clear defects"
+            },
+            {
+              "image_id": "view-01.png::zoom-df1e1b04bb0a233c",
+              "quality": "adequate",
+              "note": "teeth and adjacent blade body visible; surface shows only diffuse tonal variations, no sharp linear scratch"
+            },
+            {
+              "image_id": "view-02.png::zoom-2a2bc1c36a779d6d",
+              "quality": "adequate",
+              "note": "vertical close-up of blade body; faint streak remains indistinct and likely reflection or coating variation"
+            },
+            {
+              "image_id": "view-03.png::zoom-40c32a9a928ff1d7",
+              "quality": "adequate",
+              "note": "blade body and teeth at moderate zoom; lighter streaks are diffuse without clear scratch boundaries"
+            },
+            {
+              "image_id": "view-02.png::zoom-7bb1e720d0a0062d",
+              "quality": "adequate",
+              "note": "tip region in close-up; edge appears generally sharp, minor irregularity is near the limit of resolution"
+            },
+            {
+              "image_id": "view-04.png::zoom-ef5b824898092f2c",
+              "quality": "adequate",
+              "note": "full blade at higher scale; no confirmed scratches or material loss over visible surfaces"
+            },
+            {
+              "image_id": "view-05.png::zoom-5e063e86f0096f49",
+              "quality": "adequate",
+              "note": "full blade at higher scale; surface looks uniform, no confirmed defects"
+            }
+          ],
+          "limitations": [
+            "Dark blade on white background with low surface contrast makes it hard to distinguish shallow scratches from reflections or coating variations.",
+            "No macro/close-up views are provided, so fine surface detail and edge chips cannot be reliably confirmed.",
+            "Only the visible face of the blade is inspected; the opposite side and cutting-edge profile are not shown.",
+            "subject occupies a small fraction of the full frames, reducing effective resolution",
+            "black blade on white background yields low contrast for shallow surface marks",
+            "diffuse surface reflections and coating/sheen variations can mimic faint scratches",
+            "tip and edge details are close to the imaging blur limit",
+            "区域预算已达上限，部分候选未放大核验；请查看evidence_flow.skipped_evidence_ids。",
+            "同一照片及其裁剪不作为独立投票；确定性测试不证明视觉标签正确。"
+          ]
+        },
+        "evidence": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.44,
+              0.46,
+              0.61,
+              0.54
+            ],
+            "description": "faint diagonal lighter streak/scuff on blade body, could be a scratch or surface reflection",
+            "certainty": "uncertain",
+            "source": "view-01.png",
+            "bbox_pixels": [
+              892,
+              932,
+              1238,
+              1096
+            ]
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.4,
+              0.45,
+              0.56,
+              0.54
+            ],
+            "description": "faint lighter linear streak/scuff on blade body, unclear if scratch or coating variation",
+            "certainty": "uncertain",
+            "source": "view-03.png",
+            "bbox_pixels": [
+              811,
+              912,
+              1136,
+              1096
+            ]
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.46,
+              0.44,
+              0.54,
+              0.56
+            ],
+            "description": "faint vertical lighter streak on blade body, possibly reflection or shallow scratch",
+            "certainty": "uncertain",
+            "source": "view-02.png",
+            "bbox_pixels": [
+              932,
+              892,
+              1096,
+              1136
+            ]
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.49,
+              0.76,
+              0.56,
+              0.82
+            ],
+            "description": "tip corner appears slightly irregular, possible tiny chip or imaging blur",
+            "certainty": "uncertain",
+            "source": "view-02.png",
+            "bbox_pixels": [
+              993,
+              1541,
+              1136,
+              1663
+            ]
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.44,
+              0.46,
+              0.61,
+              0.54
+            ],
+            "description": "faint lighter diagonal streak on blade body, no sharp edges or clear groove, could be surface scuff or reflection",
+            "certainty": "uncertain",
+            "source": "view-01.png",
+            "bbox_pixels": [
+              892,
+              932,
+              1238,
+              1096
+            ]
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.4,
+              0.45,
+              0.56,
+              0.54
+            ],
+            "description": "faint lighter linear streak on blade body, diffuse and low contrast, ambiguous vs reflection or coating variation",
+            "certainty": "uncertain",
+            "source": "view-03.png",
+            "bbox_pixels": [
+              811,
+              912,
+              1136,
+              1096
+            ]
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.46,
+              0.44,
+              0.54,
+              0.56
+            ],
+            "description": "faint vertical lighter streak on blade body, poorly defined, cannot confirm as a scratch",
+            "certainty": "uncertain",
+            "source": "view-02.png",
+            "bbox_pixels": [
+              932,
+              892,
+              1096,
+              1136
+            ]
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.49,
+              0.76,
+              0.56,
+              0.82
+            ],
+            "description": "tip corner looks slightly irregular, but detail is too limited to confirm a chip or edge break",
+            "certainty": "uncertain",
+            "source": "view-02.png",
+            "bbox_pixels": [
+              993,
+              1541,
+              1136,
+              1663
+            ]
+          }
+        ],
+        "metadata": {
+          "usage": {
+            "prompt_tokens": 49989,
+            "completion_tokens": 6847,
+            "total_tokens": 56836
+          },
+          "request_count": 2,
+          "requests_with_unknown_usage": 0,
+          "content_attempts": 1,
+          "thinking": "enabled",
+          "reasoning_effort": "high",
+          "request_ids": [
+            "chatcmpl-6ae89b5e5960691bff686f2c",
+            "chatcmpl-6ae89bb73d5af999f3678046"
+          ],
+          "response_models": [
+            "kimi-k2.7-code",
+            "kimi-k2.7-code"
+          ],
+          "provider": {
+            "name": "kimi",
+            "model": "kimi-k2.7-code",
+            "base_url": "https://api.moonshot.cn/v1",
+            "credential_env": "MOONSHOT_API_KEY"
+          },
+          "request_parameters": {
+            "max_tokens": 32768,
+            "extra_body": {
+              "thinking": {
+                "type": "enabled"
+              }
+            }
+          },
+          "responses": [
+            {
+              "request_id": "chatcmpl-6ae89b5e5960691bff686f2c",
+              "response_model": "kimi-k2.7-code",
+              "usage": {
+                "completion_tokens": 3236,
+                "prompt_tokens": 22560,
+                "total_tokens": 25796,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": null,
+                  "audio_tokens": null,
+                  "reasoning_tokens": 2618,
+                  "rejected_prediction_tokens": null
+                },
+                "prompt_tokens_details": null
+              },
+              "finish_reason": "stop",
+              "final_content": "{\"linear_trace\": \"uncertain\", \"material_loss\": \"uncertain\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.44, 0.46, 0.61, 0.54], \"description\": \"faint diagonal lighter streak/scuff on blade body, could be a scratch or surface reflection\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-03.png::full\", \"bbox\": [0.4, 0.45, 0.56, 0.54], \"description\": \"faint lighter linear streak/scuff on blade body, unclear if scratch or coating variation\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.46, 0.44, 0.54, 0.56], \"description\": \"faint vertical lighter streak on blade body, possibly reflection or shallow scratch\", \"certainty\": \"uncertain\"}, {\"category\": \"material_loss\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.49, 0.76, 0.56, 0.82], \"description\": \"tip corner appears slightly irregular, possible tiny chip or imaging blur\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Full blade visible with even lighting; faint lighter streaks/scuffs are present near the center and shank area, but their nature is unclear.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Blade shown vertically; overall contrast is lower. Faint surface marks are visible, and the tip corner looks slightly uneven, though this may be blur/angle.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Similar diagonal orientation to view-01; faint central streaks/scuffs are visible but not clearly scratches.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Blade reversed horizontally; surface appears mostly uniform with no distinct linear marks or edge discontinuities.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Vertical orientation; blade surface and edges look regular, no obvious scratches or chips detected.\"}], \"limitations\": [\"Dark blade on white background with low surface contrast makes it hard to distinguish shallow scratches from reflections or coating variations.\", \"No macro/close-up views are provided, so fine surface detail and edge chips cannot be reliably confirmed.\", \"Only the visible face of the blade is inspected; the opposite side and cutting-edge profile are not shown.\"]}"
+            }
+          ],
+          "reference_images": [],
+          "response_model": "kimi-k2.7-code",
+          "request_id": "chatcmpl-6ae89b5e5960691bff686f2c"
+        },
+        "input_images": [
+          {
+            "image_id": "view-01.png::full",
+            "source": "view-01.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              0,
+              0,
+              2028,
+              2028
+            ]
+          },
+          {
+            "image_id": "view-02.png::full",
+            "source": "view-02.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              0,
+              0,
+              2028,
+              2028
+            ]
+          },
+          {
+            "image_id": "view-03.png::full",
+            "source": "view-03.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              0,
+              0,
+              2028,
+              2028
+            ]
+          },
+          {
+            "image_id": "view-04.png::full",
+            "source": "view-04.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              0,
+              0,
+              2028,
+              2028
+            ]
+          },
+          {
+            "image_id": "view-05.png::full",
+            "source": "view-05.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              0,
+              0,
+              2028,
+              2028
+            ]
+          },
+          {
+            "image_id": "view-01.png::zoom-df1e1b04bb0a233c",
+            "source": "view-01.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              649,
+              817,
+              1481,
+              1211
+            ],
+            "request_id": "df1e1b04bb0a233c",
+            "question": "区分独立痕迹、材料不连续与正常结构或反光"
+          },
+          {
+            "image_id": "view-02.png::zoom-2a2bc1c36a779d6d",
+            "source": "view-02.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              817,
+              721,
+              1211,
+              1307
+            ],
+            "request_id": "2a2bc1c36a779d6d",
+            "question": "区分独立痕迹、材料不连续与正常结构或反光"
+          },
+          {
+            "image_id": "view-03.png::zoom-40c32a9a928ff1d7",
+            "source": "view-03.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              583,
+              783,
+              1364,
+              1225
+            ],
+            "request_id": "40c32a9a928ff1d7",
+            "question": "区分独立痕迹、材料不连续与正常结构或反光"
+          },
+          {
+            "image_id": "view-02.png::zoom-7bb1e720d0a0062d",
+            "source": "view-02.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              892,
+              1455,
+              1237,
+              1749
+            ],
+            "request_id": "7bb1e720d0a0062d",
+            "question": "区分独立痕迹、材料不连续与正常结构或反光"
+          },
+          {
+            "image_id": "view-04.png::zoom-ef5b824898092f2c",
+            "source": "view-04.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              266,
+              781,
+              1679,
+              1221
+            ],
+            "request_id": "ef5b824898092f2c",
+            "question": "保留主体上下文并检查可见表面"
+          },
+          {
+            "image_id": "view-05.png::zoom-5e063e86f0096f49",
+            "source": "view-05.png",
+            "source_size": [
+              2028,
+              2028
+            ],
+            "crop_box": [
+              838,
+              355,
+              1157,
+              1761
+            ],
+            "request_id": "5e063e86f0096f49",
+            "question": "保留主体上下文并检查可见表面"
+          }
+        ],
+        "elapsed_seconds": 184.0,
+        "evidence_flow": {
+          "version": 2,
+          "stage_limit": 3,
+          "ledger": [
+            {
+              "category": "linear_trace",
+              "image_id": "view-01.png::full",
+              "bbox": [
+                0.44,
+                0.46,
+                0.61,
+                0.54
+              ],
+              "description": "faint diagonal lighter streak/scuff on blade body, could be a scratch or surface reflection",
+              "certainty": "uncertain",
+              "evidence_id": "e-86aec498195d7de1c085",
+              "source": "view-01.png",
+              "bbox_pixels": [
+                892,
+                932,
+                1238,
+                1096
+              ],
+              "stage": "overview",
+              "kind": "finding"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-03.png::full",
+              "bbox": [
+                0.4,
+                0.45,
+                0.56,
+                0.54
+              ],
+              "description": "faint lighter linear streak/scuff on blade body, unclear if scratch or coating variation",
+              "certainty": "uncertain",
+              "evidence_id": "e-f829a15939fab4bd2eaa",
+              "source": "view-03.png",
+              "bbox_pixels": [
+                811,
+                912,
+                1136,
+                1096
+              ],
+              "stage": "overview",
+              "kind": "finding"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-02.png::full",
+              "bbox": [
+                0.46,
+                0.44,
+                0.54,
+                0.56
+              ],
+              "description": "faint vertical lighter streak on blade body, possibly reflection or shallow scratch",
+              "certainty": "uncertain",
+              "evidence_id": "e-2dd3601da6d9eba7d1ba",
+              "source": "view-02.png",
+              "bbox_pixels": [
+                932,
+                892,
+                1096,
+                1136
+              ],
+              "stage": "overview",
+              "kind": "finding"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-02.png::full",
+              "bbox": [
+                0.49,
+                0.76,
+                0.56,
+                0.82
+              ],
+              "description": "tip corner appears slightly irregular, possible tiny chip or imaging blur",
+              "certainty": "uncertain",
+              "evidence_id": "e-8f87835bfb026205c7c4",
+              "source": "view-02.png",
+              "bbox_pixels": [
+                993,
+                1541,
+                1136,
+                1663
+              ],
+              "stage": "overview",
+              "kind": "finding"
+            },
+            {
+              "image_id": "view-01.png::full",
+              "quality": "adequate",
+              "note": "Full blade visible with even lighting; faint lighter streaks/scuffs are present near the center and shank area, but their nature is unclear.",
+              "evidence_id": "o-56b64c2ac764967bb9c1",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-01.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "image_id": "view-02.png::full",
+              "quality": "adequate",
+              "note": "Blade shown vertically; overall contrast is lower. Faint surface marks are visible, and the tip corner looks slightly uneven, though this may be blur/angle.",
+              "evidence_id": "o-58c83eedb17c8f6835a5",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-02.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "image_id": "view-03.png::full",
+              "quality": "adequate",
+              "note": "Similar diagonal orientation to view-01; faint central streaks/scuffs are visible but not clearly scratches.",
+              "evidence_id": "o-dc803741e9f63829b6ab",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-03.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "image_id": "view-04.png::full",
+              "quality": "adequate",
+              "note": "Blade reversed horizontally; surface appears mostly uniform with no distinct linear marks or edge discontinuities.",
+              "evidence_id": "o-4f7bedc8c2995a347f7f",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-04.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "image_id": "view-05.png::full",
+              "quality": "adequate",
+              "note": "Vertical orientation; blade surface and edges look regular, no obvious scratches or chips detected.",
+              "evidence_id": "o-e710c8641da5672b4628",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-05.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-01.png::full",
+              "bbox": [
+                0.44,
+                0.46,
+                0.61,
+                0.54
+              ],
+              "description": "faint lighter diagonal streak on blade body, no sharp edges or clear groove, could be surface scuff or reflection",
+              "certainty": "uncertain",
+              "evidence_id": "e-86aec498195d7de1c085",
+              "source": "view-01.png",
+              "bbox_pixels": [
+                892,
+                932,
+                1238,
+                1096
+              ],
+              "stage": "zoom",
+              "kind": "finding"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-03.png::full",
+              "bbox": [
+                0.4,
+                0.45,
+                0.56,
+                0.54
+              ],
+              "description": "faint lighter linear streak on blade body, diffuse and low contrast, ambiguous vs reflection or coating variation",
+              "certainty": "uncertain",
+              "evidence_id": "e-f829a15939fab4bd2eaa",
+              "source": "view-03.png",
+              "bbox_pixels": [
+                811,
+                912,
+                1136,
+                1096
+              ],
+              "stage": "zoom",
+              "kind": "finding"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-02.png::full",
+              "bbox": [
+                0.46,
+                0.44,
+                0.54,
+                0.56
+              ],
+              "description": "faint vertical lighter streak on blade body, poorly defined, cannot confirm as a scratch",
+              "certainty": "uncertain",
+              "evidence_id": "e-2dd3601da6d9eba7d1ba",
+              "source": "view-02.png",
+              "bbox_pixels": [
+                932,
+                892,
+                1096,
+                1136
+              ],
+              "stage": "zoom",
+              "kind": "finding"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-02.png::full",
+              "bbox": [
+                0.49,
+                0.76,
+                0.56,
+                0.82
+              ],
+              "description": "tip corner looks slightly irregular, but detail is too limited to confirm a chip or edge break",
+              "certainty": "uncertain",
+              "evidence_id": "e-8f87835bfb026205c7c4",
+              "source": "view-02.png",
+              "bbox_pixels": [
+                993,
+                1541,
+                1136,
+                1663
+              ],
+              "stage": "zoom",
+              "kind": "finding"
+            },
+            {
+              "image_id": "view-01.png::full",
+              "quality": "limited",
+              "note": "blade is small in frame and dark; faint lighter streaks are visible on the body but low contrast",
+              "evidence_id": "o-3dd27d38a14bcfda0886",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-01.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "image_id": "view-02.png::full",
+              "quality": "limited",
+              "note": "full view shows the tip region and a faint vertical lighter streak; subject resolution is low",
+              "evidence_id": "o-0648538e664e85187937",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-02.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "image_id": "view-03.png::full",
+              "quality": "limited",
+              "note": "similar to view-01, blade body shows faint diffuse lighter streaks",
+              "evidence_id": "o-cbcb651cb898675858c4",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-03.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "image_id": "view-04.png::full",
+              "quality": "limited",
+              "note": "blade at an angle; no obvious linear marks or edge defects visible at this scale",
+              "evidence_id": "o-af6e3d84af53ba2f6ba2",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-04.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "image_id": "view-05.png::full",
+              "quality": "limited",
+              "note": "blade oriented vertically; surface appears fairly uniform, no clear defects",
+              "evidence_id": "o-0bfe1277a6835278b02f",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-05.png",
+              "crop_box": [
+                0,
+                0,
+                2028,
+                2028
+              ]
+            },
+            {
+              "image_id": "view-01.png::zoom-df1e1b04bb0a233c",
+              "quality": "adequate",
+              "note": "teeth and adjacent blade body visible; surface shows only diffuse tonal variations, no sharp linear scratch",
+              "evidence_id": "o-f97c14ec8003d5dfc20b",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-01.png",
+              "crop_box": [
+                649,
+                817,
+                1481,
+                1211
+              ]
+            },
+            {
+              "image_id": "view-02.png::zoom-2a2bc1c36a779d6d",
+              "quality": "adequate",
+              "note": "vertical close-up of blade body; faint streak remains indistinct and likely reflection or coating variation",
+              "evidence_id": "o-04384a52916c7645f111",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-02.png",
+              "crop_box": [
+                817,
+                721,
+                1211,
+                1307
+              ]
+            },
+            {
+              "image_id": "view-03.png::zoom-40c32a9a928ff1d7",
+              "quality": "adequate",
+              "note": "blade body and teeth at moderate zoom; lighter streaks are diffuse without clear scratch boundaries",
+              "evidence_id": "o-6c520bf35fd5e379ba20",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-03.png",
+              "crop_box": [
+                583,
+                783,
+                1364,
+                1225
+              ]
+            },
+            {
+              "image_id": "view-02.png::zoom-7bb1e720d0a0062d",
+              "quality": "adequate",
+              "note": "tip region in close-up; edge appears generally sharp, minor irregularity is near the limit of resolution",
+              "evidence_id": "o-16a9e4c80730ac705abb",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-02.png",
+              "crop_box": [
+                892,
+                1455,
+                1237,
+                1749
+              ]
+            },
+            {
+              "image_id": "view-04.png::zoom-ef5b824898092f2c",
+              "quality": "adequate",
+              "note": "full blade at higher scale; no confirmed scratches or material loss over visible surfaces",
+              "evidence_id": "o-16e86b7981631a7f93d9",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-04.png",
+              "crop_box": [
+                266,
+                781,
+                1679,
+                1221
+              ]
+            },
+            {
+              "image_id": "view-05.png::zoom-5e063e86f0096f49",
+              "quality": "adequate",
+              "note": "full blade at higher scale; surface looks uniform, no confirmed defects",
+              "evidence_id": "o-41371dcdbb281294de04",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-05.png",
+              "crop_box": [
+                838,
+                355,
+                1157,
+                1761
+              ]
+            }
+          ],
+          "resolutions": {
+            "linear_trace": {
+              "state": "uncertain",
+              "needs_adjudication": false,
+              "evidence_ids": [
+                "e-86aec498195d7de1c085",
+                "e-f829a15939fab4bd2eaa",
+                "e-2dd3601da6d9eba7d1ba"
+              ],
+              "reason": "两阶段结论一致；原图与裁剪不累计为独立投票",
+              "same_region_coverage": true,
+              "final_state": "uncertain"
+            },
+            "material_loss": {
+              "state": "uncertain",
+              "needs_adjudication": false,
+              "evidence_ids": [
+                "e-8f87835bfb026205c7c4"
+              ],
+              "reason": "两阶段结论一致；原图与裁剪不累计为独立投票",
+              "same_region_coverage": true,
+              "final_state": "uncertain"
+            }
+          },
+          "triggers": [
+            "linear_trace:candidate_requires_check",
+            "linear_trace:uncertain",
+            "material_loss:candidate_requires_check",
+            "material_loss:uncertain",
+            "view-01.png:small_subject",
+            "view-02.png:small_subject",
+            "view-03.png:small_subject",
+            "view-04.png:small_subject",
+            "view-05.png:small_subject"
+          ],
+          "requests": [
+            {
+              "image_id": "view-01.png",
+              "bbox": [
+                0.32041420118343195,
+                0.40295857988165684,
+                0.7298816568047337,
+                0.5970414201183432
+              ],
+              "question": "区分独立痕迹、材料不连续与正常结构或反光",
+              "evidence_ids": [
+                "e-86aec498195d7de1c085"
+              ]
+            },
+            {
+              "image_id": "view-02.png",
+              "bbox": [
+                0.40295857988165684,
+                0.35562130177514795,
+                0.5970414201183432,
+                0.644378698224852
+              ],
+              "question": "区分独立痕迹、材料不连续与正常结构或反光",
+              "evidence_ids": [
+                "e-2dd3601da6d9eba7d1ba"
+              ]
+            },
+            {
+              "image_id": "view-03.png",
+              "bbox": [
+                0.28772189349112426,
+                0.3861932938856016,
+                0.6723372781065089,
+                0.6039447731755424
+              ],
+              "question": "区分独立痕迹、材料不连续与正常结构或反光",
+              "evidence_ids": [
+                "e-f829a15939fab4bd2eaa"
+              ]
+            },
+            {
+              "image_id": "view-02.png",
+              "bbox": [
+                0.44028599605522684,
+                0.7177514792899408,
+                0.609516765285996,
+                0.8621301775147929
+              ],
+              "question": "区分独立痕迹、材料不连续与正常结构或反光",
+              "evidence_ids": [
+                "e-8f87835bfb026205c7c4"
+              ]
+            },
+            {
+              "image_id": "view-04.png",
+              "bbox": [
+                0.131163708086785,
+                0.38510848126232744,
+                0.8279092702169625,
+                0.6020710059171598
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            },
+            {
+              "image_id": "view-05.png",
+              "bbox": [
+                0.41321499013806706,
+                0.17504930966469429,
+                0.5705128205128205,
+                0.8683431952662722
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            }
+          ],
+          "skipped_requests": 3,
+          "skipped_evidence_ids": [],
+          "semantic_stages": [
+            "overview",
+            "zoom"
+          ]
+        },
+        "refinement": {
+          "status": "completed",
+          "policy": "bounded_evidence",
+          "categories": [
+            "linear_trace",
+            "material_loss"
+          ],
+          "baseline_result": {
+            "linear_trace": "uncertain",
+            "material_loss": "uncertain",
+            "findings": [
+              {
+                "category": "linear_trace",
+                "image_id": "view-01.png::full",
+                "bbox": [
+                  0.44,
+                  0.46,
+                  0.61,
+                  0.54
+                ],
+                "description": "faint diagonal lighter streak/scuff on blade body, could be a scratch or surface reflection",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "linear_trace",
+                "image_id": "view-03.png::full",
+                "bbox": [
+                  0.4,
+                  0.45,
+                  0.56,
+                  0.54
+                ],
+                "description": "faint lighter linear streak/scuff on blade body, unclear if scratch or coating variation",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "linear_trace",
+                "image_id": "view-02.png::full",
+                "bbox": [
+                  0.46,
+                  0.44,
+                  0.54,
+                  0.56
+                ],
+                "description": "faint vertical lighter streak on blade body, possibly reflection or shallow scratch",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "material_loss",
+                "image_id": "view-02.png::full",
+                "bbox": [
+                  0.49,
+                  0.76,
+                  0.56,
+                  0.82
+                ],
+                "description": "tip corner appears slightly irregular, possible tiny chip or imaging blur",
+                "certainty": "uncertain"
+              }
+            ],
+            "observations": [
+              {
+                "image_id": "view-01.png::full",
+                "quality": "adequate",
+                "note": "Full blade visible with even lighting; faint lighter streaks/scuffs are present near the center and shank area, but their nature is unclear."
+              },
+              {
+                "image_id": "view-02.png::full",
+                "quality": "adequate",
+                "note": "Blade shown vertically; overall contrast is lower. Faint surface marks are visible, and the tip corner looks slightly uneven, though this may be blur/angle."
+              },
+              {
+                "image_id": "view-03.png::full",
+                "quality": "adequate",
+                "note": "Similar diagonal orientation to view-01; faint central streaks/scuffs are visible but not clearly scratches."
+              },
+              {
+                "image_id": "view-04.png::full",
+                "quality": "adequate",
+                "note": "Blade reversed horizontally; surface appears mostly uniform with no distinct linear marks or edge discontinuities."
+              },
+              {
+                "image_id": "view-05.png::full",
+                "quality": "adequate",
+                "note": "Vertical orientation; blade surface and edges look regular, no obvious scratches or chips detected."
+              }
+            ],
+            "limitations": [
+              "Dark blade on white background with low surface contrast makes it hard to distinguish shallow scratches from reflections or coating variations.",
+              "No macro/close-up views are provided, so fine surface detail and edge chips cannot be reliably confirmed.",
+              "Only the visible face of the blade is inspected; the opposite side and cutting-edge profile are not shown."
+            ]
+          },
+          "baseline_metadata": {
+            "usage": {
+              "prompt_tokens": 22560,
+              "completion_tokens": 3236,
+              "total_tokens": 25796
+            },
+            "request_count": 1,
+            "requests_with_unknown_usage": 0,
+            "content_attempts": 1,
+            "thinking": "enabled",
+            "reasoning_effort": "high",
+            "request_ids": [
+              "chatcmpl-6ae89b5e5960691bff686f2c"
+            ],
+            "response_models": [
+              "kimi-k2.7-code"
+            ],
+            "provider": {
+              "name": "kimi",
+              "model": "kimi-k2.7-code",
+              "base_url": "https://api.moonshot.cn/v1",
+              "credential_env": "MOONSHOT_API_KEY"
+            },
+            "request_parameters": {
+              "max_tokens": 32768,
+              "extra_body": {
+                "thinking": {
+                  "type": "enabled"
+                }
+              }
+            },
+            "responses": [
+              {
+                "request_id": "chatcmpl-6ae89b5e5960691bff686f2c",
+                "response_model": "kimi-k2.7-code",
+                "usage": {
+                  "completion_tokens": 3236,
+                  "prompt_tokens": 22560,
+                  "total_tokens": 25796,
+                  "completion_tokens_details": {
+                    "accepted_prediction_tokens": null,
+                    "audio_tokens": null,
+                    "reasoning_tokens": 2618,
+                    "rejected_prediction_tokens": null
+                  },
+                  "prompt_tokens_details": null
+                },
+                "finish_reason": "stop",
+                "final_content": "{\"linear_trace\": \"uncertain\", \"material_loss\": \"uncertain\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.44, 0.46, 0.61, 0.54], \"description\": \"faint diagonal lighter streak/scuff on blade body, could be a scratch or surface reflection\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-03.png::full\", \"bbox\": [0.4, 0.45, 0.56, 0.54], \"description\": \"faint lighter linear streak/scuff on blade body, unclear if scratch or coating variation\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.46, 0.44, 0.54, 0.56], \"description\": \"faint vertical lighter streak on blade body, possibly reflection or shallow scratch\", \"certainty\": \"uncertain\"}, {\"category\": \"material_loss\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.49, 0.76, 0.56, 0.82], \"description\": \"tip corner appears slightly irregular, possible tiny chip or imaging blur\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Full blade visible with even lighting; faint lighter streaks/scuffs are present near the center and shank area, but their nature is unclear.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Blade shown vertically; overall contrast is lower. Faint surface marks are visible, and the tip corner looks slightly uneven, though this may be blur/angle.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Similar diagonal orientation to view-01; faint central streaks/scuffs are visible but not clearly scratches.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Blade reversed horizontally; surface appears mostly uniform with no distinct linear marks or edge discontinuities.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Vertical orientation; blade surface and edges look regular, no obvious scratches or chips detected.\"}], \"limitations\": [\"Dark blade on white background with low surface contrast makes it hard to distinguish shallow scratches from reflections or coating variations.\", \"No macro/close-up views are provided, so fine surface detail and edge chips cannot be reliably confirmed.\", \"Only the visible face of the blade is inspected; the opposite side and cutting-edge profile are not shown.\"]}"
+              }
+            ],
+            "reference_images": [],
+            "response_model": "kimi-k2.7-code",
+            "request_id": "chatcmpl-6ae89b5e5960691bff686f2c"
+          },
+          "review_result": {
+            "linear_trace": "uncertain",
+            "material_loss": "uncertain",
+            "findings": [
+              {
+                "category": "linear_trace",
+                "image_id": "view-01.png::full",
+                "bbox": [
+                  0.44,
+                  0.46,
+                  0.61,
+                  0.54
+                ],
+                "description": "faint lighter diagonal streak on blade body, no sharp edges or clear groove, could be surface scuff or reflection",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "linear_trace",
+                "image_id": "view-03.png::full",
+                "bbox": [
+                  0.4,
+                  0.45,
+                  0.56,
+                  0.54
+                ],
+                "description": "faint lighter linear streak on blade body, diffuse and low contrast, ambiguous vs reflection or coating variation",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "linear_trace",
+                "image_id": "view-02.png::full",
+                "bbox": [
+                  0.46,
+                  0.44,
+                  0.54,
+                  0.56
+                ],
+                "description": "faint vertical lighter streak on blade body, poorly defined, cannot confirm as a scratch",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "material_loss",
+                "image_id": "view-02.png::full",
+                "bbox": [
+                  0.49,
+                  0.76,
+                  0.56,
+                  0.82
+                ],
+                "description": "tip corner looks slightly irregular, but detail is too limited to confirm a chip or edge break",
+                "certainty": "uncertain"
+              }
+            ],
+            "observations": [
+              {
+                "image_id": "view-01.png::full",
+                "quality": "limited",
+                "note": "blade is small in frame and dark; faint lighter streaks are visible on the body but low contrast"
+              },
+              {
+                "image_id": "view-02.png::full",
+                "quality": "limited",
+                "note": "full view shows the tip region and a faint vertical lighter streak; subject resolution is low"
+              },
+              {
+                "image_id": "view-03.png::full",
+                "quality": "limited",
+                "note": "similar to view-01, blade body shows faint diffuse lighter streaks"
+              },
+              {
+                "image_id": "view-04.png::full",
+                "quality": "limited",
+                "note": "blade at an angle; no obvious linear marks or edge defects visible at this scale"
+              },
+              {
+                "image_id": "view-05.png::full",
+                "quality": "limited",
+                "note": "blade oriented vertically; surface appears fairly uniform, no clear defects"
+              },
+              {
+                "image_id": "view-01.png::zoom-df1e1b04bb0a233c",
+                "quality": "adequate",
+                "note": "teeth and adjacent blade body visible; surface shows only diffuse tonal variations, no sharp linear scratch"
+              },
+              {
+                "image_id": "view-02.png::zoom-2a2bc1c36a779d6d",
+                "quality": "adequate",
+                "note": "vertical close-up of blade body; faint streak remains indistinct and likely reflection or coating variation"
+              },
+              {
+                "image_id": "view-03.png::zoom-40c32a9a928ff1d7",
+                "quality": "adequate",
+                "note": "blade body and teeth at moderate zoom; lighter streaks are diffuse without clear scratch boundaries"
+              },
+              {
+                "image_id": "view-02.png::zoom-7bb1e720d0a0062d",
+                "quality": "adequate",
+                "note": "tip region in close-up; edge appears generally sharp, minor irregularity is near the limit of resolution"
+              },
+              {
+                "image_id": "view-04.png::zoom-ef5b824898092f2c",
+                "quality": "adequate",
+                "note": "full blade at higher scale; no confirmed scratches or material loss over visible surfaces"
+              },
+              {
+                "image_id": "view-05.png::zoom-5e063e86f0096f49",
+                "quality": "adequate",
+                "note": "full blade at higher scale; surface looks uniform, no confirmed defects"
+              }
+            ],
+            "limitations": [
+              "subject occupies a small fraction of the full frames, reducing effective resolution",
+              "black blade on white background yields low contrast for shallow surface marks",
+              "diffuse surface reflections and coating/sheen variations can mimic faint scratches",
+              "tip and edge details are close to the imaging blur limit"
+            ]
+          },
+          "review_metadata": {
+            "usage": {
+              "prompt_tokens": 27429,
+              "completion_tokens": 3611,
+              "total_tokens": 31040
+            },
+            "request_count": 1,
+            "requests_with_unknown_usage": 0,
+            "content_attempts": 1,
+            "thinking": "enabled",
+            "reasoning_effort": "high",
+            "request_ids": [
+              "chatcmpl-6ae89bb73d5af999f3678046"
+            ],
+            "response_models": [
+              "kimi-k2.7-code"
+            ],
+            "provider": {
+              "name": "kimi",
+              "model": "kimi-k2.7-code",
+              "base_url": "https://api.moonshot.cn/v1",
+              "credential_env": "MOONSHOT_API_KEY"
+            },
+            "request_parameters": {
+              "max_tokens": 32768,
+              "extra_body": {
+                "thinking": {
+                  "type": "enabled"
+                }
+              }
+            },
+            "responses": [
+              {
+                "request_id": "chatcmpl-6ae89bb73d5af999f3678046",
+                "response_model": "kimi-k2.7-code",
+                "usage": {
+                  "completion_tokens": 3611,
+                  "prompt_tokens": 27429,
+                  "total_tokens": 31040,
+                  "completion_tokens_details": {
+                    "accepted_prediction_tokens": null,
+                    "audio_tokens": null,
+                    "reasoning_tokens": 2343,
+                    "rejected_prediction_tokens": null
+                  },
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 512
+                  },
+                  "cached_tokens": 512
+                },
+                "finish_reason": "stop",
+                "final_content": "{\"inspection\": {\"linear_trace\": \"uncertain\", \"material_loss\": \"uncertain\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.44, 0.46, 0.61, 0.54], \"description\": \"faint lighter diagonal streak on blade body, no sharp edges or clear groove, could be surface scuff or reflection\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-03.png::full\", \"bbox\": [0.4, 0.45, 0.56, 0.54], \"description\": \"faint lighter linear streak on blade body, diffuse and low contrast, ambiguous vs reflection or coating variation\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.46, 0.44, 0.54, 0.56], \"description\": \"faint vertical lighter streak on blade body, poorly defined, cannot confirm as a scratch\", \"certainty\": \"uncertain\"}, {\"category\": \"material_loss\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.49, 0.76, 0.56, 0.82], \"description\": \"tip corner looks slightly irregular, but detail is too limited to confirm a chip or edge break\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"limited\", \"note\": \"blade is small in frame and dark; faint lighter streaks are visible on the body but low contrast\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"limited\", \"note\": \"full view shows the tip region and a faint vertical lighter streak; subject resolution is low\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"limited\", \"note\": \"similar to view-01, blade body shows faint diffuse lighter streaks\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"limited\", \"note\": \"blade at an angle; no obvious linear marks or edge defects visible at this scale\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"limited\", \"note\": \"blade oriented vertically; surface appears fairly uniform, no clear defects\"}, {\"image_id\": \"view-01.png::zoom-df1e1b04bb0a233c\", \"quality\": \"adequate\", \"note\": \"teeth and adjacent blade body visible; surface shows only diffuse tonal variations, no sharp linear scratch\"}, {\"image_id\": \"view-02.png::zoom-2a2bc1c36a779d6d\", \"quality\": \"adequate\", \"note\": \"vertical close-up of blade body; faint streak remains indistinct and likely reflection or coating variation\"}, {\"image_id\": \"view-03.png::zoom-40c32a9a928ff1d7\", \"quality\": \"adequate\", \"note\": \"blade body and teeth at moderate zoom; lighter streaks are diffuse without clear scratch boundaries\"}, {\"image_id\": \"view-02.png::zoom-7bb1e720d0a0062d\", \"quality\": \"adequate\", \"note\": \"tip region in close-up; edge appears generally sharp, minor irregularity is near the limit of resolution\"}, {\"image_id\": \"view-04.png::zoom-ef5b824898092f2c\", \"quality\": \"adequate\", \"note\": \"full blade at higher scale; no confirmed scratches or material loss over visible surfaces\"}, {\"image_id\": \"view-05.png::zoom-5e063e86f0096f49\", \"quality\": \"adequate\", \"note\": \"full blade at higher scale; surface looks uniform, no confirmed defects\"}], \"limitations\": [\"subject occupies a small fraction of the full frames, reducing effective resolution\", \"black blade on white background yields low contrast for shallow surface marks\", \"diffuse surface reflections and coating/sheen variations can mimic faint scratches\", \"tip and edge details are close to the imaging blur limit\"]}, \"assessments\": {\"linear_trace\": {\"decision\": \"uncertain\", \"basis\": \"insufficient_detail\", \"image_ids\": [\"view-01.png::full\", \"view-03.png::full\", \"view-02.png::full\", \"view-01.png::zoom-df1e1b04bb0a233c\", \"view-02.png::zoom-2a2bc1c36a779d6d\", \"view-03.png::zoom-40c32a9a928ff1d7\"], \"evidence_summary\": \"Faint lighter streaks are visible on the blade body in several full views, but they are diffuse and lack sharp boundaries or texture interruption.\", \"alternative_explanation\": \"The observed tonal variations are consistent with surface reflections, coating/sheen differences, or light contamination rather than discrete scratches.\", \"resolved_evidence_ids\": [\"e-86aec498195d7de1c085\", \"e-f829a15939fab4bd2eaa\", \"e-2dd3601da6d9eba7d1ba\"]}, \"material_loss\": {\"decision\": \"uncertain\", \"basis\": \"insufficient_detail\", \"image_ids\": [\"view-02.png::full\", \"view-02.png::zoom-7bb1e720d0a0062d\"], \"evidence_summary\": \"The tip corner in view-02 appears slightly irregular at full scale, but the zoom view shows a generally sharp tip without a clear chip or exposed underlying material.\", \"alternative_explanation\": \"The apparent irregularity can be explained by slight imaging blur, low resolution, or normal manufactured edge geometry.\", \"resolved_evidence_ids\": [\"e-8f87835bfb026205c7c4\"]}}}"
+              }
+            ],
+            "reference_images": [],
+            "response_model": "kimi-k2.7-code",
+            "request_id": "chatcmpl-6ae89bb73d5af999f3678046"
+          },
+          "assessments": {
+            "linear_trace": {
+              "decision": "uncertain",
+              "basis": "insufficient_detail",
+              "image_ids": [
+                "view-01.png::full",
+                "view-03.png::full",
+                "view-02.png::full",
+                "view-01.png::zoom-df1e1b04bb0a233c",
+                "view-02.png::zoom-2a2bc1c36a779d6d",
+                "view-03.png::zoom-40c32a9a928ff1d7"
+              ],
+              "evidence_summary": "Faint lighter streaks are visible on the blade body in several full views, but they are diffuse and lack sharp boundaries or texture interruption.",
+              "alternative_explanation": "The observed tonal variations are consistent with surface reflections, coating/sheen differences, or light contamination rather than discrete scratches.",
+              "resolved_evidence_ids": [
+                "e-86aec498195d7de1c085",
+                "e-f829a15939fab4bd2eaa",
+                "e-2dd3601da6d9eba7d1ba"
+              ]
+            },
+            "material_loss": {
+              "decision": "uncertain",
+              "basis": "insufficient_detail",
+              "image_ids": [
+                "view-02.png::full",
+                "view-02.png::zoom-7bb1e720d0a0062d"
+              ],
+              "evidence_summary": "The tip corner in view-02 appears slightly irregular at full scale, but the zoom view shows a generally sharp tip without a clear chip or exposed underlying material.",
+              "alternative_explanation": "The apparent irregularity can be explained by slight imaging blur, low resolution, or normal manufactured edge geometry.",
+              "resolved_evidence_ids": [
+                "e-8f87835bfb026205c7c4"
+              ]
+            }
+          }
+        },
+        "baseline_fingerprint": "a5a035f4b1e908d79d5f10b55a85b695fc7edb580d16463864abf01a78a60d47",
+        "review_elapsed_seconds": 97.269
+      }
+    },
+    {
+      "provider": "qwen",
+      "round": 1,
+      "record": {
+        "schema_version": "1.0",
+        "item_id": "item-p01",
+        "status": "completed",
+        "mode": "baseline",
+        "requested_model": "qwen3.8-max-0902",
+        "thinking": "enabled",
+        "backend": "deepseek",
+        "timestamp": "2026-11-02T14:05:13.756112+00:00",
+        "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+        "provider": {
+          "name": "qwen",
+          "model": "qwen3.8-max-0902",
+          "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+          "credential_env": "DASHSCOPE_API_KEY"
+        },
+        "fingerprint": "8a03c12f5c5be2cead2470eed62ade1331e462a7d58a4338874f495fd6db58d4",
+        "result": {
+          "linear_trace": "uncertain",
+          "material_loss": "uncertain",
+          "findings": [
+            {
+              "category": "linear_trace",
+              "image_id": "view-01.png::full",
+              "bbox": [
+                0.487,
+                0.485,
+                0.505,
+                0.503
+              ],
+              "description": "顶面中心处星状细白线痕，围绕一小点放射分布，疑似浅擦痕或注塑点应力纹，无法可靠区分",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-03.png::full",
+              "bbox": [
+                0.591,
+                0.188,
+                0.615,
+                0.206
+              ],
+              "description": "顶部卡扣钩端伸出的细丝状碎片，疑似崩裂残留或成型飞边，无法确认是否为材料缺失",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-05.png::full",
+              "bbox": [
+                0.8,
+                0.415,
+                0.815,
+                0.432
+              ],
+              "description": "右侧卡扣边缘细丝状突出物，与view-03中细丝位置对应，疑似裂片残留或飞边",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-01.png::full",
+              "bbox": [
+                0.487,
+                0.485,
+                0.505,
+                0.503
+              ],
+              "description": "顶面中心小暗点周围数条放射状浅白细线，打断哑光表面，形态不规则",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-05.png::full",
+              "bbox": [
+                0.62,
+                0.363,
+                0.637,
+                0.379
+              ],
+              "description": "同一顶面中心星状细白线痕在另一视角可见，放射短纹围绕一点",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-03.png::full",
+              "bbox": [
+                0.591,
+                0.188,
+                0.615,
+                0.206
+              ],
+              "description": "顶部卡扣钩端伸出一根细丝状突出物，钩缘本身连续，未见缺口或下层暴露",
+              "certainty": "uncertain"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-05.png::full",
+              "bbox": [
+                0.8,
+                0.415,
+                0.815,
+                0.432
+              ],
+              "description": "右侧卡扣边缘短细丝状突出物，与view-03细丝对应位置，基部无材料缺失迹象",
+              "certainty": "uncertain"
+            }
+          ],
+          "observations": [
+            {
+              "image_id": "view-01.png::full",
+              "quality": "adequate",
+              "note": "顶视：哑光黑面，中心见星状浅白细纹点；带翼孔列、卡扣轮廓规则完整"
+            },
+            {
+              "image_id": "view-02.png::full",
+              "quality": "adequate",
+              "note": "斜视：顶面中心仅见小点，侧面肋与敲落膜规则，未见其他线痕或崩缺"
+            },
+            {
+              "image_id": "view-03.png::full",
+              "quality": "adequate",
+              "note": "顶部卡扣钩端见细丝状突出；其余表面干净，边缘连续"
+            },
+            {
+              "image_id": "view-04.png::full",
+              "quality": "adequate",
+              "note": "反向斜视：可见面无划痕、无边缘崩缺，卡扣与端口形状规则"
+            },
+            {
+              "image_id": "view-05.png::full",
+              "quality": "adequate",
+              "note": "顶面星状细纹与右侧卡扣细丝均可见，无其他异常"
+            },
+            {
+              "image_id": "view-01.png::zoom-3b00170ad5d23728",
+              "quality": "limited",
+              "note": "放大后为暗点加数条极短亮辐线，像素过少，无法区分擦痕与注塑应力纹"
+            },
+            {
+              "image_id": "view-03.png::zoom-247516f8936fb381",
+              "quality": "adequate",
+              "note": "细丝自钩端伸出、弯曲均匀，钩边缘连续无缺口"
+            },
+            {
+              "image_id": "view-05.png::zoom-83d5eb999b1d7803",
+              "quality": "adequate",
+              "note": "卡扣边缘短细突出物清晰，基部无材料不连续或下层暴露"
+            },
+            {
+              "image_id": "view-02.png::zoom-63dc436a5bb3642a",
+              "quality": "adequate",
+              "note": "主体上下文：表面均匀哑光，敲落膜齿槽与肋条规则，无纹理中断"
+            },
+            {
+              "image_id": "view-04.png::zoom-6752e1816a3c222c",
+              "quality": "adequate",
+              "note": "主体上下文：可见面无线痕、无崩缺，边缘完整"
+            },
+            {
+              "image_id": "view-01.png::zoom-eb9b54c5670a5373",
+              "quality": "adequate",
+              "note": "主体上下文：带翼孔、卡扣为规则结构；顶面中心星状细纹点可见"
+            }
+          ],
+          "limitations": [
+            "哑光黑表面低对比，浅细划痕与反光/注塑纹难以可靠区分",
+            "卡扣处细丝状物无法在现有视角区分成型飞边与崩裂残留",
+            "中心星状 mark 在多角度呈小凸点，可能为注塑浇口痕而非划痕",
+            "未拍摄表面与内部不在评估范围",
+            "星状细纹仅数像素宽，现有分辨率无法区分浅擦痕与注塑浇口/应力纹",
+            "卡扣细丝无法区分成型飞边、附着纤维与裂片残留，缺乏微距或触觉信息",
+            "哑光黑表面降低浅痕对比度，未拍摄面不做推断",
+            "区域预算已达上限，部分候选未放大核验；请查看evidence_flow.skipped_evidence_ids。",
+            "同一照片及其裁剪不作为独立投票；确定性测试不证明视觉标签正确。"
+          ]
+        },
+        "evidence": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.487,
+              0.485,
+              0.505,
+              0.503
+            ],
+            "description": "顶面中心处星状细白线痕，围绕一小点放射分布，疑似浅擦痕或注塑点应力纹，无法可靠区分",
+            "certainty": "uncertain",
+            "source": "view-01.png",
+            "bbox_pixels": [
+              827,
+              824,
+              859,
+              856
+            ]
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.591,
+              0.188,
+              0.615,
+              0.206
+            ],
+            "description": "顶部卡扣钩端伸出的细丝状碎片，疑似崩裂残留或成型飞边，无法确认是否为材料缺失",
+            "certainty": "uncertain",
+            "source": "view-03.png",
+            "bbox_pixels": [
+              1004,
+              319,
+              1046,
+              351
+            ]
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.8,
+              0.415,
+              0.815,
+              0.432
+            ],
+            "description": "右侧卡扣边缘细丝状突出物，与view-03中细丝位置对应，疑似裂片残留或飞边",
+            "certainty": "uncertain",
+            "source": "view-05.png",
+            "bbox_pixels": [
+              1360,
+              705,
+              1386,
+              735
+            ]
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.487,
+              0.485,
+              0.505,
+              0.503
+            ],
+            "description": "顶面中心小暗点周围数条放射状浅白细线，打断哑光表面，形态不规则",
+            "certainty": "uncertain",
+            "source": "view-01.png",
+            "bbox_pixels": [
+              827,
+              824,
+              859,
+              856
+            ]
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.62,
+              0.363,
+              0.637,
+              0.379
+            ],
+            "description": "同一顶面中心星状细白线痕在另一视角可见，放射短纹围绕一点",
+            "certainty": "uncertain",
+            "source": "view-05.png",
+            "bbox_pixels": [
+              1054,
+              617,
+              1083,
+              645
+            ]
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.591,
+              0.188,
+              0.615,
+              0.206
+            ],
+            "description": "顶部卡扣钩端伸出一根细丝状突出物，钩缘本身连续，未见缺口或下层暴露",
+            "certainty": "uncertain",
+            "source": "view-03.png",
+            "bbox_pixels": [
+              1004,
+              319,
+              1046,
+              351
+            ]
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.8,
+              0.415,
+              0.815,
+              0.432
+            ],
+            "description": "右侧卡扣边缘短细丝状突出物，与view-03细丝对应位置，基部无材料缺失迹象",
+            "certainty": "uncertain",
+            "source": "view-05.png",
+            "bbox_pixels": [
+              1360,
+              705,
+              1386,
+              735
+            ]
+          }
+        ],
+        "metadata": {
+          "usage": {
+            "prompt_tokens": 37713,
+            "completion_tokens": 16247,
+            "total_tokens": 53960
+          },
+          "request_count": 4,
+          "requests_with_unknown_usage": 2,
+          "content_attempts": 1,
+          "thinking": "enabled",
+          "reasoning_effort": "high",
+          "request_ids": [
+            "chatcmpl-080207de-6cbd-9770-b305-2ff45039ecd4",
+            "chatcmpl-5f4629ca-71db-937f-85f2-6c58772e7291"
+          ],
+          "response_models": [
+            "qwen3.8-max-0902",
+            "qwen3.8-max-0902"
+          ],
+          "provider": {
+            "name": "qwen",
+            "model": "qwen3.8-max-0902",
+            "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+            "credential_env": "DASHSCOPE_API_KEY"
+          },
+          "request_parameters": {
+            "max_tokens": 16384,
+            "extra_body": {
+              "enable_thinking": true,
+              "vl_high_resolution_images": true
+            }
+          },
+          "responses": [
+            {
+              "request_id": "chatcmpl-080207de-6cbd-9770-b305-2ff45039ecd4",
+              "response_model": "qwen3.8-max-0902",
+              "usage": {
+                "completion_tokens": 7634,
+                "prompt_tokens": 15518,
+                "total_tokens": 23152,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": null,
+                  "audio_tokens": null,
+                  "reasoning_tokens": 6841,
+                  "rejected_prediction_tokens": null,
+                  "text_tokens": 792
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 15360,
+                  "image_tokens": 14055,
+                  "text_tokens": 1463
+                }
+              },
+              "finish_reason": "stop",
+              "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"uncertain\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.487, 0.485, 0.505, 0.503],\n      \"description\": \"顶面中心处星状细白线痕，围绕一小点放射分布，疑似浅擦痕或注塑点应力纹，无法可靠区分\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.591, 0.188, 0.615, 0.206],\n      \"description\": \"顶部卡扣钩端伸出的细丝状碎片，疑似崩裂残留或成型飞边，无法确认是否为材料缺失\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.8, 0.415, 0.815, 0.432],\n      \"description\": \"右侧卡扣边缘细丝状突出物，与view-03中细丝位置对应，疑似裂片残留或飞边\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"顶视：圆盘面、两侧带孔绑带及上下管口轮廓完整；中心见星状细 mark，膜片文字清晰，无明确沟槽划痕或崩缺\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：开口管口内肋规则，绑带孔列完整；顶面仅见中心小凸点（注塑点），未见线痕或缺口\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：顶部卡扣钩端见细丝状物；其余表面、绑带与膜片边缘连续，无明确缺失\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：卡扣钩形完整，圆盘面与绑带孔规则；未见划痕或崩缺候选\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：右侧卡扣边缘见细丝状物；开口内肋与绑带完整，顶面仅中心小凸点\"\n    }\n  ],\n  \"limitations\": [\n    \"哑光黑表面低对比，浅细划痕与反光/注塑纹难以可靠区分\",\n    \"卡扣处细丝状物无法在现有视角区分成型飞边与崩裂残留\",\n    \"中心星状 mark 在多角度呈小凸点，可能为注塑浇口痕而非划痕\",\n    \"未拍摄表面与内部不在评估范围\"\n  ]\n}"
+            }
+          ],
+          "reference_images": [],
+          "response_model": "qwen3.8-max-0902",
+          "request_id": "chatcmpl-080207de-6cbd-9770-b305-2ff45039ecd4"
+        },
+        "input_images": [
+          {
+            "image_id": "view-01.png::full",
+            "source": "view-01.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          },
+          {
+            "image_id": "view-02.png::full",
+            "source": "view-02.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          },
+          {
+            "image_id": "view-03.png::full",
+            "source": "view-03.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          },
+          {
+            "image_id": "view-04.png::full",
+            "source": "view-04.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          },
+          {
+            "image_id": "view-05.png::full",
+            "source": "view-05.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              0,
+              0,
+              1700,
+              1700
+            ]
+          },
+          {
+            "image_id": "view-01.png::zoom-3b00170ad5d23728",
+            "source": "view-01.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              715,
+              712,
+              971,
+              969
+            ],
+            "request_id": "3b00170ad5d23728",
+            "question": "区分独立痕迹、材料不连续与正常结构或反光"
+          },
+          {
+            "image_id": "view-03.png::zoom-247516f8936fb381",
+            "source": "view-03.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              896,
+              207,
+              1153,
+              463
+            ],
+            "request_id": "247516f8936fb381",
+            "question": "区分独立痕迹、材料不连续与正常结构或反光"
+          },
+          {
+            "image_id": "view-05.png::zoom-83d5eb999b1d7803",
+            "source": "view-05.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              1245,
+              592,
+              1501,
+              848
+            ],
+            "request_id": "83d5eb999b1d7803",
+            "question": "区分独立痕迹、材料不连续与正常结构或反光"
+          },
+          {
+            "image_id": "view-02.png::zoom-63dc436a5bb3642a",
+            "source": "view-02.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              418,
+              144,
+              1424,
+              1608
+            ],
+            "request_id": "63dc436a5bb3642a",
+            "question": "保留主体上下文并检查可见表面"
+          },
+          {
+            "image_id": "view-04.png::zoom-6752e1816a3c222c",
+            "source": "view-04.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              100,
+              276,
+              1594,
+              1269
+            ],
+            "request_id": "6752e1816a3c222c",
+            "question": "保留主体上下文并检查可见表面"
+          },
+          {
+            "image_id": "view-01.png::zoom-eb9b54c5670a5373",
+            "source": "view-01.png",
+            "source_size": [
+              1700,
+              1700
+            ],
+            "crop_box": [
+              6,
+              399,
+              1678,
+              1279
+            ],
+            "request_id": "eb9b54c5670a5373",
+            "question": "保留主体上下文并检查可见表面"
+          }
+        ],
+        "elapsed_seconds": 706.678,
+        "evidence_flow": {
+          "version": 2,
+          "stage_limit": 3,
+          "ledger": [
+            {
+              "category": "linear_trace",
+              "image_id": "view-01.png::full",
+              "bbox": [
+                0.487,
+                0.485,
+                0.505,
+                0.503
+              ],
+              "description": "顶面中心处星状细白线痕，围绕一小点放射分布，疑似浅擦痕或注塑点应力纹，无法可靠区分",
+              "certainty": "uncertain",
+              "evidence_id": "e-65953977810b0e0d2948",
+              "source": "view-01.png",
+              "bbox_pixels": [
+                827,
+                824,
+                859,
+                856
+              ],
+              "stage": "overview",
+              "kind": "finding"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-03.png::full",
+              "bbox": [
+                0.591,
+                0.188,
+                0.615,
+                0.206
+              ],
+              "description": "顶部卡扣钩端伸出的细丝状碎片，疑似崩裂残留或成型飞边，无法确认是否为材料缺失",
+              "certainty": "uncertain",
+              "evidence_id": "e-bffe9aa41f1d714580a9",
+              "source": "view-03.png",
+              "bbox_pixels": [
+                1004,
+                319,
+                1046,
+                351
+              ],
+              "stage": "overview",
+              "kind": "finding"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-05.png::full",
+              "bbox": [
+                0.8,
+                0.415,
+                0.815,
+                0.432
+              ],
+              "description": "右侧卡扣边缘细丝状突出物，与view-03中细丝位置对应，疑似裂片残留或飞边",
+              "certainty": "uncertain",
+              "evidence_id": "e-35dac4cd8c524039e972",
+              "source": "view-05.png",
+              "bbox_pixels": [
+                1360,
+                705,
+                1386,
+                735
+              ],
+              "stage": "overview",
+              "kind": "finding"
+            },
+            {
+              "image_id": "view-01.png::full",
+              "quality": "adequate",
+              "note": "顶视：圆盘面、两侧带孔绑带及上下管口轮廓完整；中心见星状细 mark，膜片文字清晰，无明确沟槽划痕或崩缺",
+              "evidence_id": "o-f44fd65ba0835e264733",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-01.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-02.png::full",
+              "quality": "adequate",
+              "note": "斜视：开口管口内肋规则，绑带孔列完整；顶面仅见中心小凸点（注塑点），未见线痕或缺口",
+              "evidence_id": "o-339d47366877c5f947e8",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-02.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-03.png::full",
+              "quality": "adequate",
+              "note": "斜视：顶部卡扣钩端见细丝状物；其余表面、绑带与膜片边缘连续，无明确缺失",
+              "evidence_id": "o-42a8135fb115adad7783",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-03.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-04.png::full",
+              "quality": "adequate",
+              "note": "斜视：卡扣钩形完整，圆盘面与绑带孔规则；未见划痕或崩缺候选",
+              "evidence_id": "o-2c002194bdf3e7ffc15b",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-04.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-05.png::full",
+              "quality": "adequate",
+              "note": "斜视：右侧卡扣边缘见细丝状物；开口内肋与绑带完整，顶面仅中心小凸点",
+              "evidence_id": "o-96e968a896eace8faaa9",
+              "stage": "overview",
+              "kind": "observation",
+              "source": "view-05.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-01.png::full",
+              "bbox": [
+                0.487,
+                0.485,
+                0.505,
+                0.503
+              ],
+              "description": "顶面中心小暗点周围数条放射状浅白细线，打断哑光表面，形态不规则",
+              "certainty": "uncertain",
+              "evidence_id": "e-65953977810b0e0d2948",
+              "source": "view-01.png",
+              "bbox_pixels": [
+                827,
+                824,
+                859,
+                856
+              ],
+              "stage": "zoom",
+              "kind": "finding"
+            },
+            {
+              "category": "linear_trace",
+              "image_id": "view-05.png::full",
+              "bbox": [
+                0.62,
+                0.363,
+                0.637,
+                0.379
+              ],
+              "description": "同一顶面中心星状细白线痕在另一视角可见，放射短纹围绕一点",
+              "certainty": "uncertain",
+              "evidence_id": "e-f2f6720b4693b3421824",
+              "source": "view-05.png",
+              "bbox_pixels": [
+                1054,
+                617,
+                1083,
+                645
+              ],
+              "stage": "zoom",
+              "kind": "finding"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-03.png::full",
+              "bbox": [
+                0.591,
+                0.188,
+                0.615,
+                0.206
+              ],
+              "description": "顶部卡扣钩端伸出一根细丝状突出物，钩缘本身连续，未见缺口或下层暴露",
+              "certainty": "uncertain",
+              "evidence_id": "e-bffe9aa41f1d714580a9",
+              "source": "view-03.png",
+              "bbox_pixels": [
+                1004,
+                319,
+                1046,
+                351
+              ],
+              "stage": "zoom",
+              "kind": "finding"
+            },
+            {
+              "category": "material_loss",
+              "image_id": "view-05.png::full",
+              "bbox": [
+                0.8,
+                0.415,
+                0.815,
+                0.432
+              ],
+              "description": "右侧卡扣边缘短细丝状突出物，与view-03细丝对应位置，基部无材料缺失迹象",
+              "certainty": "uncertain",
+              "evidence_id": "e-35dac4cd8c524039e972",
+              "source": "view-05.png",
+              "bbox_pixels": [
+                1360,
+                705,
+                1386,
+                735
+              ],
+              "stage": "zoom",
+              "kind": "finding"
+            },
+            {
+              "image_id": "view-01.png::full",
+              "quality": "adequate",
+              "note": "顶视：哑光黑面，中心见星状浅白细纹点；带翼孔列、卡扣轮廓规则完整",
+              "evidence_id": "o-f0196cd38b2c4cc866ca",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-01.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-02.png::full",
+              "quality": "adequate",
+              "note": "斜视：顶面中心仅见小点，侧面肋与敲落膜规则，未见其他线痕或崩缺",
+              "evidence_id": "o-acbe8f39961ebf9d76cd",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-02.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-03.png::full",
+              "quality": "adequate",
+              "note": "顶部卡扣钩端见细丝状突出；其余表面干净，边缘连续",
+              "evidence_id": "o-1f5abb648c7c7df600b7",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-03.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-04.png::full",
+              "quality": "adequate",
+              "note": "反向斜视：可见面无划痕、无边缘崩缺，卡扣与端口形状规则",
+              "evidence_id": "o-771eeddfd47ec8cd0f05",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-04.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-05.png::full",
+              "quality": "adequate",
+              "note": "顶面星状细纹与右侧卡扣细丝均可见，无其他异常",
+              "evidence_id": "o-034a5fcc31513f83d921",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-05.png",
+              "crop_box": [
+                0,
+                0,
+                1700,
+                1700
+              ]
+            },
+            {
+              "image_id": "view-01.png::zoom-3b00170ad5d23728",
+              "quality": "limited",
+              "note": "放大后为暗点加数条极短亮辐线，像素过少，无法区分擦痕与注塑应力纹",
+              "evidence_id": "o-a3905467374712f2db05",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-01.png",
+              "crop_box": [
+                715,
+                712,
+                971,
+                969
+              ]
+            },
+            {
+              "image_id": "view-03.png::zoom-247516f8936fb381",
+              "quality": "adequate",
+              "note": "细丝自钩端伸出、弯曲均匀，钩边缘连续无缺口",
+              "evidence_id": "o-a5f8771e0ceb25ff5656",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-03.png",
+              "crop_box": [
+                896,
+                207,
+                1153,
+                463
+              ]
+            },
+            {
+              "image_id": "view-05.png::zoom-83d5eb999b1d7803",
+              "quality": "adequate",
+              "note": "卡扣边缘短细突出物清晰，基部无材料不连续或下层暴露",
+              "evidence_id": "o-3460941037b958b101e9",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-05.png",
+              "crop_box": [
+                1245,
+                592,
+                1501,
+                848
+              ]
+            },
+            {
+              "image_id": "view-02.png::zoom-63dc436a5bb3642a",
+              "quality": "adequate",
+              "note": "主体上下文：表面均匀哑光，敲落膜齿槽与肋条规则，无纹理中断",
+              "evidence_id": "o-28d8eff74829f7a4ce3a",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-02.png",
+              "crop_box": [
+                418,
+                144,
+                1424,
+                1608
+              ]
+            },
+            {
+              "image_id": "view-04.png::zoom-6752e1816a3c222c",
+              "quality": "adequate",
+              "note": "主体上下文：可见面无线痕、无崩缺，边缘完整",
+              "evidence_id": "o-638614764df775b09494",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-04.png",
+              "crop_box": [
+                100,
+                276,
+                1594,
+                1269
+              ]
+            },
+            {
+              "image_id": "view-01.png::zoom-eb9b54c5670a5373",
+              "quality": "adequate",
+              "note": "主体上下文：带翼孔、卡扣为规则结构；顶面中心星状细纹点可见",
+              "evidence_id": "o-9e8ddd40746a947215e5",
+              "stage": "zoom",
+              "kind": "observation",
+              "source": "view-01.png",
+              "crop_box": [
+                6,
+                399,
+                1678,
+                1279
+              ]
+            }
+          ],
+          "resolutions": {
+            "linear_trace": {
+              "state": "uncertain",
+              "needs_adjudication": false,
+              "evidence_ids": [
+                "e-65953977810b0e0d2948",
+                "e-f2f6720b4693b3421824"
+              ],
+              "reason": "两阶段结论一致；原图与裁剪不累计为独立投票",
+              "same_region_coverage": true,
+              "final_state": "uncertain"
+            },
+            "material_loss": {
+              "state": "uncertain",
+              "needs_adjudication": false,
+              "evidence_ids": [
+                "e-bffe9aa41f1d714580a9",
+                "e-35dac4cd8c524039e972"
+              ],
+              "reason": "两阶段结论一致；原图与裁剪不累计为独立投票",
+              "same_region_coverage": true,
+              "final_state": "uncertain"
+            }
+          },
+          "triggers": [
+            "linear_trace:candidate_requires_check",
+            "linear_trace:uncertain",
+            "material_loss:candidate_requires_check",
+            "material_loss:uncertain"
+          ],
+          "requests": [
+            {
+              "image_id": "view-01.png",
+              "bbox": [
+                0.42058823529411765,
+                0.4188235294117647,
+                0.5711764705882353,
+                0.5694117647058824
+              ],
+              "question": "区分独立痕迹、材料不连续与正常结构或反光",
+              "evidence_ids": [
+                "e-65953977810b0e0d2948"
+              ]
+            },
+            {
+              "image_id": "view-03.png",
+              "bbox": [
+                0.5276470588235294,
+                0.12176470588235294,
+                0.678235294117647,
+                0.2723529411764706
+              ],
+              "question": "区分独立痕迹、材料不连续与正常结构或反光",
+              "evidence_ids": [
+                "e-bffe9aa41f1d714580a9"
+              ]
+            },
+            {
+              "image_id": "view-05.png",
+              "bbox": [
+                0.7323529411764705,
+                0.34823529411764703,
+                0.8829411764705882,
+                0.4988235294117647
+              ],
+              "question": "区分独立痕迹、材料不连续与正常结构或反光",
+              "evidence_ids": [
+                "e-35dac4cd8c524039e972"
+              ]
+            },
+            {
+              "image_id": "view-02.png",
+              "bbox": [
+                0.24588235294117647,
+                0.08470588235294117,
+                0.8376470588235294,
+                0.9458823529411765
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            },
+            {
+              "image_id": "view-04.png",
+              "bbox": [
+                0.058823529411764705,
+                0.1623529411764706,
+                0.9376470588235294,
+                0.7464705882352941
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            },
+            {
+              "image_id": "view-01.png",
+              "bbox": [
+                0.0035294117647058825,
+                0.23470588235294118,
+                0.9870588235294118,
+                0.7523529411764706
+              ],
+              "question": "保留主体上下文并检查可见表面",
+              "evidence_ids": []
+            }
+          ],
+          "skipped_requests": 2,
+          "skipped_evidence_ids": [],
+          "semantic_stages": [
+            "overview",
+            "zoom"
+          ]
+        },
+        "refinement": {
+          "status": "completed",
+          "policy": "bounded_evidence",
+          "categories": [
+            "linear_trace",
+            "material_loss"
+          ],
+          "baseline_result": {
+            "linear_trace": "uncertain",
+            "material_loss": "uncertain",
+            "findings": [
+              {
+                "category": "linear_trace",
+                "image_id": "view-01.png::full",
+                "bbox": [
+                  0.487,
+                  0.485,
+                  0.505,
+                  0.503
+                ],
+                "description": "顶面中心处星状细白线痕，围绕一小点放射分布，疑似浅擦痕或注塑点应力纹，无法可靠区分",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "material_loss",
+                "image_id": "view-03.png::full",
+                "bbox": [
+                  0.591,
+                  0.188,
+                  0.615,
+                  0.206
+                ],
+                "description": "顶部卡扣钩端伸出的细丝状碎片，疑似崩裂残留或成型飞边，无法确认是否为材料缺失",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "material_loss",
+                "image_id": "view-05.png::full",
+                "bbox": [
+                  0.8,
+                  0.415,
+                  0.815,
+                  0.432
+                ],
+                "description": "右侧卡扣边缘细丝状突出物，与view-03中细丝位置对应，疑似裂片残留或飞边",
+                "certainty": "uncertain"
+              }
+            ],
+            "observations": [
+              {
+                "image_id": "view-01.png::full",
+                "quality": "adequate",
+                "note": "顶视：圆盘面、两侧带孔绑带及上下管口轮廓完整；中心见星状细 mark，膜片文字清晰，无明确沟槽划痕或崩缺"
+              },
+              {
+                "image_id": "view-02.png::full",
+                "quality": "adequate",
+                "note": "斜视：开口管口内肋规则，绑带孔列完整；顶面仅见中心小凸点（注塑点），未见线痕或缺口"
+              },
+              {
+                "image_id": "view-03.png::full",
+                "quality": "adequate",
+                "note": "斜视：顶部卡扣钩端见细丝状物；其余表面、绑带与膜片边缘连续，无明确缺失"
+              },
+              {
+                "image_id": "view-04.png::full",
+                "quality": "adequate",
+                "note": "斜视：卡扣钩形完整，圆盘面与绑带孔规则；未见划痕或崩缺候选"
+              },
+              {
+                "image_id": "view-05.png::full",
+                "quality": "adequate",
+                "note": "斜视：右侧卡扣边缘见细丝状物；开口内肋与绑带完整，顶面仅中心小凸点"
+              }
+            ],
+            "limitations": [
+              "哑光黑表面低对比，浅细划痕与反光/注塑纹难以可靠区分",
+              "卡扣处细丝状物无法在现有视角区分成型飞边与崩裂残留",
+              "中心星状 mark 在多角度呈小凸点，可能为注塑浇口痕而非划痕",
+              "未拍摄表面与内部不在评估范围"
+            ]
+          },
+          "baseline_metadata": {
+            "usage": {
+              "prompt_tokens": 15518,
+              "completion_tokens": 7634,
+              "total_tokens": 23152
+            },
+            "request_count": 2,
+            "requests_with_unknown_usage": 1,
+            "content_attempts": 1,
+            "thinking": "enabled",
+            "reasoning_effort": "high",
+            "request_ids": [
+              "chatcmpl-080207de-6cbd-9770-b305-2ff45039ecd4"
+            ],
+            "response_models": [
+              "qwen3.8-max-0902"
+            ],
+            "provider": {
+              "name": "qwen",
+              "model": "qwen3.8-max-0902",
+              "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+              "credential_env": "DASHSCOPE_API_KEY"
+            },
+            "request_parameters": {
+              "max_tokens": 16384,
+              "extra_body": {
+                "enable_thinking": true,
+                "vl_high_resolution_images": true
+              }
+            },
+            "responses": [
+              {
+                "request_id": "chatcmpl-080207de-6cbd-9770-b305-2ff45039ecd4",
+                "response_model": "qwen3.8-max-0902",
+                "usage": {
+                  "completion_tokens": 7634,
+                  "prompt_tokens": 15518,
+                  "total_tokens": 23152,
+                  "completion_tokens_details": {
+                    "accepted_prediction_tokens": null,
+                    "audio_tokens": null,
+                    "reasoning_tokens": 6841,
+                    "rejected_prediction_tokens": null,
+                    "text_tokens": 792
+                  },
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 15360,
+                    "image_tokens": 14055,
+                    "text_tokens": 1463
+                  }
+                },
+                "finish_reason": "stop",
+                "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"uncertain\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.487, 0.485, 0.505, 0.503],\n      \"description\": \"顶面中心处星状细白线痕，围绕一小点放射分布，疑似浅擦痕或注塑点应力纹，无法可靠区分\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.591, 0.188, 0.615, 0.206],\n      \"description\": \"顶部卡扣钩端伸出的细丝状碎片，疑似崩裂残留或成型飞边，无法确认是否为材料缺失\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.8, 0.415, 0.815, 0.432],\n      \"description\": \"右侧卡扣边缘细丝状突出物，与view-03中细丝位置对应，疑似裂片残留或飞边\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"顶视：圆盘面、两侧带孔绑带及上下管口轮廓完整；中心见星状细 mark，膜片文字清晰，无明确沟槽划痕或崩缺\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：开口管口内肋规则，绑带孔列完整；顶面仅见中心小凸点（注塑点），未见线痕或缺口\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：顶部卡扣钩端见细丝状物；其余表面、绑带与膜片边缘连续，无明确缺失\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：卡扣钩形完整，圆盘面与绑带孔规则；未见划痕或崩缺候选\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：右侧卡扣边缘见细丝状物；开口内肋与绑带完整，顶面仅中心小凸点\"\n    }\n  ],\n  \"limitations\": [\n    \"哑光黑表面低对比，浅细划痕与反光/注塑纹难以可靠区分\",\n    \"卡扣处细丝状物无法在现有视角区分成型飞边与崩裂残留\",\n    \"中心星状 mark 在多角度呈小凸点，可能为注塑浇口痕而非划痕\",\n    \"未拍摄表面与内部不在评估范围\"\n  ]\n}"
+              }
+            ],
+            "reference_images": [],
+            "response_model": "qwen3.8-max-0902",
+            "request_id": "chatcmpl-080207de-6cbd-9770-b305-2ff45039ecd4"
+          },
+          "review_result": {
+            "linear_trace": "uncertain",
+            "material_loss": "uncertain",
+            "findings": [
+              {
+                "category": "linear_trace",
+                "image_id": "view-01.png::full",
+                "bbox": [
+                  0.487,
+                  0.485,
+                  0.505,
+                  0.503
+                ],
+                "description": "顶面中心小暗点周围数条放射状浅白细线，打断哑光表面，形态不规则",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "linear_trace",
+                "image_id": "view-05.png::full",
+                "bbox": [
+                  0.62,
+                  0.363,
+                  0.637,
+                  0.379
+                ],
+                "description": "同一顶面中心星状细白线痕在另一视角可见，放射短纹围绕一点",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "material_loss",
+                "image_id": "view-03.png::full",
+                "bbox": [
+                  0.591,
+                  0.188,
+                  0.615,
+                  0.206
+                ],
+                "description": "顶部卡扣钩端伸出一根细丝状突出物，钩缘本身连续，未见缺口或下层暴露",
+                "certainty": "uncertain"
+              },
+              {
+                "category": "material_loss",
+                "image_id": "view-05.png::full",
+                "bbox": [
+                  0.8,
+                  0.415,
+                  0.815,
+                  0.432
+                ],
+                "description": "右侧卡扣边缘短细丝状突出物，与view-03细丝对应位置，基部无材料缺失迹象",
+                "certainty": "uncertain"
+              }
+            ],
+            "observations": [
+              {
+                "image_id": "view-01.png::full",
+                "quality": "adequate",
+                "note": "顶视：哑光黑面，中心见星状浅白细纹点；带翼孔列、卡扣轮廓规则完整"
+              },
+              {
+                "image_id": "view-02.png::full",
+                "quality": "adequate",
+                "note": "斜视：顶面中心仅见小点，侧面肋与敲落膜规则，未见其他线痕或崩缺"
+              },
+              {
+                "image_id": "view-03.png::full",
+                "quality": "adequate",
+                "note": "顶部卡扣钩端见细丝状突出；其余表面干净，边缘连续"
+              },
+              {
+                "image_id": "view-04.png::full",
+                "quality": "adequate",
+                "note": "反向斜视：可见面无划痕、无边缘崩缺，卡扣与端口形状规则"
+              },
+              {
+                "image_id": "view-05.png::full",
+                "quality": "adequate",
+                "note": "顶面星状细纹与右侧卡扣细丝均可见，无其他异常"
+              },
+              {
+                "image_id": "view-01.png::zoom-3b00170ad5d23728",
+                "quality": "limited",
+                "note": "放大后为暗点加数条极短亮辐线，像素过少，无法区分擦痕与注塑应力纹"
+              },
+              {
+                "image_id": "view-03.png::zoom-247516f8936fb381",
+                "quality": "adequate",
+                "note": "细丝自钩端伸出、弯曲均匀，钩边缘连续无缺口"
+              },
+              {
+                "image_id": "view-05.png::zoom-83d5eb999b1d7803",
+                "quality": "adequate",
+                "note": "卡扣边缘短细突出物清晰，基部无材料不连续或下层暴露"
+              },
+              {
+                "image_id": "view-02.png::zoom-63dc436a5bb3642a",
+                "quality": "adequate",
+                "note": "主体上下文：表面均匀哑光，敲落膜齿槽与肋条规则，无纹理中断"
+              },
+              {
+                "image_id": "view-04.png::zoom-6752e1816a3c222c",
+                "quality": "adequate",
+                "note": "主体上下文：可见面无线痕、无崩缺，边缘完整"
+              },
+              {
+                "image_id": "view-01.png::zoom-eb9b54c5670a5373",
+                "quality": "adequate",
+                "note": "主体上下文：带翼孔、卡扣为规则结构；顶面中心星状细纹点可见"
+              }
+            ],
+            "limitations": [
+              "星状细纹仅数像素宽，现有分辨率无法区分浅擦痕与注塑浇口/应力纹",
+              "卡扣细丝无法区分成型飞边、附着纤维与裂片残留，缺乏微距或触觉信息",
+              "哑光黑表面降低浅痕对比度，未拍摄面不做推断"
+            ]
+          },
+          "review_metadata": {
+            "usage": {
+              "prompt_tokens": 22195,
+              "completion_tokens": 8613,
+              "total_tokens": 30808
+            },
+            "request_count": 2,
+            "requests_with_unknown_usage": 1,
+            "content_attempts": 1,
+            "thinking": "enabled",
+            "reasoning_effort": "high",
+            "request_ids": [
+              "chatcmpl-5f4629ca-71db-937f-85f2-6c58772e7291"
+            ],
+            "response_models": [
+              "qwen3.8-max-0902"
+            ],
+            "provider": {
+              "name": "qwen",
+              "model": "qwen3.8-max-0902",
+              "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+              "credential_env": "DASHSCOPE_API_KEY"
+            },
+            "request_parameters": {
+              "max_tokens": 16384,
+              "extra_body": {
+                "enable_thinking": true,
+                "vl_high_resolution_images": true
+              }
+            },
+            "responses": [
+              {
+                "request_id": "chatcmpl-5f4629ca-71db-937f-85f2-6c58772e7291",
+                "response_model": "qwen3.8-max-0902",
+                "usage": {
+                  "completion_tokens": 8613,
+                  "prompt_tokens": 22195,
+                  "total_tokens": 30808,
+                  "completion_tokens_details": {
+                    "accepted_prediction_tokens": null,
+                    "audio_tokens": null,
+                    "reasoning_tokens": 6889,
+                    "rejected_prediction_tokens": null,
+                    "text_tokens": 1723
+                  },
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 21888,
+                    "image_tokens": 18598,
+                    "text_tokens": 3597
+                  }
+                },
+                "finish_reason": "stop",
+                "final_content": "{\n  \"inspection\": {\n    \"linear_trace\": \"uncertain\",\n    \"material_loss\": \"uncertain\",\n    \"findings\": [\n      {\n        \"category\": \"linear_trace\",\n        \"image_id\": \"view-01.png::full\",\n        \"bbox\": [0.487, 0.485, 0.505, 0.503],\n        \"description\": \"顶面中心小暗点周围数条放射状浅白细线，打断哑光表面，形态不规则\",\n        \"certainty\": \"uncertain\"\n      },\n      {\n        \"category\": \"linear_trace\",\n        \"image_id\": \"view-05.png::full\",\n        \"bbox\": [0.62, 0.363, 0.637, 0.379],\n        \"description\": \"同一顶面中心星状细白线痕在另一视角可见，放射短纹围绕一点\",\n        \"certainty\": \"uncertain\"\n      },\n      {\n        \"category\": \"material_loss\",\n        \"image_id\": \"view-03.png::full\",\n        \"bbox\": [0.591, 0.188, 0.615, 0.206],\n        \"description\": \"顶部卡扣钩端伸出一根细丝状突出物，钩缘本身连续，未见缺口或下层暴露\",\n        \"certainty\": \"uncertain\"\n      },\n      {\n        \"category\": \"material_loss\",\n        \"image_id\": \"view-05.png::full\",\n        \"bbox\": [0.8, 0.415, 0.815, 0.432],\n        \"description\": \"右侧卡扣边缘短细丝状突出物，与view-03细丝对应位置，基部无材料缺失迹象\",\n        \"certainty\": \"uncertain\"\n      }\n    ],\n    \"observations\": [\n      {\n        \"image_id\": \"view-01.png::full\",\n        \"quality\": \"adequate\",\n        \"note\": \"顶视：哑光黑面，中心见星状浅白细纹点；带翼孔列、卡扣轮廓规则完整\"\n      },\n      {\n        \"image_id\": \"view-02.png::full\",\n        \"quality\": \"adequate\",\n        \"note\": \"斜视：顶面中心仅见小点，侧面肋与敲落膜规则，未见其他线痕或崩缺\"\n      },\n      {\n        \"image_id\": \"view-03.png::full\",\n        \"quality\": \"adequate\",\n        \"note\": \"顶部卡扣钩端见细丝状突出；其余表面干净，边缘连续\"\n      },\n      {\n        \"image_id\": \"view-04.png::full\",\n        \"quality\": \"adequate\",\n        \"note\": \"反向斜视：可见面无划痕、无边缘崩缺，卡扣与端口形状规则\"\n      },\n      {\n        \"image_id\": \"view-05.png::full\",\n        \"quality\": \"adequate\",\n        \"note\": \"顶面星状细纹与右侧卡扣细丝均可见，无其他异常\"\n      },\n      {\n        \"image_id\": \"view-01.png::zoom-3b00170ad5d23728\",\n        \"quality\": \"limited\",\n        \"note\": \"放大后为暗点加数条极短亮辐线，像素过少，无法区分擦痕与注塑应力纹\"\n      },\n      {\n        \"image_id\": \"view-03.png::zoom-247516f8936fb381\",\n        \"quality\": \"adequate\",\n        \"note\": \"细丝自钩端伸出、弯曲均匀，钩边缘连续无缺口\"\n      },\n      {\n        \"image_id\": \"view-05.png::zoom-83d5eb999b1d7803\",\n        \"quality\": \"adequate\",\n        \"note\": \"卡扣边缘短细突出物清晰，基部无材料不连续或下层暴露\"\n      },\n      {\n        \"image_id\": \"view-02.png::zoom-63dc436a5bb3642a\",\n        \"quality\": \"adequate\",\n        \"note\": \"主体上下文：表面均匀哑光，敲落膜齿槽与肋条规则，无纹理中断\"\n      },\n      {\n        \"image_id\": \"view-04.png::zoom-6752e1816a3c222c\",\n        \"quality\": \"adequate\",\n        \"note\": \"主体上下文：可见面无线痕、无崩缺，边缘完整\"\n      },\n      {\n        \"image_id\": \"view-01.png::zoom-eb9b54c5670a5373\",\n        \"quality\": \"adequate\",\n        \"note\": \"主体上下文：带翼孔、卡扣为规则结构；顶面中心星状细纹点可见\"\n      }\n    ],\n    \"limitations\": [\n      \"星状细纹仅数像素宽，现有分辨率无法区分浅擦痕与注塑浇口/应力纹\",\n      \"卡扣细丝无法区分成型飞边、附着纤维与裂片残留，缺乏微距或触觉信息\",\n      \"哑光黑表面降低浅痕对比度，未拍摄面不做推断\"\n    ]\n  },\n  \"assessments\": {\n    \"linear_trace\": {\n      \"decision\": \"uncertain\",\n      \"basis\": \"insufficient_detail\",\n      \"image_ids\": [\n        \"view-01.png::full\",\n        \"view-01.png::zoom-3b00170ad5d23728\",\n        \"view-05.png::full\"\n      ],\n      \"evidence_summary\": \"顶面中心暗点周围数条放射状浅白细线在多视角复现，打断哑光纹理，形态局部不规则\",\n      \"alternative_explanation\": \"该点位于圆形面几何中心，与注塑浇口见证及脱模应力纹位置吻合，属正常成型痕迹\",\n      \"resolved_evidence_ids\": [\n        \"e-65953977810b0e0d2948\"\n      ]\n    },\n    \"material_loss\": {\n      \"decision\": \"uncertain\",\n      \"basis\": \"insufficient_detail\",\n      \"image_ids\": [\n        \"view-03.png::full\",\n        \"view-03.png::zoom-247516f8936fb381\",\n        \"view-05.png::full\",\n        \"view-05.png::zoom-83d5eb999b1d7803\"\n      ],\n      \"evidence_summary\": \"卡扣钩端细丝状突出物在view-03与view-05对应出现，为附加材料形态，钩缘连续无缺口\",\n      \"alternative_explanation\": \"细丝更符合成型飞边或附着纤维（附加物），而非崩缺或材料缺失，未见下层暴露\",\n      \"resolved_evidence_ids\": [\n        \"e-bffe9aa41f1d714580a9\",\n        \"e-35dac4cd8c524039e972\"\n      ]\n    }\n  }\n}"
+              }
+            ],
+            "reference_images": [],
+            "response_model": "qwen3.8-max-0902",
+            "request_id": "chatcmpl-5f4629ca-71db-937f-85f2-6c58772e7291"
+          },
+          "assessments": {
+            "linear_trace": {
+              "decision": "uncertain",
+              "basis": "insufficient_detail",
+              "image_ids": [
+                "view-01.png::full",
+                "view-01.png::zoom-3b00170ad5d23728",
+                "view-05.png::full"
+              ],
+              "evidence_summary": "顶面中心暗点周围数条放射状浅白细线在多视角复现，打断哑光纹理，形态局部不规则",
+              "alternative_explanation": "该点位于圆形面几何中心，与注塑浇口见证及脱模应力纹位置吻合，属正常成型痕迹",
+              "resolved_evidence_ids": [
+                "e-65953977810b0e0d2948"
+              ]
+            },
+            "material_loss": {
+              "decision": "uncertain",
+              "basis": "insufficient_detail",
+              "image_ids": [
+                "view-03.png::full",
+                "view-03.png::zoom-247516f8936fb381",
+                "view-05.png::full",
+                "view-05.png::zoom-83d5eb999b1d7803"
+              ],
+              "evidence_summary": "卡扣钩端细丝状突出物在view-03与view-05对应出现，为附加材料形态，钩缘连续无缺口",
+              "alternative_explanation": "细丝更符合成型飞边或附着纤维（附加物），而非崩缺或材料缺失，未见下层暴露",
+              "resolved_evidence_ids": [
+                "e-bffe9aa41f1d714580a9",
+                "e-35dac4cd8c524039e972"
+              ]
+            }
+          }
+        },
+        "baseline_fingerprint": "ce6387a1243e017038c67da7a31c5106ede56e5fbb9784aed15c8105fd2d63ca",
+        "review_elapsed_seconds": 361.513
+      }
+    }
+  ],
+  "note": "仅记录已保存终态，不用于完整三轮排名；未汇总及中断请求不能当作零用量"
+}

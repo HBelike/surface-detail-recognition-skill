@@ -1,0 +1,133 @@
+{
+  "$defs": {
+    "Finding": {
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "enum": [
+            "linear_trace",
+            "material_loss"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "image_id": {
+          "title": "Image Id",
+          "type": "string"
+        },
+        "bbox": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 4,
+          "minItems": 4,
+          "title": "Bbox",
+          "type": "array"
+        },
+        "description": {
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "certainty": {
+          "enum": [
+            "confirmed",
+            "uncertain"
+          ],
+          "title": "Certainty",
+          "type": "string"
+        }
+      },
+      "required": [
+        "category",
+        "image_id",
+        "bbox",
+        "description",
+        "certainty"
+      ],
+      "title": "Finding",
+      "type": "object"
+    },
+    "Observation": {
+      "additionalProperties": false,
+      "properties": {
+        "image_id": {
+          "title": "Image Id",
+          "type": "string"
+        },
+        "quality": {
+          "enum": [
+            "adequate",
+            "limited"
+          ],
+          "title": "Quality",
+          "type": "string"
+        },
+        "note": {
+          "minLength": 1,
+          "title": "Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "image_id",
+        "quality",
+        "note"
+      ],
+      "title": "Observation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "linear_trace": {
+      "enum": [
+        "present",
+        "not_observed",
+        "uncertain"
+      ],
+      "title": "Linear Trace",
+      "type": "string"
+    },
+    "material_loss": {
+      "enum": [
+        "present",
+        "not_observed",
+        "uncertain"
+      ],
+      "title": "Material Loss",
+      "type": "string"
+    },
+    "findings": {
+      "items": {
+        "$ref": "#/$defs/Finding"
+      },
+      "title": "Findings",
+      "type": "array"
+    },
+    "observations": {
+      "items": {
+        "$ref": "#/$defs/Observation"
+      },
+      "minItems": 1,
+      "title": "Observations",
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "linear_trace",
+    "material_loss",
+    "findings",
+    "observations",
+    "limitations"
+  ],
+  "title": "Inspection",
+  "type": "object"
+}

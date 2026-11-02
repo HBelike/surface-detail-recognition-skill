@@ -1,0 +1,347 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p17",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T14:03:04.841864+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "315e6106e255e80d5ce7e45e5745934a38e30e028f5e561f4b19873bf884e337",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.61,
+          0.37,
+          0.88,
+          0.52
+        ],
+        "description": "正面右半部有多条浅色细划痕，呈斜向和近竖向短线；中部另有淡色擦拭状痕迹。",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.39,
+          0.17,
+          0.51,
+          0.3
+        ],
+        "description": "正面偏上区域可见数条短斜划痕和一段横向细线，局部伴有浅色擦蹭斑。",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.38,
+          0.41,
+          0.83,
+          0.52
+        ],
+        "description": "正面中部至右侧可见多条斜向细划痕及雾状擦痕，纹理沿划痕方向局部被打断。",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.13,
+          0.4,
+          0.64,
+          0.56
+        ],
+        "description": "正面左侧有短斜划痕和细线，中部偏右有雾状擦蹭痕迹。",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.46,
+          0.61,
+          0.73,
+          0.88
+        ],
+        "description": "正面下半部可见多条横向及斜向浅色细划痕，排列较分散。",
+        "certainty": "confirmed"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "矩形板正面有浅色细划痕和擦拭状暗斑，四周边框轮廓连续。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "竖放视角可见上半部短划痕及中下部雾状擦痕，边缘未见明显崩口。"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "斜放视角显示正面右侧多条斜向细划痕和中段擦斑，边框完整。"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "斜放视角左侧有短斜划痕，中右部有雾状擦痕；未见边缘材料缺失。"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "竖放视角可见下半部多条横向和斜向细划痕，中部有擦痕，边框未见缺口。"
+      }
+    ],
+    "limitations": [
+      "受均匀照明、低对比和拍摄距离限制，极浅划痕及微小边缘崩缺可能不易辨识。",
+      "仅评估照片中可见的正面和侧边表面，未拍摄的背面或内侧不在检查范围内。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.61,
+        0.37,
+        0.88,
+        0.52
+      ],
+      "description": "正面右半部有多条浅色细划痕，呈斜向和近竖向短线；中部另有淡色擦拭状痕迹。",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        1317,
+        799,
+        1901,
+        1124
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.39,
+        0.17,
+        0.51,
+        0.3
+      ],
+      "description": "正面偏上区域可见数条短斜划痕和一段横向细线，局部伴有浅色擦蹭斑。",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        842,
+        367,
+        1102,
+        648
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.38,
+        0.41,
+        0.83,
+        0.52
+      ],
+      "description": "正面中部至右侧可见多条斜向细划痕及雾状擦痕，纹理沿划痕方向局部被打断。",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        820,
+        885,
+        1793,
+        1124
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.13,
+        0.4,
+        0.64,
+        0.56
+      ],
+      "description": "正面左侧有短斜划痕和细线，中部偏右有雾状擦蹭痕迹。",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        280,
+        864,
+        1383,
+        1210
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.46,
+        0.61,
+        0.73,
+        0.88
+      ],
+      "description": "正面下半部可见多条横向及斜向浅色细划痕，排列较分散。",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        993,
+        1317,
+        1577,
+        1901
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 6446,
+      "completion_tokens": 4356,
+      "total_tokens": 10802
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "aab6414f-e72e-4a8d-a0d2-0d15e932b285"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "aab6414f-e72e-4a8d-a0d2-0d15e932b285",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 4356,
+          "prompt_tokens": 6446,
+          "total_tokens": 10802,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 3749,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 6272
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 174
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\":\"present\",\"material_loss\":\"not_observed\",\"findings\":[{\"category\":\"linear_trace\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.61,0.37,0.88,0.52],\"description\":\"正面右半部有多条浅色细划痕，呈斜向和近竖向短线；中部另有淡色擦拭状痕迹。\",\"certainty\":\"confirmed\"},{\"category\":\"linear_trace\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.39,0.17,0.51,0.30],\"description\":\"正面偏上区域可见数条短斜划痕和一段横向细线，局部伴有浅色擦蹭斑。\",\"certainty\":\"confirmed\"},{\"category\":\"linear_trace\",\"image_id\":\"view-03.png::full\",\"bbox\":[0.38,0.41,0.83,0.52],\"description\":\"正面中部至右侧可见多条斜向细划痕及雾状擦痕，纹理沿划痕方向局部被打断。\",\"certainty\":\"confirmed\"},{\"category\":\"linear_trace\",\"image_id\":\"view-04.png::full\",\"bbox\":[0.13,0.40,0.64,0.56],\"description\":\"正面左侧有短斜划痕和细线，中部偏右有雾状擦蹭痕迹。\",\"certainty\":\"confirmed\"},{\"category\":\"linear_trace\",\"image_id\":\"view-05.png::full\",\"bbox\":[0.46,0.61,0.73,0.88],\"description\":\"正面下半部可见多条横向及斜向浅色细划痕，排列较分散。\",\"certainty\":\"confirmed\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"adequate\",\"note\":\"矩形板正面有浅色细划痕和擦拭状暗斑，四周边框轮廓连续。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"竖放视角可见上半部短划痕及中下部雾状擦痕，边缘未见明显崩口。\"},{\"image_id\":\"view-03.png::full\",\"quality\":\"adequate\",\"note\":\"斜放视角显示正面右侧多条斜向细划痕和中段擦斑，边框完整。\"},{\"image_id\":\"view-04.png::full\",\"quality\":\"adequate\",\"note\":\"斜放视角左侧有短斜划痕，中右部有雾状擦痕；未见边缘材料缺失。\"},{\"image_id\":\"view-05.png::full\",\"quality\":\"adequate\",\"note\":\"竖放视角可见下半部多条横向和斜向细划痕，中部有擦痕，边框未见缺口。\"}],\"limitations\":[\"受均匀照明、低对比和拍摄距离限制，极浅划痕及微小边缘崩缺可能不易辨识。\",\"仅评估照片中可见的正面和侧边表面，未拍摄的背面或内侧不在检查范围内。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "aab6414f-e72e-4a8d-a0d2-0d15e932b285"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        2160,
+        2160
+      ],
+      "crop_box": [
+        0,
+        0,
+        2160,
+        2160
+      ]
+    }
+  ],
+  "elapsed_seconds": 27.895
+}

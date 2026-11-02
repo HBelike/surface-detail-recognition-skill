@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p10",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:59:33.069167+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "0cb4016af96de6d2bc72e8a45a48d688c2946950a18ab0c00a4236927699a276",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "present",
+    "findings": [
+      {
+        "category": "material_loss",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.365,
+          0.485,
+          0.505,
+          0.605
+        ],
+        "description": "irregular V-shaped missing patch in white foam/filter layer exposing blue plastic core/ribs",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.5,
+          0.545,
+          0.62,
+          0.62
+        ],
+        "description": "irregular notch/edge in white foam near lower end with blue substrate visible",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.53,
+          0.35,
+          0.64,
+          0.44
+        ],
+        "description": "faint light streak on blue threaded tip, reflection or shallow scratch cannot be distinguished",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Shows blue threaded nozzle and white foam cylinder; white foam lower edge is irregular with blue exposed, but no clear linear scratches are visible."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Rotated view reveals a distinct irregular missing patch in the white foam exposing the blue ribbed core; a faint streak on the blue tip is ambiguous."
+      }
+    ],
+    "limitations": [
+      "Only two external views are available; internal or hidden surfaces are not inspected.",
+      "The blue plastic surface is glossy, so reflections may obscure shallow scratches.",
+      "No scale or macro detail to assess depth or exact extent of foam loss.",
+      "Cannot determine whether foam gaps are manufacturing tolerances or post-manufacturing damage."
+    ]
+  },
+  "evidence": [
+    {
+      "category": "material_loss",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.365,
+        0.485,
+        0.505,
+        0.605
+      ],
+      "description": "irregular V-shaped missing patch in white foam/filter layer exposing blue plastic core/ribs",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        405,
+        539,
+        562,
+        673
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.5,
+        0.545,
+        0.62,
+        0.62
+      ],
+      "description": "irregular notch/edge in white foam near lower end with blue substrate visible",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        556,
+        606,
+        690,
+        690
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.53,
+        0.35,
+        0.64,
+        0.44
+      ],
+      "description": "faint light streak on blue threaded tip, reflection or shallow scratch cannot be distinguished",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        589,
+        389,
+        712,
+        490
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 4470,
+      "completion_tokens": 2180,
+      "total_tokens": 6650
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae8974649395cb999e464a6"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae8974649395cb999e464a6",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 2180,
+          "prompt_tokens": 4470,
+          "total_tokens": 6650,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 1769,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"uncertain\", \"material_loss\": \"present\", \"findings\": [{\"category\": \"material_loss\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.365, 0.485, 0.505, 0.605], \"description\": \"irregular V-shaped missing patch in white foam/filter layer exposing blue plastic core/ribs\", \"certainty\": \"confirmed\"}, {\"category\": \"material_loss\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.500, 0.545, 0.620, 0.620], \"description\": \"irregular notch/edge in white foam near lower end with blue substrate visible\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.530, 0.350, 0.640, 0.440], \"description\": \"faint light streak on blue threaded tip, reflection or shallow scratch cannot be distinguished\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Shows blue threaded nozzle and white foam cylinder; white foam lower edge is irregular with blue exposed, but no clear linear scratches are visible.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Rotated view reveals a distinct irregular missing patch in the white foam exposing the blue ribbed core; a faint streak on the blue tip is ambiguous.\"}], \"limitations\": [\"Only two external views are available; internal or hidden surfaces are not inspected.\", \"The blue plastic surface is glossy, so reflections may obscure shallow scratches.\", \"No scale or macro detail to assess depth or exact extent of foam loss.\", \"Cannot determine whether foam gaps are manufacturing tolerances or post-manufacturing damage.\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae8974649395cb999e464a6"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    }
+  ],
+  "elapsed_seconds": 59.986
+}

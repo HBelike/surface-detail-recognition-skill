@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p01",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:32:00.612189+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "f7d8597b2c854afb759b82db17fa72df69490cd34ad766f020f516b8d256f122",
+  "result": {
+    "linear_trace": "not_observed",
+    "material_loss": "not_observed",
+    "findings": [],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "正视角下圆形主面、安装臂及上下卡扣凸起表面完整；可见的规则孔槽、纹路和反光未显示明确局部划痕或崩缺。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "斜视角可见顶面、侧面齿状圆盖和连接器区域；表面以成型纹、接缝和反光为主，未见明确不规则线痕或局部材料缺失。"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "可见顶面、侧面齿状圆盖及安装臂；边缘卡扣和连接器开口形态规则，未发现清晰崩缺或异常擦痕。"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "与前一斜视角相近，顶面、侧盖和安装臂表面未见明确划痕；边缘轮廓和正常卡扣结构未见材料中断。"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "另一斜视角下可见顶面、侧盖及上下安装臂；表面细节主要为文字、成型纹和反光，未见可确认的线痕或局部缺损。"
+      }
+    ],
+    "limitations": [
+      "黑色哑光塑料表面的浅划痕可能与反光、成型流痕或阴影混淆，部分浅表痕迹无法确认。",
+      "部分侧面、连接器开口内部及被安装臂遮挡的区域可见性有限。",
+      "无法依据照片评估未拍摄表面、内部结构或痕迹深度。"
+    ]
+  },
+  "evidence": [],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 6446,
+      "completion_tokens": 3884,
+      "total_tokens": 10330
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "e263bf62-d36d-4aaf-90ec-987a2e2b7652"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "e263bf62-d36d-4aaf-90ec-987a2e2b7652",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 3884,
+          "prompt_tokens": 6446,
+          "total_tokens": 10330,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 3530,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 6272
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 174
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\":\"not_observed\",\"material_loss\":\"not_observed\",\"findings\":[],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"adequate\",\"note\":\"正视角下圆形主面、安装臂及上下卡扣凸起表面完整；可见的规则孔槽、纹路和反光未显示明确局部划痕或崩缺。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"斜视角可见顶面、侧面齿状圆盖和连接器区域；表面以成型纹、接缝和反光为主，未见明确不规则线痕或局部材料缺失。\"},{\"image_id\":\"view-03.png::full\",\"quality\":\"adequate\",\"note\":\"可见顶面、侧面齿状圆盖及安装臂；边缘卡扣和连接器开口形态规则，未发现清晰崩缺或异常擦痕。\"},{\"image_id\":\"view-04.png::full\",\"quality\":\"adequate\",\"note\":\"与前一斜视角相近，顶面、侧盖和安装臂表面未见明确划痕；边缘轮廓和正常卡扣结构未见材料中断。\"},{\"image_id\":\"view-05.png::full\",\"quality\":\"adequate\",\"note\":\"另一斜视角下可见顶面、侧盖及上下安装臂；表面细节主要为文字、成型纹和反光，未见可确认的线痕或局部缺损。\"}],\"limitations\":[\"黑色哑光塑料表面的浅划痕可能与反光、成型流痕或阴影混淆，部分浅表痕迹无法确认。\",\"部分侧面、连接器开口内部及被安装臂遮挡的区域可见性有限。\",\"无法依据照片评估未拍摄表面、内部结构或痕迹深度。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "e263bf62-d36d-4aaf-90ec-987a2e2b7652"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    }
+  ],
+  "elapsed_seconds": 30.303
+}

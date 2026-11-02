@@ -1,0 +1,1878 @@
+{
+  "expected_items": [
+    "item-p01",
+    "item-p08",
+    "item-p10",
+    "item-p14",
+    "item-p17",
+    "item-p25"
+  ],
+  "records": [
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p01",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "kimi-k2.7-code",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:44:02.900507+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "kimi",
+        "model": "kimi-k2.7-code",
+        "base_url": "https://api.moonshot.cn/v1",
+        "credential_env": "MOONSHOT_API_KEY"
+      },
+      "fingerprint": "4e7c7124610c1ed3ea017d080715963e9c6df7376dc8f7b6e2c03870a5332069",
+      "result": {
+        "linear_trace": "not_observed",
+        "material_loss": "not_observed",
+        "findings": [],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "Top-down view of circular body and mounting arms; visible surfaces are uniform matte black with no irregular linear marks or edge/material discontinuities."
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "Angled side view showing cylindrical body, connector port and adjustment rings; no confirmed scratches or material loss on visible surfaces."
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "Angled view of opposite side; surfaces appear intact, no clear linear traces or missing material."
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "Similar angled perspective; visible edges and matte surfaces show no confirmed defects."
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "Rotated angled view; no observable linear traces or material discontinuities on exposed surfaces."
+          }
+        ],
+        "limitations": [
+          "Only external visible surfaces are shown; internal cavities and hidden faces are not assessed.",
+          "No high-magnification views are provided, so very shallow or tiny marks could be below detectable resolution.",
+          "Lighting on curved matte surfaces can mimic faint streaks; subtle marks cannot be reliably distinguished from reflections or molding texture."
+        ]
+      },
+      "evidence": [],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 20040,
+          "completion_tokens": 1334,
+          "total_tokens": 21374
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-6ae893a61a7b2df481e0ef32"
+        ],
+        "response_models": [
+          "kimi-k2.7-code"
+        ],
+        "provider": {
+          "name": "kimi",
+          "model": "kimi-k2.7-code",
+          "base_url": "https://api.moonshot.cn/v1",
+          "credential_env": "MOONSHOT_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 32768,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-6ae893a61a7b2df481e0ef32",
+            "response_model": "kimi-k2.7-code",
+            "usage": {
+              "completion_tokens": 1334,
+              "prompt_tokens": 20040,
+              "total_tokens": 21374,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 1015,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 1024
+              },
+              "cached_tokens": 1024
+            },
+            "finish_reason": "stop",
+            "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"not_observed\", \"findings\": [], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Top-down view of circular body and mounting arms; visible surfaces are uniform matte black with no irregular linear marks or edge/material discontinuities.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Angled side view showing cylindrical body, connector port and adjustment rings; no confirmed scratches or material loss on visible surfaces.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Angled view of opposite side; surfaces appear intact, no clear linear traces or missing material.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Similar angled perspective; visible edges and matte surfaces show no confirmed defects.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Rotated angled view; no observable linear traces or material discontinuities on exposed surfaces.\"}], \"limitations\": [\"Only external visible surfaces are shown; internal cavities and hidden faces are not assessed.\", \"No high-magnification views are provided, so very shallow or tiny marks could be below detectable resolution.\", \"Lighting on curved matte surfaces can mimic faint streaks; subtle marks cannot be reliably distinguished from reflections or molding texture.\"]}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "kimi-k2.7-code",
+        "request_id": "chatcmpl-6ae893a61a7b2df481e0ef32"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        }
+      ],
+      "elapsed_seconds": 39.53
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p08",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "kimi-k2.7-code",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:46:42.785547+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "kimi",
+        "model": "kimi-k2.7-code",
+        "base_url": "https://api.moonshot.cn/v1",
+        "credential_env": "MOONSHOT_API_KEY"
+      },
+      "fingerprint": "a5a035f4b1e908d79d5f10b55a85b695fc7edb580d16463864abf01a78a60d47",
+      "result": {
+        "linear_trace": "not_observed",
+        "material_loss": "not_observed",
+        "findings": [],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "Horizontal full view of saw blade; surface and tooth edges appear uniform with no discernible linear scratches or material loss."
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "Vertical orientation; blade surface is uniform and tooth profile appears intact; no visible linear traces or missing material."
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "Diagonal view; no clear scratches, abrasions, chips, or coating loss observed across visible surfaces and edges."
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "Reversed diagonal view; blade surface and cutting edge appear regular with no confirmed damage."
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "Vertical view; no observable linear traces or material discontinuities on the visible blade surface or轮廓."
+          }
+        ],
+        "limitations": [
+          "Only the visible flat surfaces and edges are assessed; the opposite face and very fine edge details are not separately imaged.",
+          "Low-contrast dark finish may obscure extremely shallow surface marks; no suspicious candidates were identified."
+        ]
+      },
+      "evidence": [],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 22560,
+          "completion_tokens": 761,
+          "total_tokens": 23321
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-6ae89445009cc70089b24057"
+        ],
+        "response_models": [
+          "kimi-k2.7-code"
+        ],
+        "provider": {
+          "name": "kimi",
+          "model": "kimi-k2.7-code",
+          "base_url": "https://api.moonshot.cn/v1",
+          "credential_env": "MOONSHOT_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 32768,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-6ae89445009cc70089b24057",
+            "response_model": "kimi-k2.7-code",
+            "usage": {
+              "completion_tokens": 761,
+              "prompt_tokens": 22560,
+              "total_tokens": 23321,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 461,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 1024
+              },
+              "cached_tokens": 1024
+            },
+            "finish_reason": "stop",
+            "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"not_observed\", \"findings\": [], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Horizontal full view of saw blade; surface and tooth edges appear uniform with no discernible linear scratches or material loss.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Vertical orientation; blade surface is uniform and tooth profile appears intact; no visible linear traces or missing material.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Diagonal view; no clear scratches, abrasions, chips, or coating loss observed across visible surfaces and edges.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Reversed diagonal view; blade surface and cutting edge appear regular with no confirmed damage.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Vertical view; no observable linear traces or material discontinuities on the visible blade surface or轮廓.\"}], \"limitations\": [\"Only the visible flat surfaces and edges are assessed; the opposite face and very fine edge details are not separately imaged.\", \"Low-contrast dark finish may obscure extremely shallow surface marks; no suspicious candidates were identified.\"]}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "kimi-k2.7-code",
+        "request_id": "chatcmpl-6ae89445009cc70089b24057"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        }
+      ],
+      "elapsed_seconds": 21.781
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p10",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "kimi-k2.7-code",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:48:33.886719+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "kimi",
+        "model": "kimi-k2.7-code",
+        "base_url": "https://api.moonshot.cn/v1",
+        "credential_env": "MOONSHOT_API_KEY"
+      },
+      "fingerprint": "0cb4016af96de6d2bc72e8a45a48d688c2946950a18ab0c00a4236927699a276",
+      "result": {
+        "linear_trace": "not_observed",
+        "material_loss": "uncertain",
+        "findings": [
+          {
+            "category": "material_loss",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.47,
+              0.55,
+              0.56,
+              0.63
+            ],
+            "description": "Lower edge of white sleeve shows an irregular notch-like gap where blue substrate is exposed; may be normal cut edge of fibrous filter material.",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.38,
+              0.53,
+              0.48,
+              0.61
+            ],
+            "description": "Left lower edge of white sleeve has uneven contour with blue visible underneath; ambiguous against normal porous material edge.",
+            "certainty": "uncertain"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "Well-lit isolated view of the small blue-and-white component; white fibrous sleeve and blue end pieces are in focus. No clear scratches or confirmed chips observed."
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "Adequate alternate-angle view showing the white sleeve and blue ribbed base; edge irregularities at the sleeve-base junction are visible but ambiguous."
+          }
+        ],
+        "limitations": [
+          "White fibrous/foam texture makes it difficult to distinguish true edge damage from normal material morphology.",
+          "Only two viewing angles are provided; some surfaces and the full circumference of the sleeve edges are partially occluded or not shown.",
+          "No scale reference or additional context to confirm whether exposed blue areas are intentional design or material loss."
+        ]
+      },
+      "evidence": [
+        {
+          "category": "material_loss",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.47,
+            0.55,
+            0.56,
+            0.63
+          ],
+          "description": "Lower edge of white sleeve shows an irregular notch-like gap where blue substrate is exposed; may be normal cut edge of fibrous filter material.",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            522,
+            611,
+            623,
+            701
+          ]
+        },
+        {
+          "category": "material_loss",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.38,
+            0.53,
+            0.48,
+            0.61
+          ],
+          "description": "Left lower edge of white sleeve has uneven contour with blue visible underneath; ambiguous against normal porous material edge.",
+          "certainty": "uncertain",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            422,
+            589,
+            534,
+            679
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 4470,
+          "completion_tokens": 2463,
+          "total_tokens": 6933
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-6ae894b349395cb999e46356"
+        ],
+        "response_models": [
+          "kimi-k2.7-code"
+        ],
+        "provider": {
+          "name": "kimi",
+          "model": "kimi-k2.7-code",
+          "base_url": "https://api.moonshot.cn/v1",
+          "credential_env": "MOONSHOT_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 32768,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-6ae894b349395cb999e46356",
+            "response_model": "kimi-k2.7-code",
+            "usage": {
+              "completion_tokens": 2463,
+              "prompt_tokens": 4470,
+              "total_tokens": 6933,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 2098,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 1024
+              },
+              "cached_tokens": 1024
+            },
+            "finish_reason": "stop",
+            "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"uncertain\", \"findings\": [{\"category\": \"material_loss\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.47, 0.55, 0.56, 0.63], \"description\": \"Lower edge of white sleeve shows an irregular notch-like gap where blue substrate is exposed; may be normal cut edge of fibrous filter material.\", \"certainty\": \"uncertain\"}, {\"category\": \"material_loss\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.38, 0.53, 0.48, 0.61], \"description\": \"Left lower edge of white sleeve has uneven contour with blue visible underneath; ambiguous against normal porous material edge.\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Well-lit isolated view of the small blue-and-white component; white fibrous sleeve and blue end pieces are in focus. No clear scratches or confirmed chips observed.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Adequate alternate-angle view showing the white sleeve and blue ribbed base; edge irregularities at the sleeve-base junction are visible but ambiguous.\"}], \"limitations\": [\"White fibrous/foam texture makes it difficult to distinguish true edge damage from normal material morphology.\", \"Only two viewing angles are provided; some surfaces and the full circumference of the sleeve edges are partially occluded or not shown.\", \"No scale reference or additional context to confirm whether exposed blue areas are intentional design or material loss.\"]}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "kimi-k2.7-code",
+        "request_id": "chatcmpl-6ae894b349395cb999e46356"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1112,
+            1112
+          ],
+          "crop_box": [
+            0,
+            0,
+            1112,
+            1112
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1112,
+            1112
+          ],
+          "crop_box": [
+            0,
+            0,
+            1112,
+            1112
+          ]
+        }
+      ],
+      "elapsed_seconds": 66.329
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p14",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "kimi-k2.7-code",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:49:51.467982+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "kimi",
+        "model": "kimi-k2.7-code",
+        "base_url": "https://api.moonshot.cn/v1",
+        "credential_env": "MOONSHOT_API_KEY"
+      },
+      "fingerprint": "317dcba958ac4e1cfccf52decda9af113a4c5f50311b3768d7dbd7743f22be22",
+      "result": {
+        "linear_trace": "present",
+        "material_loss": "uncertain",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.47,
+              0.42,
+              0.64,
+              0.47
+            ],
+            "description": "金属外壳顶面有一条横向浅色细线，局部纹理被打断，疑似擦痕",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.39,
+              0.37,
+              0.59,
+              0.45
+            ],
+            "description": "金属外壳底面可见数条不规则浅色细线，呈刮擦状",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.42,
+              0.42,
+              0.53,
+              0.56
+            ],
+            "description": "金属侧面有一条斜向细线，反光与划痕难以完全区分",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.46,
+              0.45,
+              0.54,
+              0.52
+            ],
+            "description": "金属顶面中央有轻微浅色痕迹，边缘不甚清晰",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.53,
+              0.34,
+              0.61,
+              0.45
+            ],
+            "description": "金属屏蔽右侧有短细浅色痕迹，疑似表面擦痕",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.48,
+              0.62,
+              0.58,
+              0.72
+            ],
+            "description": "金属外壳前下边角轮廓不规则，存在可疑的小缺口或折边不连续",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.45,
+              0.25,
+              0.5,
+              0.3
+            ],
+            "description": "金属屏蔽顶部边缘与塑料交接处轮廓略有不齐，疑似局部材料缺失",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.42,
+              0.3,
+              0.47,
+              0.35
+            ],
+            "description": "金属外壳左上角边缘略呈不规则，可能为微小崩缺或压痕",
+            "certainty": "uncertain"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "整体聚焦可辨，金属顶面及塑料拉手可观察，但表面反光使浅痕识别受限"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "侧面视角清晰，金属外壳顶面擦痕可见，后缘缺口特征不明显"
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "角度倾斜，金属侧面与前下角可见，但反光和阴影使细节判定有难度"
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "前端视角可看到触点与金属屏蔽，金属边缘局部可见不规则"
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "底部视角金属表面划痕较明显，后端接缝区域可见但细节有限"
+          }
+        ],
+        "limitations": [
+          "仅依据提供的五张外部照片，无法观察内部触点、导线及装配状态",
+          "金属表面存在反光和加工纹理，浅表划痕与反光、规则纹理有时难以严格区分",
+          "无法判断痕迹深度、形成原因及对电气性能的影响",
+          "未拍摄表面局部放大图，部分边缘细节分辨率有限"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.47,
+            0.42,
+            0.64,
+            0.47
+          ],
+          "description": "金属外壳顶面有一条横向浅色细线，局部纹理被打断，疑似擦痕",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            550,
+            492,
+            751,
+            551
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.39,
+            0.37,
+            0.59,
+            0.45
+          ],
+          "description": "金属外壳底面可见数条不规则浅色细线，呈刮擦状",
+          "certainty": "confirmed",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            457,
+            433,
+            692,
+            528
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-03.png::full",
+          "bbox": [
+            0.42,
+            0.42,
+            0.53,
+            0.56
+          ],
+          "description": "金属侧面有一条斜向细线，反光与划痕难以完全区分",
+          "certainty": "uncertain",
+          "source": "view-03.png",
+          "bbox_pixels": [
+            492,
+            492,
+            622,
+            657
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.46,
+            0.45,
+            0.54,
+            0.52
+          ],
+          "description": "金属顶面中央有轻微浅色痕迹，边缘不甚清晰",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            539,
+            527,
+            633,
+            610
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.53,
+            0.34,
+            0.61,
+            0.45
+          ],
+          "description": "金属屏蔽右侧有短细浅色痕迹，疑似表面擦痕",
+          "certainty": "uncertain",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            621,
+            398,
+            715,
+            528
+          ]
+        },
+        {
+          "category": "material_loss",
+          "image_id": "view-03.png::full",
+          "bbox": [
+            0.48,
+            0.62,
+            0.58,
+            0.72
+          ],
+          "description": "金属外壳前下边角轮廓不规则，存在可疑的小缺口或折边不连续",
+          "certainty": "uncertain",
+          "source": "view-03.png",
+          "bbox_pixels": [
+            562,
+            726,
+            680,
+            844
+          ]
+        },
+        {
+          "category": "material_loss",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.45,
+            0.25,
+            0.5,
+            0.3
+          ],
+          "description": "金属屏蔽顶部边缘与塑料交接处轮廓略有不齐，疑似局部材料缺失",
+          "certainty": "uncertain",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            527,
+            293,
+            586,
+            352
+          ]
+        },
+        {
+          "category": "material_loss",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.42,
+            0.3,
+            0.47,
+            0.35
+          ],
+          "description": "金属外壳左上角边缘略呈不规则，可能为微小崩缺或压痕",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            492,
+            351,
+            551,
+            411
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 10255,
+          "completion_tokens": 5526,
+          "total_tokens": 15781
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-6ae8950149395cb999e46382"
+        ],
+        "response_models": [
+          "kimi-k2.7-code"
+        ],
+        "provider": {
+          "name": "kimi",
+          "model": "kimi-k2.7-code",
+          "base_url": "https://api.moonshot.cn/v1",
+          "credential_env": "MOONSHOT_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 32768,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-6ae8950149395cb999e46382",
+            "response_model": "kimi-k2.7-code",
+            "usage": {
+              "completion_tokens": 5526,
+              "prompt_tokens": 10255,
+              "total_tokens": 15781,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 4536,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 1024
+              },
+              "cached_tokens": 1024
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"uncertain\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.47, 0.42, 0.64, 0.47],\n      \"description\": \"金属外壳顶面有一条横向浅色细线，局部纹理被打断，疑似擦痕\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.39, 0.37, 0.59, 0.45],\n      \"description\": \"金属外壳底面可见数条不规则浅色细线，呈刮擦状\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.42, 0.42, 0.53, 0.56],\n      \"description\": \"金属侧面有一条斜向细线，反光与划痕难以完全区分\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.46, 0.45, 0.54, 0.52],\n      \"description\": \"金属顶面中央有轻微浅色痕迹，边缘不甚清晰\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.53, 0.34, 0.61, 0.45],\n      \"description\": \"金属屏蔽右侧有短细浅色痕迹，疑似表面擦痕\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.48, 0.62, 0.58, 0.72],\n      \"description\": \"金属外壳前下边角轮廓不规则，存在可疑的小缺口或折边不连续\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.45, 0.25, 0.50, 0.30],\n      \"description\": \"金属屏蔽顶部边缘与塑料交接处轮廓略有不齐，疑似局部材料缺失\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.42, 0.30, 0.47, 0.35],\n      \"description\": \"金属外壳左上角边缘略呈不规则，可能为微小崩缺或压痕\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"整体聚焦可辨，金属顶面及塑料拉手可观察，但表面反光使浅痕识别受限\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"侧面视角清晰，金属外壳顶面擦痕可见，后缘缺口特征不明显\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"角度倾斜，金属侧面与前下角可见，但反光和阴影使细节判定有难度\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"前端视角可看到触点与金属屏蔽，金属边缘局部可见不规则\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"底部视角金属表面划痕较明显，后端接缝区域可见但细节有限\"\n    }\n  ],\n  \"limitations\": [\n    \"仅依据提供的五张外部照片，无法观察内部触点、导线及装配状态\",\n    \"金属表面存在反光和加工纹理，浅表划痕与反光、规则纹理有时难以严格区分\",\n    \"无法判断痕迹深度、形成原因及对电气性能的影响\",\n    \"未拍摄表面局部放大图，部分边缘细节分辨率有限\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "kimi-k2.7-code",
+        "request_id": "chatcmpl-6ae8950149395cb999e46382"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        }
+      ],
+      "elapsed_seconds": 159.254
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p17",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "kimi-k2.7-code",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:52:30.781595+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "kimi",
+        "model": "kimi-k2.7-code",
+        "base_url": "https://api.moonshot.cn/v1",
+        "credential_env": "MOONSHOT_API_KEY"
+      },
+      "fingerprint": "b9a575c2df2946455406a2993424f8352ae04281b20df7d02a911386da3d7510",
+      "result": {
+        "linear_trace": "present",
+        "material_loss": "not_observed",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.62,
+              0.36,
+              0.91,
+              0.53
+            ],
+            "description": "Cluster of thin scratches and scuff lines on the right half of the panel surface, including vertical and short diagonal marks.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.42,
+              0.46,
+              0.53,
+              0.54
+            ],
+            "description": "Central irregular scuff patch with intersecting faint scratch-like lines.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.34,
+              0.37,
+              0.45,
+              0.43
+            ],
+            "description": "Faint linear marks on the left-central area of the panel surface.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.4,
+              0.17,
+              0.52,
+              0.27
+            ],
+            "description": "Several thin scratches near the top end of the vertically oriented panel.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.39,
+              0.3,
+              0.5,
+              0.36
+            ],
+            "description": "Small cluster of short linear scuff marks on the upper-middle left side.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.49,
+              0.44,
+              0.57,
+              0.51
+            ],
+            "description": "Irregular smudged scratch patch in the middle of the panel.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.57,
+              0.72,
+              0.7,
+              0.88
+            ],
+            "description": "Linear scuff marks near the bottom end of the panel.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.36,
+              0.36,
+              0.48,
+              0.41
+            ],
+            "description": "Faint linear marks on the left-central region of the panel.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.46,
+              0.45,
+              0.53,
+              0.52
+            ],
+            "description": "Central scuff patch with irregular scratch-like texture.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.6,
+              0.41,
+              0.83,
+              0.58
+            ],
+            "description": "Cluster of scratches and scuff lines on the right half of the panel.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.13,
+              0.4,
+              0.4,
+              0.62
+            ],
+            "description": "Cluster of thin scratches and linear scuff marks on the left half of the panel.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.51,
+              0.46,
+              0.57,
+              0.52
+            ],
+            "description": "Central irregular scuff patch with short scratches.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.61,
+              0.53,
+              0.7,
+              0.58
+            ],
+            "description": "Faint linear marks on the right-central area of the panel.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.48,
+              0.43,
+              0.57,
+              0.5
+            ],
+            "description": "Mid-panel irregular scuff patch with thin scratches.",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.56,
+              0.6,
+              0.71,
+              0.87
+            ],
+            "description": "Cluster of linear scuff marks and scratches on the lower half of the vertically oriented panel.",
+            "certainty": "confirmed"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "Front-facing view; surface scratches and scuff marks are visible across the panel, especially on the right half and center."
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "Vertical view of the same panel; scratches near top, middle and bottom are visible, though some areas are slightly foreshortened."
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "Angled horizontal view; surface marks on the right half and center are discernible with moderate contrast."
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "Angled horizontal view from the opposite side; left-half scratches and central scuff patch are visible."
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "Vertical view; lower-half linear marks and mid-panel scuff are visible, with mild reflection on the surface."
+          }
+        ],
+        "limitations": [
+          "Only the visible external surfaces are inspected; internal damage or unphotographed sides cannot be assessed.",
+          "Surface detail is limited to photographic resolution and contrast; very shallow or low-contrast marks may be underestimated.",
+          "No scale reference is provided, so dimensions or depth of scratches cannot be determined.",
+          "Some marks may be surface smudges rather than true scratches, but they are recorded as visible linear traces."
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.62,
+            0.36,
+            0.91,
+            0.53
+          ],
+          "description": "Cluster of thin scratches and scuff lines on the right half of the panel surface, including vertical and short diagonal marks.",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            1339,
+            777,
+            1966,
+            1145
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.42,
+            0.46,
+            0.53,
+            0.54
+          ],
+          "description": "Central irregular scuff patch with intersecting faint scratch-like lines.",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            907,
+            993,
+            1145,
+            1167
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.34,
+            0.37,
+            0.45,
+            0.43
+          ],
+          "description": "Faint linear marks on the left-central area of the panel surface.",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            734,
+            799,
+            972,
+            929
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.4,
+            0.17,
+            0.52,
+            0.27
+          ],
+          "description": "Several thin scratches near the top end of the vertically oriented panel.",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            864,
+            367,
+            1124,
+            584
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.39,
+            0.3,
+            0.5,
+            0.36
+          ],
+          "description": "Small cluster of short linear scuff marks on the upper-middle left side.",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            842,
+            648,
+            1080,
+            778
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.49,
+            0.44,
+            0.57,
+            0.51
+          ],
+          "description": "Irregular smudged scratch patch in the middle of the panel.",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            1058,
+            950,
+            1232,
+            1102
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.57,
+            0.72,
+            0.7,
+            0.88
+          ],
+          "description": "Linear scuff marks near the bottom end of the panel.",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            1231,
+            1555,
+            1512,
+            1901
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-03.png::full",
+          "bbox": [
+            0.36,
+            0.36,
+            0.48,
+            0.41
+          ],
+          "description": "Faint linear marks on the left-central region of the panel.",
+          "certainty": "confirmed",
+          "source": "view-03.png",
+          "bbox_pixels": [
+            777,
+            777,
+            1037,
+            886
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-03.png::full",
+          "bbox": [
+            0.46,
+            0.45,
+            0.53,
+            0.52
+          ],
+          "description": "Central scuff patch with irregular scratch-like texture.",
+          "certainty": "confirmed",
+          "source": "view-03.png",
+          "bbox_pixels": [
+            993,
+            972,
+            1145,
+            1124
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-03.png::full",
+          "bbox": [
+            0.6,
+            0.41,
+            0.83,
+            0.58
+          ],
+          "description": "Cluster of scratches and scuff lines on the right half of the panel.",
+          "certainty": "confirmed",
+          "source": "view-03.png",
+          "bbox_pixels": [
+            1296,
+            885,
+            1793,
+            1253
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.13,
+            0.4,
+            0.4,
+            0.62
+          ],
+          "description": "Cluster of thin scratches and linear scuff marks on the left half of the panel.",
+          "certainty": "confirmed",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            280,
+            864,
+            864,
+            1340
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.51,
+            0.46,
+            0.57,
+            0.52
+          ],
+          "description": "Central irregular scuff patch with short scratches.",
+          "certainty": "confirmed",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            1101,
+            993,
+            1232,
+            1124
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.61,
+            0.53,
+            0.7,
+            0.58
+          ],
+          "description": "Faint linear marks on the right-central area of the panel.",
+          "certainty": "confirmed",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            1317,
+            1144,
+            1512,
+            1253
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.48,
+            0.43,
+            0.57,
+            0.5
+          ],
+          "description": "Mid-panel irregular scuff patch with thin scratches.",
+          "certainty": "confirmed",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            1036,
+            928,
+            1232,
+            1080
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.56,
+            0.6,
+            0.71,
+            0.87
+          ],
+          "description": "Cluster of linear scuff marks and scratches on the lower half of the vertically oriented panel.",
+          "certainty": "confirmed",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            1209,
+            1296,
+            1534,
+            1880
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 22560,
+          "completion_tokens": 3059,
+          "total_tokens": 25619
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-6ae895a8ce9bd3484c25f639"
+        ],
+        "response_models": [
+          "kimi-k2.7-code"
+        ],
+        "provider": {
+          "name": "kimi",
+          "model": "kimi-k2.7-code",
+          "base_url": "https://api.moonshot.cn/v1",
+          "credential_env": "MOONSHOT_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 32768,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-6ae895a8ce9bd3484c25f639",
+            "response_model": "kimi-k2.7-code",
+            "usage": {
+              "completion_tokens": 3059,
+              "prompt_tokens": 22560,
+              "total_tokens": 25619,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 1526,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 1024
+              },
+              "cached_tokens": 1024
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.620, 0.360, 0.910, 0.530],\n      \"description\": \"Cluster of thin scratches and scuff lines on the right half of the panel surface, including vertical and short diagonal marks.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.420, 0.460, 0.530, 0.540],\n      \"description\": \"Central irregular scuff patch with intersecting faint scratch-like lines.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.340, 0.370, 0.450, 0.430],\n      \"description\": \"Faint linear marks on the left-central area of the panel surface.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.400, 0.170, 0.520, 0.270],\n      \"description\": \"Several thin scratches near the top end of the vertically oriented panel.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.390, 0.300, 0.500, 0.360],\n      \"description\": \"Small cluster of short linear scuff marks on the upper-middle left side.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.490, 0.440, 0.570, 0.510],\n      \"description\": \"Irregular smudged scratch patch in the middle of the panel.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.570, 0.720, 0.700, 0.880],\n      \"description\": \"Linear scuff marks near the bottom end of the panel.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.360, 0.360, 0.480, 0.410],\n      \"description\": \"Faint linear marks on the left-central region of the panel.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.460, 0.450, 0.530, 0.520],\n      \"description\": \"Central scuff patch with irregular scratch-like texture.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.600, 0.410, 0.830, 0.580],\n      \"description\": \"Cluster of scratches and scuff lines on the right half of the panel.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.130, 0.400, 0.400, 0.620],\n      \"description\": \"Cluster of thin scratches and linear scuff marks on the left half of the panel.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.510, 0.460, 0.570, 0.520],\n      \"description\": \"Central irregular scuff patch with short scratches.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.610, 0.530, 0.700, 0.580],\n      \"description\": \"Faint linear marks on the right-central area of the panel.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.480, 0.430, 0.570, 0.500],\n      \"description\": \"Mid-panel irregular scuff patch with thin scratches.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.560, 0.600, 0.710, 0.870],\n      \"description\": \"Cluster of linear scuff marks and scratches on the lower half of the vertically oriented panel.\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Front-facing view; surface scratches and scuff marks are visible across the panel, especially on the right half and center.\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Vertical view of the same panel; scratches near top, middle and bottom are visible, though some areas are slightly foreshortened.\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Angled horizontal view; surface marks on the right half and center are discernible with moderate contrast.\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Angled horizontal view from the opposite side; left-half scratches and central scuff patch are visible.\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Vertical view; lower-half linear marks and mid-panel scuff are visible, with mild reflection on the surface.\"\n    }\n  ],\n  \"limitations\": [\n    \"Only the visible external surfaces are inspected; internal damage or unphotographed sides cannot be assessed.\",\n    \"Surface detail is limited to photographic resolution and contrast; very shallow or low-contrast marks may be underestimated.\",\n    \"No scale reference is provided, so dimensions or depth of scratches cannot be determined.\",\n    \"Some marks may be surface smudges rather than true scratches, but they are recorded as visible linear traces.\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "kimi-k2.7-code",
+        "request_id": "chatcmpl-6ae895a8ce9bd3484c25f639"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        }
+      ],
+      "elapsed_seconds": 81.915
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p25",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "kimi-k2.7-code",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:53:52.710427+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "kimi",
+        "model": "kimi-k2.7-code",
+        "base_url": "https://api.moonshot.cn/v1",
+        "credential_env": "MOONSHOT_API_KEY"
+      },
+      "fingerprint": "37de11d107245577615083d8a4f91bbea0e6a7c791a599ad6ba0d75c099b8baf",
+      "result": {
+        "linear_trace": "present",
+        "material_loss": "not_observed",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.43,
+              0.4,
+              0.56,
+              0.52
+            ],
+            "description": "浅色不规则细线/擦痕位于圆柱侧面，沿筒身方向分布，局部纹理被中断",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.51,
+              0.45,
+              0.61,
+              0.53
+            ],
+            "description": "圆柱侧面可见浅色刮擦状痕迹，呈不规则细线",
+            "certainty": "confirmed"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "黄铜套筒斜向放置，圆柱外表面与顶部开口边缘可见，整体亮度均匀，表面细节可辨"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "同一物体另一角度，圆柱侧面及法兰端可见，表面反光与痕迹可区分"
+          }
+        ],
+        "limitations": [
+          "仅提供两个外部视角，套筒内壁、法兰底面及另一端面未拍摄",
+          "金属高光与浅划痕在视觉上接近，部分极浅痕迹可能受光照影响",
+          "无比例参照，无法判断痕迹深度或尺寸"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.43,
+            0.4,
+            0.56,
+            0.52
+          ],
+          "description": "浅色不规则细线/擦痕位于圆柱侧面，沿筒身方向分布，局部纹理被中断",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            485,
+            452,
+            633,
+            588
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.51,
+            0.45,
+            0.61,
+            0.53
+          ],
+          "description": "圆柱侧面可见浅色刮擦状痕迹，呈不规则细线",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            576,
+            508,
+            690,
+            599
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 4632,
+          "completion_tokens": 1322,
+          "total_tokens": 5954
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-6ae895f2ce9bd3484c25f66e"
+        ],
+        "response_models": [
+          "kimi-k2.7-code"
+        ],
+        "provider": {
+          "name": "kimi",
+          "model": "kimi-k2.7-code",
+          "base_url": "https://api.moonshot.cn/v1",
+          "credential_env": "MOONSHOT_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 32768,
+          "extra_body": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-6ae895f2ce9bd3484c25f66e",
+            "response_model": "kimi-k2.7-code",
+            "usage": {
+              "completion_tokens": 1322,
+              "prompt_tokens": 4632,
+              "total_tokens": 5954,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 1009,
+                "rejected_prediction_tokens": null
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 1024
+              },
+              "cached_tokens": 1024
+            },
+            "finish_reason": "stop",
+            "final_content": "{\"linear_trace\": \"present\", \"material_loss\": \"not_observed\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.43, 0.40, 0.56, 0.52], \"description\": \"浅色不规则细线/擦痕位于圆柱侧面，沿筒身方向分布，局部纹理被中断\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.51, 0.45, 0.61, 0.53], \"description\": \"圆柱侧面可见浅色刮擦状痕迹，呈不规则细线\", \"certainty\": \"confirmed\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"黄铜套筒斜向放置，圆柱外表面与顶部开口边缘可见，整体亮度均匀，表面细节可辨\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"同一物体另一角度，圆柱侧面及法兰端可见，表面反光与痕迹可区分\"}], \"limitations\": [\"仅提供两个外部视角，套筒内壁、法兰底面及另一端面未拍摄\", \"金属高光与浅划痕在视觉上接近，部分极浅痕迹可能受光照影响\", \"无比例参照，无法判断痕迹深度或尺寸\"]}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "kimi-k2.7-code",
+        "request_id": "chatcmpl-6ae895f2ce9bd3484c25f66e"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1130,
+            1130
+          ],
+          "crop_box": [
+            0,
+            0,
+            1130,
+            1130
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1130,
+            1130
+          ],
+          "crop_box": [
+            0,
+            0,
+            1130,
+            1130
+          ]
+        }
+      ],
+      "elapsed_seconds": 36.796
+    }
+  ]
+}

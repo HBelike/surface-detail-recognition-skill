@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p01",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:44:02.900246+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "f7d8597b2c854afb759b82db17fa72df69490cd34ad766f020f516b8d256f122",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.482,
+          0.472,
+          0.512,
+          0.502
+        ],
+        "description": "圆盘中央圆形标记下方可见极小的浅色点状/短痕，疑为轻微擦痕，但也可能为反光或注塑痕迹。",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "正面圆盘、两侧绑带及上下接口轮廓完整；圆盘表面中央标记下方有一极小浅色可疑点，其余表面以均匀哑光为主。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "倾斜视角显示圆盘外缘、侧壁齿轮状结构和绑带；未见明确崩缺或连续性材料缺失，侧壁高光处未见可确认划痕。"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "另一倾斜视角，主体轮廓和接口边缘完整；深色表面反光可能掩盖细小擦痕，未确认线状缺陷。"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "圆盘表面及侧壁可见，绑带孔和接口卡扣结构规则；未见明确边缘崩缺或涂层/表层缺失。"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "与正面视角接近的倾斜视图，整体结构完整；表面仅见轻微反光变化，无线状或缺失性缺陷的清晰证据。"
+      }
+    ],
+    "limitations": [
+      "黑色塑料表面反光较强，可能掩盖非常浅的擦痕或细微表层缺失。",
+      "未使用放大或侧光设备，极小痕迹难以与注塑痕迹、污点或反光区分。",
+      "仅评估照片中可见表面，不推断未拍摄区域或内部状态。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.482,
+        0.472,
+        0.512,
+        0.502
+      ],
+      "description": "圆盘中央圆形标记下方可见极小的浅色点状/短痕，疑为轻微擦痕，但也可能为反光或注塑痕迹。",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        819,
+        802,
+        871,
+        854
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 6446,
+      "completion_tokens": 2622,
+      "total_tokens": 9068
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "78ea1a41-3040-4a89-a2fb-d6e84e84353c"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "78ea1a41-3040-4a89-a2fb-d6e84e84353c",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 2622,
+          "prompt_tokens": 6446,
+          "total_tokens": 9068,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2212,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 6272
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 174
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\":\"uncertain\",\"material_loss\":\"not_observed\",\"findings\":[{\"category\":\"linear_trace\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.482,0.472,0.512,0.502],\"description\":\"圆盘中央圆形标记下方可见极小的浅色点状/短痕，疑为轻微擦痕，但也可能为反光或注塑痕迹。\",\"certainty\":\"uncertain\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"adequate\",\"note\":\"正面圆盘、两侧绑带及上下接口轮廓完整；圆盘表面中央标记下方有一极小浅色可疑点，其余表面以均匀哑光为主。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"倾斜视角显示圆盘外缘、侧壁齿轮状结构和绑带；未见明确崩缺或连续性材料缺失，侧壁高光处未见可确认划痕。\"},{\"image_id\":\"view-03.png::full\",\"quality\":\"adequate\",\"note\":\"另一倾斜视角，主体轮廓和接口边缘完整；深色表面反光可能掩盖细小擦痕，未确认线状缺陷。\"},{\"image_id\":\"view-04.png::full\",\"quality\":\"adequate\",\"note\":\"圆盘表面及侧壁可见，绑带孔和接口卡扣结构规则；未见明确边缘崩缺或涂层/表层缺失。\"},{\"image_id\":\"view-05.png::full\",\"quality\":\"adequate\",\"note\":\"与正面视角接近的倾斜视图，整体结构完整；表面仅见轻微反光变化，无线状或缺失性缺陷的清晰证据。\"}],\"limitations\":[\"黑色塑料表面反光较强，可能掩盖非常浅的擦痕或细微表层缺失。\",\"未使用放大或侧光设备，极小痕迹难以与注塑痕迹、污点或反光区分。\",\"仅评估照片中可见表面，不推断未拍摄区域或内部状态。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "78ea1a41-3040-4a89-a2fb-d6e84e84353c"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    }
+  ],
+  "elapsed_seconds": 20.646
+}

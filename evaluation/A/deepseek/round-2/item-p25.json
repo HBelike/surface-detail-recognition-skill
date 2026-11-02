@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p25",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:53:52.710051+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "4c1a4f8bb81ff1fb0ba33ee899c07b2cc1cbd33f83a6b73ddb572897eb6bcb47",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.47,
+          0.4,
+          0.6,
+          0.55
+        ],
+        "description": "圆柱外壁中下部可见数条纵向浅色细线及一条短斜向亮痕；其形态可能是划擦，也可能是加工纹或曲面反光，无法确认。",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.49,
+          0.46,
+          0.57,
+          0.54
+        ],
+        "description": "圆柱外壁右下侧可见一道短浅色弧形亮痕；受曲面反光影响，无法确认是否为划痕。",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "铜管主体、上端管口和底部法兰均可见；外壁有反光和纵向纹理，未见明确的边缘崩缺或表层材料剥落。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "同一物体的另一角度；管口与法兰轮廓基本连续，外壁存在反光和浅色细痕候选，但未见明确材料缺失。"
+      }
+    ],
+    "limitations": [
+      "图像分辨率有限，圆柱面高反光可能掩盖浅表细痕，或使反光看起来像擦痕。",
+      "仅能检查当前可见外表面，无法覆盖背面、内壁深处或未拍摄表面。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.47,
+        0.4,
+        0.6,
+        0.55
+      ],
+      "description": "圆柱外壁中下部可见数条纵向浅色细线及一条短斜向亮痕；其形态可能是划擦，也可能是加工纹或曲面反光，无法确认。",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        531,
+        452,
+        678,
+        622
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.49,
+        0.46,
+        0.57,
+        0.54
+      ],
+      "description": "圆柱外壁右下侧可见一道短浅色弧形亮痕；受曲面反光影响，无法确认是否为划痕。",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        553,
+        519,
+        645,
+        611
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 2830,
+      "completion_tokens": 3731,
+      "total_tokens": 6561
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "9bf25cf3-4aca-4fc1-8c84-c0044ea35c77"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "9bf25cf3-4aca-4fc1-8c84-c0044ea35c77",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 3731,
+          "prompt_tokens": 2830,
+          "total_tokens": 6561,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 3405,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 2688
+          },
+          "prompt_cache_hit_tokens": 2688,
+          "prompt_cache_miss_tokens": 142
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\":\"uncertain\",\"material_loss\":\"not_observed\",\"findings\":[{\"category\":\"linear_trace\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.47,0.4,0.6,0.55],\"description\":\"圆柱外壁中下部可见数条纵向浅色细线及一条短斜向亮痕；其形态可能是划擦，也可能是加工纹或曲面反光，无法确认。\",\"certainty\":\"uncertain\"},{\"category\":\"linear_trace\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.49,0.46,0.57,0.54],\"description\":\"圆柱外壁右下侧可见一道短浅色弧形亮痕；受曲面反光影响，无法确认是否为划痕。\",\"certainty\":\"uncertain\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"adequate\",\"note\":\"铜管主体、上端管口和底部法兰均可见；外壁有反光和纵向纹理，未见明确的边缘崩缺或表层材料剥落。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"同一物体的另一角度；管口与法兰轮廓基本连续，外壁存在反光和浅色细痕候选，但未见明确材料缺失。\"}],\"limitations\":[\"图像分辨率有限，圆柱面高反光可能掩盖浅表细痕，或使反光看起来像擦痕。\",\"仅能检查当前可见外表面，无法覆盖背面、内壁深处或未拍摄表面。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "9bf25cf3-4aca-4fc1-8c84-c0044ea35c77"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    }
+  ],
+  "elapsed_seconds": 24.321
+}

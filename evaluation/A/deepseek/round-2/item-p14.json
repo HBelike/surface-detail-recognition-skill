@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p14",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:49:51.467956+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "9a28c7bdd66bd7c7bce05f39c24104e1a0472244ea4523dc1539648b9619d80d",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.38,
+          0.39,
+          0.54,
+          0.45
+        ],
+        "description": "金属屏蔽罩宽平面上有一条细直的斜向浅划痕，方向与周围表面纹理不同，位于透明插头左侧。",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.44,
+          0.46,
+          0.56,
+          0.58
+        ],
+        "description": "金属侧板中下部可见一条很淡的斜向细线；受表面反光影响，难以完全排除反射或加工纹理，作为可疑划痕记录。",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "limited",
+        "note": "金属侧板与透明插头可见；右侧边缘的阶梯状缺口和凸舌属于正常屏蔽结构；表面反光较强，细微线痕辨识受限。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "可见金属上表面和透明插头；表面高光较强，但未见清晰线痕或材料缺失。"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "金属侧板、透明插头和后端开口可见；后端金属折片属于正常结构，未见清晰崩缺或断口。"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "金属罩、透明插头及金手指可见；金属罩右侧矩形开口为正常结构，未见清晰材料缺失。"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "金属宽平面和透明插头可见；可见一条斜向浅划痕，未见清晰崩缺或包覆层缺失。"
+      }
+    ],
+    "limitations": [
+      "物体在画面中占比不大，极细微的浅划痕可能受分辨率限制。",
+      "金属表面存在反光和拉丝纹理，部分浅色细线难以与反射或加工纹完全区分。",
+      "未拍摄放大或显微视图；未评估不可见表面及内部结构。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.38,
+        0.39,
+        0.54,
+        0.45
+      ],
+      "description": "金属屏蔽罩宽平面上有一条细直的斜向浅划痕，方向与周围表面纹理不同，位于透明插头左侧。",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        445,
+        457,
+        633,
+        528
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.44,
+        0.46,
+        0.56,
+        0.58
+      ],
+      "description": "金属侧板中下部可见一条很淡的斜向细线；受表面反光影响，难以完全排除反射或加工纹理，作为可疑划痕记录。",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        515,
+        539,
+        657,
+        680
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 5546,
+      "completion_tokens": 10699,
+      "total_tokens": 16245
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "dc1ba04a-0bca-4ce9-88bd-6257d620a283"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "dc1ba04a-0bca-4ce9-88bd-6257d620a283",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 10699,
+          "prompt_tokens": 5546,
+          "total_tokens": 16245,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 10239,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 5376
+          },
+          "prompt_cache_hit_tokens": 5376,
+          "prompt_cache_miss_tokens": 170
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\":\"present\",\"material_loss\":\"not_observed\",\"findings\":[{\"category\":\"linear_trace\",\"image_id\":\"view-05.png::full\",\"bbox\":[0.38,0.39,0.54,0.45],\"description\":\"金属屏蔽罩宽平面上有一条细直的斜向浅划痕，方向与周围表面纹理不同，位于透明插头左侧。\",\"certainty\":\"confirmed\"},{\"category\":\"linear_trace\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.44,0.46,0.56,0.58],\"description\":\"金属侧板中下部可见一条很淡的斜向细线；受表面反光影响，难以完全排除反射或加工纹理，作为可疑划痕记录。\",\"certainty\":\"uncertain\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"limited\",\"note\":\"金属侧板与透明插头可见；右侧边缘的阶梯状缺口和凸舌属于正常屏蔽结构；表面反光较强，细微线痕辨识受限。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"可见金属上表面和透明插头；表面高光较强，但未见清晰线痕或材料缺失。\"},{\"image_id\":\"view-03.png::full\",\"quality\":\"adequate\",\"note\":\"金属侧板、透明插头和后端开口可见；后端金属折片属于正常结构，未见清晰崩缺或断口。\"},{\"image_id\":\"view-04.png::full\",\"quality\":\"adequate\",\"note\":\"金属罩、透明插头及金手指可见；金属罩右侧矩形开口为正常结构，未见清晰材料缺失。\"},{\"image_id\":\"view-05.png::full\",\"quality\":\"adequate\",\"note\":\"金属宽平面和透明插头可见；可见一条斜向浅划痕，未见清晰崩缺或包覆层缺失。\"}],\"limitations\":[\"物体在画面中占比不大，极细微的浅划痕可能受分辨率限制。\",\"金属表面存在反光和拉丝纹理，部分浅色细线难以与反射或加工纹完全区分。\",\"未拍摄放大或显微视图；未评估不可见表面及内部结构。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "dc1ba04a-0bca-4ce9-88bd-6257d620a283"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    }
+  ],
+  "elapsed_seconds": 69.515
+}

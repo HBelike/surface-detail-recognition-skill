@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p01",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:44:02.900507+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "4e7c7124610c1ed3ea017d080715963e9c6df7376dc8f7b6e2c03870a5332069",
+  "result": {
+    "linear_trace": "not_observed",
+    "material_loss": "not_observed",
+    "findings": [],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Top-down view of circular body and mounting arms; visible surfaces are uniform matte black with no irregular linear marks or edge/material discontinuities."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Angled side view showing cylindrical body, connector port and adjustment rings; no confirmed scratches or material loss on visible surfaces."
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "Angled view of opposite side; surfaces appear intact, no clear linear traces or missing material."
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "Similar angled perspective; visible edges and matte surfaces show no confirmed defects."
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "Rotated angled view; no observable linear traces or material discontinuities on exposed surfaces."
+      }
+    ],
+    "limitations": [
+      "Only external visible surfaces are shown; internal cavities and hidden faces are not assessed.",
+      "No high-magnification views are provided, so very shallow or tiny marks could be below detectable resolution.",
+      "Lighting on curved matte surfaces can mimic faint streaks; subtle marks cannot be reliably distinguished from reflections or molding texture."
+    ]
+  },
+  "evidence": [],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 20040,
+      "completion_tokens": 1334,
+      "total_tokens": 21374
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae893a61a7b2df481e0ef32"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae893a61a7b2df481e0ef32",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 1334,
+          "prompt_tokens": 20040,
+          "total_tokens": 21374,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 1015,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"not_observed\", \"findings\": [], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Top-down view of circular body and mounting arms; visible surfaces are uniform matte black with no irregular linear marks or edge/material discontinuities.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Angled side view showing cylindrical body, connector port and adjustment rings; no confirmed scratches or material loss on visible surfaces.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Angled view of opposite side; surfaces appear intact, no clear linear traces or missing material.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Similar angled perspective; visible edges and matte surfaces show no confirmed defects.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Rotated angled view; no observable linear traces or material discontinuities on exposed surfaces.\"}], \"limitations\": [\"Only external visible surfaces are shown; internal cavities and hidden faces are not assessed.\", \"No high-magnification views are provided, so very shallow or tiny marks could be below detectable resolution.\", \"Lighting on curved matte surfaces can mimic faint streaks; subtle marks cannot be reliably distinguished from reflections or molding texture.\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae893a61a7b2df481e0ef32"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    }
+  ],
+  "elapsed_seconds": 39.53
+}

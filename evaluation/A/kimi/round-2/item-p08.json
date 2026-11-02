@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p08",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:46:42.785547+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "a5a035f4b1e908d79d5f10b55a85b695fc7edb580d16463864abf01a78a60d47",
+  "result": {
+    "linear_trace": "not_observed",
+    "material_loss": "not_observed",
+    "findings": [],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Horizontal full view of saw blade; surface and tooth edges appear uniform with no discernible linear scratches or material loss."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Vertical orientation; blade surface is uniform and tooth profile appears intact; no visible linear traces or missing material."
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "Diagonal view; no clear scratches, abrasions, chips, or coating loss observed across visible surfaces and edges."
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "Reversed diagonal view; blade surface and cutting edge appear regular with no confirmed damage."
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "Vertical view; no observable linear traces or material discontinuities on the visible blade surface or轮廓."
+      }
+    ],
+    "limitations": [
+      "Only the visible flat surfaces and edges are assessed; the opposite face and very fine edge details are not separately imaged.",
+      "Low-contrast dark finish may obscure extremely shallow surface marks; no suspicious candidates were identified."
+    ]
+  },
+  "evidence": [],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 22560,
+      "completion_tokens": 761,
+      "total_tokens": 23321
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae89445009cc70089b24057"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae89445009cc70089b24057",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 761,
+          "prompt_tokens": 22560,
+          "total_tokens": 23321,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 461,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"not_observed\", \"findings\": [], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Horizontal full view of saw blade; surface and tooth edges appear uniform with no discernible linear scratches or material loss.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Vertical orientation; blade surface is uniform and tooth profile appears intact; no visible linear traces or missing material.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Diagonal view; no clear scratches, abrasions, chips, or coating loss observed across visible surfaces and edges.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Reversed diagonal view; blade surface and cutting edge appear regular with no confirmed damage.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Vertical view; no observable linear traces or material discontinuities on the visible blade surface or轮廓.\"}], \"limitations\": [\"Only the visible flat surfaces and edges are assessed; the opposite face and very fine edge details are not separately imaged.\", \"Low-contrast dark finish may obscure extremely shallow surface marks; no suspicious candidates were identified.\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae89445009cc70089b24057"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    }
+  ],
+  "elapsed_seconds": 21.781
+}

@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p14",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "qwen3.8-max-0902",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T14:00:48.371408+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "qwen",
+    "model": "qwen3.8-max-0902",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "credential_env": "DASHSCOPE_API_KEY"
+  },
+  "fingerprint": "f692758a9321c24bca6cb0d19b54c2c3c54be8a381995f3b0dfa703c484b3eae",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.6,
+          0.57,
+          0.67,
+          0.62
+        ],
+        "description": "金属侧面上部一处浅色弧形擦痕样斑纹，与周围拉丝纹理方向不一致，疑似轻微擦痕",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.42,
+          0.37,
+          0.56,
+          0.49
+        ],
+        "description": "屏蔽壳顶面可见漩涡状浅色擦纹，与规则加工纹难以可靠区分",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.48,
+          0.47,
+          0.54,
+          0.56
+        ],
+        "description": "金属壳平面中部淡色云状擦斑，可能为反光或浅擦痕",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "屏蔽壳平面与右缘冲压凹口可见，凹口为规则结构；平面中部有淡色斑纹；背景中细纤维不属于物体表面"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "顶面与侧面可见；顶缘两处凹口为规则冲压特征；侧面见一处浅色擦痕样斑纹；透明卡扣完整"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "侧面与后端开口可见，边缘连续，未见崩缺；表面仅见均匀加工纹理"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "前端金针与透明体可见，金针排列完整；透明体中部暗色小块为内部结构投影；屏蔽壳边缘凹口为规则形状"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "顶面与后端折叠缝可见，接缝规则；顶面有漩涡状浅纹；金针与边缘未见缺失"
+      }
+    ],
+    "limitations": [
+      "物体在画面中占比小且背景过曝，细浅划痕分辨力有限",
+      "金属反光、刷纹加工纹与浅擦痕难以可靠区分，相关候选仅记为uncertain",
+      "屏蔽壳边缘凹口、折弯缝、金针槽等属正常冲压/装配结构，未计为材料缺失",
+      "背景中的纤维状细线位于物体之外，未作为表面痕迹计入",
+      "未拍摄表面（如壳体内壁、卡扣背面）无法评估"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.6,
+        0.57,
+        0.67,
+        0.62
+      ],
+      "description": "金属侧面上部一处浅色弧形擦痕样斑纹，与周围拉丝纹理方向不一致，疑似轻微擦痕",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        703,
+        668,
+        786,
+        727
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.42,
+        0.37,
+        0.56,
+        0.49
+      ],
+      "description": "屏蔽壳顶面可见漩涡状浅色擦纹，与规则加工纹难以可靠区分",
+      "certainty": "uncertain",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        492,
+        433,
+        657,
+        575
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.48,
+        0.47,
+        0.54,
+        0.56
+      ],
+      "description": "金属壳平面中部淡色云状擦斑，可能为反光或浅擦痕",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        562,
+        550,
+        633,
+        657
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 8318,
+      "completion_tokens": 3564,
+      "total_tokens": 11882
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-f27cc0d9-8812-90cd-b25b-b8a407bca685"
+    ],
+    "response_models": [
+      "qwen3.8-max-0902"
+    ],
+    "provider": {
+      "name": "qwen",
+      "model": "qwen3.8-max-0902",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "credential_env": "DASHSCOPE_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "enable_thinking": true,
+        "vl_high_resolution_images": true
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-f27cc0d9-8812-90cd-b25b-b8a407bca685",
+        "response_model": "qwen3.8-max-0902",
+        "usage": {
+          "completion_tokens": 3564,
+          "prompt_tokens": 8318,
+          "total_tokens": 11882,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2789,
+            "rejected_prediction_tokens": null,
+            "text_tokens": 774
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 8192,
+            "image_tokens": 6855,
+            "text_tokens": 1463
+          }
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.60, 0.57, 0.67, 0.62],\n      \"description\": \"金属侧面上部一处浅色弧形擦痕样斑纹，与周围拉丝纹理方向不一致，疑似轻微擦痕\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.42, 0.37, 0.56, 0.49],\n      \"description\": \"屏蔽壳顶面可见漩涡状浅色擦纹，与规则加工纹难以可靠区分\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.48, 0.47, 0.54, 0.56],\n      \"description\": \"金属壳平面中部淡色云状擦斑，可能为反光或浅擦痕\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"屏蔽壳平面与右缘冲压凹口可见，凹口为规则结构；平面中部有淡色斑纹；背景中细纤维不属于物体表面\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"顶面与侧面可见；顶缘两处凹口为规则冲压特征；侧面见一处浅色擦痕样斑纹；透明卡扣完整\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"侧面与后端开口可见，边缘连续，未见崩缺；表面仅见均匀加工纹理\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"前端金针与透明体可见，金针排列完整；透明体中部暗色小块为内部结构投影；屏蔽壳边缘凹口为规则形状\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"顶面与后端折叠缝可见，接缝规则；顶面有漩涡状浅纹；金针与边缘未见缺失\"\n    }\n  ],\n  \"limitations\": [\n    \"物体在画面中占比小且背景过曝，细浅划痕分辨力有限\",\n    \"金属反光、刷纹加工纹与浅擦痕难以可靠区分，相关候选仅记为uncertain\",\n    \"屏蔽壳边缘凹口、折弯缝、金针槽等属正常冲压/装配结构，未计为材料缺失\",\n    \"背景中的纤维状细线位于物体之外，未作为表面痕迹计入\",\n    \"未拍摄表面（如壳体内壁、卡扣背面）无法评估\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "qwen3.8-max-0902",
+    "request_id": "chatcmpl-f27cc0d9-8812-90cd-b25b-b8a407bca685"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    }
+  ],
+  "elapsed_seconds": 74.538
+}

@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p14",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T14:00:48.371432+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "9a28c7bdd66bd7c7bce05f39c24104e1a0472244ea4523dc1539648b9619d80d",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.45,
+          0.47,
+          0.58,
+          0.62
+        ],
+        "description": "金属屏蔽壳侧面上部可见数条极浅的斜向/纵向浅色细线，表面拉丝纹理被轻微打断；因与金属反光和拉丝纹难以区分，判为可疑。",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.42,
+          0.4,
+          0.57,
+          0.47
+        ],
+        "description": "金属顶面靠近上缘处有一小段浅色细擦痕样痕迹，长度很短，周围表面平滑，判为可疑。",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.31,
+          0.42,
+          0.46,
+          0.49
+        ],
+        "description": "金属顶面左侧偏中可见一条浅白、略不规则的短擦斑，与周围金属光泽不同；可能为表层擦痕或反光，判为可疑。",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "limited",
+        "note": "侧面视角，金属壳占画面较小，表面细线可与拉丝纹/反光混淆；轮廓及边缘未见明显崩缺，底部阶梯状轮廓为结构形状。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "limited",
+        "note": "俯视金属顶面，整体平整，顶部小台阶与缺口为结构设计；仅见极浅短痕，分辨力不足以确认。"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "limited",
+        "note": "斜侧视角，金属壳与透明卡扣接合处边缘连续，未见明显材料缺失；底部折边与小舌片为正常结构。"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "可见金属壳侧面与透明水晶头、金手指接触区；金属边缘连续，未见明显缺口或涂层剥落。"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "limited",
+        "note": "顶面斜视，金属表面整体完整，折边与卡扣处连续；局部浅色痕迹与反光难以明确区分。"
+      }
+    ],
+    "limitations": [
+      "照片为整件中远距离拍摄，金属表面细节分辨率有限，微小划痕与加工纹/反光不易区分。",
+      "未提供微距或斜光特写，无法评估极浅擦痕的深度或边缘微小崩口。",
+      "透明塑料件内部及未拍摄表面不在本次观察范围内。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.45,
+        0.47,
+        0.58,
+        0.62
+      ],
+      "description": "金属屏蔽壳侧面上部可见数条极浅的斜向/纵向浅色细线，表面拉丝纹理被轻微打断；因与金属反光和拉丝纹难以区分，判为可疑。",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        527,
+        550,
+        680,
+        727
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.42,
+        0.4,
+        0.57,
+        0.47
+      ],
+      "description": "金属顶面靠近上缘处有一小段浅色细擦痕样痕迹，长度很短，周围表面平滑，判为可疑。",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        492,
+        468,
+        669,
+        551
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.31,
+        0.42,
+        0.46,
+        0.49
+      ],
+      "description": "金属顶面左侧偏中可见一条浅白、略不规则的短擦斑，与周围金属光泽不同；可能为表层擦痕或反光，判为可疑。",
+      "certainty": "uncertain",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        363,
+        492,
+        540,
+        575
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 5546,
+      "completion_tokens": 2770,
+      "total_tokens": 8316
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "74acce18-a3e0-4e2f-a78f-b0526a7f2087"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "74acce18-a3e0-4e2f-a78f-b0526a7f2087",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 2770,
+          "prompt_tokens": 5546,
+          "total_tokens": 8316,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2118,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 5376
+          },
+          "prompt_cache_hit_tokens": 5376,
+          "prompt_cache_miss_tokens": 170
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"uncertain\", \"material_loss\": \"not_observed\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.45, 0.47, 0.58, 0.62], \"description\": \"金属屏蔽壳侧面上部可见数条极浅的斜向/纵向浅色细线，表面拉丝纹理被轻微打断；因与金属反光和拉丝纹难以区分，判为可疑。\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.42, 0.40, 0.57, 0.47], \"description\": \"金属顶面靠近上缘处有一小段浅色细擦痕样痕迹，长度很短，周围表面平滑，判为可疑。\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-05.png::full\", \"bbox\": [0.31, 0.42, 0.46, 0.49], \"description\": \"金属顶面左侧偏中可见一条浅白、略不规则的短擦斑，与周围金属光泽不同；可能为表层擦痕或反光，判为可疑。\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"limited\", \"note\": \"侧面视角，金属壳占画面较小，表面细线可与拉丝纹/反光混淆；轮廓及边缘未见明显崩缺，底部阶梯状轮廓为结构形状。\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"limited\", \"note\": \"俯视金属顶面，整体平整，顶部小台阶与缺口为结构设计；仅见极浅短痕，分辨力不足以确认。\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"limited\", \"note\": \"斜侧视角，金属壳与透明卡扣接合处边缘连续，未见明显材料缺失；底部折边与小舌片为正常结构。\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"可见金属壳侧面与透明水晶头、金手指接触区；金属边缘连续，未见明显缺口或涂层剥落。\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"limited\", \"note\": \"顶面斜视，金属表面整体完整，折边与卡扣处连续；局部浅色痕迹与反光难以明确区分。\"}], \"limitations\": [\"照片为整件中远距离拍摄，金属表面细节分辨率有限，微小划痕与加工纹/反光不易区分。\", \"未提供微距或斜光特写，无法评估极浅擦痕的深度或边缘微小崩口。\", \"透明塑料件内部及未拍摄表面不在本次观察范围内。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "74acce18-a3e0-4e2f-a78f-b0526a7f2087"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    }
+  ],
+  "elapsed_seconds": 18.243
+}

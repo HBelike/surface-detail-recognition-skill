@@ -1,0 +1,17 @@
+{
+  "skill_entry_count": 1,
+  "skill_structure": "valid",
+  "isolated_checkout_tests_passed": 86,
+  "local_protocol_tests": 6,
+  "real_model_tasks_in_report": 54,
+  "score_rounds_recomputed": 9,
+  "missing_markdown_links": 0,
+  "personal_api_keys": 0,
+  "raw_exam_images_in_repository": false,
+  "embedded_image_html_in_repository": false,
+  "new_paid_model_calls": 0,
+  "notes": [
+    "本地协议夹具不等于新模型准确率实验",
+    "历史54任务结果按原参数记录，通用接口效果需使用方单独评价"
+  ]
+}

@@ -1,0 +1,1952 @@
+{
+  "expected_items": [
+    "item-p01",
+    "item-p08",
+    "item-p10",
+    "item-p14",
+    "item-p17",
+    "item-p25"
+  ],
+  "records": [
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p01",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "qwen3.8-max-0902",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:54:41.605877+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "qwen",
+        "model": "qwen3.8-max-0902",
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "credential_env": "DASHSCOPE_API_KEY"
+      },
+      "fingerprint": "ce6387a1243e017038c67da7a31c5106ede56e5fbb9784aed15c8105fd2d63ca",
+      "result": {
+        "linear_trace": "uncertain",
+        "material_loss": "not_observed",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.488,
+              0.486,
+              0.506,
+              0.504
+            ],
+            "description": "顶面中心处一小簇星状放射细白痕/擦点，形态不规则，与注塑浇口点难以可靠区分",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.613,
+              0.367,
+              0.631,
+              0.385
+            ],
+            "description": "顶面膜片旁同一中心位置的小点状伴短尾痕，疑似浅擦痕或浇口残留",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.63,
+              0.379,
+              0.648,
+              0.397
+            ],
+            "description": "顶面中心小点状痕迹，与其他视角同一位置，疑似浅擦痕或浇口残留",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.618,
+              0.362,
+              0.636,
+              0.38
+            ],
+            "description": "顶面中心星状放射细痕再次可见，疑似浅擦痕或浇口残留",
+            "certainty": "uncertain"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "顶视：圆面、两侧带孔绑带、上下卡扣端口轮廓连续，无崩缺；仅中心一处星状细痕存疑"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "侧视：开口端口内齿、侧面锯齿膜片均规则；未见涂层或本体材料缺失；中心点痕存疑"
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "斜视：顶部卡扣钩尖端见一丝状飞边/纤维突出，属多余材料而非缺失或划痕；其余边缘连续"
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "斜视：端口分裂环与卡钩为设计结构，轮廓完整；中心点痕存疑，无崩缺候选"
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "侧视：右侧卡扣附近见细丝状飞边，非材料缺失；绑带孔与端口齿形规则；中心星状痕存疑"
+          }
+        ],
+        "limitations": [
+          "中心星状点痕与注塑浇口/加工残留无法可靠区分，按规则记为uncertain而非confirmed",
+          "卡扣边缘丝状突出物判为成型飞边或附着纤维，不属于划痕或材料缺失类别",
+          "哑光黑表面在均匀光线下对比度低，极浅划痕可能漏检",
+          "仅评估所提供外侧视角，未拍摄表面与内部不做推断"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.488,
+            0.486,
+            0.506,
+            0.504
+          ],
+          "description": "顶面中心处一小簇星状放射细白痕/擦点，形态不规则，与注塑浇口点难以可靠区分",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            829,
+            826,
+            861,
+            857
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.613,
+            0.367,
+            0.631,
+            0.385
+          ],
+          "description": "顶面膜片旁同一中心位置的小点状伴短尾痕，疑似浅擦痕或浇口残留",
+          "certainty": "uncertain",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            1042,
+            623,
+            1073,
+            655
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.63,
+            0.379,
+            0.648,
+            0.397
+          ],
+          "description": "顶面中心小点状痕迹，与其他视角同一位置，疑似浅擦痕或浇口残留",
+          "certainty": "uncertain",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            1071,
+            644,
+            1102,
+            675
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.618,
+            0.362,
+            0.636,
+            0.38
+          ],
+          "description": "顶面中心星状放射细痕再次可见，疑似浅擦痕或浇口残留",
+          "certainty": "uncertain",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            1050,
+            615,
+            1082,
+            646
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 15518,
+          "completion_tokens": 8005,
+          "total_tokens": 23523
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-96f92f4b-39ff-9fb6-8f5c-af9e48ba6b7b"
+        ],
+        "response_models": [
+          "qwen3.8-max-0902"
+        ],
+        "provider": {
+          "name": "qwen",
+          "model": "qwen3.8-max-0902",
+          "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+          "credential_env": "DASHSCOPE_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "enable_thinking": true,
+            "vl_high_resolution_images": true
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-96f92f4b-39ff-9fb6-8f5c-af9e48ba6b7b",
+            "response_model": "qwen3.8-max-0902",
+            "usage": {
+              "completion_tokens": 8005,
+              "prompt_tokens": 15518,
+              "total_tokens": 23523,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 7116,
+                "rejected_prediction_tokens": null,
+                "text_tokens": 888
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 15360,
+                "image_tokens": 14055,
+                "text_tokens": 1463
+              }
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.488, 0.486, 0.506, 0.504],\n      \"description\": \"顶面中心处一小簇星状放射细白痕/擦点，形态不规则，与注塑浇口点难以可靠区分\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.613, 0.367, 0.631, 0.385],\n      \"description\": \"顶面膜片旁同一中心位置的小点状伴短尾痕，疑似浅擦痕或浇口残留\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.63, 0.379, 0.648, 0.397],\n      \"description\": \"顶面中心小点状痕迹，与其他视角同一位置，疑似浅擦痕或浇口残留\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.618, 0.362, 0.636, 0.38],\n      \"description\": \"顶面中心星状放射细痕再次可见，疑似浅擦痕或浇口残留\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"顶视：圆面、两侧带孔绑带、上下卡扣端口轮廓连续，无崩缺；仅中心一处星状细痕存疑\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"侧视：开口端口内齿、侧面锯齿膜片均规则；未见涂层或本体材料缺失；中心点痕存疑\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：顶部卡扣钩尖端见一丝状飞边/纤维突出，属多余材料而非缺失或划痕；其余边缘连续\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：端口分裂环与卡钩为设计结构，轮廓完整；中心点痕存疑，无崩缺候选\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"侧视：右侧卡扣附近见细丝状飞边，非材料缺失；绑带孔与端口齿形规则；中心星状痕存疑\"\n    }\n  ],\n  \"limitations\": [\n    \"中心星状点痕与注塑浇口/加工残留无法可靠区分，按规则记为uncertain而非confirmed\",\n    \"卡扣边缘丝状突出物判为成型飞边或附着纤维，不属于划痕或材料缺失类别\",\n    \"哑光黑表面在均匀光线下对比度低，极浅划痕可能漏检\",\n    \"仅评估所提供外侧视角，未拍摄表面与内部不做推断\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "qwen3.8-max-0902",
+        "request_id": "chatcmpl-96f92f4b-39ff-9fb6-8f5c-af9e48ba6b7b"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            1700,
+            1700
+          ],
+          "crop_box": [
+            0,
+            0,
+            1700,
+            1700
+          ]
+        }
+      ],
+      "elapsed_seconds": 179.345
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p08",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "qwen3.8-max-0902",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:57:40.971160+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "qwen",
+        "model": "qwen3.8-max-0902",
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "credential_env": "DASHSCOPE_API_KEY"
+      },
+      "fingerprint": "cf87402fc189180a5eff20bb06cc55585e77fbedd6ce9db59c2d1d82654d306d",
+      "result": {
+        "linear_trace": "present",
+        "material_loss": "not_observed",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.69,
+              0.46,
+              0.76,
+              0.475
+            ],
+            "description": "深色涂层表面靠近背部边缘、近柄端处两条例外浅色短线性刮痕，露出亮色底层",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.66,
+              0.485,
+              0.71,
+              0.53
+            ],
+            "description": "涂层表面中部偏右的极浅发丝状细线，疑似轻微擦痕",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.44,
+              0.275,
+              0.47,
+              0.32
+            ],
+            "description": "竖直视图上段背侧涂层上两条浅色短划痕迹",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.66,
+              0.49,
+              0.71,
+              0.51
+            ],
+            "description": "斜置视图近柄端背部涂层上的浅色短线性痕迹，较淡",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.27,
+              0.46,
+              0.325,
+              0.485
+            ],
+            "description": "近柄端涂层表面两条浅色短划痕，方向与背部平行",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.32,
+              0.42,
+              0.345,
+              0.47
+            ],
+            "description": "涂层表面近柄端的极浅细线，疑似擦痕",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.53,
+              0.685,
+              0.56,
+              0.73
+            ],
+            "description": "竖直视图下段背侧涂层上两条浅色短划痕迹",
+            "certainty": "confirmed"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "深色涂层锯条侧视全貌；齿列完整均匀，柄部孔与 tab 边缘连续；背部近柄端见浅色短线性痕，未见崩缺或涂层块状缺失"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "竖直视角；齿尖与两端轮廓连续，无缺口；上段背侧涂层见浅色短划痕"
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "斜置视角；整体轮廓与涂层连续；近柄端背部有淡浅色短痕，齿列无缺失"
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "反向斜置视角；柄部、孔及齿列完整；近柄端涂层见浅色短划痕及极浅细线"
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "竖直反向视角；齿列与端部轮廓连续；下段背侧涂层见浅色短划痕，未见材料缺失"
+          }
+        ],
+        "limitations": [
+          "浅色短痕尺寸很小，部分视角对比度低，难以完全排除反光或涂层不均的可能",
+          "照片均为单侧表面视角，未拍摄面与齿根内部无法评估",
+          "无法由图像判断痕迹深度或是否伴随体积损失"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.69,
+            0.46,
+            0.76,
+            0.475
+          ],
+          "description": "深色涂层表面靠近背部边缘、近柄端处两条例外浅色短线性刮痕，露出亮色底层",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            1399,
+            932,
+            1542,
+            964
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.66,
+            0.485,
+            0.71,
+            0.53
+          ],
+          "description": "涂层表面中部偏右的极浅发丝状细线，疑似轻微擦痕",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            1338,
+            983,
+            1440,
+            1075
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.44,
+            0.275,
+            0.47,
+            0.32
+          ],
+          "description": "竖直视图上段背侧涂层上两条浅色短划痕迹",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            892,
+            557,
+            954,
+            649
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-03.png::full",
+          "bbox": [
+            0.66,
+            0.49,
+            0.71,
+            0.51
+          ],
+          "description": "斜置视图近柄端背部涂层上的浅色短线性痕迹，较淡",
+          "certainty": "uncertain",
+          "source": "view-03.png",
+          "bbox_pixels": [
+            1338,
+            993,
+            1440,
+            1035
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.27,
+            0.46,
+            0.325,
+            0.485
+          ],
+          "description": "近柄端涂层表面两条浅色短划痕，方向与背部平行",
+          "certainty": "confirmed",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            547,
+            932,
+            660,
+            984
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.32,
+            0.42,
+            0.345,
+            0.47
+          ],
+          "description": "涂层表面近柄端的极浅细线，疑似擦痕",
+          "certainty": "uncertain",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            648,
+            851,
+            700,
+            954
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.53,
+            0.685,
+            0.56,
+            0.73
+          ],
+          "description": "竖直视图下段背侧涂层上两条浅色短划痕迹",
+          "certainty": "confirmed",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            1074,
+            1389,
+            1136,
+            1481
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 21318,
+          "completion_tokens": 5410,
+          "total_tokens": 26728
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-d811fa7c-0463-90c7-89f3-23b64101fb46"
+        ],
+        "response_models": [
+          "qwen3.8-max-0902"
+        ],
+        "provider": {
+          "name": "qwen",
+          "model": "qwen3.8-max-0902",
+          "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+          "credential_env": "DASHSCOPE_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "enable_thinking": true,
+            "vl_high_resolution_images": true
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-d811fa7c-0463-90c7-89f3-23b64101fb46",
+            "response_model": "qwen3.8-max-0902",
+            "usage": {
+              "completion_tokens": 5410,
+              "prompt_tokens": 21318,
+              "total_tokens": 26728,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 4325,
+                "rejected_prediction_tokens": null,
+                "text_tokens": 1084
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 20480,
+                "image_tokens": 19855,
+                "text_tokens": 1463
+              }
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.69, 0.46, 0.76, 0.475],\n      \"description\": \"深色涂层表面靠近背部边缘、近柄端处两条例外浅色短线性刮痕，露出亮色底层\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.66, 0.485, 0.71, 0.53],\n      \"description\": \"涂层表面中部偏右的极浅发丝状细线，疑似轻微擦痕\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.44, 0.275, 0.47, 0.32],\n      \"description\": \"竖直视图上段背侧涂层上两条浅色短划痕迹\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.66, 0.49, 0.71, 0.51],\n      \"description\": \"斜置视图近柄端背部涂层上的浅色短线性痕迹，较淡\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.27, 0.46, 0.325, 0.485],\n      \"description\": \"近柄端涂层表面两条浅色短划痕，方向与背部平行\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.32, 0.42, 0.345, 0.47],\n      \"description\": \"涂层表面近柄端的极浅细线，疑似擦痕\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.53, 0.685, 0.56, 0.73],\n      \"description\": \"竖直视图下段背侧涂层上两条浅色短划痕迹\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"深色涂层锯条侧视全貌；齿列完整均匀，柄部孔与 tab 边缘连续；背部近柄端见浅色短线性痕，未见崩缺或涂层块状缺失\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"竖直视角；齿尖与两端轮廓连续，无缺口；上段背侧涂层见浅色短划痕\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜置视角；整体轮廓与涂层连续；近柄端背部有淡浅色短痕，齿列无缺失\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"反向斜置视角；柄部、孔及齿列完整；近柄端涂层见浅色短划痕及极浅细线\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"竖直反向视角；齿列与端部轮廓连续；下段背侧涂层见浅色短划痕，未见材料缺失\"\n    }\n  ],\n  \"limitations\": [\n    \"浅色短痕尺寸很小，部分视角对比度低，难以完全排除反光或涂层不均的可能\",\n    \"照片均为单侧表面视角，未拍摄面与齿根内部无法评估\",\n    \"无法由图像判断痕迹深度或是否伴随体积损失\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "qwen3.8-max-0902",
+        "request_id": "chatcmpl-d811fa7c-0463-90c7-89f3-23b64101fb46"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            2028,
+            2028
+          ],
+          "crop_box": [
+            0,
+            0,
+            2028,
+            2028
+          ]
+        }
+      ],
+      "elapsed_seconds": 112.084
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p10",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "qwen3.8-max-0902",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T13:59:33.069288+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "qwen",
+        "model": "qwen3.8-max-0902",
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "credential_env": "DASHSCOPE_API_KEY"
+      },
+      "fingerprint": "365f00e07fc1ebbde1177c30777acba8237e36386358f2a336dd16ef2637bd10",
+      "result": {
+        "linear_trace": "uncertain",
+        "material_loss": "present",
+        "findings": [
+          {
+            "category": "material_loss",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.35,
+              0.46,
+              0.4,
+              0.54
+            ],
+            "description": "白色多孔包覆层下缘的V字形缺口，覆盖层中断并暴露下层蓝色主体",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "material_loss",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.47,
+              0.52,
+              0.5,
+              0.56
+            ],
+            "description": "白色包覆层下缘局部凹陷并露出蓝色小块，疑似与view-02缺口同处的包覆层缺失",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.55,
+              0.37,
+              0.57,
+              0.41
+            ],
+            "description": "蓝色螺纹面上横跨螺脊的白色短细线，走向与规则螺纹纹不一致，疑似擦痕或纤维附着",
+            "certainty": "uncertain"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "蓝色螺纹喷嘴、白色多孔套筒与蓝色齿状法兰清晰可见；螺纹面见微小白色细线，套筒下缘见轻微凹陷"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "同一物体旋转视角；白色套筒下缘见清晰V字形包覆层中断并露出蓝色下层，其余表面为正常多孔纹理"
+          }
+        ],
+        "limitations": [
+          "泡沫/多孔包覆层纹理本身不规则，细微划痕与材料纹理难以可靠区分",
+          "仅两个视角，未拍摄表面无法评估",
+          "螺纹为规则加工纹，其上的浅色细线无法确认是否为擦痕而非纤维附着"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "material_loss",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.35,
+            0.46,
+            0.4,
+            0.54
+          ],
+          "description": "白色多孔包覆层下缘的V字形缺口，覆盖层中断并暴露下层蓝色主体",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            389,
+            511,
+            445,
+            601
+          ]
+        },
+        {
+          "category": "material_loss",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.47,
+            0.52,
+            0.5,
+            0.56
+          ],
+          "description": "白色包覆层下缘局部凹陷并露出蓝色小块，疑似与view-02缺口同处的包覆层缺失",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            522,
+            578,
+            556,
+            623
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.55,
+            0.37,
+            0.57,
+            0.41
+          ],
+          "description": "蓝色螺纹面上横跨螺脊的白色短细线，走向与规则螺纹纹不一致，疑似擦痕或纤维附着",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            611,
+            411,
+            634,
+            456
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 3734,
+          "completion_tokens": 3505,
+          "total_tokens": 7239
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-eeb2a842-cd91-96b0-bb2b-8059a56372ab"
+        ],
+        "response_models": [
+          "qwen3.8-max-0902"
+        ],
+        "provider": {
+          "name": "qwen",
+          "model": "qwen3.8-max-0902",
+          "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+          "credential_env": "DASHSCOPE_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "enable_thinking": true,
+            "vl_high_resolution_images": true
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-eeb2a842-cd91-96b0-bb2b-8059a56372ab",
+            "response_model": "qwen3.8-max-0902",
+            "usage": {
+              "completion_tokens": 3505,
+              "prompt_tokens": 3734,
+              "total_tokens": 7239,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 2971,
+                "rejected_prediction_tokens": null,
+                "text_tokens": 533
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 3072,
+                "image_tokens": 2454,
+                "text_tokens": 1280
+              }
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"present\",\n  \"findings\": [\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.35, 0.46, 0.4, 0.54],\n      \"description\": \"白色多孔包覆层下缘的V字形缺口，覆盖层中断并暴露下层蓝色主体\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.47, 0.52, 0.5, 0.56],\n      \"description\": \"白色包覆层下缘局部凹陷并露出蓝色小块，疑似与view-02缺口同处的包覆层缺失\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.55, 0.37, 0.57, 0.41],\n      \"description\": \"蓝色螺纹面上横跨螺脊的白色短细线，走向与规则螺纹纹不一致，疑似擦痕或纤维附着\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"蓝色螺纹喷嘴、白色多孔套筒与蓝色齿状法兰清晰可见；螺纹面见微小白色细线，套筒下缘见轻微凹陷\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"同一物体旋转视角；白色套筒下缘见清晰V字形包覆层中断并露出蓝色下层，其余表面为正常多孔纹理\"\n    }\n  ],\n  \"limitations\": [\n    \"泡沫/多孔包覆层纹理本身不规则，细微划痕与材料纹理难以可靠区分\",\n    \"仅两个视角，未拍摄表面无法评估\",\n    \"螺纹为规则加工纹，其上的浅色细线无法确认是否为擦痕而非纤维附着\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "qwen3.8-max-0902",
+        "request_id": "chatcmpl-eeb2a842-cd91-96b0-bb2b-8059a56372ab"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1112,
+            1112
+          ],
+          "crop_box": [
+            0,
+            0,
+            1112,
+            1112
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1112,
+            1112
+          ],
+          "crop_box": [
+            0,
+            0,
+            1112,
+            1112
+          ]
+        }
+      ],
+      "elapsed_seconds": 75.29
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p14",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "qwen3.8-max-0902",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T14:00:48.371408+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "qwen",
+        "model": "qwen3.8-max-0902",
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "credential_env": "DASHSCOPE_API_KEY"
+      },
+      "fingerprint": "f692758a9321c24bca6cb0d19b54c2c3c54be8a381995f3b0dfa703c484b3eae",
+      "result": {
+        "linear_trace": "uncertain",
+        "material_loss": "not_observed",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.6,
+              0.57,
+              0.67,
+              0.62
+            ],
+            "description": "金属侧面上部一处浅色弧形擦痕样斑纹，与周围拉丝纹理方向不一致，疑似轻微擦痕",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.42,
+              0.37,
+              0.56,
+              0.49
+            ],
+            "description": "屏蔽壳顶面可见漩涡状浅色擦纹，与规则加工纹难以可靠区分",
+            "certainty": "uncertain"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.48,
+              0.47,
+              0.54,
+              0.56
+            ],
+            "description": "金属壳平面中部淡色云状擦斑，可能为反光或浅擦痕",
+            "certainty": "uncertain"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "屏蔽壳平面与右缘冲压凹口可见，凹口为规则结构；平面中部有淡色斑纹；背景中细纤维不属于物体表面"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "顶面与侧面可见；顶缘两处凹口为规则冲压特征；侧面见一处浅色擦痕样斑纹；透明卡扣完整"
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "侧面与后端开口可见，边缘连续，未见崩缺；表面仅见均匀加工纹理"
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "前端金针与透明体可见，金针排列完整；透明体中部暗色小块为内部结构投影；屏蔽壳边缘凹口为规则形状"
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "顶面与后端折叠缝可见，接缝规则；顶面有漩涡状浅纹；金针与边缘未见缺失"
+          }
+        ],
+        "limitations": [
+          "物体在画面中占比小且背景过曝，细浅划痕分辨力有限",
+          "金属反光、刷纹加工纹与浅擦痕难以可靠区分，相关候选仅记为uncertain",
+          "屏蔽壳边缘凹口、折弯缝、金针槽等属正常冲压/装配结构，未计为材料缺失",
+          "背景中的纤维状细线位于物体之外，未作为表面痕迹计入",
+          "未拍摄表面（如壳体内壁、卡扣背面）无法评估"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.6,
+            0.57,
+            0.67,
+            0.62
+          ],
+          "description": "金属侧面上部一处浅色弧形擦痕样斑纹，与周围拉丝纹理方向不一致，疑似轻微擦痕",
+          "certainty": "uncertain",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            703,
+            668,
+            786,
+            727
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.42,
+            0.37,
+            0.56,
+            0.49
+          ],
+          "description": "屏蔽壳顶面可见漩涡状浅色擦纹，与规则加工纹难以可靠区分",
+          "certainty": "uncertain",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            492,
+            433,
+            657,
+            575
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.48,
+            0.47,
+            0.54,
+            0.56
+          ],
+          "description": "金属壳平面中部淡色云状擦斑，可能为反光或浅擦痕",
+          "certainty": "uncertain",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            562,
+            550,
+            633,
+            657
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 8318,
+          "completion_tokens": 3564,
+          "total_tokens": 11882
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-f27cc0d9-8812-90cd-b25b-b8a407bca685"
+        ],
+        "response_models": [
+          "qwen3.8-max-0902"
+        ],
+        "provider": {
+          "name": "qwen",
+          "model": "qwen3.8-max-0902",
+          "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+          "credential_env": "DASHSCOPE_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "enable_thinking": true,
+            "vl_high_resolution_images": true
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-f27cc0d9-8812-90cd-b25b-b8a407bca685",
+            "response_model": "qwen3.8-max-0902",
+            "usage": {
+              "completion_tokens": 3564,
+              "prompt_tokens": 8318,
+              "total_tokens": 11882,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 2789,
+                "rejected_prediction_tokens": null,
+                "text_tokens": 774
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 8192,
+                "image_tokens": 6855,
+                "text_tokens": 1463
+              }
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.60, 0.57, 0.67, 0.62],\n      \"description\": \"金属侧面上部一处浅色弧形擦痕样斑纹，与周围拉丝纹理方向不一致，疑似轻微擦痕\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.42, 0.37, 0.56, 0.49],\n      \"description\": \"屏蔽壳顶面可见漩涡状浅色擦纹，与规则加工纹难以可靠区分\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.48, 0.47, 0.54, 0.56],\n      \"description\": \"金属壳平面中部淡色云状擦斑，可能为反光或浅擦痕\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"屏蔽壳平面与右缘冲压凹口可见，凹口为规则结构；平面中部有淡色斑纹；背景中细纤维不属于物体表面\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"顶面与侧面可见；顶缘两处凹口为规则冲压特征；侧面见一处浅色擦痕样斑纹；透明卡扣完整\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"侧面与后端开口可见，边缘连续，未见崩缺；表面仅见均匀加工纹理\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"前端金针与透明体可见，金针排列完整；透明体中部暗色小块为内部结构投影；屏蔽壳边缘凹口为规则形状\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"顶面与后端折叠缝可见，接缝规则；顶面有漩涡状浅纹；金针与边缘未见缺失\"\n    }\n  ],\n  \"limitations\": [\n    \"物体在画面中占比小且背景过曝，细浅划痕分辨力有限\",\n    \"金属反光、刷纹加工纹与浅擦痕难以可靠区分，相关候选仅记为uncertain\",\n    \"屏蔽壳边缘凹口、折弯缝、金针槽等属正常冲压/装配结构，未计为材料缺失\",\n    \"背景中的纤维状细线位于物体之外，未作为表面痕迹计入\",\n    \"未拍摄表面（如壳体内壁、卡扣背面）无法评估\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "qwen3.8-max-0902",
+        "request_id": "chatcmpl-f27cc0d9-8812-90cd-b25b-b8a407bca685"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            1172,
+            1172
+          ],
+          "crop_box": [
+            0,
+            0,
+            1172,
+            1172
+          ]
+        }
+      ],
+      "elapsed_seconds": 74.538
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p17",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "qwen3.8-max-0902",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T14:03:04.841492+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "qwen",
+        "model": "qwen3.8-max-0902",
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "credential_env": "DASHSCOPE_API_KEY"
+      },
+      "fingerprint": "621498e0a501022d6bb99dcffbcdea875c54f7d62d3f55e4ed0ad6ac5d72883d",
+      "result": {
+        "linear_trace": "present",
+        "material_loss": "not_observed",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.641,
+              0.38,
+              0.648,
+              0.477
+            ],
+            "description": "板面右半一条纵向细划痕，线状清晰",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.824,
+              0.394,
+              0.847,
+              0.421
+            ],
+            "description": "板面右侧短斜向细划痕",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.431,
+              0.454,
+              0.509,
+              0.532
+            ],
+            "description": "板面中部不规则擦痕斑，表面纹理被打断",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.407,
+              0.153,
+              0.523,
+              0.176
+            ],
+            "description": "表面上端横向细划痕",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.417,
+              0.338,
+              0.5,
+              0.356
+            ],
+            "description": "表面中上部横向划痕，端部伴局部擦痕",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-03.png::full",
+            "bbox": [
+              0.62,
+              0.407,
+              0.648,
+              0.491
+            ],
+            "description": "板面右半纵向细划痕",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.389,
+              0.463,
+              0.403,
+              0.551
+            ],
+            "description": "板面左半纵向细划痕",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-04.png::full",
+            "bbox": [
+              0.204,
+              0.398,
+              0.25,
+              0.444
+            ],
+            "description": "板面左端斜向细划痕",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.569,
+              0.611,
+              0.648,
+              0.62
+            ],
+            "description": "板面下半横向细划痕",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-05.png::full",
+            "bbox": [
+              0.569,
+              0.755,
+              0.602,
+              0.782
+            ],
+            "description": "板面下段斜向短划痕",
+            "certainty": "confirmed"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "俯视全貌；板面右半多条细线状划痕、中部擦痕斑；四边及角部轮廓连续，未见崩缺或覆盖层缺失"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "斜视；表面多条横向与斜向细划痕及擦痕斑；侧边与端面连续，无材料缺失迹象"
+          },
+          {
+            "image_id": "view-03.png::full",
+            "quality": "adequate",
+            "note": "斜视；右半纵向细划痕、中部擦痕斑可见；边缘完整连续，未见崩缺"
+          },
+          {
+            "image_id": "view-04.png::full",
+            "quality": "adequate",
+            "note": "斜视；左半多条纵向与斜向细划痕、中部擦痕斑；边缘及角部完整，无缺口"
+          },
+          {
+            "image_id": "view-05.png::full",
+            "quality": "adequate",
+            "note": "斜视；下半横向与斜向细划痕、中部擦痕斑；轮廓连续，未见涂层或基体缺失"
+          }
+        ],
+        "limitations": [
+          "仅评估已拍摄表面，背面与底面未观察",
+          "划痕深度与成因不作推断，仅记录可见表面痕迹",
+          "浅色金属反光可能掩盖极细微划痕或微小崩缺"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.641,
+            0.38,
+            0.648,
+            0.477
+          ],
+          "description": "板面右半一条纵向细划痕，线状清晰",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            1384,
+            820,
+            1400,
+            1031
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.824,
+            0.394,
+            0.847,
+            0.421
+          ],
+          "description": "板面右侧短斜向细划痕",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            1779,
+            851,
+            1830,
+            910
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.431,
+            0.454,
+            0.509,
+            0.532
+          ],
+          "description": "板面中部不规则擦痕斑，表面纹理被打断",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            930,
+            980,
+            1100,
+            1150
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.407,
+            0.153,
+            0.523,
+            0.176
+          ],
+          "description": "表面上端横向细划痕",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            879,
+            330,
+            1130,
+            381
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.417,
+            0.338,
+            0.5,
+            0.356
+          ],
+          "description": "表面中上部横向划痕，端部伴局部擦痕",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            900,
+            730,
+            1080,
+            769
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-03.png::full",
+          "bbox": [
+            0.62,
+            0.407,
+            0.648,
+            0.491
+          ],
+          "description": "板面右半纵向细划痕",
+          "certainty": "confirmed",
+          "source": "view-03.png",
+          "bbox_pixels": [
+            1339,
+            879,
+            1400,
+            1061
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.389,
+            0.463,
+            0.403,
+            0.551
+          ],
+          "description": "板面左半纵向细划痕",
+          "certainty": "confirmed",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            840,
+            1000,
+            871,
+            1191
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-04.png::full",
+          "bbox": [
+            0.204,
+            0.398,
+            0.25,
+            0.444
+          ],
+          "description": "板面左端斜向细划痕",
+          "certainty": "confirmed",
+          "source": "view-04.png",
+          "bbox_pixels": [
+            440,
+            859,
+            540,
+            960
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.569,
+            0.611,
+            0.648,
+            0.62
+          ],
+          "description": "板面下半横向细划痕",
+          "certainty": "confirmed",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            1229,
+            1319,
+            1400,
+            1340
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-05.png::full",
+          "bbox": [
+            0.569,
+            0.755,
+            0.602,
+            0.782
+          ],
+          "description": "板面下段斜向短划痕",
+          "certainty": "confirmed",
+          "source": "view-05.png",
+          "bbox_pixels": [
+            1229,
+            1630,
+            1301,
+            1690
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 24593,
+          "completion_tokens": 4906,
+          "total_tokens": 29499
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-bbaad3bc-f8f6-91d4-8154-761280e216a3"
+        ],
+        "response_models": [
+          "qwen3.8-max-0902"
+        ],
+        "provider": {
+          "name": "qwen",
+          "model": "qwen3.8-max-0902",
+          "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+          "credential_env": "DASHSCOPE_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "enable_thinking": true,
+            "vl_high_resolution_images": true
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-bbaad3bc-f8f6-91d4-8154-761280e216a3",
+            "response_model": "qwen3.8-max-0902",
+            "usage": {
+              "completion_tokens": 4906,
+              "prompt_tokens": 24593,
+              "total_tokens": 29499,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 3617,
+                "rejected_prediction_tokens": null,
+                "text_tokens": 1288
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 24576,
+                "image_tokens": 23130,
+                "text_tokens": 1463
+              }
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.641, 0.38, 0.648, 0.477],\n      \"description\": \"板面右半一条纵向细划痕，线状清晰\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.824, 0.394, 0.847, 0.421],\n      \"description\": \"板面右侧短斜向细划痕\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.431, 0.454, 0.509, 0.532],\n      \"description\": \"板面中部不规则擦痕斑，表面纹理被打断\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.407, 0.153, 0.523, 0.176],\n      \"description\": \"表面上端横向细划痕\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.417, 0.338, 0.5, 0.356],\n      \"description\": \"表面中上部横向划痕，端部伴局部擦痕\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.62, 0.407, 0.648, 0.491],\n      \"description\": \"板面右半纵向细划痕\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.389, 0.463, 0.403, 0.551],\n      \"description\": \"板面左半纵向细划痕\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.204, 0.398, 0.25, 0.444],\n      \"description\": \"板面左端斜向细划痕\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.569, 0.611, 0.648, 0.62],\n      \"description\": \"板面下半横向细划痕\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.569, 0.755, 0.602, 0.782],\n      \"description\": \"板面下段斜向短划痕\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"俯视全貌；板面右半多条细线状划痕、中部擦痕斑；四边及角部轮廓连续，未见崩缺或覆盖层缺失\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视；表面多条横向与斜向细划痕及擦痕斑；侧边与端面连续，无材料缺失迹象\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视；右半纵向细划痕、中部擦痕斑可见；边缘完整连续，未见崩缺\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视；左半多条纵向与斜向细划痕、中部擦痕斑；边缘及角部完整，无缺口\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视；下半横向与斜向细划痕、中部擦痕斑；轮廓连续，未见涂层或基体缺失\"\n    }\n  ],\n  \"limitations\": [\n    \"仅评估已拍摄表面，背面与底面未观察\",\n    \"划痕深度与成因不作推断，仅记录可见表面痕迹\",\n    \"浅色金属反光可能掩盖极细微划痕或微小崩缺\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "qwen3.8-max-0902",
+        "request_id": "chatcmpl-bbaad3bc-f8f6-91d4-8154-761280e216a3"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-03.png::full",
+          "source": "view-03.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-04.png::full",
+          "source": "view-04.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        },
+        {
+          "image_id": "view-05.png::full",
+          "source": "view-05.png",
+          "source_size": [
+            2160,
+            2160
+          ],
+          "crop_box": [
+            0,
+            0,
+            2160,
+            2160
+          ]
+        }
+      ],
+      "elapsed_seconds": 88.837
+    },
+    {
+      "schema_version": "1.0",
+      "item_id": "item-p25",
+      "status": "completed",
+      "mode": "baseline",
+      "requested_model": "qwen3.8-max-0902",
+      "thinking": "enabled",
+      "backend": "deepseek",
+      "timestamp": "2026-11-02T14:04:43.818942+00:00",
+      "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+      "provider": {
+        "name": "qwen",
+        "model": "qwen3.8-max-0902",
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "credential_env": "DASHSCOPE_API_KEY"
+      },
+      "fingerprint": "98b1c55e5d98db2ab416ac61d9a2a748ccc3aa08adf8d628a64f0f1c00493404",
+      "result": {
+        "linear_trace": "present",
+        "material_loss": "not_observed",
+        "findings": [
+          {
+            "category": "linear_trace",
+            "image_id": "view-01.png::full",
+            "bbox": [
+              0.45,
+              0.41,
+              0.49,
+              0.465
+            ],
+            "description": "筒身侧面局部白色不规则擦痕/细刮痕，方向与轴向拉丝加工纹交叉",
+            "certainty": "confirmed"
+          },
+          {
+            "category": "linear_trace",
+            "image_id": "view-02.png::full",
+            "bbox": [
+              0.5,
+              0.48,
+              0.58,
+              0.535
+            ],
+            "description": "筒身侧面白色擦色斑及伴生短细线痕，边缘不规则，区别于均匀反光带",
+            "certainty": "confirmed"
+          }
+        ],
+        "observations": [
+          {
+            "image_id": "view-01.png::full",
+            "quality": "adequate",
+            "note": "黄铜筒体斜俯视图，开口端与底部缘边轮廓连续；筒身可见轴向加工纹及一处白色擦痕，未见崩缺或涂层缺失"
+          },
+          {
+            "image_id": "view-02.png::full",
+            "quality": "adequate",
+            "note": "同一筒体另一角度，缘边与口端完整；筒身侧面见白色擦痕与短细线痕，未见材料缺失"
+          }
+        ],
+        "limitations": [
+          "仅两个外部视角，内腔底面与底部接触面不可见",
+          "白色擦痕较浅，无法评估深度，仅记录表面可见痕迹",
+          "高光带与浅色擦痕在局部可能混淆，已按形态与加工纹方向区分"
+        ]
+      },
+      "evidence": [
+        {
+          "category": "linear_trace",
+          "image_id": "view-01.png::full",
+          "bbox": [
+            0.45,
+            0.41,
+            0.49,
+            0.465
+          ],
+          "description": "筒身侧面局部白色不规则擦痕/细刮痕，方向与轴向拉丝加工纹交叉",
+          "certainty": "confirmed",
+          "source": "view-01.png",
+          "bbox_pixels": [
+            508,
+            463,
+            554,
+            526
+          ]
+        },
+        {
+          "category": "linear_trace",
+          "image_id": "view-02.png::full",
+          "bbox": [
+            0.5,
+            0.48,
+            0.58,
+            0.535
+          ],
+          "description": "筒身侧面白色擦色斑及伴生短细线痕，边缘不规则，区别于均匀反光带",
+          "certainty": "confirmed",
+          "source": "view-02.png",
+          "bbox_pixels": [
+            565,
+            542,
+            656,
+            605
+          ]
+        }
+      ],
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 3734,
+          "completion_tokens": 1411,
+          "total_tokens": 5145
+        },
+        "request_count": 1,
+        "requests_with_unknown_usage": 0,
+        "content_attempts": 1,
+        "thinking": "enabled",
+        "reasoning_effort": "high",
+        "request_ids": [
+          "chatcmpl-972ed467-4050-9a7c-ac9d-50d235f17b57"
+        ],
+        "response_models": [
+          "qwen3.8-max-0902"
+        ],
+        "provider": {
+          "name": "qwen",
+          "model": "qwen3.8-max-0902",
+          "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+          "credential_env": "DASHSCOPE_API_KEY"
+        },
+        "request_parameters": {
+          "max_tokens": 16384,
+          "extra_body": {
+            "enable_thinking": true,
+            "vl_high_resolution_images": true
+          }
+        },
+        "responses": [
+          {
+            "request_id": "chatcmpl-972ed467-4050-9a7c-ac9d-50d235f17b57",
+            "response_model": "qwen3.8-max-0902",
+            "usage": {
+              "completion_tokens": 1411,
+              "prompt_tokens": 3734,
+              "total_tokens": 5145,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": null,
+                "audio_tokens": null,
+                "reasoning_tokens": 965,
+                "rejected_prediction_tokens": null,
+                "text_tokens": 445
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 3072,
+                "image_tokens": 2454,
+                "text_tokens": 1280
+              }
+            },
+            "finish_reason": "stop",
+            "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.45, 0.41, 0.49, 0.465],\n      \"description\": \"筒身侧面局部白色不规则擦痕/细刮痕，方向与轴向拉丝加工纹交叉\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.5, 0.48, 0.58, 0.535],\n      \"description\": \"筒身侧面白色擦色斑及伴生短细线痕，边缘不规则，区别于均匀反光带\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"黄铜筒体斜俯视图，开口端与底部缘边轮廓连续；筒身可见轴向加工纹及一处白色擦痕，未见崩缺或涂层缺失\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"同一筒体另一角度，缘边与口端完整；筒身侧面见白色擦痕与短细线痕，未见材料缺失\"\n    }\n  ],\n  \"limitations\": [\n    \"仅两个外部视角，内腔底面与底部接触面不可见\",\n    \"白色擦痕较浅，无法评估深度，仅记录表面可见痕迹\",\n    \"高光带与浅色擦痕在局部可能混淆，已按形态与加工纹方向区分\"\n  ]\n}"
+          }
+        ],
+        "reference_images": [],
+        "response_model": "qwen3.8-max-0902",
+        "request_id": "chatcmpl-972ed467-4050-9a7c-ac9d-50d235f17b57"
+      },
+      "input_images": [
+        {
+          "image_id": "view-01.png::full",
+          "source": "view-01.png",
+          "source_size": [
+            1130,
+            1130
+          ],
+          "crop_box": [
+            0,
+            0,
+            1130,
+            1130
+          ]
+        },
+        {
+          "image_id": "view-02.png::full",
+          "source": "view-02.png",
+          "source_size": [
+            1130,
+            1130
+          ],
+          "crop_box": [
+            0,
+            0,
+            1130,
+            1130
+          ]
+        }
+      ],
+      "elapsed_seconds": 29.9
+    }
+  ]
+}

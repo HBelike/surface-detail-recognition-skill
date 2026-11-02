@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p10",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "qwen3.8-max-0902",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:36:36.533763+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "qwen",
+    "model": "qwen3.8-max-0902",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "credential_env": "DASHSCOPE_API_KEY"
+  },
+  "fingerprint": "365f00e07fc1ebbde1177c30777acba8237e36386358f2a336dd16ef2637bd10",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "present",
+    "findings": [
+      {
+        "category": "material_loss",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.349,
+          0.459,
+          0.397,
+          0.529
+        ],
+        "description": "白色多孔套筒靠近蓝色齿环边缘处呈V形缺口，覆盖层局部中断并露出下层蓝色塑料，为材料缺失",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.544,
+          0.364,
+          0.571,
+          0.436
+        ],
+        "description": "蓝色螺纹牙面上数条浅色细线状擦痕，打断规则螺纹纹理，疑似擦痕或附着纤维，难以可靠区分",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "白色泡沫套筒与蓝色螺纹嘴、齿环可见；螺纹牙面有可疑浅色细线；套筒边缘在该视角大致连续，嘴尖端附近背景中见一根极细纤维丝"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "白色套筒边缘见清晰V形材料缺失缺口；螺纹右侧边缘另有一小处纤维状/毛边突起，未计入确认发现"
+      }
+    ],
+    "limitations": [
+      "仅两个视角，未拍摄表面（套筒另一侧、底面）无法评估",
+      "泡沫套筒表面本身多孔粗糙，浅细划痕易与孔隙纹理混淆",
+      "螺纹上的浅色细线无法可靠区分擦痕与附着纤维，故记为uncertain"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "material_loss",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.349,
+        0.459,
+        0.397,
+        0.529
+      ],
+      "description": "白色多孔套筒靠近蓝色齿环边缘处呈V形缺口，覆盖层局部中断并露出下层蓝色塑料，为材料缺失",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        388,
+        510,
+        442,
+        589
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.544,
+        0.364,
+        0.571,
+        0.436
+      ],
+      "description": "蓝色螺纹牙面上数条浅色细线状擦痕，打断规则螺纹纹理，疑似擦痕或附着纤维，难以可靠区分",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        604,
+        404,
+        635,
+        485
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 3734,
+      "completion_tokens": 4181,
+      "total_tokens": 7915
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-c64ed0d0-0b3f-9077-ab47-8143066bbc63"
+    ],
+    "response_models": [
+      "qwen3.8-max-0902"
+    ],
+    "provider": {
+      "name": "qwen",
+      "model": "qwen3.8-max-0902",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "credential_env": "DASHSCOPE_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "enable_thinking": true,
+        "vl_high_resolution_images": true
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-c64ed0d0-0b3f-9077-ab47-8143066bbc63",
+        "response_model": "qwen3.8-max-0902",
+        "usage": {
+          "completion_tokens": 4181,
+          "prompt_tokens": 3734,
+          "total_tokens": 7915,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 3707,
+            "rejected_prediction_tokens": null,
+            "text_tokens": 473
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": 2454,
+            "text_tokens": 1280
+          }
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"present\",\n  \"findings\": [\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.349, 0.459, 0.397, 0.529],\n      \"description\": \"白色多孔套筒靠近蓝色齿环边缘处呈V形缺口，覆盖层局部中断并露出下层蓝色塑料，为材料缺失\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.544, 0.364, 0.571, 0.436],\n      \"description\": \"蓝色螺纹牙面上数条浅色细线状擦痕，打断规则螺纹纹理，疑似擦痕或附着纤维，难以可靠区分\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"白色泡沫套筒与蓝色螺纹嘴、齿环可见；螺纹牙面有可疑浅色细线；套筒边缘在该视角大致连续，嘴尖端附近背景中见一根极细纤维丝\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"白色套筒边缘见清晰V形材料缺失缺口；螺纹右侧边缘另有一小处纤维状/毛边突起，未计入确认发现\"\n    }\n  ],\n  \"limitations\": [\n    \"仅两个视角，未拍摄表面（套筒另一侧、底面）无法评估\",\n    \"泡沫套筒表面本身多孔粗糙，浅细划痕易与孔隙纹理混淆\",\n    \"螺纹上的浅色细线无法可靠区分擦痕与附着纤维，故记为uncertain\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "qwen3.8-max-0902",
+    "request_id": "chatcmpl-c64ed0d0-0b3f-9077-ab47-8143066bbc63"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    }
+  ],
+  "elapsed_seconds": 89.139
+}

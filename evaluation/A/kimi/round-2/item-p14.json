@@ -1,0 +1,440 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p14",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:49:51.467982+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "317dcba958ac4e1cfccf52decda9af113a4c5f50311b3768d7dbd7743f22be22",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "uncertain",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.47,
+          0.42,
+          0.64,
+          0.47
+        ],
+        "description": "金属外壳顶面有一条横向浅色细线，局部纹理被打断，疑似擦痕",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.39,
+          0.37,
+          0.59,
+          0.45
+        ],
+        "description": "金属外壳底面可见数条不规则浅色细线，呈刮擦状",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.42,
+          0.42,
+          0.53,
+          0.56
+        ],
+        "description": "金属侧面有一条斜向细线，反光与划痕难以完全区分",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.46,
+          0.45,
+          0.54,
+          0.52
+        ],
+        "description": "金属顶面中央有轻微浅色痕迹，边缘不甚清晰",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.53,
+          0.34,
+          0.61,
+          0.45
+        ],
+        "description": "金属屏蔽右侧有短细浅色痕迹，疑似表面擦痕",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.48,
+          0.62,
+          0.58,
+          0.72
+        ],
+        "description": "金属外壳前下边角轮廓不规则，存在可疑的小缺口或折边不连续",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.45,
+          0.25,
+          0.5,
+          0.3
+        ],
+        "description": "金属屏蔽顶部边缘与塑料交接处轮廓略有不齐，疑似局部材料缺失",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.42,
+          0.3,
+          0.47,
+          0.35
+        ],
+        "description": "金属外壳左上角边缘略呈不规则，可能为微小崩缺或压痕",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "整体聚焦可辨，金属顶面及塑料拉手可观察，但表面反光使浅痕识别受限"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "侧面视角清晰，金属外壳顶面擦痕可见，后缘缺口特征不明显"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "角度倾斜，金属侧面与前下角可见，但反光和阴影使细节判定有难度"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "前端视角可看到触点与金属屏蔽，金属边缘局部可见不规则"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "底部视角金属表面划痕较明显，后端接缝区域可见但细节有限"
+      }
+    ],
+    "limitations": [
+      "仅依据提供的五张外部照片，无法观察内部触点、导线及装配状态",
+      "金属表面存在反光和加工纹理，浅表划痕与反光、规则纹理有时难以严格区分",
+      "无法判断痕迹深度、形成原因及对电气性能的影响",
+      "未拍摄表面局部放大图，部分边缘细节分辨率有限"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.47,
+        0.42,
+        0.64,
+        0.47
+      ],
+      "description": "金属外壳顶面有一条横向浅色细线，局部纹理被打断，疑似擦痕",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        550,
+        492,
+        751,
+        551
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.39,
+        0.37,
+        0.59,
+        0.45
+      ],
+      "description": "金属外壳底面可见数条不规则浅色细线，呈刮擦状",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        457,
+        433,
+        692,
+        528
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.42,
+        0.42,
+        0.53,
+        0.56
+      ],
+      "description": "金属侧面有一条斜向细线，反光与划痕难以完全区分",
+      "certainty": "uncertain",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        492,
+        492,
+        622,
+        657
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.46,
+        0.45,
+        0.54,
+        0.52
+      ],
+      "description": "金属顶面中央有轻微浅色痕迹，边缘不甚清晰",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        539,
+        527,
+        633,
+        610
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.53,
+        0.34,
+        0.61,
+        0.45
+      ],
+      "description": "金属屏蔽右侧有短细浅色痕迹，疑似表面擦痕",
+      "certainty": "uncertain",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        621,
+        398,
+        715,
+        528
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.48,
+        0.62,
+        0.58,
+        0.72
+      ],
+      "description": "金属外壳前下边角轮廓不规则，存在可疑的小缺口或折边不连续",
+      "certainty": "uncertain",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        562,
+        726,
+        680,
+        844
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.45,
+        0.25,
+        0.5,
+        0.3
+      ],
+      "description": "金属屏蔽顶部边缘与塑料交接处轮廓略有不齐，疑似局部材料缺失",
+      "certainty": "uncertain",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        527,
+        293,
+        586,
+        352
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.42,
+        0.3,
+        0.47,
+        0.35
+      ],
+      "description": "金属外壳左上角边缘略呈不规则，可能为微小崩缺或压痕",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        492,
+        351,
+        551,
+        411
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 10255,
+      "completion_tokens": 5526,
+      "total_tokens": 15781
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae8950149395cb999e46382"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae8950149395cb999e46382",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 5526,
+          "prompt_tokens": 10255,
+          "total_tokens": 15781,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 4536,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"uncertain\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.47, 0.42, 0.64, 0.47],\n      \"description\": \"金属外壳顶面有一条横向浅色细线，局部纹理被打断，疑似擦痕\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.39, 0.37, 0.59, 0.45],\n      \"description\": \"金属外壳底面可见数条不规则浅色细线，呈刮擦状\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.42, 0.42, 0.53, 0.56],\n      \"description\": \"金属侧面有一条斜向细线，反光与划痕难以完全区分\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.46, 0.45, 0.54, 0.52],\n      \"description\": \"金属顶面中央有轻微浅色痕迹，边缘不甚清晰\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.53, 0.34, 0.61, 0.45],\n      \"description\": \"金属屏蔽右侧有短细浅色痕迹，疑似表面擦痕\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.48, 0.62, 0.58, 0.72],\n      \"description\": \"金属外壳前下边角轮廓不规则，存在可疑的小缺口或折边不连续\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.45, 0.25, 0.50, 0.30],\n      \"description\": \"金属屏蔽顶部边缘与塑料交接处轮廓略有不齐，疑似局部材料缺失\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"material_loss\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.42, 0.30, 0.47, 0.35],\n      \"description\": \"金属外壳左上角边缘略呈不规则，可能为微小崩缺或压痕\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"整体聚焦可辨，金属顶面及塑料拉手可观察，但表面反光使浅痕识别受限\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"侧面视角清晰，金属外壳顶面擦痕可见，后缘缺口特征不明显\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"角度倾斜，金属侧面与前下角可见，但反光和阴影使细节判定有难度\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"前端视角可看到触点与金属屏蔽，金属边缘局部可见不规则\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"底部视角金属表面划痕较明显，后端接缝区域可见但细节有限\"\n    }\n  ],\n  \"limitations\": [\n    \"仅依据提供的五张外部照片，无法观察内部触点、导线及装配状态\",\n    \"金属表面存在反光和加工纹理，浅表划痕与反光、规则纹理有时难以严格区分\",\n    \"无法判断痕迹深度、形成原因及对电气性能的影响\",\n    \"未拍摄表面局部放大图，部分边缘细节分辨率有限\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae8950149395cb999e46382"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    }
+  ],
+  "elapsed_seconds": 159.254
+}

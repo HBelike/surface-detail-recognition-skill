@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p01",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:54:41.605679+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "4e7c7124610c1ed3ea017d080715963e9c6df7376dc8f7b6e2c03870a5332069",
+  "result": {
+    "linear_trace": "not_observed",
+    "material_loss": "not_observed",
+    "findings": [],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Top/front view shows the circular face, central cap, mounting arms and shrouds clearly; surfaces appear clean with only design features visible."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Angled side view reveals one connector port, cylindrical side and mounting arms; no clear scratches or material loss detected."
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "Angled side view shows two connector ports and gear-patterned side surfaces; edges and surfaces appear intact."
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "Similar angled side view; visible surfaces and parting edges show no confirmed damage."
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "Rotated angled side view; exposed surfaces appear clean and undamaged."
+      }
+    ],
+    "limitations": [
+      "Interior surfaces of connector ports and fully occluded faces are not visible.",
+      "Very shallow marks on matte black plastic can be hard to distinguish from soft lighting gradients, but no suspicious candidates were identified."
+    ]
+  },
+  "evidence": [],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 20040,
+      "completion_tokens": 3609,
+      "total_tokens": 23649
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae89624009cc70089b240e1"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae89624009cc70089b240e1",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 3609,
+          "prompt_tokens": 20040,
+          "total_tokens": 23649,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 3313,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"not_observed\", \"findings\": [], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Top/front view shows the circular face, central cap, mounting arms and shrouds clearly; surfaces appear clean with only design features visible.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Angled side view reveals one connector port, cylindrical side and mounting arms; no clear scratches or material loss detected.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Angled side view shows two connector ports and gear-patterned side surfaces; edges and surfaces appear intact.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Similar angled side view; visible surfaces and parting edges show no confirmed damage.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Rotated angled side view; exposed surfaces appear clean and undamaged.\"}], \"limitations\": [\"Interior surfaces of connector ports and fully occluded faces are not visible.\", \"Very shallow marks on matte black plastic can be hard to distinguish from soft lighting gradients, but no suspicious candidates were identified.\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae89624009cc70089b240e1"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    }
+  ],
+  "elapsed_seconds": 92.774
+}

@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p14",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:38:05.685473+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "317dcba958ac4e1cfccf52decda9af113a4c5f50311b3768d7dbd7743f22be22",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "present",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.434,
+          0.383,
+          0.566,
+          0.681
+        ],
+        "description": "Fine light-colored scratches and scuff marks on the metal shield surface.",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.414,
+          0.383,
+          0.729,
+          0.498
+        ],
+        "description": "Visible scratch/scuff pattern on the top metal shield.",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.383,
+          0.408,
+          0.579,
+          0.695
+        ],
+        "description": "Irregular linear scratches on the side metal shield.",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.493,
+          0.306,
+          0.63,
+          0.6
+        ],
+        "description": "Distinct linear scratch running along the side metal shield near the plastic housing.",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.345,
+          0.4,
+          0.568,
+          0.513
+        ],
+        "description": "Fine surface scratch marks on the top metal shield.",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.38,
+          0.299,
+          0.524,
+          0.45
+        ],
+        "description": "Clear plastic locking tab area appears broken with irregular missing material at the top of the connector.",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.4,
+          0.29,
+          0.485,
+          0.39
+        ],
+        "description": "Top clear plastic edge near metal shield looks irregular and possibly chipped, but exact extent unclear.",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Flat side view of metal shield; surface scratches visible but some areas are low contrast."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Angled top/side view showing scratch pattern on the shield and overall shape."
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "Angled view of side and end; metal surface has visible linear marks."
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "Front/side angled view clearly showing contact pins, side shield scratch, and damaged plastic tab area."
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "Bottom-angled view; metal shield surface marks visible, plastic tab damage partially visible from another angle."
+      }
+    ],
+    "limitations": [
+      "Only external surfaces are visible; internal contacts and functional integrity cannot be assessed.",
+      "Reflections on the metal shield and clear plastic can obscure or mimic fine surface details.",
+      "Some edges are shaped features of the connector design, making it difficult to distinguish intended geometry from minor material loss in certain views."
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.434,
+        0.383,
+        0.566,
+        0.681
+      ],
+      "description": "Fine light-colored scratches and scuff marks on the metal shield surface.",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        508,
+        448,
+        664,
+        799
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.414,
+        0.383,
+        0.729,
+        0.498
+      ],
+      "description": "Visible scratch/scuff pattern on the top metal shield.",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        485,
+        448,
+        855,
+        584
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.383,
+        0.408,
+        0.579,
+        0.695
+      ],
+      "description": "Irregular linear scratches on the side metal shield.",
+      "certainty": "confirmed",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        448,
+        478,
+        679,
+        815
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.493,
+        0.306,
+        0.63,
+        0.6
+      ],
+      "description": "Distinct linear scratch running along the side metal shield near the plastic housing.",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        577,
+        358,
+        739,
+        704
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.345,
+        0.4,
+        0.568,
+        0.513
+      ],
+      "description": "Fine surface scratch marks on the top metal shield.",
+      "certainty": "confirmed",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        404,
+        468,
+        666,
+        602
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.38,
+        0.299,
+        0.524,
+        0.45
+      ],
+      "description": "Clear plastic locking tab area appears broken with irregular missing material at the top of the connector.",
+      "certainty": "confirmed",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        445,
+        350,
+        615,
+        528
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.4,
+        0.29,
+        0.485,
+        0.39
+      ],
+      "description": "Top clear plastic edge near metal shield looks irregular and possibly chipped, but exact extent unclear.",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        468,
+        339,
+        569,
+        458
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 10255,
+      "completion_tokens": 2258,
+      "total_tokens": 12513
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae8924049395cb999e461fe"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae8924049395cb999e461fe",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 2258,
+          "prompt_tokens": 10255,
+          "total_tokens": 12513,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 1494,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"present\", \"material_loss\": \"present\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.434, 0.383, 0.566, 0.681], \"description\": \"Fine light-colored scratches and scuff marks on the metal shield surface.\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.414, 0.383, 0.729, 0.498], \"description\": \"Visible scratch/scuff pattern on the top metal shield.\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-03.png::full\", \"bbox\": [0.383, 0.408, 0.579, 0.695], \"description\": \"Irregular linear scratches on the side metal shield.\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-04.png::full\", \"bbox\": [0.493, 0.306, 0.630, 0.600], \"description\": \"Distinct linear scratch running along the side metal shield near the plastic housing.\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-05.png::full\", \"bbox\": [0.345, 0.400, 0.568, 0.513], \"description\": \"Fine surface scratch marks on the top metal shield.\", \"certainty\": \"confirmed\"}, {\"category\": \"material_loss\", \"image_id\": \"view-04.png::full\", \"bbox\": [0.380, 0.299, 0.524, 0.450], \"description\": \"Clear plastic locking tab area appears broken with irregular missing material at the top of the connector.\", \"certainty\": \"confirmed\"}, {\"category\": \"material_loss\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.400, 0.290, 0.485, 0.390], \"description\": \"Top clear plastic edge near metal shield looks irregular and possibly chipped, but exact extent unclear.\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Flat side view of metal shield; surface scratches visible but some areas are low contrast.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Angled top/side view showing scratch pattern on the shield and overall shape.\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"Angled view of side and end; metal surface has visible linear marks.\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"Front/side angled view clearly showing contact pins, side shield scratch, and damaged plastic tab area.\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"Bottom-angled view; metal shield surface marks visible, plastic tab damage partially visible from another angle.\"}], \"limitations\": [\"Only external surfaces are visible; internal contacts and functional integrity cannot be assessed.\", \"Reflections on the metal shield and clear plastic can obscure or mimic fine surface details.\", \"Some edges are shaped features of the connector design, making it difficult to distinguish intended geometry from minor material loss in certain views.\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae8924049395cb999e461fe"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    }
+  ],
+  "elapsed_seconds": 68.642
+}

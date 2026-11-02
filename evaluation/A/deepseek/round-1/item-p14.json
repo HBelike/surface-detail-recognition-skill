@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p14",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:38:05.685432+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "9a28c7bdd66bd7c7bce05f39c24104e1a0472244ea4523dc1539648b9619d80d",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.49,
+          0.41,
+          0.61,
+          0.47
+        ],
+        "description": "金属屏蔽壳侧面近上缘处可见一条短而不规则的浅色细线，局部打断表面纹理，形态符合轻微擦划痕。",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.4,
+          0.43,
+          0.56,
+          0.5
+        ],
+        "description": "屏蔽壳大面积平面上可见数条浅淡、走向不规则的细线痕，与规则加工纹理方向不一致，疑似轻度擦痕。",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.54,
+          0.4,
+          0.66,
+          0.45
+        ],
+        "description": "斜视视角下金属壳面上缘附近有一道细短浅色痕迹，因反光干扰难以完全确认是否为划痕。",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "limited",
+        "note": "物体在画面中占比小，金属面存在反光；可见侧面平面及上端透明塑料部，边缘轮廓基本连续。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "limited",
+        "note": "斜视角度，金属面反光较强，表面细节分辨率有限；透明插头在多面可见，轮廓未见明显缺口。"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "可见屏蔽壳开口端与翻折金属边，属正常结构；开口边缘未见明显崩缺，透明塑料部轮廓完整。"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "可见金手指、透明卡扣与屏蔽壳侧边，金属板边缘与包覆层呈连续状态，未见清晰材料缺失。"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "俯视金属屏蔽面，可见轻微表面细线与反光差异；四周折边与透明塑料接合处未见清晰缺口或覆盖层中断。"
+      }
+    ],
+    "limitations": [
+      "物体在画面中尺寸较小，细线痕与金属表面加工纹理、反光难以完全区分。",
+      "透明塑料件反光与折射明显，其浅表裂纹或缺料判断受限。",
+      "仅依据可见外表面，不涉及内部结构、损伤成因或深度。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.49,
+        0.41,
+        0.61,
+        0.47
+      ],
+      "description": "金属屏蔽壳侧面近上缘处可见一条短而不规则的浅色细线，局部打断表面纹理，形态符合轻微擦划痕。",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        574,
+        480,
+        715,
+        551
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.4,
+        0.43,
+        0.56,
+        0.5
+      ],
+      "description": "屏蔽壳大面积平面上可见数条浅淡、走向不规则的细线痕，与规则加工纹理方向不一致，疑似轻度擦痕。",
+      "certainty": "uncertain",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        468,
+        503,
+        657,
+        586
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.54,
+        0.4,
+        0.66,
+        0.45
+      ],
+      "description": "斜视视角下金属壳面上缘附近有一道细短浅色痕迹，因反光干扰难以完全确认是否为划痕。",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        632,
+        468,
+        774,
+        528
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 5546,
+      "completion_tokens": 2396,
+      "total_tokens": 7942
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "6ddf8feb-39a7-487d-b847-48c93b8df24b"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "6ddf8feb-39a7-487d-b847-48c93b8df24b",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 2396,
+          "prompt_tokens": 5546,
+          "total_tokens": 7942,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 1710,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 5376
+          },
+          "prompt_cache_hit_tokens": 5376,
+          "prompt_cache_miss_tokens": 170
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.49, 0.41, 0.61, 0.47],\n      \"description\": \"金属屏蔽壳侧面近上缘处可见一条短而不规则的浅色细线，局部打断表面纹理，形态符合轻微擦划痕。\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.40, 0.43, 0.56, 0.50],\n      \"description\": \"屏蔽壳大面积平面上可见数条浅淡、走向不规则的细线痕，与规则加工纹理方向不一致，疑似轻度擦痕。\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.54, 0.40, 0.66, 0.45],\n      \"description\": \"斜视视角下金属壳面上缘附近有一道细短浅色痕迹，因反光干扰难以完全确认是否为划痕。\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"limited\",\n      \"note\": \"物体在画面中占比小，金属面存在反光；可见侧面平面及上端透明塑料部，边缘轮廓基本连续。\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"limited\",\n      \"note\": \"斜视角度，金属面反光较强，表面细节分辨率有限；透明插头在多面可见，轮廓未见明显缺口。\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"可见屏蔽壳开口端与翻折金属边，属正常结构；开口边缘未见明显崩缺，透明塑料部轮廓完整。\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"可见金手指、透明卡扣与屏蔽壳侧边，金属板边缘与包覆层呈连续状态，未见清晰材料缺失。\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"俯视金属屏蔽面，可见轻微表面细线与反光差异；四周折边与透明塑料接合处未见清晰缺口或覆盖层中断。\"\n    }\n  ],\n  \"limitations\": [\n    \"物体在画面中尺寸较小，细线痕与金属表面加工纹理、反光难以完全区分。\",\n    \"透明塑料件反光与折射明显，其浅表裂纹或缺料判断受限。\",\n    \"仅依据可见外表面，不涉及内部结构、损伤成因或深度。\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "6ddf8feb-39a7-487d-b847-48c93b8df24b"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    }
+  ],
+  "elapsed_seconds": 15.912
+}

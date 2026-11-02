@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p01",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "qwen3.8-max-0902",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:44:02.900391+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "qwen",
+    "model": "qwen3.8-max-0902",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "credential_env": "DASHSCOPE_API_KEY"
+  },
+  "fingerprint": "ce6387a1243e017038c67da7a31c5106ede56e5fbb9784aed15c8105fd2d63ca",
+  "result": {
+    "linear_trace": "not_observed",
+    "material_loss": "not_observed",
+    "findings": [],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "顶视全貌：顶面圆盘、两侧安装带孔列、上下卡扣管口均可见；盘面中心小点为注塑浇口痕，带孔与卡臂为正常结构，未见划痕或崩缺。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "斜视：开口管口内肋、侧面maxØ25膜片敲落孔、安装带孔列清晰；表面均匀哑光，未见线状擦痕或材料缺失。"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "斜视：顶部卡扣臂端部细弯片为正常卡扣结构轮廓，侧面膜片与两侧安装带完整；未见划痕、崩缺。"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "旋转斜视：顶面、侧面膜片、开口管口边缘连续；中心点为浇口痕，无划痕或缺口候选。"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "斜视：左侧开口管口、右侧卡扣管口及安装带孔列完整；卡臂细弯片为结构件，未见表面线痕或材料缺失。"
+      }
+    ],
+    "limitations": [
+      "哑光黑色塑料在漫射光下对比度低，极浅的白色擦痕可能难以显现。",
+      "管口内壁与底部区域存在阴影和自遮挡，观察受限。",
+      "未提供局部微距裁剪，亚毫米级表面痕迹无法分辨。"
+    ]
+  },
+  "evidence": [],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 15518,
+      "completion_tokens": 7186,
+      "total_tokens": 22704
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-640c4f28-36af-97c9-a493-1269c7cfd50d"
+    ],
+    "response_models": [
+      "qwen3.8-max-0902"
+    ],
+    "provider": {
+      "name": "qwen",
+      "model": "qwen3.8-max-0902",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "credential_env": "DASHSCOPE_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "enable_thinking": true,
+        "vl_high_resolution_images": true
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-640c4f28-36af-97c9-a493-1269c7cfd50d",
+        "response_model": "qwen3.8-max-0902",
+        "usage": {
+          "completion_tokens": 7186,
+          "prompt_tokens": 15518,
+          "total_tokens": 22704,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 6701,
+            "rejected_prediction_tokens": null,
+            "text_tokens": 484
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 15360,
+            "image_tokens": 14055,
+            "text_tokens": 1463
+          }
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n \"linear_trace\": \"not_observed\",\n \"material_loss\": \"not_observed\",\n \"findings\": [],\n \"observations\": [\n  {\n   \"image_id\": \"view-01.png::full\",\n   \"quality\": \"adequate\",\n   \"note\": \"顶视全貌：顶面圆盘、两侧安装带孔列、上下卡扣管口均可见；盘面中心小点为注塑浇口痕，带孔与卡臂为正常结构，未见划痕或崩缺。\"\n  },\n  {\n   \"image_id\": \"view-02.png::full\",\n   \"quality\": \"adequate\",\n   \"note\": \"斜视：开口管口内肋、侧面maxØ25膜片敲落孔、安装带孔列清晰；表面均匀哑光，未见线状擦痕或材料缺失。\"\n  },\n  {\n   \"image_id\": \"view-03.png::full\",\n   \"quality\": \"adequate\",\n   \"note\": \"斜视：顶部卡扣臂端部细弯片为正常卡扣结构轮廓，侧面膜片与两侧安装带完整；未见划痕、崩缺。\"\n  },\n  {\n   \"image_id\": \"view-04.png::full\",\n   \"quality\": \"adequate\",\n   \"note\": \"旋转斜视：顶面、侧面膜片、开口管口边缘连续；中心点为浇口痕，无划痕或缺口候选。\"\n  },\n  {\n   \"image_id\": \"view-05.png::full\",\n   \"quality\": \"adequate\",\n   \"note\": \"斜视：左侧开口管口、右侧卡扣管口及安装带孔列完整；卡臂细弯片为结构件，未见表面线痕或材料缺失。\"\n  }\n ],\n \"limitations\": [\n  \"哑光黑色塑料在漫射光下对比度低，极浅的白色擦痕可能难以显现。\",\n  \"管口内壁与底部区域存在阴影和自遮挡，观察受限。\",\n  \"未提供局部微距裁剪，亚毫米级表面痕迹无法分辨。\"\n ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "qwen3.8-max-0902",
+    "request_id": "chatcmpl-640c4f28-36af-97c9-a493-1269c7cfd50d"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    }
+  ],
+  "elapsed_seconds": 159.875
+}

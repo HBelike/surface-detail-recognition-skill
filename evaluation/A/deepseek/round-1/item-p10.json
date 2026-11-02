@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p10",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:36:36.534019+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "fc3853b9f9ff980861b22eaa428c8516d8c2ee1ec2dda749327ce1f4e8800890",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "present",
+    "findings": [
+      {
+        "category": "material_loss",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.386,
+          0.5,
+          0.466,
+          0.572
+        ],
+        "description": "白色套筒左下缘可见不规则缺口，白色表层中断并露出下方蓝色材料，边缘呈崩缺状。",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.404,
+          0.505,
+          0.478,
+          0.573
+        ],
+        "description": "白色套筒左下缘可见边缘不连续和局部崩缺，缺口处显露蓝色底层。",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.445,
+          0.475,
+          0.515,
+          0.535
+        ],
+        "description": "白色套筒近左下崩缺上方的表面有一条很浅的斜向线状变化，疑似擦痕或裂纹；受反光与软焦影响不能确认。",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "物体整体可见，蓝色螺纹和白色套筒可辨；左下套筒边缘有材料不连续，详细表面细线受尺寸与反光限制。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "同物体略换角度，白色套筒左下缘崩缺更清楚，缺口处蓝色底层暴露；表面反光与软焦使浅线痕判断受限。"
+      }
+    ],
+    "limitations": [
+      "仅有两张同侧全图，未提供更高分辨率或局部放大图，无法进一步确认细微线痕及缺失深度。",
+      "白色塑料表面反光与阴影可能掩盖浅划痕，正常模具接缝与局部线状痕迹难以完全区分。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "material_loss",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.386,
+        0.5,
+        0.466,
+        0.572
+      ],
+      "description": "白色套筒左下缘可见不规则缺口，白色表层中断并露出下方蓝色材料，边缘呈崩缺状。",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        429,
+        556,
+        519,
+        637
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.404,
+        0.505,
+        0.478,
+        0.573
+      ],
+      "description": "白色套筒左下缘可见边缘不连续和局部崩缺，缺口处显露蓝色底层。",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        449,
+        561,
+        532,
+        638
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.445,
+        0.475,
+        0.515,
+        0.535
+      ],
+      "description": "白色套筒近左下崩缺上方的表面有一条很浅的斜向线状变化，疑似擦痕或裂纹；受反光与软焦影响不能确认。",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        494,
+        528,
+        573,
+        595
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 2830,
+      "completion_tokens": 7473,
+      "total_tokens": 10303
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "a536c292-4545-4fa9-afe1-0dab612cc876"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "a536c292-4545-4fa9-afe1-0dab612cc876",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 7473,
+          "prompt_tokens": 2830,
+          "total_tokens": 10303,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 7080,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 2688
+          },
+          "prompt_cache_hit_tokens": 2688,
+          "prompt_cache_miss_tokens": 142
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\":\"uncertain\",\"material_loss\":\"present\",\"findings\":[{\"category\":\"material_loss\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.386,0.5,0.466,0.572],\"description\":\"白色套筒左下缘可见不规则缺口，白色表层中断并露出下方蓝色材料，边缘呈崩缺状。\",\"certainty\":\"confirmed\"},{\"category\":\"material_loss\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.404,0.505,0.478,0.573],\"description\":\"白色套筒左下缘可见边缘不连续和局部崩缺，缺口处显露蓝色底层。\",\"certainty\":\"confirmed\"},{\"category\":\"linear_trace\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.445,0.475,0.515,0.535],\"description\":\"白色套筒近左下崩缺上方的表面有一条很浅的斜向线状变化，疑似擦痕或裂纹；受反光与软焦影响不能确认。\",\"certainty\":\"uncertain\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"adequate\",\"note\":\"物体整体可见，蓝色螺纹和白色套筒可辨；左下套筒边缘有材料不连续，详细表面细线受尺寸与反光限制。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"adequate\",\"note\":\"同物体略换角度，白色套筒左下缘崩缺更清楚，缺口处蓝色底层暴露；表面反光与软焦使浅线痕判断受限。\"}],\"limitations\":[\"仅有两张同侧全图，未提供更高分辨率或局部放大图，无法进一步确认细微线痕及缺失深度。\",\"白色塑料表面反光与阴影可能掩盖浅划痕，正常模具接缝与局部线状痕迹难以完全区分。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "a536c292-4545-4fa9-afe1-0dab612cc876"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    }
+  ],
+  "elapsed_seconds": 46.471
+}

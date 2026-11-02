@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p25",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T14:04:43.818702+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "37de11d107245577615083d8a4f91bbea0e6a7c791a599ad6ba0d75c099b8baf",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.456,
+          0.395,
+          0.538,
+          0.465
+        ],
+        "description": "Light irregular scratch/scuff on the left side of the brass cylinder body, running roughly along the tube axis.",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.535,
+          0.455,
+          0.615,
+          0.53
+        ],
+        "description": "Pale linear scratch on the right side of the cylinder body, visible against the brass surface.",
+        "certainty": "confirmed"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Object well lit and in focus; surface scratches are visible on the cylinder body, while the rim and flange edges appear continuous."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Object well lit and in focus; a light linear mark is visible on the cylinder side, with no observable edge chips or coating loss."
+      }
+    ],
+    "limitations": [
+      "Only exterior surfaces are visible; the inner bore and hidden back surfaces are not shown.",
+      "No scale reference is provided; depth or exact dimensions of the observed marks cannot be determined.",
+      "The brass surface is reflective, so some bright areas could be confused with reflections, but the identified marks have irregular scratch-like morphology consistent with linear traces."
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.456,
+        0.395,
+        0.538,
+        0.465
+      ],
+      "description": "Light irregular scratch/scuff on the left side of the brass cylinder body, running roughly along the tube axis.",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        515,
+        446,
+        608,
+        526
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.535,
+        0.455,
+        0.615,
+        0.53
+      ],
+      "description": "Pale linear scratch on the right side of the cylinder body, visible against the brass surface.",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        604,
+        514,
+        695,
+        599
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 4632,
+      "completion_tokens": 1103,
+      "total_tokens": 5735
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae8987dce9bd3484c25f7af"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae8987dce9bd3484c25f7af",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 1103,
+          "prompt_tokens": 4632,
+          "total_tokens": 5735,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 758,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"present\", \"material_loss\": \"not_observed\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.456, 0.395, 0.538, 0.465], \"description\": \"Light irregular scratch/scuff on the left side of the brass cylinder body, running roughly along the tube axis.\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.535, 0.455, 0.615, 0.53], \"description\": \"Pale linear scratch on the right side of the cylinder body, visible against the brass surface.\", \"certainty\": \"confirmed\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"Object well lit and in focus; surface scratches are visible on the cylinder body, while the rim and flange edges appear continuous.\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"Object well lit and in focus; a light linear mark is visible on the cylinder side, with no observable edge chips or coating loss.\"}], \"limitations\": [\"Only exterior surfaces are visible; the inner bore and hidden back surfaces are not shown.\", \"No scale reference is provided; depth or exact dimensions of the observed marks cannot be determined.\", \"The brass surface is reflective, so some bright areas could be confused with reflections, but the identified marks have irregular scratch-like morphology consistent with linear traces.\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae8987dce9bd3484c25f7af"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    }
+  ],
+  "elapsed_seconds": 23.877
+}

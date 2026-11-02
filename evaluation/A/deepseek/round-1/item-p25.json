@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p25",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:43:11.951546+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "4c1a4f8bb81ff1fb0ba33ee899c07b2cc1cbd33f83a6b73ddb572897eb6bcb47",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "uncertain",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.48,
+          0.37,
+          0.66,
+          0.55
+        ],
+        "description": "管身中部可见纵向浅色/暗色细线，局部纹理似有中断，但与拉制加工纹及金属反光难以区分。",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.45,
+          0.36,
+          0.63,
+          0.54
+        ],
+        "description": "管身表面存在纵向细线与反光带，形态不规则且不连续，无法可靠判定为划擦痕。",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.42,
+          0.52,
+          0.57,
+          0.62
+        ],
+        "description": "法兰外缘左下方轮廓略呈不规则暗线/凹陷阴影，可能为小缺口，但受阴影和低分辨率影响无法确认。",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.39,
+          0.51,
+          0.54,
+          0.61
+        ],
+        "description": "法兰外缘左下部可见轮廓不规则及暗色处，疑似局部表层缺失或缺口，但无法与阴影区分。",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "limited",
+        "note": "黄铜空心管斜置于白底，占画面较小；表面纵向纹理和反光明显，法兰边缘受阴影影响，细节有限。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "limited",
+        "note": "与上一视角近似，管身反光影响浅表线痕判读；法兰边缘局部暗影遮挡，无法确认材料缺失。"
+      }
+    ],
+    "limitations": [
+      "物体在画面中占比较小，表面微细线痕和边缘小缺口分辨率不足。",
+      "金属反光、阴影与加工纹可能遮盖或冒充划痕及缺损。",
+      "未拍摄内壁、背面及法兰端面细节，无法全面评估。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.48,
+        0.37,
+        0.66,
+        0.55
+      ],
+      "description": "管身中部可见纵向浅色/暗色细线，局部纹理似有中断，但与拉制加工纹及金属反光难以区分。",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        542,
+        418,
+        746,
+        622
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.45,
+        0.36,
+        0.63,
+        0.54
+      ],
+      "description": "管身表面存在纵向细线与反光带，形态不规则且不连续，无法可靠判定为划擦痕。",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        508,
+        406,
+        712,
+        611
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.42,
+        0.52,
+        0.57,
+        0.62
+      ],
+      "description": "法兰外缘左下方轮廓略呈不规则暗线/凹陷阴影，可能为小缺口，但受阴影和低分辨率影响无法确认。",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        474,
+        587,
+        645,
+        701
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.39,
+        0.51,
+        0.54,
+        0.61
+      ],
+      "description": "法兰外缘左下部可见轮廓不规则及暗色处，疑似局部表层缺失或缺口，但无法与阴影区分。",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        440,
+        576,
+        611,
+        690
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 2830,
+      "completion_tokens": 1978,
+      "total_tokens": 4808
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "c91bddb1-9fd0-42b9-b6fc-7ff42aa584aa"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "c91bddb1-9fd0-42b9-b6fc-7ff42aa584aa",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 1978,
+          "prompt_tokens": 2830,
+          "total_tokens": 4808,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 1514,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 2688
+          },
+          "prompt_cache_hit_tokens": 2688,
+          "prompt_cache_miss_tokens": 142
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\":\"uncertain\",\"material_loss\":\"uncertain\",\"findings\":[{\"category\":\"linear_trace\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.48,0.37,0.66,0.55],\"description\":\"管身中部可见纵向浅色/暗色细线，局部纹理似有中断，但与拉制加工纹及金属反光难以区分。\",\"certainty\":\"uncertain\"},{\"category\":\"linear_trace\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.45,0.36,0.63,0.54],\"description\":\"管身表面存在纵向细线与反光带，形态不规则且不连续，无法可靠判定为划擦痕。\",\"certainty\":\"uncertain\"},{\"category\":\"material_loss\",\"image_id\":\"view-01.png::full\",\"bbox\":[0.42,0.52,0.57,0.62],\"description\":\"法兰外缘左下方轮廓略呈不规则暗线/凹陷阴影，可能为小缺口，但受阴影和低分辨率影响无法确认。\",\"certainty\":\"uncertain\"},{\"category\":\"material_loss\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.39,0.51,0.54,0.61],\"description\":\"法兰外缘左下部可见轮廓不规则及暗色处，疑似局部表层缺失或缺口，但无法与阴影区分。\",\"certainty\":\"uncertain\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"limited\",\"note\":\"黄铜空心管斜置于白底，占画面较小；表面纵向纹理和反光明显，法兰边缘受阴影影响，细节有限。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"limited\",\"note\":\"与上一视角近似，管身反光影响浅表线痕判读；法兰边缘局部暗影遮挡，无法确认材料缺失。\"}],\"limitations\":[\"物体在画面中占比较小，表面微细线痕和边缘小缺口分辨率不足。\",\"金属反光、阴影与加工纹可能遮盖或冒充划痕及缺损。\",\"未拍摄内壁、背面及法兰端面细节，无法全面评估。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "c91bddb1-9fd0-42b9-b6fc-7ff42aa584aa"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    }
+  ],
+  "elapsed_seconds": 14.499
+}

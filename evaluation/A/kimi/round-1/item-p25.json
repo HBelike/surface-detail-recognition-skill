@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p25",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:43:11.950917+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "37de11d107245577615083d8a4f91bbea0e6a7c791a599ad6ba0d75c099b8baf",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.41,
+          0.36,
+          0.49,
+          0.45
+        ],
+        "description": "Light diagonal scratch/scuff on the left side of the cylindrical surface.",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.46,
+          0.4,
+          0.55,
+          0.47
+        ],
+        "description": "Visible light scratch on the central cylindrical surface.",
+        "certainty": "confirmed"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Exterior side and rim are visible; reflective highlights present but a distinct light scratch is identifiable on the cylinder."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Alternative exterior view shows a clear scratch on the cylinder; edges and flange appear continuous."
+      }
+    ],
+    "limitations": [
+      "Only two exterior views provided; no close-up of the top rim, bottom flange edge, or interior bore.",
+      "Specular reflections on the brass surface may obscure very fine scratches in some areas."
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.41,
+        0.36,
+        0.49,
+        0.45
+      ],
+      "description": "Light diagonal scratch/scuff on the left side of the cylindrical surface.",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        463,
+        406,
+        554,
+        509
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.46,
+        0.4,
+        0.55,
+        0.47
+      ],
+      "description": "Visible light scratch on the central cylindrical surface.",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        519,
+        452,
+        622,
+        532
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 4632,
+      "completion_tokens": 1535,
+      "total_tokens": 6167
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae89372ce9bd3484c25f520"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae89372ce9bd3484c25f520",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 1535,
+          "prompt_tokens": 4632,
+          "total_tokens": 6167,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 1203,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.41, 0.36, 0.49, 0.45],\n      \"description\": \"Light diagonal scratch/scuff on the left side of the cylindrical surface.\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.46, 0.40, 0.55, 0.47],\n      \"description\": \"Visible light scratch on the central cylindrical surface.\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Exterior side and rim are visible; reflective highlights present but a distinct light scratch is identifiable on the cylinder.\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Alternative exterior view shows a clear scratch on the cylinder; edges and flange appear continuous.\"\n    }\n  ],\n  \"limitations\": [\n    \"Only two exterior views provided; no close-up of the top rim, bottom flange edge, or interior bore.\",\n    \"Specular reflections on the brass surface may obscure very fine scratches in some areas.\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae89372ce9bd3484c25f520"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    }
+  ],
+  "elapsed_seconds": 44.312
+}

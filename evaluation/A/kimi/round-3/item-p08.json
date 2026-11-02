@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p08",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:57:40.971544+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "a5a035f4b1e908d79d5f10b55a85b695fc7edb580d16463864abf01a78a60d47",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.3,
+          0.47,
+          0.7,
+          0.53
+        ],
+        "description": "Several faint diagonal light streaks across the central blade surface; could be shallow scratches or surface texture/reflection.",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.28,
+          0.47,
+          0.68,
+          0.53
+        ],
+        "description": "Subtle light linear marks on the blade body; indistinct from manufacturing grind marks or reflections.",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "Full blade visible with moderate contrast; surface streaks are visible but shallow and difficult to classify."
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "Vertical full view; lower contrast, no clear suspicious marks seen."
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "Full blade visible at an angle; some light surface streaks present but ambiguous."
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "Full blade visible; surface appears relatively uniform, no clear scratches or loss."
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "Vertical full view; dark and uniform, no obvious defects."
+      }
+    ],
+    "limitations": [
+      "Surface texture, reflections, and possible manufacturing grind marks make it difficult to confirm shallow scratches.",
+      "No macro or close-up views are available to verify fine surface details.",
+      "Edge and tooth-tip details are visible but not at high enough resolution to rule out very small chips."
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.3,
+        0.47,
+        0.7,
+        0.53
+      ],
+      "description": "Several faint diagonal light streaks across the central blade surface; could be shallow scratches or surface texture/reflection.",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        608,
+        953,
+        1420,
+        1075
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.28,
+        0.47,
+        0.68,
+        0.53
+      ],
+      "description": "Subtle light linear marks on the blade body; indistinct from manufacturing grind marks or reflections.",
+      "certainty": "uncertain",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        567,
+        953,
+        1380,
+        1075
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 22560,
+      "completion_tokens": 3214,
+      "total_tokens": 25774
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae896d73d5af999f3677d56"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae896d73d5af999f3677d56",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 3214,
+          "prompt_tokens": 22560,
+          "total_tokens": 25774,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2717,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.30, 0.47, 0.70, 0.53],\n      \"description\": \"Several faint diagonal light streaks across the central blade surface; could be shallow scratches or surface texture/reflection.\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-03.png::full\",\n      \"bbox\": [0.28, 0.47, 0.68, 0.53],\n      \"description\": \"Subtle light linear marks on the blade body; indistinct from manufacturing grind marks or reflections.\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Full blade visible with moderate contrast; surface streaks are visible but shallow and difficult to classify.\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Vertical full view; lower contrast, no clear suspicious marks seen.\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Full blade visible at an angle; some light surface streaks present but ambiguous.\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Full blade visible; surface appears relatively uniform, no clear scratches or loss.\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"Vertical full view; dark and uniform, no obvious defects.\"\n    }\n  ],\n  \"limitations\": [\n    \"Surface texture, reflections, and possible manufacturing grind marks make it difficult to confirm shallow scratches.\",\n    \"No macro or close-up views are available to verify fine surface details.\",\n    \"Edge and tooth-tip details are visible but not at high enough resolution to rule out very small chips.\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae896d73d5af999f3677d56"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    }
+  ],
+  "elapsed_seconds": 77.168
+}

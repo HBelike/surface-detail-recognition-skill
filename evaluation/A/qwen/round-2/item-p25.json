@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p25",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "qwen3.8-max-0902",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:53:52.709966+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "qwen",
+    "model": "qwen3.8-max-0902",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "credential_env": "DASHSCOPE_API_KEY"
+  },
+  "fingerprint": "98b1c55e5d98db2ab416ac61d9a2a748ccc3aa08adf8d628a64f0f1c00493404",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.438,
+          0.37,
+          0.482,
+          0.416
+        ],
+        "description": "筒身侧面白色不规则短条状擦痕/刮擦斑，打断金属表面纹理",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.503,
+          0.423,
+          0.577,
+          0.474
+        ],
+        "description": "筒身白色擦痕斑及其旁细线状刮痕，与view-01中擦痕为同一细节的另一视角",
+        "certainty": "confirmed"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "黄铜筒形件外表面、口缘及底法兰可见；筒身中部有白色擦痕斑；口缘与法兰边缘连续，未见崩缺或覆盖层中断"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "旋转视角下筒身白色擦痕斑与细线痕仍可见；边缘轮廓连续，表层无局部缺失候选"
+      }
+    ],
+    "limitations": [
+      "仅两个外部视角，内壁面与底面未拍摄，不能排除未拍摄表面的细节",
+      "擦痕较浅，仅记录可见表面痕迹，不评估深度或成因"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.438,
+        0.37,
+        0.482,
+        0.416
+      ],
+      "description": "筒身侧面白色不规则短条状擦痕/刮擦斑，打断金属表面纹理",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        494,
+        418,
+        545,
+        471
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.503,
+        0.423,
+        0.577,
+        0.474
+      ],
+      "description": "筒身白色擦痕斑及其旁细线状刮痕，与view-01中擦痕为同一细节的另一视角",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        568,
+        477,
+        653,
+        536
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 3734,
+      "completion_tokens": 2235,
+      "total_tokens": 5969
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-0d50be38-53e6-9458-ab95-1ba434593900"
+    ],
+    "response_models": [
+      "qwen3.8-max-0902"
+    ],
+    "provider": {
+      "name": "qwen",
+      "model": "qwen3.8-max-0902",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "credential_env": "DASHSCOPE_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "enable_thinking": true,
+        "vl_high_resolution_images": true
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-0d50be38-53e6-9458-ab95-1ba434593900",
+        "response_model": "qwen3.8-max-0902",
+        "usage": {
+          "completion_tokens": 2235,
+          "prompt_tokens": 3734,
+          "total_tokens": 5969,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 1775,
+            "rejected_prediction_tokens": null,
+            "text_tokens": 459
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 3072,
+            "image_tokens": 2454,
+            "text_tokens": 1280
+          }
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"present\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [\n        0.438,\n        0.37,\n        0.482,\n        0.416\n      ],\n      \"description\": \"筒身侧面白色不规则短条状擦痕/刮擦斑，打断金属表面纹理\",\n      \"certainty\": \"confirmed\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [\n        0.503,\n        0.423,\n        0.577,\n        0.474\n      ],\n      \"description\": \"筒身白色擦痕斑及其旁细线状刮痕，与view-01中擦痕为同一细节的另一视角\",\n      \"certainty\": \"confirmed\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"黄铜筒形件外表面、口缘及底法兰可见；筒身中部有白色擦痕斑；口缘与法兰边缘连续，未见崩缺或覆盖层中断\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"旋转视角下筒身白色擦痕斑与细线痕仍可见；边缘轮廓连续，表层无局部缺失候选\"\n    }\n  ],\n  \"limitations\": [\n    \"仅两个外部视角，内壁面与底面未拍摄，不能排除未拍摄表面的细节\",\n    \"擦痕较浅，仅记录可见表面痕迹，不评估深度或成因\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "qwen3.8-max-0902",
+    "request_id": "chatcmpl-0d50be38-53e6-9458-ab95-1ba434593900"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1130,
+        1130
+      ],
+      "crop_box": [
+        0,
+        0,
+        1130,
+        1130
+      ]
+    }
+  ],
+  "elapsed_seconds": 48.878
+}

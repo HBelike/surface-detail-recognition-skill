@@ -1,0 +1,317 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p01",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "qwen3.8-max-0902",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:54:41.605877+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "qwen",
+    "model": "qwen3.8-max-0902",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "credential_env": "DASHSCOPE_API_KEY"
+  },
+  "fingerprint": "ce6387a1243e017038c67da7a31c5106ede56e5fbb9784aed15c8105fd2d63ca",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.488,
+          0.486,
+          0.506,
+          0.504
+        ],
+        "description": "顶面中心处一小簇星状放射细白痕/擦点，形态不规则，与注塑浇口点难以可靠区分",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.613,
+          0.367,
+          0.631,
+          0.385
+        ],
+        "description": "顶面膜片旁同一中心位置的小点状伴短尾痕，疑似浅擦痕或浇口残留",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.63,
+          0.379,
+          0.648,
+          0.397
+        ],
+        "description": "顶面中心小点状痕迹，与其他视角同一位置，疑似浅擦痕或浇口残留",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.618,
+          0.362,
+          0.636,
+          0.38
+        ],
+        "description": "顶面中心星状放射细痕再次可见，疑似浅擦痕或浇口残留",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "顶视：圆面、两侧带孔绑带、上下卡扣端口轮廓连续，无崩缺；仅中心一处星状细痕存疑"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "侧视：开口端口内齿、侧面锯齿膜片均规则；未见涂层或本体材料缺失；中心点痕存疑"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "斜视：顶部卡扣钩尖端见一丝状飞边/纤维突出，属多余材料而非缺失或划痕；其余边缘连续"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "斜视：端口分裂环与卡钩为设计结构，轮廓完整；中心点痕存疑，无崩缺候选"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "侧视：右侧卡扣附近见细丝状飞边，非材料缺失；绑带孔与端口齿形规则；中心星状痕存疑"
+      }
+    ],
+    "limitations": [
+      "中心星状点痕与注塑浇口/加工残留无法可靠区分，按规则记为uncertain而非confirmed",
+      "卡扣边缘丝状突出物判为成型飞边或附着纤维，不属于划痕或材料缺失类别",
+      "哑光黑表面在均匀光线下对比度低，极浅划痕可能漏检",
+      "仅评估所提供外侧视角，未拍摄表面与内部不做推断"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.488,
+        0.486,
+        0.506,
+        0.504
+      ],
+      "description": "顶面中心处一小簇星状放射细白痕/擦点，形态不规则，与注塑浇口点难以可靠区分",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        829,
+        826,
+        861,
+        857
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.613,
+        0.367,
+        0.631,
+        0.385
+      ],
+      "description": "顶面膜片旁同一中心位置的小点状伴短尾痕，疑似浅擦痕或浇口残留",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        1042,
+        623,
+        1073,
+        655
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.63,
+        0.379,
+        0.648,
+        0.397
+      ],
+      "description": "顶面中心小点状痕迹，与其他视角同一位置，疑似浅擦痕或浇口残留",
+      "certainty": "uncertain",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        1071,
+        644,
+        1102,
+        675
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.618,
+        0.362,
+        0.636,
+        0.38
+      ],
+      "description": "顶面中心星状放射细痕再次可见，疑似浅擦痕或浇口残留",
+      "certainty": "uncertain",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        1050,
+        615,
+        1082,
+        646
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 15518,
+      "completion_tokens": 8005,
+      "total_tokens": 23523
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-96f92f4b-39ff-9fb6-8f5c-af9e48ba6b7b"
+    ],
+    "response_models": [
+      "qwen3.8-max-0902"
+    ],
+    "provider": {
+      "name": "qwen",
+      "model": "qwen3.8-max-0902",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "credential_env": "DASHSCOPE_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "enable_thinking": true,
+        "vl_high_resolution_images": true
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-96f92f4b-39ff-9fb6-8f5c-af9e48ba6b7b",
+        "response_model": "qwen3.8-max-0902",
+        "usage": {
+          "completion_tokens": 8005,
+          "prompt_tokens": 15518,
+          "total_tokens": 23523,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 7116,
+            "rejected_prediction_tokens": null,
+            "text_tokens": 888
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 15360,
+            "image_tokens": 14055,
+            "text_tokens": 1463
+          }
+        },
+        "finish_reason": "stop",
+        "final_content": "{\n  \"linear_trace\": \"uncertain\",\n  \"material_loss\": \"not_observed\",\n  \"findings\": [\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-01.png::full\",\n      \"bbox\": [0.488, 0.486, 0.506, 0.504],\n      \"description\": \"顶面中心处一小簇星状放射细白痕/擦点，形态不规则，与注塑浇口点难以可靠区分\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-02.png::full\",\n      \"bbox\": [0.613, 0.367, 0.631, 0.385],\n      \"description\": \"顶面膜片旁同一中心位置的小点状伴短尾痕，疑似浅擦痕或浇口残留\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-04.png::full\",\n      \"bbox\": [0.63, 0.379, 0.648, 0.397],\n      \"description\": \"顶面中心小点状痕迹，与其他视角同一位置，疑似浅擦痕或浇口残留\",\n      \"certainty\": \"uncertain\"\n    },\n    {\n      \"category\": \"linear_trace\",\n      \"image_id\": \"view-05.png::full\",\n      \"bbox\": [0.618, 0.362, 0.636, 0.38],\n      \"description\": \"顶面中心星状放射细痕再次可见，疑似浅擦痕或浇口残留\",\n      \"certainty\": \"uncertain\"\n    }\n  ],\n  \"observations\": [\n    {\n      \"image_id\": \"view-01.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"顶视：圆面、两侧带孔绑带、上下卡扣端口轮廓连续，无崩缺；仅中心一处星状细痕存疑\"\n    },\n    {\n      \"image_id\": \"view-02.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"侧视：开口端口内齿、侧面锯齿膜片均规则；未见涂层或本体材料缺失；中心点痕存疑\"\n    },\n    {\n      \"image_id\": \"view-03.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：顶部卡扣钩尖端见一丝状飞边/纤维突出，属多余材料而非缺失或划痕；其余边缘连续\"\n    },\n    {\n      \"image_id\": \"view-04.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"斜视：端口分裂环与卡钩为设计结构，轮廓完整；中心点痕存疑，无崩缺候选\"\n    },\n    {\n      \"image_id\": \"view-05.png::full\",\n      \"quality\": \"adequate\",\n      \"note\": \"侧视：右侧卡扣附近见细丝状飞边，非材料缺失；绑带孔与端口齿形规则；中心星状痕存疑\"\n    }\n  ],\n  \"limitations\": [\n    \"中心星状点痕与注塑浇口/加工残留无法可靠区分，按规则记为uncertain而非confirmed\",\n    \"卡扣边缘丝状突出物判为成型飞边或附着纤维，不属于划痕或材料缺失类别\",\n    \"哑光黑表面在均匀光线下对比度低，极浅划痕可能漏检\",\n    \"仅评估所提供外侧视角，未拍摄表面与内部不做推断\"\n  ]\n}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "qwen3.8-max-0902",
+    "request_id": "chatcmpl-96f92f4b-39ff-9fb6-8f5c-af9e48ba6b7b"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1700,
+        1700
+      ],
+      "crop_box": [
+        0,
+        0,
+        1700,
+        1700
+      ]
+    }
+  ],
+  "elapsed_seconds": 179.345
+}

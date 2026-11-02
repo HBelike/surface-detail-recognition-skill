@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p10",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:36:36.533569+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "0cb4016af96de6d2bc72e8a45a48d688c2946950a18ab0c00a4236927699a276",
+  "result": {
+    "linear_trace": "not_observed",
+    "material_loss": "present",
+    "findings": [
+      {
+        "category": "material_loss",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.4,
+          0.53,
+          0.52,
+          0.62
+        ],
+        "description": "白色覆盖层下缘局部缺失，露出下方蓝色基体，边缘不规则",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.37,
+          0.5,
+          0.49,
+          0.61
+        ],
+        "description": "白色包覆层侧面局部缺损，蓝色基体暴露，缺口轮廓不整齐",
+        "certainty": "confirmed"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "物体主体完整可见，白色覆盖层下缘可见不规则缺失并露出蓝色基体；未观察到明显线状划痕"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "视角略有不同，白色包覆层侧面缺损更明显，蓝色基体暴露；顶部螺纹区未见清晰划痕"
+      }
+    ],
+    "limitations": [
+      "仅提供两个外部视角，无法观察物体背面、内部及被遮挡区域",
+      "物体尺寸较小，白色纤维质表面纹理可能掩盖浅表划痕",
+      "无法判断缺损成因、深度或是否影响功能"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "material_loss",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.4,
+        0.53,
+        0.52,
+        0.62
+      ],
+      "description": "白色覆盖层下缘局部缺失，露出下方蓝色基体，边缘不规则",
+      "certainty": "confirmed",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        444,
+        589,
+        579,
+        690
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.37,
+        0.5,
+        0.49,
+        0.61
+      ],
+      "description": "白色包覆层侧面局部缺损，蓝色基体暴露，缺口轮廓不整齐",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        411,
+        556,
+        545,
+        679
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 4470,
+      "completion_tokens": 2475,
+      "total_tokens": 6945
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae891e6009cc70089b23f02"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae891e6009cc70089b23f02",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 2475,
+          "prompt_tokens": 4470,
+          "total_tokens": 6945,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 2162,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"not_observed\", \"material_loss\": \"present\", \"findings\": [{\"category\": \"material_loss\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.4, 0.53, 0.52, 0.62], \"description\": \"白色覆盖层下缘局部缺失，露出下方蓝色基体，边缘不规则\", \"certainty\": \"confirmed\"}, {\"category\": \"material_loss\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.37, 0.5, 0.49, 0.61], \"description\": \"白色包覆层侧面局部缺损，蓝色基体暴露，缺口轮廓不整齐\", \"certainty\": \"confirmed\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"物体主体完整可见，白色覆盖层下缘可见不规则缺失并露出蓝色基体；未观察到明显线状划痕\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"视角略有不同，白色包覆层侧面缺损更明显，蓝色基体暴露；顶部螺纹区未见清晰划痕\"}], \"limitations\": [\"仅提供两个外部视角，无法观察物体背面、内部及被遮挡区域\", \"物体尺寸较小，白色纤维质表面纹理可能掩盖浅表划痕\", \"无法判断缺损成因、深度或是否影响功能\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae891e6009cc70089b23f02"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1112,
+        1112
+      ],
+      "crop_box": [
+        0,
+        0,
+        1112,
+        1112
+      ]
+    }
+  ],
+  "elapsed_seconds": 69.892
+}

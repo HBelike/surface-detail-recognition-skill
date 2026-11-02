@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p08",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "deepseek-flash",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T13:57:40.971592+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "deepseek",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "credential_env": "DEEPSEEK_API_KEY"
+  },
+  "fingerprint": "ccbc72d1e38f5346eff13bf7a9ad7a9d4eabde19022c502e7b74dd2bf16c0646",
+  "result": {
+    "linear_trace": "uncertain",
+    "material_loss": "uncertain",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.38,
+          0.46,
+          0.5,
+          0.53
+        ],
+        "description": "主平面中部可见浅色不规则擦斑/细线样反光，疑似轻微擦痕，但亮度与表面反光相近。",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.48,
+          0.52,
+          0.6,
+          0.59
+        ],
+        "description": "刀片主平面中下段可见浅灰色不规则斑块，疑似局部涂层或表层磨失，边界受反光影响不清晰。",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "material_loss",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.46,
+          0.5,
+          0.54,
+          0.58
+        ],
+        "description": "竖置视角主平面中段可见浅色斑驳，疑为表层磨损或涂层缺失，但可能为反光。",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "limited",
+        "note": "轮廓、安装孔和锯齿连续完整，未见清晰崩缺或线状划痕；表面暗黑低对比，局部反光明显。"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "limited",
+        "note": "整体轮廓完整，主平面中段有浅色斑点/斑驳，安装孔及齿形规则；反光与浅表瑕疵难以可靠区分。"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "limited",
+        "note": "轮廓、孔和锯齿连续；主平面中部有轻微浅色擦斑样反光，细节受物体占比和反光限制。"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "limited",
+        "note": "外轮廓未见明显崩边，主平面中下段有一块较明显浅灰斑，疑为表层磨失，但不能完全排除反光。"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "limited",
+        "note": "整体轮廓完整，表面多处浅色小斑点，近安装孔和中段较明显，疑为涂层磨损或反光；未见清晰线状划痕或边缘缺口。"
+      }
+    ],
+    "limitations": [
+      "物体在画面中占比较小，黑色表面低对比且多视角反光明显，浅表痕迹与反光难以完全区分。",
+      "无法确认痕迹深度、是否贯穿涂层，也不推断未拍摄表面或功能状态。"
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.38,
+        0.46,
+        0.5,
+        0.53
+      ],
+      "description": "主平面中部可见浅色不规则擦斑/细线样反光，疑似轻微擦痕，但亮度与表面反光相近。",
+      "certainty": "uncertain",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        770,
+        932,
+        1014,
+        1075
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.48,
+        0.52,
+        0.6,
+        0.59
+      ],
+      "description": "刀片主平面中下段可见浅灰色不规则斑块，疑似局部涂层或表层磨失，边界受反光影响不清晰。",
+      "certainty": "uncertain",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        973,
+        1054,
+        1217,
+        1197
+      ]
+    },
+    {
+      "category": "material_loss",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.46,
+        0.5,
+        0.54,
+        0.58
+      ],
+      "description": "竖置视角主平面中段可见浅色斑驳，疑为表层磨损或涂层缺失，但可能为反光。",
+      "certainty": "uncertain",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        932,
+        1014,
+        1096,
+        1177
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 6446,
+      "completion_tokens": 5073,
+      "total_tokens": 11519
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "65a6d696-12a1-4c61-b9e9-3281c7d898f5"
+    ],
+    "response_models": [
+      "deepseek-flash"
+    ],
+    "provider": {
+      "name": "deepseek",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "credential_env": "DEEPSEEK_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 16384,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "reasoning_effort": "high"
+    },
+    "responses": [
+      {
+        "request_id": "65a6d696-12a1-4c61-b9e9-3281c7d898f5",
+        "response_model": "deepseek-flash",
+        "usage": {
+          "completion_tokens": 5073,
+          "prompt_tokens": 6446,
+          "total_tokens": 11519,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 4533,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 6272
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 174
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\":\"uncertain\",\"material_loss\":\"uncertain\",\"findings\":[{\"category\":\"linear_trace\",\"image_id\":\"view-03.png::full\",\"bbox\":[0.38,0.46,0.5,0.53],\"description\":\"主平面中部可见浅色不规则擦斑/细线样反光，疑似轻微擦痕，但亮度与表面反光相近。\",\"certainty\":\"uncertain\"},{\"category\":\"material_loss\",\"image_id\":\"view-04.png::full\",\"bbox\":[0.48,0.52,0.6,0.59],\"description\":\"刀片主平面中下段可见浅灰色不规则斑块，疑似局部涂层或表层磨失，边界受反光影响不清晰。\",\"certainty\":\"uncertain\"},{\"category\":\"material_loss\",\"image_id\":\"view-02.png::full\",\"bbox\":[0.46,0.5,0.54,0.58],\"description\":\"竖置视角主平面中段可见浅色斑驳，疑为表层磨损或涂层缺失，但可能为反光。\",\"certainty\":\"uncertain\"}],\"observations\":[{\"image_id\":\"view-01.png::full\",\"quality\":\"limited\",\"note\":\"轮廓、安装孔和锯齿连续完整，未见清晰崩缺或线状划痕；表面暗黑低对比，局部反光明显。\"},{\"image_id\":\"view-02.png::full\",\"quality\":\"limited\",\"note\":\"整体轮廓完整，主平面中段有浅色斑点/斑驳，安装孔及齿形规则；反光与浅表瑕疵难以可靠区分。\"},{\"image_id\":\"view-03.png::full\",\"quality\":\"limited\",\"note\":\"轮廓、孔和锯齿连续；主平面中部有轻微浅色擦斑样反光，细节受物体占比和反光限制。\"},{\"image_id\":\"view-04.png::full\",\"quality\":\"limited\",\"note\":\"外轮廓未见明显崩边，主平面中下段有一块较明显浅灰斑，疑为表层磨失，但不能完全排除反光。\"},{\"image_id\":\"view-05.png::full\",\"quality\":\"limited\",\"note\":\"整体轮廓完整，表面多处浅色小斑点，近安装孔和中段较明显，疑为涂层磨损或反光；未见清晰线状划痕或边缘缺口。\"}],\"limitations\":[\"物体在画面中占比较小，黑色表面低对比且多视角反光明显，浅表痕迹与反光难以完全区分。\",\"无法确认痕迹深度、是否贯穿涂层，也不推断未拍摄表面或功能状态。\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "deepseek-flash",
+    "request_id": "65a6d696-12a1-4c61-b9e9-3281c7d898f5"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        2028,
+        2028
+      ],
+      "crop_box": [
+        0,
+        0,
+        2028,
+        2028
+      ]
+    }
+  ],
+  "elapsed_seconds": 35.68
+}

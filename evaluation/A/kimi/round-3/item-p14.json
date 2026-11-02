@@ -1,0 +1,346 @@
+{
+  "schema_version": "1.0",
+  "item_id": "item-p14",
+  "status": "completed",
+  "mode": "baseline",
+  "requested_model": "kimi-k2.7-code",
+  "thinking": "enabled",
+  "backend": "deepseek",
+  "timestamp": "2026-11-02T14:00:48.371382+00:00",
+  "prompt_hash": "d0c99d4a42ee0f0fdd3ed0101feeba4b0dffa4e1460329792b36399b43f3aee3",
+  "provider": {
+    "name": "kimi",
+    "model": "kimi-k2.7-code",
+    "base_url": "https://api.moonshot.cn/v1",
+    "credential_env": "MOONSHOT_API_KEY"
+  },
+  "fingerprint": "317dcba958ac4e1cfccf52decda9af113a4c5f50311b3768d7dbd7743f22be22",
+  "result": {
+    "linear_trace": "present",
+    "material_loss": "not_observed",
+    "findings": [
+      {
+        "category": "linear_trace",
+        "image_id": "view-02.png::full",
+        "bbox": [
+          0.45,
+          0.4,
+          0.7,
+          0.45
+        ],
+        "description": "fine horizontal scratch across the top metal shield",
+        "certainty": "confirmed"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-04.png::full",
+        "bbox": [
+          0.5,
+          0.32,
+          0.61,
+          0.4
+        ],
+        "description": "faint diagonal surface mark on top metal shield, possibly a scratch",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-01.png::full",
+        "bbox": [
+          0.48,
+          0.48,
+          0.55,
+          0.54
+        ],
+        "description": "faint irregular surface mark near center of top metal shield",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-05.png::full",
+        "bbox": [
+          0.35,
+          0.5,
+          0.5,
+          0.62
+        ],
+        "description": "light scratch-like line on inner metal shield surface",
+        "certainty": "uncertain"
+      },
+      {
+        "category": "linear_trace",
+        "image_id": "view-03.png::full",
+        "bbox": [
+          0.47,
+          0.45,
+          0.55,
+          0.58
+        ],
+        "description": "faint vertical marks on side metal shield near fold seam",
+        "certainty": "uncertain"
+      }
+    ],
+    "observations": [
+      {
+        "image_id": "view-01.png::full",
+        "quality": "adequate",
+        "note": "top-down view; metal shield and plastic latch visible; no clear material loss; faint surface marks present"
+      },
+      {
+        "image_id": "view-02.png::full",
+        "quality": "adequate",
+        "note": "side-top view; a clear fine scratch is visible on the top metal shield; plastic ridges and metal seams are normal"
+      },
+      {
+        "image_id": "view-03.png::full",
+        "quality": "adequate",
+        "note": "side view; fold seams and clear plastic latch area visible; only faint suspicious marks on metal"
+      },
+      {
+        "image_id": "view-04.png::full",
+        "quality": "adequate",
+        "note": "front-top view; gold contacts and normal cutouts visible; faint diagonal mark on top metal"
+      },
+      {
+        "image_id": "view-05.png::full",
+        "quality": "adequate",
+        "note": "bottom view showing metal shield interior and contact end; no obvious edge chips; faint scratch-like lines inside metal"
+      }
+    ],
+    "limitations": [
+      "Reflective metal surfaces can hide or mimic shallow scratches; some marks may be glare or surface texture rather than damage.",
+      "Only visible exterior surfaces are assessed; no depth or internal fault information is available.",
+      "Normal manufacturing seams, cutouts and molded features may resemble defects."
+    ]
+  },
+  "evidence": [
+    {
+      "category": "linear_trace",
+      "image_id": "view-02.png::full",
+      "bbox": [
+        0.45,
+        0.4,
+        0.7,
+        0.45
+      ],
+      "description": "fine horizontal scratch across the top metal shield",
+      "certainty": "confirmed",
+      "source": "view-02.png",
+      "bbox_pixels": [
+        527,
+        468,
+        821,
+        528
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-04.png::full",
+      "bbox": [
+        0.5,
+        0.32,
+        0.61,
+        0.4
+      ],
+      "description": "faint diagonal surface mark on top metal shield, possibly a scratch",
+      "certainty": "uncertain",
+      "source": "view-04.png",
+      "bbox_pixels": [
+        586,
+        375,
+        715,
+        469
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-01.png::full",
+      "bbox": [
+        0.48,
+        0.48,
+        0.55,
+        0.54
+      ],
+      "description": "faint irregular surface mark near center of top metal shield",
+      "certainty": "uncertain",
+      "source": "view-01.png",
+      "bbox_pixels": [
+        562,
+        562,
+        645,
+        633
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-05.png::full",
+      "bbox": [
+        0.35,
+        0.5,
+        0.5,
+        0.62
+      ],
+      "description": "light scratch-like line on inner metal shield surface",
+      "certainty": "uncertain",
+      "source": "view-05.png",
+      "bbox_pixels": [
+        410,
+        586,
+        586,
+        727
+      ]
+    },
+    {
+      "category": "linear_trace",
+      "image_id": "view-03.png::full",
+      "bbox": [
+        0.47,
+        0.45,
+        0.55,
+        0.58
+      ],
+      "description": "faint vertical marks on side metal shield near fold seam",
+      "certainty": "uncertain",
+      "source": "view-03.png",
+      "bbox_pixels": [
+        550,
+        527,
+        645,
+        680
+      ]
+    }
+  ],
+  "metadata": {
+    "usage": {
+      "prompt_tokens": 10255,
+      "completion_tokens": 6033,
+      "total_tokens": 16288
+    },
+    "request_count": 1,
+    "requests_with_unknown_usage": 0,
+    "content_attempts": 1,
+    "thinking": "enabled",
+    "reasoning_effort": "high",
+    "request_ids": [
+      "chatcmpl-6ae89792009cc70089b24137"
+    ],
+    "response_models": [
+      "kimi-k2.7-code"
+    ],
+    "provider": {
+      "name": "kimi",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.cn/v1",
+      "credential_env": "MOONSHOT_API_KEY"
+    },
+    "request_parameters": {
+      "max_tokens": 32768,
+      "extra_body": {
+        "thinking": {
+          "type": "enabled"
+        }
+      }
+    },
+    "responses": [
+      {
+        "request_id": "chatcmpl-6ae89792009cc70089b24137",
+        "response_model": "kimi-k2.7-code",
+        "usage": {
+          "completion_tokens": 6033,
+          "prompt_tokens": 10255,
+          "total_tokens": 16288,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 5401,
+            "rejected_prediction_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024
+          },
+          "cached_tokens": 1024
+        },
+        "finish_reason": "stop",
+        "final_content": "{\"linear_trace\": \"present\", \"material_loss\": \"not_observed\", \"findings\": [{\"category\": \"linear_trace\", \"image_id\": \"view-02.png::full\", \"bbox\": [0.45, 0.4, 0.7, 0.45], \"description\": \"fine horizontal scratch across the top metal shield\", \"certainty\": \"confirmed\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-04.png::full\", \"bbox\": [0.5, 0.32, 0.61, 0.4], \"description\": \"faint diagonal surface mark on top metal shield, possibly a scratch\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-01.png::full\", \"bbox\": [0.48, 0.48, 0.55, 0.54], \"description\": \"faint irregular surface mark near center of top metal shield\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-05.png::full\", \"bbox\": [0.35, 0.5, 0.5, 0.62], \"description\": \"light scratch-like line on inner metal shield surface\", \"certainty\": \"uncertain\"}, {\"category\": \"linear_trace\", \"image_id\": \"view-03.png::full\", \"bbox\": [0.47, 0.45, 0.55, 0.58], \"description\": \"faint vertical marks on side metal shield near fold seam\", \"certainty\": \"uncertain\"}], \"observations\": [{\"image_id\": \"view-01.png::full\", \"quality\": \"adequate\", \"note\": \"top-down view; metal shield and plastic latch visible; no clear material loss; faint surface marks present\"}, {\"image_id\": \"view-02.png::full\", \"quality\": \"adequate\", \"note\": \"side-top view; a clear fine scratch is visible on the top metal shield; plastic ridges and metal seams are normal\"}, {\"image_id\": \"view-03.png::full\", \"quality\": \"adequate\", \"note\": \"side view; fold seams and clear plastic latch area visible; only faint suspicious marks on metal\"}, {\"image_id\": \"view-04.png::full\", \"quality\": \"adequate\", \"note\": \"front-top view; gold contacts and normal cutouts visible; faint diagonal mark on top metal\"}, {\"image_id\": \"view-05.png::full\", \"quality\": \"adequate\", \"note\": \"bottom view showing metal shield interior and contact end; no obvious edge chips; faint scratch-like lines inside metal\"}], \"limitations\": [\"Reflective metal surfaces can hide or mimic shallow scratches; some marks may be glare or surface texture rather than damage.\", \"Only visible exterior surfaces are assessed; no depth or internal fault information is available.\", \"Normal manufacturing seams, cutouts and molded features may resemble defects.\"]}"
+      }
+    ],
+    "reference_images": [],
+    "response_model": "kimi-k2.7-code",
+    "request_id": "chatcmpl-6ae89792009cc70089b24137"
+  },
+  "input_images": [
+    {
+      "image_id": "view-01.png::full",
+      "source": "view-01.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-02.png::full",
+      "source": "view-02.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-03.png::full",
+      "source": "view-03.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-04.png::full",
+      "source": "view-04.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    },
+    {
+      "image_id": "view-05.png::full",
+      "source": "view-05.png",
+      "source_size": [
+        1172,
+        1172
+      ],
+      "crop_box": [
+        0,
+        0,
+        1172,
+        1172
+      ]
+    }
+  ],
+  "elapsed_seconds": 136.425
+}
